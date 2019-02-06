@@ -1,0 +1,55 @@
+name=Homestead
+icon=cauldron
+weight=10
+carriesraid=true
+
+//Vanilla biomes
+biome=Plains
+biome=Sunflower Plains
+biome=Extreme Hills+
+biome=Extreme Hills+ M
+
+//biomes o' plenty
+biome=brushland
+biome=chaparral
+biome=eucalyptus forest
+biome=grassland
+biome=meadow
+biome=orchard
+biome=seasonal forest
+
+//Traverse biomes
+biome=Autumnal Woods
+biome=Meadow
+biome=Birch Forested Hills
+biome=Snowy Coniferous Forest
+biome=Lush Hills
+
+pathmaterial=pathdirt
+pathmaterial=pathgravel
+pathmaterial=pathslabs
+
+//starting buildings=
+centre=library
+start=guardhouse
+
+//Selling prices=
+sellingPrice=bread,7
+sellingPrice=cider,60
+sellingPrice=calva,3/32
+sellingPrice=tripes,1/48
+sellingPrice=boudin,50
+sellingPrice=egg,18
+sellingPrice=wool_white,8
+sellingPrice=porkchops,18
+
+//Buying prices=
+buyingPrice=cobblestone,2
+buyingPrice=stone,4
+buyingPrice=glass,4
+buyingPrice=bread,5
+buyingPrice=cider,50
+buyingPrice=tripes,1/32
+buyingPrice=boudin,40
+buyingPrice=wool_white,7
+buyingPrice=porkchops,16

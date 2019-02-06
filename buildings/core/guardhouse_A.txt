@@ -1,0 +1,5 @@
+building.length=5
+building.width=6
+
+initial.startlevel=-1
+initial.nativename=guardhouse
