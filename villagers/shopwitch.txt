@@ -9,15 +9,15 @@ icon=tapestry
 
 
 texture=textures/entity/wizards/female/Sarah.png
-// texture=textures/entity/norman/female/nor_lady_1.png
+texture=textures/entity/norman/female/nor_lady_1.png
 // texture=textures/entity/norman/female/nor_lady_2.png
 // texture=textures/entity/norman/female/nor_lady_3.png
 
-// clothes=free,0,textures/entity/norman/female/clothes/nor_dame_0.png
+clothes=free,0,textures/entity/norman/female/clothes/nor_dame_0.png
 // clothes=free,0,textures/entity/norman/female/clothes/nor_dame_1.png
 // clothes=free,0,textures/entity/norman/female/clothes/nor_dame_2.png
 
-// clothes=free,1,textures/entity/norman/female/hair/nor_blond.png
+clothes=free,1,textures/entity/norman/female/hair/nor_blond.png
 // clothes=free,1,textures/entity/norman/female/hair/nor_brown.png
 // clothes=free,1,textures/entity/norman/female/hair/nor_darkb.png
 // clothes=free,1,textures/entity/norman/female/hair/nor_lightb.png
@@ -26,5 +26,5 @@ texture=textures/entity/wizards/female/Sarah.png
 goal=gorest
 goal=gosocialise
 goal=chat
-goal=makeTapestry
-goal=gogardening
+// goal=makeTapestry
+//goal=gogardening

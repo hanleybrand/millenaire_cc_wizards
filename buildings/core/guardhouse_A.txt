@@ -1,5 +1,9 @@
 building.length=5
 building.width=6
+building.farfromtag=patrol,50
+building.icon=torch
 
 initial.startlevel=-1
-initial.nativename=guardhouse
+initial.nativename=Watchhouse
+initial.male=guard
+initial.tag=patrol

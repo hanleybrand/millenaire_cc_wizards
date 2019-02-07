@@ -12,8 +12,8 @@ travelBookBuildingCategory=townhall
 travelBookBuildingCategory=house
 travelBookBuildingCategory=othervillage
 travelBookBuildingCategory=lonebuilding
-travelBookBuildingCategory=playerbuilding
-travelBookBuildingCategory=marvel
+// travelBookBuildingCategory=playerbuilding
+// travelBookBuildingCategory=marvel
 
 travelbookTradeGoodCategory=construction
 travelbookTradeGoodCategory=agriculture
