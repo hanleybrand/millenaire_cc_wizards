@@ -3,11 +3,16 @@ gender=male
 familyNameList=wizard_family_names
 firstNameList=male_names
 tag=chief
-baseheight=1.1
+baseheight=1
 health=60
 icon=blazerod
 
+texture=textures/entity/wizards/male/brian.png
+texture=textures/entity/wizards/male/losthero.png
+texture=textures/entity/wizards/male/stephen.png
 texture=textures/entity/wizards/male/pigman.png
+texture=textures/entity/wizards/male/male_euro1.png
+texture=textures/entity/wizards/male/male_euro2.png
 
 goal=gorest
 goal=gosocialise
@@ -15,10 +20,8 @@ goal=chat
 goal=patrol
 goal=huntmonster
 
-
 toolneededclass=armour
 toolneededclass=toolssword
-
 
 baseAttackStrength=4
 tag=helpInAttacks

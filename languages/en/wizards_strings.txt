@@ -5,5 +5,5 @@ villager.head_auror=Head Auror
 villager.merchant=Trader
 villager.shopwitch=Village Witch
 
-shop.inn=The Inn
+townhall.inn=The Inn
 

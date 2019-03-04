@@ -24,7 +24,7 @@ travelbookTradeGoodCategory=playeritem
 travelbookTradeGoodCategory=foreigntrade
 
 
-travelBookCategoryIcon=wizard,blazerod
+travelBookCategoryIcon=wizard,spellbook
 travelBookCategoryIcon=visitor,purse
 travelBookCategoryIcon=ministry,cauldron
 travelBookCategoryIcon=lonewizard,torch
@@ -32,8 +32,8 @@ travelBookCategoryIcon=lonewizard,torch
 travelBookCategoryIcon=townhall,book_enchanted
 travelBookCategoryIcon=house,door_spruce
 travelBookCategoryIcon=othervillage,sign
-travelBookCategoryIcon=lonebuilding,door_dark_oak
-travelBookCategoryIcon=playerbuilding,door_iron
+travelBookCategoryIcon=lonebuilding,magiccrystal
+//travelBookCategoryIcon=playerbuilding,door_iron
 
 travelBookCategoryIcon=construction,wood_axe
 travelBookCategoryIcon=agriculture,wheat

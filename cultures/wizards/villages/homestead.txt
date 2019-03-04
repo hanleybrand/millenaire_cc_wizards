@@ -32,24 +32,18 @@ pathmaterial=pathslabs
 centre=inn
 start=library
 start=guardhouse
+start=cottage1
+start=cottage2
+start=cottage1
+
 
 //Selling prices=
-sellingPrice=bread,7
-sellingPrice=cider,60
-sellingPrice=calva,3/32
-sellingPrice=tripes,1/48
-sellingPrice=boudin,50
-sellingPrice=egg,18
-sellingPrice=wool_white,8
-sellingPrice=porkchops,18
+sellingPrice=pumpkin,7
+
 
 //Buying prices=
 buyingPrice=cobblestone,2
 buyingPrice=stone,4
 buyingPrice=glass,4
 buyingPrice=bread,5
-buyingPrice=cider,50
-buyingPrice=tripes,1/32
-buyingPrice=boudin,40
-buyingPrice=wool_white,7
-buyingPrice=porkchops,16
+buyingPrice=pumpkin,5
