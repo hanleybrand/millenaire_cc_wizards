@@ -1,0 +1,17 @@
+minreputation:40
+chanceperhour:0.2
+maxsimultaneous:1
+
+step:new
+definevillager:key=startvillager,type=teuton/townguard
+villager:startvillager
+duration:42
+
+step:new
+villager:startvillager
+duration:42
+requiredgood:rottenflesh,3
+requiredgood:bone,3
+rewardreputation:156
+rewardmoney:4*62
+penaltyreputation:174

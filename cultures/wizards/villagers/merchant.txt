@@ -6,9 +6,11 @@ tag=visitor
 tag=localmerchant
 icon=purse
 
-texture=textures/entity/wizards/male/Brian.png
-texture=textures/entity/wizards/male/stephen.png
-texture=textures/entity/norman/male/nor_nobleman_0.png
+// assets/millenaire/textures/entity/wizards/male/brian.png
+//texture=assets/millenaire/textures/entity/wizards/male/brian.png
+//texture=millenaire/textures/entity/wizards/male/brian.png
+texture=textures/entity/wizards/male/brian.png
+//texture=textures/entity/norman/male/nor_nobleman_0.png
 
 clothes=free,textures/entity/norman/male/clothes/nor_merchant_0.png
 

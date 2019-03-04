@@ -1,0 +1,14 @@
+native_name=Witch
+gender=female
+familyNameList=wizard_family_names
+firstNameList=female_names
+baseheight=0.9
+model=femaleasymmetrical
+tag=seller
+icon=tapestry
+
+texture=textures/entity/wizards/female/lee_asym.png
+
+goal=gorest
+goal=gosocialise
+goal=chat

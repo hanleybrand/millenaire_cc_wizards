@@ -1,4 +1,4 @@
-native_name=The Watch
+native_name=Auror
 gender=male
 familyNameList=wizard_family_names
 firstNameList=male_names
@@ -7,11 +7,7 @@ baseheight=1.1
 health=60
 icon=normanbroadsword
 
-
-texture=textures/entity/wizards/male/Brian.png
-texture=textures/entity/wizards/male/stephen.png
-
-clothes=free,textures/entity/norman/male/clothes/nor_knight_0.png
+texture=textures/entity/wizards/male/pigman.png
 
 goal=gorest
 goal=gosocialise
@@ -28,7 +24,7 @@ toolneededclass=toolssword
 
 baseAttackStrength=4
 tag=helpInAttacks
-defaultweapon=woodsword
+defaultweapon=steelsword
 startingInv=steelchest,1
 startingInv=steellegs,1
 startingInv=steelboots,1

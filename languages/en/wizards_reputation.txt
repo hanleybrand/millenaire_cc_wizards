@@ -1,0 +1,15 @@
+0;Stranger;Ah hello, er... fellow... muggle! How is your... muggle work going today? Nobody around but us muggles!
+
+4*64;Known Face;Ah $name, yes. Sorry about that 'muggle' stuff earlier. Are you in need?
+
+16*64;Regular visitor;$name! Come in! What news?
+
+64*64;Favourite Trader;Ah hello $name! Do tell me what exotic goods you have to trade today. Do you have any... exotic muggle artifacts?
+2*64*64;Friend of the village;Wizards must stick together - make your self at home.
+8*64*64;One of us;The Ministry has sent an owl indicating that we should consider you an authority of sorts. 
+
+32*64*64;Natural leader;Word from the holy roman empire has come, they have named you a Teuton by extension of the greatness you have bought to our humble town. $name it is an honor to stand at your side! 
+
+-64;Nuisance;Be careful. You have upset the wrong people and your reputation is suffering. It's a mistake to get on the wrong side of the wizarding community.
+-4*64;Unpleasant outsider;There are rumors the Ministry is lokking for you, $name. You should leave before trouble finds you.
+-16*64;Public enemy;You are not welcome here - leave immediately. I will give you a head start before I call the aurors.  

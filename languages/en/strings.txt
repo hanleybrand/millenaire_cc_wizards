@@ -1,0 +1,52 @@
+culture.teuton=Teuton
+
+goal.extractdyegreen=Extracting Dye
+goal.extractdyelightblue=Extracting Dye
+goal.extractdyelightgray=Extracting Dye
+goal.extractdyemagenta=Extracting Dye
+goal.extractdyeorange=Extracting Dye
+goal.extractdyepink=Extracting Dye
+goal.extractdyered=Extracting Dye
+goal.extractdyeyellow=Extracting Dye
+
+goal.makeglasspane=Crafting Glass pane
+goal.makeglasspanegreen=Crafting Glass pane
+goal.makeglasspanelightblue=Crafting Glass pane
+goal.makeglasspanelightgreen=Crafting Glass pane
+goal.makeglasspanemagenta=Crafting Glass pane
+goal.makeglasspaneorange=Crafting Glass pane
+goal.makeglasspanepink=Crafting Glass pane
+goal.makeglasspanered=Crafting Glass pane
+goal.makeglasspaneyellow=Crafting Glass pane
+goal.makeglassbottleteut=Crafting Glass Bottle
+
+goal.makegoldboots=Crafting Gloden Boots
+goal.makegoldchest=Crafting Golden Chestplate
+goal.makegoldhelmet=Crafting Golden Helmet
+goal.makegoldlegs=Crafting Golden Leggings
+goal.makegoldsword=Crafting Golden Sword
+goal.maketeutonhelm=Crafting Teutonic Full Helm
+goal.maketeutonchest=Crafting Teutonic Chestplate
+goal.maketeutonlegs=Crafting Teutonic Greaves
+goal.maketeutonboots=Crafting Teutonic Boots
+goal.maketeutonsword=Crafting Teutonic Sword
+
+goal.makepolishedwoodacacia=Polishing Timber
+goal.makepolishedwoodbirch=Polishing Timber
+goal.makepolishedwooddarkoak=Polishing Timber
+goal.makepolishedwoodjungle=Polishing Timber
+goal.makepolishedwoodoak=Polishing Timber
+goal.makepolishedwoodpine=Polishing Timber
+
+goal.makepolishedplanksacacia=Polishing Planks
+goal.makepolishedplanksbirch=Polishing Planks
+goal.makepolishedplanksdarkoak=Polishing Planks
+goal.makepolishedplanksjungle=Polishing Planks
+goal.makepolishedplanksoak=Polishing Planks
+goal.makepolishedplankspine=Polishing Planks
+
+goal.makepolishedstone=Polishing Stone
+goal.makeengravedstone=Engraving Stone
+goal.makefinestone=Refining Stone
+goal.makepackedcobble=Packing Cobble
+goal.makeplanks=Crafting Planks

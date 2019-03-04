@@ -1,0 +1,9 @@
+newchat;key:nicevillage,weight:10
+
+v1;0;This place isn't so bad, do you think? / This place isn't so bad, do you think?
+v2;60;No, I suppose it will do.  / No, I suppose it will do. 
+
+
+newchat;key:sun,tag:notraining,weigth:18
+v1;0;At least the sun is out... / At least the sun is out...
+v2;30;Yes, but for how long? / Yes, but for how long?
