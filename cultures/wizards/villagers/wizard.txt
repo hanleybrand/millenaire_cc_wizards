@@ -9,15 +9,8 @@ texture=textures/entity/wizards/male/brian.png
 texture=textures/entity/wizards/male/losthero.png
 texture=textures/entity/wizards/male/stephen.png
 texture=textures/entity/wizards/male/pigman.png
-texture=textures/entity/wizards/male/male_euro1.png
-texture=textures/entity/wizards/male/male_euro2.png
 
-startingInv=wizrobe,1
-startingInv=wizboots,1
-startingInv=wizhat,1
-startingInv=wizlegs,1
-startingInv=icelance,1
-
+startingInv=wizard_robe,1
 
 goal=gorest
 goal=patrol
@@ -25,4 +18,4 @@ goal=huntmonster
 goal=gosocialise
 goal=chat
 
-experiencegiven=20
+experiencegiven=10

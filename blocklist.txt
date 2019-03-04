@@ -3,7 +3,8 @@
 //third whether it should be placed after the other blocks (torch for example)
 //fourth the colour in RGB
 
-pumpkinwest;minecraft:pumpkin;1;false;255/128/1
-pumpkinnorth;minecraft:pumpkin;2;false;255/128/2
-pumpkineast;minecraft:pumpkin;3;false;255/128/3
+//do pumpkins need to be 2nd placed?
+pumpkinwest;minecraft:pumpkin;1;true;255/128/1
+pumpkinnorth;minecraft:pumpkin;2;true;255/128/2
+pumpkineast;minecraft:pumpkin;3;true;255/128/3
 

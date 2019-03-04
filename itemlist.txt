@@ -10,11 +10,11 @@ blazepowder;minecraft:blaze_powder;0;Blaze Powder
 blazerod;minecraft:blaze_rod;0;Blaze Rod
 spellbook;wizardry:spell_book;0;Spell Book
 magiccrystal;ebwizardry:magic_crystal;0;Magic Crystal
-wizhat;ebwizardry:wizard_hat;0;Wizard Hat
-wizrobe;ebwizardry:wizard_robe;0;Wizard Robe
-wizboots;ebwizardry:wizard_boots;0;Wizard Boots
-wizlegs;ebwizardry:wizard_leggings;0;Wizard Pants
-icelance;ebwizardry:scroll;126;Ice Lance
+wizard_hat;ebwizardry:wizard_hat;0;Wizard Hat
+wizard_robe;ebwizardry:wizard_robe;0;Wizard Robe
+wizard_boots;ebwizardry:wizard_boots;0;Wizard Boots
+wizard_leggings;ebwizardry:wizard_leggings;0;Wizard Pants
+scroll_126;ebwizardry:scroll;126;Ice Lance
 
 
 // 7.1.2 04-03-2019 12:45:20 ERROR: null: Culture: wizards: Error when reading value 'wizard,blaze_rod' for parameter travelbookcategoryicon: Unknown item: blaze_rod
