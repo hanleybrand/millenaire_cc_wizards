@@ -1,4 +1,4 @@
-native_name=Shopkeeper
+native_name=Trader
 gender=male
 familyNameList=wizard_family_names
 firstNameList=male_names
@@ -6,19 +6,14 @@ tag=visitor
 tag=localmerchant
 icon=purse
 
-// assets/millenaire/textures/entity/wizards/male/brian.png
-//texture=assets/millenaire/textures/entity/wizards/male/brian.png
-//texture=millenaire/textures/entity/wizards/male/brian.png
-texture=textures/entity/wizards/male/brian.png
-//texture=textures/entity/norman/male/nor_nobleman_0.png
+texture=textures/entity/wizards/male/male_euro1.png
+texture=textures/entity/wizards/male/male_euro1.png
 
 clothes=free,textures/entity/norman/male/clothes/nor_merchant_0.png
 
 goal=gorest
 goal=gosocialise
 goal=chat
-goal=gopray
-goal=goDrinkCider
 goal=visitInn
 goal=VisitBuilding
 

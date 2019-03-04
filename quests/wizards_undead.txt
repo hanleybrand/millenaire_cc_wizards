@@ -3,13 +3,13 @@ chanceperhour:0.2
 maxsimultaneous:1
 
 step:new
-definevillager:key=startvillager,type=teuton/townguard
+definevillager:key=startvillager,type=wizards/auror
 villager:startvillager
 duration:42
 
 step:new
 villager:startvillager
-duration:42
+duration:48
 requiredgood:rottenflesh,3
 requiredgood:bone,3
 rewardreputation:156

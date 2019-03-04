@@ -52,6 +52,7 @@ porkchops,25,20,4,64,32,false,,0,agriculture
 porkchopscooked,28,20,4,64,48,false,,0,agriculture
 chickenmeat,20,0,4,64,32,false,,0,agriculture
 chickenmeatcooked,28,20,4,64,48,false,,0,agriculture
+pumpkin,4,2,16,80,6,true,0,0,agriculture
 fishcooked,7,5,0,0,16,false,,0,foreigntrade
 
 bone,10,8,16,64,16,false,,0,crafting
@@ -65,12 +66,11 @@ carpet_red,20,18,16,64,16,false,,0,construction
 carpet_yellow,20,18,16,64,16,false,,0,construction
 carpet_blue,20,18,16,64,16,false,,0,construction
 
-
-tripes,2*64,2*60,2,8,0,false,0,2*64*64,agriculture
-boudin,48,40,2,8,80,false,0,0,agriculture
-cider,64,60,5,10,80,false,,0,agriculture
-ciderapple,10,8,0,512,0,false,,0,agriculture
-calva,2*64,2*60,2,5,0,false,0,2*64*64,agriculture
+tripes,2*64,2*60,2,8,0,false,0,2*64*64,foreigntrade
+boudin,48,40,2,8,80,false,0,0,foreigntrade
+cider,64,60,5,10,80,false,,0,foreigntrade
+ciderapple,10,8,0,512,0,false,,0,foreigntrade
+calva,2*64,2*60,2,5,0,false,0,2*64*64,foreigntrade
 
 wah,0,2*80,0,0,0,false,,0,foreigntrade
 masa,0,48,0,0,0,false,,0,foreigntrade
@@ -89,49 +89,6 @@ winebasic,0,80,0,0,0,false,,0,foreigntrade
 feta,0,96,0,0,0,false,,0,foreigntrade
 sake,0,2*80,0,0,0,false,0,0,foreigntrade
 cacauhaa,0,2*80,0,0,0,false,0,0,foreigntrade
-
-bow,64,60,0,0,2*25,false,,0,weapons
-arrow,0,4,0,0,8,false,,0,weapons
-stoneSword,0,2,0,0, 0,false,,0,foreigntrade
-leatherHelmet,0,15*5,0,0, 0,false,,0,foreigntrade
-leatherChest,0,15*8,0,0, 0,false,,0,foreigntrade
-leatherLegs,0,15*7,0,0, 0,false,,0,foreigntrade
-leatherBoots,0,15*4,0,0, 0,false,,0,foreigntrade
-steelSword,0,20*2,0,0,3*25,false,,0,foreigntrade
-steelHelmet,0,20*5,0,0,8*25,false,,0,foreigntrade
-steelChest,0,20*8,0,0,10*25,false,,0,foreigntrade
-steelLegs,0,20*7,0,0,9*25,false,,0,foreigntrade
-steelBoots,0,20*4,0,0,6*25,false,,0,foreigntrade
-diamondHelmet,0,3*64*5,0,0, 5*20*64,false,,0,foreigntrade
-diamondSword,0,3*64*2,0,0, 2*20*64,false,,0,foreigntrade
-diamondChest,0,3*64*8,0,0, 8*20*64,false,,0,foreigntrade
-diamondLegs,0,3*64*7,0,0, 7*20*64,false,,0,foreigntrade
-diamondBoots,0,3*64*4,0,0, 4*20*64,false,,0,foreigntrade
-byzantineMace,0,64*64,0,0, 0,false,,0,foreigntrade
-byzantineHelmet,0,12*64,0,0, 0,false,,0,foreigntrade
-byzantinePlate,0,20*64,0,0, 0,false,,0,foreigntrade
-byzantineLegs,0,8*64,0,0, 0,false,,0,foreigntrade
-byzantineBoots,0,6*64,0,0, 0,false,,0,foreigntrade
-yumibow,0,7*64,0,0, 0,false,,0,foreigntrade
-tachisword,0,2*80,0,0, 0,false,,0,foreigntrade
-japaneseguardboots,0,96,0,0, 0,false,,0,foreigntrade
-japaneseguardHelmet,0,3*64,0,0, 0,false,,0,foreigntrade
-japaneseguardLegs,0,4*64,0,0, 0,false,,0,foreigntrade
-japaneseguardPlate,0,6*64,0,0, 0,false,,0,foreigntrade
-japaneseblueboots,0,4*64,0,0, 0,false,,0,foreigntrade
-japanesebluehelmet,0,6*64,0,0, 0,false,,0,foreigntrade
-japanesebluelegs,0,12*64,0,0, 0,false,,0,foreigntrade
-japaneseblueplate,0,18*64,0,0, 0,false,,0,foreigntrade
-japaneseredboots,0,4*64,0,0, 0,false,,0,foreigntrade
-japaneseredhelmet,0,6*64,0,0, 0,false,,0,foreigntrade
-japaneseredlegs,0,12*64,0,0, 0,false,,0,foreigntrade
-japaneseredplate,0,18*64,0,0, 0,false,,0,foreigntrade
-mayanmace,0,7*64,0,0, 0,false,,0,foreigntrade
-normanBroadsword,64*64,60*64,1,1,,,,8*64*64,weapons
-normanHelmet,10*64,10*60,0,0,,,,8*64*64,weapons
-normanplate,20*64,20*60,0,0,,,,8*64*64,weapons
-normanLegs,8*64,8*60,0,0,,,,8*64*64,weapons
-normanBoots,5*64,5*60,0,0,,,,8*64*64,weapons
 
 normanPickaxe,10*64,9*64,1,1,,,,2*64*64,tools
 normanAxe,10*64,9*64,1,1,,,,2*64*64,tools
@@ -155,7 +112,7 @@ mayanshovel,0,7*64,0,0, 0,false,,0,foreigntrade
 mayanhoe,0,7*64,0,0, 0,false,,0,foreigntrade
 
 bookshelves,220,166,8,16, 0,false,,0,construction
-bottle,5,0,16,64, 0,false,,0,crafting
+bottle,5,0,16,64, 0,true,,0,crafting
 netherwart,32,0,16,64, 0,false,,0,crafting
 akwardpotion,48,0,16,64,0,false,,0,crafting
 
@@ -163,32 +120,23 @@ purse,32*64,0,0,0,0,true,,0,playeritem
 summoningwand,2*64*64,0,0,0,0,true,,8*64*64,playeritem
 
 
-
-
 tapestry,5*64,5*60,0,0,10*64,,,2*64*64,construction
 timberframeplain,16,14,0,1024,0,false,0,0,construction
 timberframecross,20,18,0,512,0,false,0,0,construction
 
+stained_glass_white,64,60,0,64,0,true,0,0,construction
+stained_glass_yellow,2*64,2*60,0,64,0,true,0,0,construction
+stained_glass_yellow_red,2*64,2*60,0,64,0,true,0,0,construction
+stained_glass_red_blue,4*64,4*60,0,64,0,true,0,0,construction
+stained_glass_green_blue,4*64,4*60,0,64,0,true,0,0,construction
 
-stained_glass_white,64,60,0,64,0,false,0,0,construction
-stained_glass_yellow,2*64,2*60,0,64,0,false,0,0,construction
-stained_glass_yellow_red,2*64,2*60,0,64,0,false,0,0,construction
-stained_glass_red_blue,4*64,4*60,0,64,0,false,0,0,construction
-stained_glass_green_blue,4*64,4*60,0,64,0,false,0,0,construction
-
-rosette,8*64,8*60,0,64,0,false,0,0,construction
-
-//For viking seller
-yggdrasil_amulet,0,0,0,0,32*64,false,0,0,foreigntrade
-skoll_hati_amulet,0,0,0,0,64*64,false,0,0,foreigntrade
-
+rosette,8*64,8*60,0,64,0,true,0,0,construction
 
 
 //for plant seller
 sapling,0,0,0,0,2,false,0,0,foreigntrade
 sapling_pine,0,0,0,0,2,false,0,0,foreigntrade
 sapling_birch,0,0,0,0,2,false,0,0,foreigntrade
-pumpkin,0,0,0,0,8,false,0,0,foreigntrade
 redFlower,0,0,0,0,8,false,0,0,foreigntrade
 yellowFlower,0,0,0,0,8,false,0,0,foreigntrade
 sugarcane,0,0,0,0,48,false,0,0,foreigntrade
@@ -200,8 +148,6 @@ cactus,0,0,0,0,16,false,0,0,foreigntrade
 painting,0,0,0,0,32,false,0,0,foreigntrade
 dye_orange,0,0,0,0,4,false,0,0,foreigntrade
 dye_magenta,0,0,0,0,32,false,0,0,foreigntrade
-
-
 dye_green,0,0,0,0,20,false,0,0,foreigntrade
 dye_pink,0,0,0,0,16,false,0,0,foreigntrade
 dye_gray,0,0,0,0,24,false,0,0,foreigntrade

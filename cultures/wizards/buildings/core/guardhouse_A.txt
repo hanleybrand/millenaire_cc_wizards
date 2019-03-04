@@ -4,6 +4,6 @@ building.farfromtag=patrol,50
 building.icon=torch
 
 initial.startlevel=-1
-initial.nativename=Watchhouse
-initial.male=guard
+initial.nativename=Auror Hut
+initial.male=auror
 initial.tag=patrol

@@ -24,11 +24,10 @@ travelbookTradeGoodCategory=playeritem
 travelbookTradeGoodCategory=foreigntrade
 
 
-travelBookCategoryIcon=wizard,blaze_rod
+travelBookCategoryIcon=wizard,blazerod
 travelBookCategoryIcon=visitor,purse
 travelBookCategoryIcon=ministry,cauldron
 travelBookCategoryIcon=lonewizard,torch
-travelBookCategoryIcon=marvelvillager,rosette
 
 travelBookCategoryIcon=townhall,book_enchanted
 travelBookCategoryIcon=house,door_spruce
@@ -40,6 +39,6 @@ travelBookCategoryIcon=construction,wood_axe
 travelBookCategoryIcon=agriculture,wheat
 travelBookCategoryIcon=crafting,crafting_table_top
 travelBookCategoryIcon=tools,torch
-travelBookCategoryIcon=weapons,blaze_rod
+travelBookCategoryIcon=weapons,blazerod
 travelBookCategoryIcon=playeritem,purse
 travelBookCategoryIcon=foreigntrade,minecart_chest

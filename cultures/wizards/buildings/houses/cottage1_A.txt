@@ -1,0 +1,5 @@
+building.length=14
+building.width=15
+
+initial.startlevel=-1
+initial.nativename=cottage1
