@@ -1,0 +1,6 @@
+building.length=24
+building.width=38
+building.icon=cauldron
+
+initial.startlevel=-1
+initial.nativename=Ministry Office

@@ -1,7 +1,8 @@
 building.length=14
 building.width=15
+building.icon=bread
 
 initial.startlevel=-1
-initial.nativename=cottage2
+initial.nativename=Modest House
 initial.male=wizard
 initial.tag=patrol

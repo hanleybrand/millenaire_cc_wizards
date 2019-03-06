@@ -1,0 +1,6 @@
+building.length=26
+building.width=23
+building.icon=chest
+
+initial.startlevel=-1
+initial.nativename=Manor

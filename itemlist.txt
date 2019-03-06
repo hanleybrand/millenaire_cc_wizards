@@ -7,9 +7,10 @@ strength_potion;minecraft:potion;8265;Strength Potion
 healing_potion;minecraft:potion;8197;Health Potion I
 sugar;minecraft:sugar;0;Sugar
 blazepowder;minecraft:blaze_powder;0;Blaze Powder
-blazerod;minecraft:blaze_rod;0;Blaze Rod
-spellbook;wizardry:spell_book;0;Spell Book
-magiccrystal;ebwizardry:magic_crystal;0;Magic Crystal
+blazerod;minecraft:blaze_rod;0;Blaze Rod	
+// spell_book;wizardry:spell_book;1;Spell Book // doesn't work, who knows why?
+magic_crystal;ebwizardry:magic_crystal;0;Magic Crystal
+magic_silk;ebwizardry:magic_silk;0;Magic Silk
 wizard_hat;ebwizardry:wizard_hat;0;Wizard Hat
 wizard_robe;ebwizardry:wizard_robe;0;Wizard Robe
 wizard_boots;ebwizardry:wizard_boots;0;Wizard Boots
@@ -17,11 +18,3 @@ wizard_leggings;ebwizardry:wizard_leggings;0;Wizard Pants
 scroll_126;ebwizardry:scroll;126;Ice Lance
 
 
-// 7.1.2 04-03-2019 12:45:20 ERROR: null: Culture: wizards: Error when reading value 'wizard,blaze_rod' for parameter travelbookcategoryicon: Unknown item: blaze_rod
-// 7.1.2 04-03-2019 12:45:20 ERROR: null: Culture: wizards: Error when reading value 'townhall,book_enchanted' for parameter travelbookcategoryicon: Unknown item: book_enchanted
-// 7.1.2 04-03-2019 12:45:20 ERROR: null: Culture: wizards: Error when reading value 'lonebuilding,door_dark_oak' for parameter travelbookcategoryicon: Unknown item: door_dark_oak
-// 7.1.2 04-03-2019 12:45:20 ERROR: null: Culture: wizards: Error when reading value 'playerbuilding,door_iron' for parameter travelbookcategoryicon: Unknown item: door_iron
-// 7.1.2 04-03-2019 12:45:20 ERROR: null: Culture: wizards: Error when reading value 'construction,wood_axe' for parameter travelbookcategoryicon: Unknown item: wood_axe
-// 7.1.2 04-03-2019 12:45:20 ERROR: null: Culture: wizards: Error when reading value 'crafting,crafting_table_top' for parameter travelbookcategoryicon: Unknown item: crafting_table_top
-// 7.1.2 04-03-2019 12:45:20 ERROR: null: Culture: wizards: Error when reading value 'weapons,blaze_rod' for parameter travelbookcategoryicon: Unknown item: blaze_rod
-// 7.1.2 04-03-2019 12:45:20 ERROR: null: Culture: wizards: Error when reading value 'foreigntrade,minecart_chest' for parameter travelbookcategoryicon: Unknown item: minecart_chest

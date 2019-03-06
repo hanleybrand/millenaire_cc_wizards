@@ -1,0 +1,6 @@
+building.length=8
+building.width=8
+
+initial.startlevel=-5
+initial.nativename=well
+building.icon=bucketwater

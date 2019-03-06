@@ -25,8 +25,9 @@ toolneededclass=toolssword
 
 baseAttackStrength=4
 tag=helpInAttacks
-defaultweapon=steelsword
-startingInv=steelchest,1
-startingInv=steellegs,1
-startingInv=steelboots,1
+defaultweapon=scroll_126
+startingInv=wizard_hat,1
+startingInv=wizard_robe,1
+startingInv=wizard_boots,1
+startingInv=wizard_leggings,1
 experiencegiven=20

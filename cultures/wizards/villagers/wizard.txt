@@ -3,7 +3,7 @@ gender=male
 familyNameList=wizard_family_names
 firstNameList=male_names
 tag=helpInAttacks
-icon=spellbook
+icon=magic_crystal
 
 texture=textures/entity/wizards/male/brian.png
 texture=textures/entity/wizards/male/losthero.png
@@ -15,7 +15,6 @@ startingInv=wizard_robe,1
 goal=gorest
 goal=patrol
 goal=huntmonster
-goal=gosocialise
 goal=chat
 
 experiencegiven=10

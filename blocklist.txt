@@ -1,10 +1,29 @@
+//simple tags:
 //name is only indicative
-//first value after is the blockId, second the meta value
-//third whether it should be placed after the other blocks (torch for example)
-//fourth the colour in RGB
+//first value after is the block reference, second the meta value OR a value chain ("variant=oak" for example)
+//third whether it should be placed after the other blocks
+//fourth is colour like previously
+//then the price defined in three fields:
+//first either block or item reference (ex: minecraft:stone, minecraft:iron_ingot)
+//then if the previous field was block, optional value string (ex: variant=birch)
+//then the quantity
 
-//do pumpkins need to be 2nd placed?
-pumpkinwest;minecraft:pumpkin;1;true;255/128/1
-pumpkinnorth;minecraft:pumpkin;2;true;255/128/2
-pumpkineast;minecraft:pumpkin;3;true;255/128/3
+//do pumpkins need to be placed 2nd?
+pumpkinwest;minecraft:pumpkin;1;true;255/128/1;minecraft:pumpkin;;1
+pumpkinnorth;minecraft:pumpkin;2;true;255/128/2;minecraft:pumpkin;;1
+pumpkineast;minecraft:pumpkin;3;true;255/128/3;minecraft:pumpkin;;1
 
+//double_stone_slab;minecraft:double_stone_slab;5;false;151/151/151;minecraft:stone;;1
+//double_oak_slab:minecraft:double_wooden_slab;0;false;120/80/41;minecraft:planks;variant=oak;1
+//double_dark_oak_slab:minecraft:double_wooden_slab;5;false;120/80/42;minecraft:planks;variant=oak;1
+
+double_stone_slab;minecraft:double_stone_slab;5;false;151/151/151
+double_oak_slab:minecraft:double_wooden_slab;0;false;120/80/41
+double_dark_oak_slab:minecraft:double_wooden_slab;5;false;120/80/42
+
+/// the color range 235/235/* seems untaken, so I'll just use that for any additional blocks
+
+// farmland;minecraft:farmland;7;false;235/235/1;minecraft:dirt;1
+// jukebox;minecraft:jukebox;0;false;235/235/32;minecraft:planks;variant=oak;10
+farmland;minecraft:farmland;7;false;235/235/1
+jukebox;minecraft:jukebox;0;false;235/235/32

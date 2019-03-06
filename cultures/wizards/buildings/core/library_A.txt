@@ -3,3 +3,4 @@ building.width=16
 
 initial.startlevel=-1
 initial.nativename=library
+building.icon=bookshelves

@@ -34,7 +34,9 @@ start=library
 start=guardhouse
 start=cottage1
 start=cottage2
-start=cottage1
+start=well
+start=well
+//start=well
 
 
 //Selling prices=

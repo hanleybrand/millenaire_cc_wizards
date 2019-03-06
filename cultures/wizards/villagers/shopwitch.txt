@@ -5,7 +5,7 @@ firstNameList=female_names
 baseheight=0.9
 model=femaleasymmetrical
 tag=seller
-icon=tapestry
+icon=cauldron
 
 texture=textures/entity/wizards/female/lee_asym.png
 

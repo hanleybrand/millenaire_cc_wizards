@@ -1,4 +1,3 @@
 villager.greeting=Wotcher, $name! / Wotcher, $name!
-
 villager.greeting=Ah, hello $name / Ah, hello $name
 villager.greeting=Good day $name! / Good day $name!

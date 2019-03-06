@@ -1,18 +1,16 @@
 qualifierSeparator=-
 icon=cauldron
-knownCrop=sapling_appletree
 
 travelBookVillagerCategory=wizard
 travelBookVillagerCategory=lonewizard
-travelBookVillagerCategory=visitor
+travelBookVillagerCategory=foreigner
 travelBookVillagerCategory=ministry
-
 
 travelBookBuildingCategory=townhall
 travelBookBuildingCategory=house
 travelBookBuildingCategory=othervillage
 travelBookBuildingCategory=lonebuilding
-// travelBookBuildingCategory=playerbuilding
+travelBookBuildingCategory=playerbuilding
 
 
 travelbookTradeGoodCategory=construction
@@ -24,21 +22,21 @@ travelbookTradeGoodCategory=playeritem
 travelbookTradeGoodCategory=foreigntrade
 
 
-travelBookCategoryIcon=wizard,spellbook
-travelBookCategoryIcon=visitor,purse
+travelBookCategoryIcon=wizard,scroll_126
+travelBookCategoryIcon=foreigner,denier
 travelBookCategoryIcon=ministry,cauldron
 travelBookCategoryIcon=lonewizard,torch
 
-travelBookCategoryIcon=townhall,book_enchanted
-travelBookCategoryIcon=house,door_spruce
-travelBookCategoryIcon=othervillage,sign
-travelBookCategoryIcon=lonebuilding,magiccrystal
-//travelBookCategoryIcon=playerbuilding,door_iron
+travelBookCategoryIcon=townhall,wizard_hat
+travelBookCategoryIcon=house,chest
+travelBookCategoryIcon=othervillage,filled_map
+travelBookCategoryIcon=lonebuilding,magic_crystal
+travelBookCategoryIcon=playerbuilding,chest
 
-travelBookCategoryIcon=construction,wood_axe
-travelBookCategoryIcon=agriculture,wheat
-travelBookCategoryIcon=crafting,crafting_table_top
+travelBookCategoryIcon=construction,timberframecross
+travelBookCategoryIcon=agriculture,pumpkin
+travelBookCategoryIcon=crafting,craftingtable
 travelBookCategoryIcon=tools,torch
 travelBookCategoryIcon=weapons,blazerod
-travelBookCategoryIcon=playeritem,purse
-travelBookCategoryIcon=foreigntrade,minecart_chest
+travelBookCategoryIcon=playeritem,wizard_hat
+travelBookCategoryIcon=foreigntrade,denierargent

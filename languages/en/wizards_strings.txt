@@ -1,9 +1,32 @@
 culture.wizards=Wizards
+culture.fullname=Wizards & Witches
 
 villager.auror=Auror
 villager.head_auror=Head Auror
 villager.merchant=Trader
-villager.shopwitch=Village Witch
+villager.shopwitch=Village Shopkeeper
 
 townhall.inn=The Inn
+shop.inn=The Inn
 
+
+travelbook_category.villager=Wizards & Witches
+travelbook_category.lonevillager=Wild Ones
+travelbook_category.visitor=Muggles
+travelbook_category.leader=Ministers
+travelbook_category.marvelvillager=Wonder
+
+travelbook_category.townhall=Town Halls
+travelbook_category.house=Houses
+travelbook_category.othervillage=Others
+travelbook_category.lonebuilding=Wilds
+travelbook_category.marvel=Wonder
+travelbook_category.playerbuilding=Player
+
+travelbook_category.construction=Construction
+travelbook_category.agriculture=Food
+travelbook_category.crafting=Crafting
+travelbook_category.tools=Tools
+travelbook_category.weapons=Weapons
+travelbook_category.playeritem=Player
+travelbook_category.foreigntrade=Muggle
