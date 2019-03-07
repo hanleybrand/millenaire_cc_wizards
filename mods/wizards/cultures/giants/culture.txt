@@ -1,0 +1,10 @@
+qualifierSeparator=-
+icon=steelaxe
+
+travelBookVillagerCategory=giant
+
+travelBookBuildingCategory=gianthouse
+
+travelBookCategoryIcon=giant,steelaxe
+travelBookCategoryIcon=gianthouse,steelaxe
+

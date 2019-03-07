@@ -1,0 +1,36 @@
+name=Hut of a Giant
+weight=15
+radius=10
+carriesraid=false
+
+mindistancefromspawn=400
+
+//Vanilla biomes
+biome=wooded_hills
+biome=birch_forest_hills
+biome=tall_birch_hills
+biome=birch_forest_hills
+biome=dark_forest_hills
+biome=jungle_hills
+biome=taiga_mountains
+biome=snowy_taiga_hills
+biome=snowy_taiga_mountains
+biome=giant_spruce_taiga_hills
+biome=giant_tree_taiga_hills
+biome=swamp_hills
+biome=savanna_plateau
+biome=shattered_savanna
+biome=shattered_savanna_plateau
+biome=snowy_mountains
+biome=mountains
+biome=wooded_mountains
+biome=gravelly_mountains
+biome=modified_gravelly_mountains
+biome=mountain_edge
+biome=badlands_plateau
+biome=wooded_badlands_plateau
+biome=eroded_badlands
+
+
+//starting buildings=
+centre=giant_hut

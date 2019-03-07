@@ -1,0 +1,14 @@
+newchat;key:nicevillage,weight:10
+v1;0;This place isn't so bad, do you think? / This place isn't so bad, do you think?
+v2;60;No, I suppose it will do.  / No, I suppose it will do. 
+
+newchat;key:sun,tag:notraining,weight:10
+v1;0;At least the sun is out... / At least the sun is out...
+v2;30;Yes, but for how long? / Yes, but for how long?
+
+
+// ‘“Do you know, I still have trouble believing it,” said Madam Rosmerta thoughtfully. “Of all the people to go over to the Dark side, Sirius Black was the last I’d have thought . . .’
+//“In the old days he had huge numbers at his command: witches and wizards he’d bullied or bewitched into following him, his faithful Death Eaters, a great variety of Dark creatures.”
+// expecto patronum?  
+// ‘“One can never have enough socks,” said Dumbledore. “Another Christmas has come and gone and I didn’t get a single pair. People will insist on giving me books.”’
+//‘“The Imperius Curse can be fought ... but it takes real strength of character, and not everyone’s got it. Better avoid being hit with it if you can”

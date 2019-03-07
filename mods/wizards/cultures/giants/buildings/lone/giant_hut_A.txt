@@ -1,0 +1,22 @@
+building.length=11
+building.width=11
+building.icon=steelaxe
+building.showtownhallsigns=false
+building.startinggood=denier,1.0,30,50
+building.startinggood=denierargent,0.3,8,20
+building.startinggood=wizard_hat,0.3,1,0
+building.startinggood=wizard_boots,0.3,1,0
+building.startinggood=wizard_robe,0.3,1,0
+building.startinggood=bearmeat_raw,0.8,1,2
+building.startinggood=bearmeat_cooked,0.5,1,2
+building.startinggood=wolfmeat_raw,0.8,1,2
+building.startinggood=wolfmeat_cooked,0.3,1,2
+building.startinggood=tannedhide,0.3,1,2
+building.startinggood=bone,1,1,6
+
+
+initial.startlevel=-1
+initial.nativename=giant_hut
+name_en=Hut of a Giant
+name_fr=Abri des géants
+initial.male=giant

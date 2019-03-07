@@ -1,3 +1,21 @@
 
 .DS_Store
 cultures/wizards/villagers/scratch.text
+/blocklist.txt
+/config-base.txt
+/config-custom.txt
+/config-server-custom.txt
+/config.txt
+Converted Buildings/*
+cultures/*
+exports/*
+exports_old/*
+/hof_en.txt
+/hof_fr.txt
+/itemlist.txt
+*.sql
+jsonexports/*
+millenaire.log
+mods/examplemod/*
+travelbook/*
+/resources used*.txt

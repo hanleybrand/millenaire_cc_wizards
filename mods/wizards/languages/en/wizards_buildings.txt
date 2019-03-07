@@ -1,4 +1,4 @@
-guardhouse_A0=Auror Hut
+guardhouse_A=Auror Hut
 library_A=The Library
 
 

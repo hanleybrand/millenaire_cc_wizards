@@ -2,9 +2,10 @@ native_name=Auror
 gender=male
 familyNameList=wizard_family_names
 firstNameList=male_names
-tag=helpInAttacks
+tag=chief
+tag=archer
 baseheight=1
-health=40
+health=60
 icon=blazerod
 
 texture=textures/entity/wizards/male/brian.png
@@ -15,13 +16,13 @@ texture=textures/entity/wizards/male/male_euro1.png
 texture=textures/entity/wizards/male/male_euro2.png
 
 goal=gorest
+goal=gosocialise
+goal=chat
 goal=patrol
 goal=huntmonster
 
-
 toolneededclass=armour
 toolneededclass=toolssword
-
 
 baseAttackStrength=4
 tag=helpInAttacks
