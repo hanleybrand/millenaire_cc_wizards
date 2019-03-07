@@ -1,0 +1,20 @@
+//Item key;item id;item meta;label (indicative only)
+
+waterbucket;minecraft:water_bucket;0;Water Bucket
+full_bottle;minecraft:potion;0;Water Bottle
+swift_potion;minecraft:potion;8194;Swift Potion
+strength_potion;minecraft:potion;8265;Strength Potion
+healing_potion;minecraft:potion;8197;Health Potion I
+sugar;minecraft:sugar;0;Sugar
+blazepowder;minecraft:blaze_powder;0;Blaze Powder
+blazerod;minecraft:blaze_rod;0;Blaze Rod	
+// spell_book;wizardry:spell_book;1;Spell Book // doesn't work, who knows why?
+magic_crystal;ebwizardry:magic_crystal;0;Magic Crystal
+magic_silk;ebwizardry:magic_silk;0;Magic Silk
+wizard_hat;ebwizardry:wizard_hat;0;Wizard Hat
+wizard_robe;ebwizardry:wizard_robe;0;Wizard Robe
+wizard_boots;ebwizardry:wizard_boots;0;Wizard Boots
+wizard_leggings;ebwizardry:wizard_leggings;0;Wizard Pants
+scroll_126;ebwizardry:scroll;126;Ice Lance
+
+
