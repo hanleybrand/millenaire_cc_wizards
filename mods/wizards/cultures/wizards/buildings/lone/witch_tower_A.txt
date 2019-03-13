@@ -1,0 +1,5 @@
+building.length=24
+building.width=28
+
+initial.startlevel=-1
+initial.nativename=witch_tower
