@@ -10,6 +10,7 @@ wizard_robe,800,400,0,0,,false,,1024,crafting
 wizard_boots,400,200,0,0,,false,,1024,crafting
 wizard_leggings,500,250,0,0,,false,,1024,crafting
 scroll_126,100,70,8,4,80,false,,1024,weapons
+arcane_workbench,50,25,16,8,30,true,1024,crafting
 // --- //
 dirtwall,1,0,0,0,0,false,,0,construction
 pathdirt,1,0,0,0,0,false,,0,construction

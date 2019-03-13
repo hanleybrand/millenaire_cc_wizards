@@ -8,6 +8,9 @@ baseheight=1
 health=60
 icon=blazerod
 
+travelbook_display=true
+villagerconfig=wizardsequipment
+
 texture=textures/entity/wizards/male/brian.png
 texture=textures/entity/wizards/male/losthero.png
 texture=textures/entity/wizards/male/stephen.png

@@ -1,20 +1,46 @@
 native_name=Wizard
+alt_native_name=Apprentice Wizard
 gender=male
 familyNameList=wizard_family_names
 firstNameList=male_names
 tag=helpInAttacks
 icon=magic_crystal
 
-texture=textures/entity/wizards/male/brian.png
-texture=textures/entity/wizards/male/losthero.png
-texture=textures/entity/wizards/male/stephen.png
-texture=textures/entity/wizards/male/pigman.png
+travelbook_display=true
+villagerconfig=wizardsequipment
+
+
+texture=textures/entity/wizards/male/male_almond_1.png
+texture=textures/entity/wizards/male/male_beige_1_5.png
+texture=textures/entity/wizards/male/male_beige_1.png
+texture=textures/entity/wizards/male/male_beige_2_5.png
+texture=textures/entity/wizards/male/male_beige_2.png
+texture=textures/entity/wizards/male/male_beige_3.png
+texture=textures/entity/wizards/male/male_beige_4.png
+texture=textures/entity/wizards/male/male_euro1.png
+texture=textures/entity/wizards/male/male_euro2.png
+texture=textures/entity/wizards/male/male_euro3.png
+texture=textures/entity/wizards/male/male_euro5.png
+texture=textures/entity/wizards/male/male_euro6.png
+texture=textures/entity/wizards/male/male_euro7.png
+texture=textures/entity/wizards/male/male_euro8.png
+texture=textures/entity/wizards/male/male_euro9.png
+texture=textures/entity/wizards/male/male_pale_ivory_1.png
+texture=textures/entity/wizards/male/male_pale_ivory_2.png
+texture=textures/entity/wizards/male/male_pale_ivory_3.png
+texture=textures/entity/wizards/male/male_pale_ivory_4.png
+texture=textures/entity/wizards/male/male_pale_ivory_5.png
+
+
+clothes=free,textures/entity/wizards/male/clothes/green_shirt.png
+clothes=free,1,textures/entity/wizards/male/clothes/green_shirt_hood.png
 
 startingInv=wizard_robe,1
 
 goal=gorest
+goal=gosocialise
+goal=chat
 goal=patrol
 goal=huntmonster
-goal=chat
 
 experiencegiven=10

@@ -6,6 +6,9 @@ tag=visitor
 tag=localmerchant
 icon=purse
 
+travelbook_display=true
+villagerconfig=wizardsequipment
+
 texture=textures/entity/wizards/male/male_euro1.png
 texture=textures/entity/wizards/male/male_euro1.png
 

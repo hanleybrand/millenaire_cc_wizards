@@ -7,6 +7,9 @@ model=femaleasymmetrical
 tag=seller
 icon=cauldron
 
+travelbook_display=true
+villagerconfig=wizardsequipment
+
 texture=textures/entity/wizards/female/lee_asym.png
 
 goal=gorest

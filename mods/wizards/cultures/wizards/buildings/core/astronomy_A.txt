@@ -1,0 +1,5 @@
+building.length=14
+building.width=22
+
+initial.startlevel=-1
+initial.nativename=astronomy

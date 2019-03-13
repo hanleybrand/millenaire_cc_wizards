@@ -1,0 +1,6 @@
+// try to import wizards equipment from mod ebwizardry
+
+armourHelmetPriority=wizard_robe,120
+armourChestplatePriority=wizard_robe,120
+armourLeggingsPriority=wizard_leggings,120
+armourBootsPriority=wizard_boots,120

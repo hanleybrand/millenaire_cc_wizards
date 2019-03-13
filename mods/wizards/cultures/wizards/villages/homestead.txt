@@ -1,6 +1,6 @@
 name=Homestead
 icon=cauldron
-weight=10
+weight=50
 carriesraid=true
 
 //Vanilla biomes
@@ -35,17 +35,7 @@ start=guardhouse
 start=cottage1
 start=cottage2
 start=well
-start=well
-//start=well
+start=manor
+start=ministryhq
+start=astronomy
 
-
-//Selling prices=
-sellingPrice=pumpkin,7
-
-
-//Buying prices=
-buyingPrice=cobblestone,2
-buyingPrice=stone,4
-buyingPrice=glass,4
-buyingPrice=bread,5
-buyingPrice=pumpkin,5

@@ -9,9 +9,9 @@
 //then the quantity
 
 //do pumpkins need to be placed 2nd?
-pumpkinwest;minecraft:pumpkin;1;true;255/128/1;minecraft:pumpkin;;1
-pumpkinnorth;minecraft:pumpkin;2;true;255/128/2;minecraft:pumpkin;;1
-pumpkineast;minecraft:pumpkin;3;true;255/128/3;minecraft:pumpkin;;1
+pumpkinwest;minecraft:pumpkin;1;true;255/128/1;minecraft:pumpkin;0;1
+pumpkinnorth;minecraft:pumpkin;2;true;255/128/2;minecraft:pumpkin;0;1
+pumpkineast;minecraft:pumpkin;3;true;255/128/3;minecraft:pumpkin;0;1
 
 //double_stone_slab;minecraft:double_stone_slab;5;false;151/151/151;minecraft:stone;;1
 //double_oak_slab:minecraft:double_wooden_slab;0;false;120/80/41;minecraft:planks;variant=oak;1
@@ -21,9 +21,20 @@ double_stone_slab;minecraft:double_stone_slab;5;false;151/151/151
 double_oak_slab:minecraft:double_wooden_slab;0;false;120/80/41
 double_dark_oak_slab:minecraft:double_wooden_slab;5;false;120/80/42
 
-/// the color range 235/235/* seems untaken, so I'll just use that for any additional blocks
+/// the color range 235/235/* seems untaken, so  use that for any additional blocks
 
 // farmland;minecraft:farmland;7;false;235/235/1;minecraft:dirt;1
 // jukebox;minecraft:jukebox;0;false;235/235/32;minecraft:planks;variant=oak;10
 farmland;minecraft:farmland;7;false;235/235/1
+
+
 jukebox;minecraft:jukebox;0;false;235/235/32
+
+
+arcane_workbench;ebwizardry:arcane_workbench;0;false;235/235/64
+crystal_block;ebwizardry:crystal_block;0;false;235/235/65
+crystal_ore;ebwizardry:crystal_ore;0;false;235/235/66
+crystal_flower;ebwizardry:crystal_flower;0;false;235/235/67
+
+waystone;waystones:waystone;facing=north,base=true;true;235/235/96
+waystone;waystones:waystone;facing=south,base=false;true;235/235/97
