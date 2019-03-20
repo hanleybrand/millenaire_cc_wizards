@@ -3,12 +3,50 @@
 blazepowder,500,250,32,16,450,true,,1024,crafting
 blazerod,1000,500,16,8,450,true,,1024,crafting
 magic_crystal,38,28,64,32,32,true,,,crafting
-// --- //// wizard armor
 magic_silk,100,50,16,8,,false,,1024,crafting
+magic_wand,1000,500,16,8,450,true,,1024,crafting
+// --- //// wizard armor
+//generic
 wizard_hat,500,250,0,0,500,false,,1024,crafting
 wizard_robe,800,400,0,0,,false,,1024,crafting
 wizard_boots,400,200,0,0,,false,,1024,crafting
 wizard_leggings,500,250,0,0,,false,,1024,crafting
+// _lightning
+wizard_hat_lightning,500,250,0,0,500,false,,1024,crafting
+wizard_robe_lightning,800,400,0,0,,false,,1024,crafting
+wizard_boots_lightning,400,200,0,0,,false,,1024,crafting
+wizard_leggings_lightning,500,250,0,0,,false,,1024,crafting
+// _sorcery
+wizard_hat_sorcery,500,250,0,0,500,false,,1024,crafting
+wizard_robe_sorcery,800,400,0,0,,false,,1024,crafting
+wizard_boots_sorcery,400,200,0,0,,false,,1024,crafting
+wizard_leggings_sorcery,500,250,0,0,,false,,1024,crafting
+// _fire
+wizard_hat_fire,500,250,0,0,500,false,,1024,crafting
+wizard_robe_fire,800,400,0,0,,false,,1024,crafting
+wizard_boots_fire,400,200,0,0,,false,,1024,crafting
+wizard_leggings_fire,500,250,0,0,,false,,1024,crafting
+// _ice
+wizard_hat_ice,500,250,0,0,500,false,,1024,crafting
+wizard_robe_ice,800,400,0,0,,false,,1024,crafting
+wizard_boots_ice,400,200,0,0,,false,,1024,crafting
+wizard_leggings_ice,500,250,0,0,,false,,1024,crafting
+// _necromancy
+wizard_hat_necromancy,500,250,0,0,500,false,,1024,crafting
+wizard_robe_necromancy,800,400,0,0,,false,,1024,crafting
+wizard_boots_necromancy,400,200,0,0,,false,,1024,crafting
+wizard_leggings_necromancy,500,250,0,0,,false,,1024,crafting
+//  _earth
+wizard_hat_earth,500,250,0,0,500,false,,1024,crafting
+wizard_robe_earth,800,400,0,0,,false,,1024,crafting
+wizard_boots_earth,400,200,0,0,,false,,1024,crafting
+wizard_leggings_earth,500,250,0,0,,false,,1024,crafting
+// _healing
+wizard_hat_healing,500,250,0,0,500,false,,1024,crafting
+wizard_robe_healing,800,400,0,0,,false,,1024,crafting
+wizard_boots_healing,400,200,0,0,,false,,1024,crafting
+wizard_leggings_healing,500,250,0,0,,false,,1024,crafting
+//--//
 scroll_126,100,70,8,4,80,false,,1024,weapons
 arcane_workbench,50,25,16,8,30,true,1024,crafting
 // --- //

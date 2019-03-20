@@ -1,36 +1,45 @@
-native_name=Auror
+native_name=guard
 gender=male
-familyNameList=wizard_family_names
+familyNameList=muggle_family_names
 firstNameList=male_names
 tag=helpInAttacks
 baseheight=1
 health=40
-icon=blazerod
+icon=steelsword
 
 travelbook_display=true
-villagerconfig=wizardsequipment
 
-texture=textures/entity/wizards/male/brian.png
-texture=textures/entity/wizards/male/losthero.png
-texture=textures/entity/wizards/male/stephen.png
-texture=textures/entity/wizards/male/pigman.png
-texture=textures/entity/wizards/male/male_euro1.png
-texture=textures/entity/wizards/male/male_euro2.png
+texture=textures/entity/wizards/male/male_almond_1.png
+texture=textures/entity/wizards/male/male_almond_2.png
+texture=textures/entity/wizards/male/male_almond_1_5.png
+texture=textures/entity/wizards/male/male_almond_3.png
+texture=textures/entity/wizards/male/male_beige_1_5.png
+texture=textures/entity/wizards/male/male_beige_1.png
+texture=textures/entity/wizards/male/male_beige_2_5.png
+texture=textures/entity/wizards/male/male_beige_2.png
+texture=textures/entity/wizards/male/male_beige_3.png
+texture=textures/entity/wizards/male/male_beige_4.png
+texture=textures/entity/wizards/male/male_pale_ivory_1.png
+texture=textures/entity/wizards/male/male_pale_ivory_2.png
+texture=textures/entity/wizards/male/male_pale_ivory_3.png
+texture=textures/entity/wizards/male/male_pale_ivory_4.png
+texture=textures/entity/wizards/male/male_pale_ivory_5.png
+
+clothes=free,textures/entity/wizards/male/clothes/green_shirt.png
+clothes=free,textures/entity/wizards/male/clothes/blue_shirt.png
 
 goal=gorest
 goal=patrol
 goal=huntmonster
 
-
 toolneededclass=armour
 toolneededclass=toolssword
 
 
-baseAttackStrength=4
+baseAttackStrength=5
 tag=helpInAttacks
-defaultweapon=scroll_126
-startingInv=wizard_hat,1
-startingInv=wizard_robe,1
-startingInv=wizard_boots,1
+defaultweapon=steelsword
+startingInv=steelchest,1
+startingInv=steellegs,1
 startingInv=wizard_leggings,1
 experiencegiven=20

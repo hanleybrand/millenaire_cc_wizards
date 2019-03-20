@@ -1,5 +1,5 @@
 name=Hut of a Giant
-weight=15
+weight=25
 radius=10
 carriesraid=false
 

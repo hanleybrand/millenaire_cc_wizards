@@ -1,0 +1,27 @@
+native_name=Wild Wizard
+alt_native_name=Lone Wizard
+gender=male
+familyNameList=wizard_family_names
+firstNameList=male_names
+tag=helpInAttacks
+icon=wizard_hat
+
+travelbook_category=wizard
+travelbook_display=true
+villagerconfig=wizardsequipment
+
+
+texture=textures/entity/wizards/male/beardy.png
+
+clothes=free,textures/entity/wizards/male/clothes/green_shirt.png
+clothes=free,textures/entity/wizards/male/clothes/blue_shirt.png
+
+startingInv=wizard_robe,1
+
+goal=gorest
+goal=gosocialise
+goal=chat
+goal=patrol
+goal=huntmonster
+
+experiencegiven=10

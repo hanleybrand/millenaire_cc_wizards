@@ -9,27 +9,20 @@
 //then the quantity
 
 //do pumpkins need to be placed 2nd?
-pumpkinwest;minecraft:pumpkin;1;true;255/128/1;minecraft:pumpkin;0;1
-pumpkinnorth;minecraft:pumpkin;2;true;255/128/2;minecraft:pumpkin;0;1
-pumpkineast;minecraft:pumpkin;3;true;255/128/3;minecraft:pumpkin;0;1
+pumpkinwest;minecraft:pumpkin;facing=west;true;255/128/1;minecraft:pumpkin;0;0
+pumpkinnorth;minecraft:pumpkin;facing=north;true;255/128/2;minecraft:pumpkin;0;0
+pumpkineast;minecraft:pumpkin;facing=east;true;255/128/3;minecraft:pumpkin;0;0
 
-//double_stone_slab;minecraft:double_stone_slab;5;false;151/151/151;minecraft:stone;;1
-//double_oak_slab:minecraft:double_wooden_slab;0;false;120/80/41;minecraft:planks;variant=oak;1
-//double_dark_oak_slab:minecraft:double_wooden_slab;5;false;120/80/42;minecraft:planks;variant=oak;1
-
-double_stone_slab;minecraft:double_stone_slab;5;false;151/151/151
-double_oak_slab:minecraft:double_wooden_slab;0;false;120/80/41
-double_dark_oak_slab:minecraft:double_wooden_slab;5;false;120/80/42
+double_stone_slab;minecraft:double_stone_slab;5;false;151/151/151;minecraft:stone;0;1
+double_oak_slab;minecraft:double_wooden_slab;0;false;235/234/41;minecraft:planks;variant=dark_oak;1
+double_dark_oak_slab;minecraft:double_wooden_slab;5;false;235/234/42
 
 /// the color range 235/235/* seems untaken, so  use that for any additional blocks
 
-// farmland;minecraft:farmland;7;false;235/235/1;minecraft:dirt;1
-// jukebox;minecraft:jukebox;0;false;235/235/32;minecraft:planks;variant=oak;10
-farmland;minecraft:farmland;7;false;235/235/1
+farmland;minecraft:farmland;7;false;235/235/4;dirt;;1
 
-
-jukebox;minecraft:jukebox;0;false;235/235/32
-
+jukebox;minecraft:jukebox;0;false;235/235/32;anywood;;8
+noteblock;minecraft:noteblock;0;false;235/235/33;anywood;;8
 
 arcane_workbench;ebwizardry:arcane_workbench;0;false;235/235/64
 crystal_block;ebwizardry:crystal_block;0;false;235/235/65
@@ -37,4 +30,10 @@ crystal_ore;ebwizardry:crystal_ore;0;false;235/235/66
 crystal_flower;ebwizardry:crystal_flower;0;false;235/235/67
 
 waystone;waystones:waystone;facing=north,base=true;true;235/235/96
-waystone;waystones:waystone;facing=south,base=false;true;235/235/97
+waystone;waystones:waystone;facing=south,base=true;true;235/235/97
+waystone;waystones:waystone;facing=east,base=true;true;235/235/98
+waystone;waystones:waystone;facing=west,base=true;true;235/235/99
+waystone;waystones:waystone;facing=north,base=false;true;235/235/100
+waystone;waystones:waystone;facing=south,base=false;true;235/235/101
+waystone;waystones:waystone;facing=east,base=false;true;235/235/102
+waystone;waystones:waystone;facing=west,base=false;true;235/235/103

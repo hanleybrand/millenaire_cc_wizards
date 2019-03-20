@@ -1,0 +1,8 @@
+building.length=7
+building.width=9
+
+initial.startlevel=-1
+initial.nativename=elf_hut
+
+initial.male=house_elf_tavern
+initial.male=house_elf_carpenter

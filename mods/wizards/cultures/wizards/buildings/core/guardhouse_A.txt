@@ -1,9 +1,11 @@
 building.length=5
 building.width=6
-building.farfromtag=patrol,50
+//building.farfromtag=patrol,50
 building.icon=torch
 
 initial.startlevel=-1
 initial.nativename=Auror Hut
-initial.male=auror
+initial.male=guard
 initial.tag=patrol
+
+travelbook_category=leisure

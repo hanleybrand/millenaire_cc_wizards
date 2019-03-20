@@ -3,6 +3,8 @@ building.width=15
 
 initial.startlevel=-1
 initial.nativename=Cottage
-initial.male=wizard
+initial.male=sorcerer
+initial.tag=patrol
+initial.male=pyromancer
 initial.tag=patrol
 building.icon=bread

@@ -4,3 +4,7 @@ building.icon=chest
 
 initial.startlevel=-1
 initial.nativename=Manor
+initial.tag=nopaths
+
+initial.male=wizard
+initial.female=witch

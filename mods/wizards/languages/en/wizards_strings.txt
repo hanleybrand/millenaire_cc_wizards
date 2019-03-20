@@ -1,6 +1,5 @@
 culture.wizards=Wizards
 culture.fullname=Wizards & Witches
-
 villager.auror=Auror
 villager.head_auror=Head Auror
 villager.merchant=Trader
@@ -9,18 +8,16 @@ villager.shopwitch=Village Shopkeeper
 townhall.inn=The Inn
 shop.inn=The Inn
 
-
 travelbook_category.villager=Wizards & Witches
 travelbook_category.lonevillager=Wild Ones
-travelbook_category.visitor=Muggles
-travelbook_category.leader=Ministers
-travelbook_category.marvelvillager=Wonder
+travelbook_category.visitor=Muggles & Traders
+travelbook_category.leader=Wizard's Council
 
 travelbook_category.townhall=Town Halls
 travelbook_category.house=Houses
-travelbook_category.othervillage=Others
-travelbook_category.lonebuilding=Wilds
-travelbook_category.marvel=Wonder
+travelbook_category.leisure=Leisure
+travelbook_category.research=Research
+travelbook_category.lonebuilding=Wild Ones
 travelbook_category.playerbuilding=Player
 
 travelbook_category.construction=Construction
@@ -29,4 +26,79 @@ travelbook_category.crafting=Crafting
 travelbook_category.tools=Tools
 travelbook_category.weapons=Weapons
 travelbook_category.playeritem=Player
-travelbook_category.foreigntrade=Muggle
+travelbook_category.foreigntrade=Exotic Goods
+
+travelbook.villager.auror.desc= An elite witch or wizard who specializes in hunting those who go to far in pursuit of the dark arts.
+travelbook.villager.auror_fire.desc= An auror who believes the way to cleanse filth is with fire.
+travelbook.villager.auror_ice.desc= An auror who believes the way to preserve goodness is with ice. It works with food, anyway. 
+travelbook.villager.auror_sorcerer.desc= The sorcerer would rather conjure a sword than carry one. Beware the unarmed sorcerer.
+travelbook.villager.guard.desc= The town watch, usually staffed by squibs or sometimes even muggles who have discovered and accept the witches and wizards.
+travelbook.villager.head_auror.desc=The Witch or Wizard who also serves as the local representative on the Wizard's Council
+travelbook.villager.lone_witch.desc=
+travelbook.villager.lone_wizard.desc=
+travelbook.villager.merchant.desc=
+travelbook.villager.pyromancer.desc=
+travelbook.villager.shopwitch.desc=
+travelbook.villager.sorcerer.desc=
+travelbook.villager.witch.desc=
+travelbook.villager.wizard.desc=
+travelbook.villager.wizard_earth.desc=
+
+travelbook.village.homestead.desc=
+
+travelbook.building.astronomy.desc=
+travelbook.building.cottage1.desc=
+travelbook.building.cottage2.desc=
+travelbook.building.guardhouse.desc=
+travelbook.building.inn.desc=
+travelbook.building.library.desc=
+travelbook.building.manor.desc=
+travelbook.building.ministryhq.desc=
+travelbook.building.well.desc=
+travelbook.building.tavern.desc=
+travelbook.building.waystone.desc= A magic stone that resonates with the where of a place. Useful fo quickly travelling from village to village.
+
+travelbook.trade_good.magic_wand.desc=
+
+
+
+travelbook.building.witch_tower.desc=
+
+travelbook.trade_good.blazepowder.desc=
+travelbook.trade_good.blazerod.desc=
+travelbook.trade_good.magic_crystal.desc=
+travelbook.trade_good.magic_silk.desc=
+travelbook.trade_good.sapling_appletree.desc=
+travelbook.trade_good.scroll_126.desc=
+travelbook.trade_good.wizard_boots.desc=
+travelbook.trade_good.wizard_boots_earth.desc=
+travelbook.trade_good.wizard_boots_fire.desc=
+travelbook.trade_good.wizard_boots_healing.desc=
+travelbook.trade_good.wizard_boots_ice.desc=
+travelbook.trade_good.wizard_boots_lightning.desc=
+travelbook.trade_good.wizard_boots_necromancy.desc=
+travelbook.trade_good.wizard_boots_sorcery.desc=
+travelbook.trade_good.wizard_hat.desc=
+travelbook.trade_good.wizard_hat_earth.desc=
+travelbook.trade_good.wizard_hat_fire.desc=
+travelbook.trade_good.wizard_hat_healing.desc=
+travelbook.trade_good.wizard_hat_ice.desc=
+travelbook.trade_good.wizard_hat_lightning.desc=
+travelbook.trade_good.wizard_hat_necromancy.desc=
+travelbook.trade_good.wizard_hat_sorcery.desc=
+travelbook.trade_good.wizard_leggings.desc=
+travelbook.trade_good.wizard_leggings_earth.desc=
+travelbook.trade_good.wizard_leggings_fire.desc=
+travelbook.trade_good.wizard_leggings_healing.desc=
+travelbook.trade_good.wizard_leggings_ice.desc=
+travelbook.trade_good.wizard_leggings_lightning.desc=
+travelbook.trade_good.wizard_leggings_necromancy.desc=
+travelbook.trade_good.wizard_leggings_sorcery.desc=
+travelbook.trade_good.wizard_robe.desc=
+travelbook.trade_good.wizard_robe_earth.desc=
+travelbook.trade_good.wizard_robe_fire.desc=
+travelbook.trade_good.wizard_robe_healing.desc=
+travelbook.trade_good.wizard_robe_ice.desc=
+travelbook.trade_good.wizard_robe_lightning.desc=
+travelbook.trade_good.wizard_robe_necromancy.desc=
+travelbook.trade_good.wizard_robe_sorcery.desc=

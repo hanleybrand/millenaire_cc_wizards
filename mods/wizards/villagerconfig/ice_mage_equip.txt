@@ -1,0 +1,9 @@
+armourHelmetPriority=wizard_hat,120
+armourChestplatePriority=wizard_robe,120
+armourLeggingsPriority=wizard_leggings,120
+armourBootsPriority=wizard_boots,120
+
+armourHelmetPriority=wizard_hat_ice,130
+armourChestplatePriority=wizard_robe_ice,130
+armourLeggingsPriority=wizard_leggings_ice,130
+armourBootsPriority=wizard_boots_ice,130

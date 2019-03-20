@@ -1,0 +1,24 @@
+native_name=Wild Witch
+alt_native_name=Wild Witch's Apprentice
+gender=female
+familyNameList=wizard_family_names
+firstNameList=female_names
+tag=helpInAttacks
+icon=magic_crystal
+
+travelbook_category=wizard
+travelbook_display=true
+villagerconfig=wizardsequipment
+
+texture=textures/entity/wizards/female/sarah.png
+
+
+startingInv=wizard_robe,1
+
+goal=gorest
+goal=gosocialise
+goal=chat
+goal=patrol
+goal=huntmonster
+
+experiencegiven=10

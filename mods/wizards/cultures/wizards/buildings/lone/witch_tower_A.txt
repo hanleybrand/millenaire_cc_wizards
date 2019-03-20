@@ -1,5 +1,15 @@
 building.length=24
 building.width=28
+building.showtownhallsigns=false
+areatoclear=4
+
+building.startinggood=cider,1.0,8,16
+building.startinggood=porkchops,1.0,2,4
+building.startinggood=bread,1.0,8,16
 
 initial.startlevel=-1
 initial.nativename=witch_tower
+initial.tag=leasure
+
+initial.male=lone_wizard
+initial.female=lone_witch

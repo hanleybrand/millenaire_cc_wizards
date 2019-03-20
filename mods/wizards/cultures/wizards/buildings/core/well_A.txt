@@ -3,4 +3,6 @@ building.width=8
 
 initial.startlevel=-5
 initial.nativename=well
+initial.tag=pathnode
+
 building.icon=bucketwater

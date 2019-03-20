@@ -3,3 +3,10 @@ building.width=22
 
 initial.startlevel=-1
 initial.nativename=astronomy
+initial.tag=leasure
+initial.tag=patrol
+
+initial.male=sorcerer
+initial.female=sorcerer
+
+travelbook_category=research

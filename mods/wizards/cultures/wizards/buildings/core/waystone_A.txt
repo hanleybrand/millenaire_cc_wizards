@@ -1,0 +1,7 @@
+building.length=15
+building.width=15
+areatoclear=0
+initial.startlevel=-1
+initial.nativename=waystone
+icon=waystone
+initial.tag=pathnode

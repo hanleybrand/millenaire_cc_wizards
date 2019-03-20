@@ -4,3 +4,4 @@ building.icon=cauldron
 
 initial.startlevel=-1
 initial.nativename=Ministry Office
+initial.tag=leasure

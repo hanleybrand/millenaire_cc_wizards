@@ -7,6 +7,7 @@ model=femaleasymmetrical
 tag=seller
 icon=cauldron
 
+travelbook_category=wizard
 travelbook_display=true
 villagerconfig=wizardsequipment
 

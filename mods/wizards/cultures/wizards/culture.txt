@@ -4,11 +4,12 @@ icon=cauldron
 travelBookVillagerCategory=wizard
 travelBookVillagerCategory=lonewizard
 travelBookVillagerCategory=foreigner
-travelBookVillagerCategory=ministry
+travelBookVillagerCategory=council
 
 travelBookBuildingCategory=townhall
 travelBookBuildingCategory=house
-travelBookBuildingCategory=othervillage
+travelBookBuildingCategory=research
+travelBookBuildingCategory=leisure
 travelBookBuildingCategory=lonebuilding
 travelBookBuildingCategory=playerbuilding
 
@@ -22,14 +23,15 @@ travelbookTradeGoodCategory=playeritem
 travelbookTradeGoodCategory=foreigntrade
 
 
-travelBookCategoryIcon=wizard,scroll_126
+travelBookCategoryIcon=wizard,wizard_hat
 travelBookCategoryIcon=foreigner,denier
-travelBookCategoryIcon=ministry,cauldron
+travelBookCategoryIcon=council,cauldron
 travelBookCategoryIcon=lonewizard,torch
 
 travelBookCategoryIcon=townhall,wizard_hat
 travelBookCategoryIcon=house,chest
-travelBookCategoryIcon=othervillage,filled_map
+travelBookCategoryIcon=research,crafting_table
+travelBookCategoryIcon=leisure,cider
 travelBookCategoryIcon=lonebuilding,magic_crystal
 travelBookCategoryIcon=playerbuilding,chest
 

@@ -1,7 +1,8 @@
 name=Homestead
 icon=cauldron
-weight=50
+weight=70
 carriesraid=true
+minimumbiomevalidity=0.3
 
 //Vanilla biomes
 biome=Plains
@@ -36,6 +37,9 @@ start=cottage1
 start=cottage2
 start=well
 start=manor
-start=ministryhq
+start=tavern
 start=astronomy
+start=waystone
+start=elf_hut
+start=elf_hut
 
