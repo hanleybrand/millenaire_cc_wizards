@@ -43,6 +43,11 @@ travelbook.villager.sorcerer.desc=
 travelbook.villager.witch.desc=
 travelbook.villager.wizard.desc=
 travelbook.villager.wizard_earth.desc=
+travelbook.villager.brewer.desc=
+travelbook.villager.house_elf_carpenter.desc=
+travelbook.villager.house_elf_tavern.desc=
+travelbook.villager.tavernkeeper.desc=
+
 
 travelbook.village.homestead.desc=
 
@@ -57,6 +62,7 @@ travelbook.building.ministryhq.desc=
 travelbook.building.well.desc=
 travelbook.building.tavern.desc=
 travelbook.building.waystone.desc= A magic stone that resonates with the where of a place. Useful fo quickly travelling from village to village.
+travelbook.building.elf_hut.desc= A small structure where the servants of the wizards can sleep when they aren't laboring.
 
 travelbook.trade_good.magic_wand.desc=
 

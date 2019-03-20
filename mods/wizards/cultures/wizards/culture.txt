@@ -2,6 +2,7 @@ qualifierSeparator=-
 icon=cauldron
 
 travelBookVillagerCategory=wizard
+travelBookVillagerCategory=creature
 travelBookVillagerCategory=lonewizard
 travelBookVillagerCategory=foreigner
 travelBookVillagerCategory=council
@@ -10,6 +11,7 @@ travelBookBuildingCategory=townhall
 travelBookBuildingCategory=house
 travelBookBuildingCategory=research
 travelBookBuildingCategory=leisure
+travelBookBuildingCategory=servant
 travelBookBuildingCategory=lonebuilding
 travelBookBuildingCategory=playerbuilding
 
@@ -24,6 +26,7 @@ travelbookTradeGoodCategory=foreigntrade
 
 
 travelBookCategoryIcon=wizard,wizard_hat
+travelBookCategoryIcon=creature,woodaxe
 travelBookCategoryIcon=foreigner,denier
 travelBookCategoryIcon=council,cauldron
 travelBookCategoryIcon=lonewizard,torch
@@ -32,6 +35,7 @@ travelBookCategoryIcon=townhall,wizard_hat
 travelBookCategoryIcon=house,chest
 travelBookCategoryIcon=research,crafting_table
 travelBookCategoryIcon=leisure,cider
+travelBookCategoryIcon=servant,woodaxe
 travelBookCategoryIcon=lonebuilding,magic_crystal
 travelBookCategoryIcon=playerbuilding,chest
 

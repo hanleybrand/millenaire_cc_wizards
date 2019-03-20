@@ -7,7 +7,6 @@ initial.nativename=inn
 initial.priority=600
 initial.tag=leasure
 initial.tag=pathnode
-initial.tag=nopaths
 initial.tag=patrol
 
 initial.shop=inn

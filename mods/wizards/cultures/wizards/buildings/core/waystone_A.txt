@@ -4,4 +4,3 @@ areatoclear=0
 initial.startlevel=-1
 initial.nativename=waystone
 icon=waystone
-initial.tag=pathnode
