@@ -1,0 +1,11 @@
+// floocraft itemlist.txt
+Item key;item id;item meta;label
+floopowder_eight;ftfloocraft:floopowder_eight;0;Floo Powder	
+floopowder_four;ftfloocraft:floopowder_four;0;Floo Powder	
+floopowder_infinite;ftfloocraft:floopowder_infinite;0;Floo Powder	
+floopowder_one;ftfloocraft:floopowder_one;0;Floo Powder	
+floopowder_two;ftfloocraft:floopowder_two;0;Floo Powder	
+flootorch;ftfloocraft:flootorch;0;Floo Torch	
+floowerpot;ftfloocraft:floowerpot;0;Floower Pot	
+itemfloosign;ftfloocraft:itemfloosign;0;Floo Sign
+

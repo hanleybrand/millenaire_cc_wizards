@@ -1,3 +1,7 @@
-sells=cider,bread
+sells=cider,bread,beefcooked,porkchopscooked,chickenmeatcooked, wah, masa, chickencurry, vegcurry, udon, ikayaki, cooked_mutton, souvlaki, cake, cookie, rasgulla, winefancy, winebasic, feta, sake, cacauhaa
 
-deliverto=cider,bread
+buys=ciderapple, porkchops, chickenmeat, beefraw, sapling_appletree, wah, masa, chickencurry, vegcurry, udon, ikayaki, cooked_mutton, souvlaki, cake, cookie, rasgulla, winefancy, winebasic, feta, sake, cacauhaa
+
+deliverto=cider,bread,porkchops,chickenmeat,beefraw.sapling_appletree, wah, masa, chickencurry, vegcurry, udon, ikayaki, cooked_mutton, souvlaki, cake, cookie, rasgulla, winefancy, winebasic, feta, sake, cacauhaa
+
+

@@ -1,0 +1,857 @@
+key;item id;item meta;label (indicative only)
+enchanted_book;minecraft:enchanted_book;0;{StoredEnchantments:[{lvl:1s,id:0s}]}	Enchanted Book	
+advanced_wand;ebwizardry:advanced_wand;0;Advanced Wand	
+apprentice_wand;ebwizardry:apprentice_wand;0;Apprentice Wand	
+arcane_tome;ebwizardry:arcane_tome;1;Tome of Arcana	
+arcane_tome;ebwizardry:arcane_tome;2;Tome of Arcana	
+arcane_tome;ebwizardry:arcane_tome;3;Tome of Arcana	
+arcane_workbench;ebwizardry:arcane_workbench;0;Arcane Workbench	
+armour_upgrade;ebwizardry:armour_upgrade;0;Arcane Seal of Protection	
+attunement_upgrade;ebwizardry:attunement_upgrade;0;Wand Attunement Upgrade	
+basic_earth_wand;ebwizardry:basic_earth_wand;0;Wand of the Forest	
+basic_fire_wand;ebwizardry:basic_fire_wand;0;Wand of Embers	
+basic_healing_wand;ebwizardry:basic_healing_wand;0;§eWand of Healing	
+basic_ice_wand;ebwizardry:basic_ice_wand;0;§bWand of Frost	
+basic_lightning_wand;ebwizardry:basic_lightning_wand;0;Wand of Sparks	
+basic_necromancy_wand;ebwizardry:basic_necromancy_wand;0;Wand of Shadows	
+basic_sorcery_wand;ebwizardry:basic_sorcery_wand;0;§aWand of Mystery	
+blank_scroll;ebwizardry:blank_scroll;0;Blank Scroll	
+blast_upgrade;ebwizardry:blast_upgrade;0;Wand Blast Upgrade	
+condenser_upgrade;ebwizardry:condenser_upgrade;0;Wand Condenser Upgrade	
+cooldown_upgrade;ebwizardry:cooldown_upgrade;0;Wand Cooldown Upgrade	
+crystal_block;ebwizardry:crystal_block;0;Block of Crystal	
+crystal_flower;ebwizardry:crystal_flower;0;Crystal Flower	
+crystal_ore;ebwizardry:crystal_ore;0;Crystal Ore	
+duration_upgrade;ebwizardry:duration_upgrade;0;Wand Duration Upgrade	
+firebomb;ebwizardry:firebomb;0;Firebomb	
+identification_scroll;ebwizardry:identification_scroll;0;Scroll of Identification	
+magic_crystal;ebwizardry:magic_crystal;0;Magic Crystal	
+magic_silk;ebwizardry:magic_silk;0;Magical Silk	
+magic_wand;ebwizardry:magic_wand;0;Magic Wand	
+mana_flask;ebwizardry:mana_flask;0;Mana Flask	
+master_wand;ebwizardry:master_wand;0;Master Wand	
+poison_bomb;ebwizardry:poison_bomb;0;Poison Bomb	
+range_upgrade;ebwizardry:range_upgrade;0;Wand Range Upgrade		
+Scroll_of_Agility;ebwizardry:scroll;39;Scroll of Agility
+Scroll_of_Arc;ebwizardry:scroll;5;Scroll of Arc
+Scroll_of_Arcane_Jammer;ebwizardry:scroll;133;Scroll of Arcane Jammer
+Scroll_of_Arrow_Rain;ebwizardry:scroll;108;Scroll of Arrow Rain
+Scroll_of_Banish;ebwizardry:scroll;116;Scroll of Banish
+Scroll_of_Black_Hole;ebwizardry:scroll;105;Scroll of Black Hole
+Scroll_of_Blink;ebwizardry:scroll;38;Scroll of Blink
+Scroll_of_Blizzard;ebwizardry:scroll;54;Scroll of Blizzard
+Scroll_of_Bubble;ebwizardry:scroll;34;Scroll of Bubble
+Scroll_of_Chain_Lightning;ebwizardry:scroll;60;Scroll of Chain Lightning
+Scroll_of_Clairvoyance;ebwizardry:scroll;119;Scroll of Clairvoyance
+Scroll_of_Cobwebs;ebwizardry:scroll;131;Scroll of Cobwebs
+Scroll_of_Conjure_Armor;ebwizardry:scroll;134;Scroll of Conjure Armor
+Scroll_of_Conjure_Bow;ebwizardry:scroll;42;Scroll of Conjure Bow
+Scroll_of_Conjure_Pickaxe;ebwizardry:scroll;41;Scroll of Conjure Pickaxe
+Scroll_of_Conjure_Sword;ebwizardry:scroll;40;Scroll of Conjure Sword
+Scroll_of_Cure_Effects;ebwizardry:scroll;46;Scroll of Cure Effects
+Scroll_of_Curse_of_Soulbinding;ebwizardry:scroll;130;Scroll of Curse of Soulbinding
+Scroll_of_Darkness_Orb;ebwizardry:scroll;69;Scroll of Darkness Orb
+Scroll_of_Darkvision;ebwizardry:scroll;118;Scroll of Darkvision
+Scroll_of_Dart;ebwizardry:scroll;9;Scroll of Dart
+Scroll_of_Decay;ebwizardry:scroll;71;Scroll of Decay
+Scroll_of_Decoy;ebwizardry:scroll;132;Scroll of Decoy
+Scroll_of_Detonate;ebwizardry:scroll;50;Scroll of Detonate
+Scroll_of_Diamondflesh;ebwizardry:scroll;109;Scroll of Diamondflesh
+Scroll_of_Earthquake;ebwizardry:scroll;139;Scroll of Earthquake
+Scroll_of_Entrapment;ebwizardry:scroll;67;Scroll of Entrapment
+Scroll_of_Fire_Resistance;ebwizardry:scroll;51;Scroll of Fire Resistance
+Scroll_of_Fire_Sigil;ebwizardry:scroll;16;Scroll of Fire Sigil
+Scroll_of_Fireball;ebwizardry:scroll;13;Scroll of Fireball
+Scroll_of_Firebolt;ebwizardry:scroll;17;Scroll of Firebolt
+Scroll_of_Firebomb;ebwizardry:scroll;15;Scroll of Firebomb
+Scroll_of_Fireskin;ebwizardry:scroll;52;Scroll of Fireskin
+Scroll_of_Flaming_Axe;ebwizardry:scroll;53;Scroll of Flaming Axe
+Scroll_of_Flaming_Weapon;ebwizardry:scroll;125;Scroll of Flaming Weapon
+Scroll_of_Font_of_Mana;ebwizardry:scroll;140;Scroll of Font of Mana
+Scroll_of_Font_of_Vitality;ebwizardry:scroll;110;Scroll of Font of Vitality
+Scroll_of_Force_Arrow;ebwizardry:scroll;43;Scroll of Force Arrow
+Scroll_of_Force_Orb;ebwizardry:scroll;81;Scroll of Force Orb
+Scroll_of_Forcefield;ebwizardry:scroll;88;Scroll of Forcefield
+Scroll_of_Forest's_Curse;ebwizardry:scroll;102;Scroll of Forest's Curse
+Scroll_of_Freeze;ebwizardry:scroll;3;Scroll of Freeze
+Scroll_of_Freezing_Weapon;ebwizardry:scroll;127;Scroll of Freezing Weapon
+Scroll_of_Frost_Axe;ebwizardry:scroll;58;Scroll of Frost Axe
+Scroll_of_Frost_Sigil;ebwizardry:scroll;22;Scroll of Frost Sigil
+Scroll_of_Greater_Fireball;ebwizardry:scroll;124;Scroll of Greater Fireball
+Scroll_of_Greater_Heal;ebwizardry:scroll;86;Scroll of Greater Heal
+Scroll_of_Group_Heal;ebwizardry:scroll;135;Scroll of Group Heal
+Scroll_of_Growth_Aura;ebwizardry:scroll;33;Scroll of Growth Aura
+Scroll_of_Hailstorm;ebwizardry:scroll;136;Scroll of Hailstorm
+Scroll_of_Heal_Ally;ebwizardry:scroll;47;Scroll of Heal Ally
+Scroll_of_Heal;ebwizardry:scroll;12;Scroll of Heal
+Scroll_of_Healing_Aura;ebwizardry:scroll;87;Scroll of Healing Aura
+Scroll_of_Homing_Spark;ebwizardry:scroll;25;Scroll of Homing Spark
+Scroll_of_Ice_Age;ebwizardry:scroll;94;Scroll of Ice Age
+Scroll_of_Ice_Charge;ebwizardry:scroll;57;Scroll of Ice Charge
+Scroll_of_Ice_Lance;ebwizardry:scroll;126;Scroll of Ice Lance
+Scroll_of_Ice_Shard;ebwizardry:scroll;20;Scroll of Ice Shard
+Scroll_of_Ice_Shroud;ebwizardry:scroll;56;Scroll of Ice Shroud
+Scroll_of_Ice_Spikes;ebwizardry:scroll;128;Scroll of Ice Spikes
+Scroll_of_Ice_Statue;ebwizardry:scroll;21;Scroll of Ice Statue
+Scroll_of_Ignite;ebwizardry:scroll;2;Scroll of Ignite
+Scroll_of_Imbue_Weapon;ebwizardry:scroll;121;Scroll of Imbue Weapon
+Scroll_of_Intimidate;ebwizardry:scroll;115;Scroll of Intimidate
+Scroll_of_Invigorating_Presence;ebwizardry:scroll;122;Scroll of Invigorating Presence
+Scroll_of_Invisibility;ebwizardry:scroll;79;Scroll of Invisibility
+Scroll_of_Invoke_Weather;ebwizardry:scroll;59;Scroll of Invoke Weather
+Scroll_of_Ironflesh;ebwizardry:scroll;89;Scroll of Ironflesh
+Scroll_of_Leap;ebwizardry:scroll;113;Scroll of Leap
+Scroll_of_Light;ebwizardry:scroll;10;Scroll of Light
+Scroll_of_Lightning_Arrow;ebwizardry:scroll;27;Scroll of Lightning Arrow
+Scroll_of_Lightning_Bolt;ebwizardry:scroll;61;Scroll of Lightning Bolt
+Scroll_of_Lightning_Disk;ebwizardry:scroll;64;Scroll of Lightning Disk
+Scroll_of_Lightning_Hammer;ebwizardry:scroll;98;Scroll of Lightning Hammer
+Scroll_of_Lightning_Pulse;ebwizardry:scroll;129;Scroll of Lightning Pulse
+Scroll_of_Lightning_Sigil;ebwizardry:scroll;26;Scroll of Lightning Sigil
+Scroll_of_Magic_Missile;ebwizardry:scroll;1;Scroll of Magic Missile
+Scroll_of_Metamorphosis;ebwizardry:scroll;30;Scroll of Metamorphosis
+Scroll_of_Meteor;ebwizardry:scroll;91;Scroll of Meteor
+Scroll_of_Mind_Control;ebwizardry:scroll;65;Scroll of Mind Control
+Scroll_of_Mind_Trick;ebwizardry:scroll;112;Scroll of Mind Trick
+Scroll_of_Oakflesh;ebwizardry:scroll;123;Scroll of Oakflesh
+Scroll_of_Petrify;ebwizardry:scroll;78;Scroll of Petrify
+Scroll_of_Phase_Step;ebwizardry:scroll;84;Scroll of Phase Step
+Scroll_of_Plague_of_Darkness;ebwizardry:scroll;99;Scroll of Plague of Darkness
+Scroll_of_Pocket_Furnace;ebwizardry:scroll;114;Scroll of Pocket Furnace
+Scroll_of_Pocket_Workbench;ebwizardry:scroll;120;Scroll of Pocket Workbench
+Scroll_of_Poison_Bomb;ebwizardry:scroll;36;Scroll of Poison Bomb
+Scroll_of_Poison;ebwizardry:scroll;32;Scroll of Poison
+Scroll_of_Replenish_Hunger;ebwizardry:scroll;45;Scroll of Replenish Hunger
+Scroll_of_Ring_of_Fire;ebwizardry:scroll;49;Scroll of Ring of Fire
+Scroll_of_Shockwave;ebwizardry:scroll;106;Scroll of Shockwave
+Scroll_of_Silverfish_Swarm;ebwizardry:scroll;104;Scroll of Silverfish Swarm
+Scroll_of_Sixth_Sense;ebwizardry:scroll;117;Scroll of Sixth Sense
+Scroll_of_Slime;ebwizardry:scroll;77;Scroll of Slime
+Scroll_of_Smoke_Bomb;ebwizardry:scroll;111;Scroll of Smoke Bomb
+Scroll_of_Snare;ebwizardry:scroll;8;Scroll of Snare
+Scroll_of_Snowball;ebwizardry:scroll;4;Scroll of Snowball
+Scroll_of_Spark_Bomb;ebwizardry:scroll;24;Scroll of Spark Bomb
+Scroll_of_Spectral_Pathway;ebwizardry:scroll;83;Scroll of Spectral Pathway
+Scroll_of_Spider_Swarm;ebwizardry:scroll;76;Scroll of Spider Swarm
+Scroll_of_Static_Aura;ebwizardry:scroll;63;Scroll of Static Aura
+Scroll_of_Summon_Blaze;ebwizardry:scroll;48;Scroll of Summon Blaze
+Scroll_of_Summon_Ice_Giant;ebwizardry:scroll;96;Scroll of Summon Ice Giant
+Scroll_of_Summon_Ice_Wraith;ebwizardry:scroll;55;Scroll of Summon Ice Wraith
+Scroll_of_Summon_Iron_Golem;ebwizardry:scroll;107;Scroll of Summon Iron Golem
+Scroll_of_Summon_Lightning_Wraith;ebwizardry:scroll;62;Scroll of Summon Lightning Wraith
+Scroll_of_Summon_Phoenix;ebwizardry:scroll;93;Scroll of Summon Phoenix
+Scroll_of_Summon_Shadow_Wraith;ebwizardry:scroll;101;Scroll of Summon Shadow Wraith
+Scroll_of_Summon_Skeleton_Legion;ebwizardry:scroll;100;Scroll of Summon Skeleton Legion
+Scroll_of_Summon_Skeleton;ebwizardry:scroll;29;Scroll of Summon Skeleton
+Scroll_of_Summon_Snow_Golem;ebwizardry:scroll;19;Scroll of Summon Snow Golem
+Scroll_of_Summon_Spirit_Horse;ebwizardry:scroll;75;Scroll of Summon Spirit Horse
+Scroll_of_Summon_Spirit_Wolf;ebwizardry:scroll;37;Scroll of Summon Spirit Wolf
+Scroll_of_Summon_Storm_Elemental;ebwizardry:scroll;138;Scroll of Summon Storm Elemental
+Scroll_of_Summon_Wither_Skeleton;ebwizardry:scroll;66;Scroll of Summon Wither Skeleton
+Scroll_of_Summon_Zombie;ebwizardry:scroll;7;Scroll of Summon Zombie
+Scroll_of_Telekinesis;ebwizardry:scroll;11;Scroll of Telekinesis
+Scroll_of_Thunderbolt;ebwizardry:scroll;6;Scroll of Thunderbolt
+Scroll_of_Thunderstorm;ebwizardry:scroll;97;Scroll of Thunderstorm
+Scroll_of_Tornado;ebwizardry:scroll;73;Scroll of Tornado
+Scroll_of_Transience;ebwizardry:scroll;90;Scroll of Transience
+Scroll_of_Transportation;ebwizardry:scroll;82;Scroll of Transportation
+Scroll_of_Vanishing_Box;ebwizardry:scroll;85;Scroll of Vanishing Box
+Scroll_of_Water_Breathing;ebwizardry:scroll;72;Scroll of Water Breathing
+Scroll_of_Whirlwind;ebwizardry:scroll;35;Scroll of Whirlwind
+Scroll_of_Wither_Skull;ebwizardry:scroll;68;Scroll of Wither Skull
+Scroll_of_Wither;ebwizardry:scroll;31;Scroll of Wither
+siphon_upgrade;ebwizardry:siphon_upgrade;0;Wand Siphon Upgrade	
+smoke_bomb;ebwizardry:smoke_bomb;0;Smoke Bomb	
+spell_book;ebwizardry:spell_book;1;Spell Book	
+spell_book;ebwizardry:spell_book;2;Spell Book	
+spell_book;ebwizardry:spell_book;3;Spell Book	
+spell_book;ebwizardry:spell_book;4;Spell Book	
+spell_book;ebwizardry:spell_book;5;Spell Book	
+spell_book;ebwizardry:spell_book;6;Spell Book	
+spell_book;ebwizardry:spell_book;7;Spell Book	
+spell_book;ebwizardry:spell_book;8;Spell Book	
+spell_book;ebwizardry:spell_book;9;Spell Book	
+spell_book;ebwizardry:spell_book;10;Spell Book	
+spell_book;ebwizardry:spell_book;11;Spell Book	
+spell_book;ebwizardry:spell_book;12;Spell Book	
+spell_book;ebwizardry:spell_book;13;Spell Book	
+spell_book;ebwizardry:spell_book;14;Spell Book	
+spell_book;ebwizardry:spell_book;15;Spell Book	
+spell_book;ebwizardry:spell_book;16;Spell Book	
+spell_book;ebwizardry:spell_book;17;Spell Book	
+spell_book;ebwizardry:spell_book;18;Spell Book	
+spell_book;ebwizardry:spell_book;19;Spell Book	
+spell_book;ebwizardry:spell_book;20;Spell Book	
+spell_book;ebwizardry:spell_book;21;Spell Book	
+spell_book;ebwizardry:spell_book;22;Spell Book	
+spell_book;ebwizardry:spell_book;23;Spell Book	
+spell_book;ebwizardry:spell_book;24;Spell Book	
+spell_book;ebwizardry:spell_book;25;Spell Book	
+spell_book;ebwizardry:spell_book;26;Spell Book	
+spell_book;ebwizardry:spell_book;27;Spell Book	
+spell_book;ebwizardry:spell_book;28;Spell Book	
+spell_book;ebwizardry:spell_book;29;Spell Book	
+spell_book;ebwizardry:spell_book;30;Spell Book	
+spell_book;ebwizardry:spell_book;31;Spell Book	
+spell_book;ebwizardry:spell_book;32;Spell Book	
+spell_book;ebwizardry:spell_book;33;Spell Book	
+spell_book;ebwizardry:spell_book;34;Spell Book	
+spell_book;ebwizardry:spell_book;35;Spell Book	
+spell_book;ebwizardry:spell_book;36;Spell Book	
+spell_book;ebwizardry:spell_book;37;Spell Book	
+spell_book;ebwizardry:spell_book;38;Spell Book	
+spell_book;ebwizardry:spell_book;39;Spell Book	
+spell_book;ebwizardry:spell_book;40;Spell Book	
+spell_book;ebwizardry:spell_book;41;Spell Book	
+spell_book;ebwizardry:spell_book;42;Spell Book	
+spell_book;ebwizardry:spell_book;43;Spell Book	
+spell_book;ebwizardry:spell_book;44;Spell Book	
+spell_book;ebwizardry:spell_book;45;Spell Book	
+spell_book;ebwizardry:spell_book;46;Spell Book	
+spell_book;ebwizardry:spell_book;47;Spell Book	
+spell_book;ebwizardry:spell_book;48;Spell Book	
+spell_book;ebwizardry:spell_book;49;Spell Book	
+spell_book;ebwizardry:spell_book;50;Spell Book	
+spell_book;ebwizardry:spell_book;51;Spell Book	
+spell_book;ebwizardry:spell_book;52;Spell Book	
+spell_book;ebwizardry:spell_book;53;Spell Book	
+spell_book;ebwizardry:spell_book;54;Spell Book	
+spell_book;ebwizardry:spell_book;55;Spell Book	
+spell_book;ebwizardry:spell_book;56;Spell Book	
+spell_book;ebwizardry:spell_book;57;Spell Book	
+spell_book;ebwizardry:spell_book;58;Spell Book	
+spell_book;ebwizardry:spell_book;59;Spell Book	
+spell_book;ebwizardry:spell_book;60;Spell Book	
+spell_book;ebwizardry:spell_book;61;Spell Book	
+spell_book;ebwizardry:spell_book;62;Spell Book	
+spell_book;ebwizardry:spell_book;63;Spell Book	
+spell_book;ebwizardry:spell_book;64;Spell Book	
+spell_book;ebwizardry:spell_book;65;Spell Book	
+spell_book;ebwizardry:spell_book;66;Spell Book	
+spell_book;ebwizardry:spell_book;67;Spell Book	
+spell_book;ebwizardry:spell_book;68;Spell Book	
+spell_book;ebwizardry:spell_book;69;Spell Book	
+spell_book;ebwizardry:spell_book;70;Spell Book	
+spell_book;ebwizardry:spell_book;71;Spell Book	
+spell_book;ebwizardry:spell_book;72;Spell Book	
+spell_book;ebwizardry:spell_book;73;Spell Book	
+spell_book;ebwizardry:spell_book;74;Spell Book	
+spell_book;ebwizardry:spell_book;75;Spell Book	
+spell_book;ebwizardry:spell_book;76;Spell Book	
+spell_book;ebwizardry:spell_book;77;Spell Book	
+spell_book;ebwizardry:spell_book;78;Spell Book	
+spell_book;ebwizardry:spell_book;79;Spell Book	
+spell_book;ebwizardry:spell_book;80;Spell Book	
+spell_book;ebwizardry:spell_book;81;Spell Book	
+spell_book;ebwizardry:spell_book;82;Spell Book	
+spell_book;ebwizardry:spell_book;83;Spell Book	
+spell_book;ebwizardry:spell_book;84;Spell Book	
+spell_book;ebwizardry:spell_book;85;Spell Book	
+spell_book;ebwizardry:spell_book;86;Spell Book	
+spell_book;ebwizardry:spell_book;87;Spell Book	
+spell_book;ebwizardry:spell_book;88;Spell Book	
+spell_book;ebwizardry:spell_book;89;Spell Book	
+spell_book;ebwizardry:spell_book;90;Spell Book	
+spell_book;ebwizardry:spell_book;91;Spell Book	
+spell_book;ebwizardry:spell_book;92;Spell Book	
+spell_book;ebwizardry:spell_book;93;Spell Book	
+spell_book;ebwizardry:spell_book;94;Spell Book	
+spell_book;ebwizardry:spell_book;95;Spell Book	
+spell_book;ebwizardry:spell_book;96;Spell Book	
+spell_book;ebwizardry:spell_book;97;Spell Book	
+spell_book;ebwizardry:spell_book;98;Spell Book	
+spell_book;ebwizardry:spell_book;99;Spell Book	
+spell_book;ebwizardry:spell_book;100;Spell Book	
+spell_book;ebwizardry:spell_book;101;Spell Book	
+spell_book;ebwizardry:spell_book;102;Spell Book	
+spell_book;ebwizardry:spell_book;103;Spell Book	
+spell_book;ebwizardry:spell_book;104;Spell Book	
+spell_book;ebwizardry:spell_book;105;Spell Book	
+spell_book;ebwizardry:spell_book;106;Spell Book	
+spell_book;ebwizardry:spell_book;107;Spell Book	
+spell_book;ebwizardry:spell_book;108;Spell Book	
+spell_book;ebwizardry:spell_book;109;Spell Book	
+spell_book;ebwizardry:spell_book;110;Spell Book	
+spell_book;ebwizardry:spell_book;111;Spell Book	
+spell_book;ebwizardry:spell_book;112;Spell Book	
+spell_book;ebwizardry:spell_book;113;Spell Book	
+spell_book;ebwizardry:spell_book;114;Spell Book	
+spell_book;ebwizardry:spell_book;115;Spell Book	
+spell_book;ebwizardry:spell_book;116;Spell Book	
+spell_book;ebwizardry:spell_book;117;Spell Book	
+spell_book;ebwizardry:spell_book;118;Spell Book	
+spell_book;ebwizardry:spell_book;119;Spell Book	
+spell_book;ebwizardry:spell_book;120;Spell Book	
+spell_book;ebwizardry:spell_book;121;Spell Book	
+spell_book;ebwizardry:spell_book;122;Spell Book	
+spell_book;ebwizardry:spell_book;123;Spell Book	
+spell_book;ebwizardry:spell_book;124;Spell Book	
+spell_book;ebwizardry:spell_book;125;Spell Book	
+spell_book;ebwizardry:spell_book;126;Spell Book	
+spell_book;ebwizardry:spell_book;127;Spell Book	
+spell_book;ebwizardry:spell_book;128;Spell Book	
+spell_book;ebwizardry:spell_book;129;Spell Book	
+spell_book;ebwizardry:spell_book;130;Spell Book	
+spell_book;ebwizardry:spell_book;131;Spell Book	
+spell_book;ebwizardry:spell_book;132;Spell Book	
+spell_book;ebwizardry:spell_book;133;Spell Book	
+spell_book;ebwizardry:spell_book;134;Spell Book	
+spell_book;ebwizardry:spell_book;135;Spell Book	
+spell_book;ebwizardry:spell_book;136;Spell Book	
+spell_book;ebwizardry:spell_book;137;Spell Book	
+spell_book;ebwizardry:spell_book;138;Spell Book	
+spell_book;ebwizardry:spell_book;139;Spell Book	
+spell_book;ebwizardry:spell_book;140;Spell Book	
+storage_upgrade;ebwizardry:storage_upgrade;0;Wand Storage Upgrade	
+transportation_stone;ebwizardry:transportation_stone;0;Stone of Transportation	
+wizard_boots;ebwizardry:wizard_boots;0;Wizard Boots	
+wizard_boots_earth;ebwizardry:wizard_boots_earth;0;Earth Mage Boots	
+wizard_boots_fire;ebwizardry:wizard_boots_fire;0;Pyromancer Boots	
+wizard_boots_healing;ebwizardry:wizard_boots_healing;0;§eHealer Boots	
+wizard_boots_ice;ebwizardry:wizard_boots_ice;0;§bIce Mage Boots	
+wizard_boots_lightning;ebwizardry:wizard_boots_lightning;0;Storm Mage Boots	
+wizard_boots_necromancy;ebwizardry:wizard_boots_necromancy;0;Necromancer Boots	
+wizard_boots_sorcery;ebwizardry:wizard_boots_sorcery;0;§aSorcerer Boots	
+wizard_handbook;ebwizardry:wizard_handbook;0;The Wizard's Handbook	
+wizard_hat;ebwizardry:wizard_hat;0;Wizard Hat	
+wizard_hat_earth;ebwizardry:wizard_hat_earth;0;Earth Mage Hat	
+wizard_hat_fire;ebwizardry:wizard_hat_fire;0;Pyromancer Hat	
+wizard_hat_healing;ebwizardry:wizard_hat_healing;0;§eHealer Hat	
+wizard_hat_ice;ebwizardry:wizard_hat_ice;0;§bIce Mage Hat	
+wizard_hat_lightning;ebwizardry:wizard_hat_lightning;0;Storm Mage Hat	
+wizard_hat_necromancy;ebwizardry:wizard_hat_necromancy;0;Necromancer Hat	
+wizard_hat_sorcery;ebwizardry:wizard_hat_sorcery;0;§aSorcerer Hat	
+wizard_leggings;ebwizardry:wizard_leggings;0;Wizard Leggings	
+wizard_leggings_earth;ebwizardry:wizard_leggings_earth;0;Earth Mage Leggings	
+wizard_leggings_fire;ebwizardry:wizard_leggings_fire;0;Pyromancer Leggings	
+wizard_leggings_healing;ebwizardry:wizard_leggings_healing;0;§eHealer Leggings	
+wizard_leggings_ice;ebwizardry:wizard_leggings_ice;0;§bIce Mage Leggings	
+wizard_leggings_lightning;ebwizardry:wizard_leggings_lightning;0;Storm Mage Leggings	
+wizard_leggings_necromancy;ebwizardry:wizard_leggings_necromancy;0;Necromancer Leggings	
+wizard_leggings_sorcery;ebwizardry:wizard_leggings_sorcery;0;§aSorcerer Leggings	
+wizard_robe;ebwizardry:wizard_robe;0;Wizard Robes	
+wizard_robe_earth;ebwizardry:wizard_robe_earth;0;Earth Mage Robes	
+wizard_robe_fire;ebwizardry:wizard_robe_fire;0;Pyromancer Robes	
+wizard_robe_healing;ebwizardry:wizard_robe_healing;0;§eHealer Robes	
+wizard_robe_ice;ebwizardry:wizard_robe_ice;0;§bIce Mage Robes	
+wizard_robe_lightning;ebwizardry:wizard_robe_lightning;0;Storm Mage Robes	
+wizard_robe_necromancy;ebwizardry:wizard_robe_necromancy;0;Necromancer Robes	
+wizard_robe_sorcery;ebwizardry:wizard_robe_sorcery;0;§aSorcerer Robes	
+randomizer_bag;effortlessbuilding:randomizer_bag;0;Randomizer Bag	
+reach_upgrade1;effortlessbuilding:reach_upgrade1;0;Reach Upgrade 1	
+reach_upgrade2;effortlessbuilding:reach_upgrade2;0;Reach Upgrade 2	
+reach_upgrade3;effortlessbuilding:reach_upgrade3;0;Reach Upgrade 3	
+enchanted_broom;flying_things:enchanted_broom;0;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;1;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;2;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;3;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;4;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;5;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;6;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;7;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;8;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;9;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;10;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;11;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;12;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;13;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;14;Enchanted Broom	
+enchanted_broom;flying_things:enchanted_broom;15;Enchanted Broom	
+magic_carpet;flying_things:magic_carpet;0;Magic Carpet	
+magic_carpet;flying_things:magic_carpet;1;Magic Carpet	
+magic_carpet;flying_things:magic_carpet;2;Magic Carpet	
+magic_carpet;flying_things:magic_carpet;3;Magic Carpet	
+magic_carpet;flying_things:magic_carpet;4;Magic Carpet	
+magic_carpet;flying_things:magic_carpet;5;Magic Carpet	
+magic_carpet;flying_things:magic_carpet;6;Magic Carpet	
+magic_carpet;flying_things:magic_carpet;7;Magic Carpet	
+magic_carpet;flying_things:magic_carpet;8;Magic Carpet	
+magic_carpet;flying_things:magic_carpet;9;Halloween Carpet	
+magic_carpet;flying_things:magic_carpet;10;Halloween Carpet	
+magic_carpet;flying_things:magic_carpet;11;Halloween Carpet	
+magic_carpet;flying_things:magic_carpet;12;Halloween Carpet	
+magic_carpet;flying_things:magic_carpet;13;Halloween Carpet	
+phial_of_animation;flying_things:phial_of_animation;0;Phial of Animation	
+pumpkin_stick;flying_things:pumpkin_stick;0;Halloween Stick	
+bucketfilled;forge:bucketfilled;0;{FluidName:"oliveoil",Amount:1000}	Olive Oil Bucket	
+bucketfilled;forge:bucketfilled;0;{FluidName:"ironberryjuice",Amount:1000}	Ironberry Juice Bucket	
+bucketfilled;forge:bucketfilled;0;{FluidName:"wildberryjuice",Amount:1000}	Wildberry Juice Bucket	
+bucketfilled;forge:bucketfilled;0;{FluidName:"grapejuice",Amount:1000}	Grape Juice Bucket	
+bucketfilled;forge:bucketfilled;0;{FluidName:"applejuice",Amount:1000}	Apple Juice Bucket	
+bucketfilled;forge:bucketfilled;0;{FluidName:"alewort",Amount:1000}	Ale Wort Bucket	
+bucketfilled;forge:bucketfilled;0;{FluidName:"honey",Amount:1000}	Honey Bucket	
+bucketfilled;forge:bucketfilled;0;{FluidName:"fierymetal",Amount:1000}	Molten Fiery Bucket	
+bucketfilled;forge:bucketfilled;0;{FluidName:"knightmetal",Amount:1000}	Molten Knightmetal Bucket	
+bucketfilled;forge:bucketfilled;0;{FluidName:"fiery_essence",Amount:1000}	Fiery Essence Bucket	
+floopowder_eight;ftfloocraft:floopowder_eight;0;Floo Powder	
+floopowder_four;ftfloocraft:floopowder_four;0;Floo Powder	
+floopowder_infinite;ftfloocraft:floopowder_infinite;0;Floo Powder	
+floopowder_one;ftfloocraft:floopowder_one;0;Floo Powder	
+floopowder_two;ftfloocraft:floopowder_two;0;Floo Powder	
+flootorch;ftfloocraft:flootorch;0;Floo Torch	
+floowerpot;ftfloocraft:floowerpot;0;Floower Pot	
+itemfloosign;ftfloocraft:itemfloosign;0;Floo Sign	
+aloe_vera;rustic:aloe_vera;0;Aloe Vera	
+andesite_pillar;rustic:andesite_pillar;0;Andesite Pillar	
+apiary;rustic:apiary;0;Apiary	
+apple_seeds;rustic:apple_seeds;0;Apple Seeds	
+barrel;rustic:barrel;0;Barrel	
+bee;rustic:bee;0;Bee	
+beehive;rustic:beehive;0;Beehive	
+beeswax;rustic:beeswax;0;Beeswax	
+blood_orchid;rustic:blood_orchid;0;Blood Orchid	
+book;rustic:book;0;Almanac	
+brewing_barrel;rustic:brewing_barrel;0;Brewing Barrel	
+cabinet;rustic:cabinet;0;Cabinet	
+candle;rustic:candle;0;Iron Candle	
+candle_gold;rustic:candle_gold;0;Golden Candle	
+chain;rustic:chain;0;Iron Chain	
+chain_gold;rustic:chain_gold;0;Golden Chain	
+chair_acacia;rustic:chair_acacia;0;Acacia Chair	
+chair_big_oak;rustic:chair_big_oak;0;Dark Oak Chair	
+chair_birch;rustic:chair_birch;0;Birch Chair	
+chair_ironwood;rustic:chair_ironwood;0;Ironwood Chair	
+chair_jungle;rustic:chair_jungle;0;Jungle Chair	
+chair_oak;rustic:chair_oak;0;Oak Chair	
+chair_olive;rustic:chair_olive;0;Olive Wood Chair	
+chair_spruce;rustic:chair_spruce;0;Spruce Chair	
+chamomile;rustic:chamomile;0;Chamomile	
+chandelier;rustic:chandelier;0;Iron Chandelier Ring	
+chandelier_gold;rustic:chandelier_gold;0;Golden Chandelier Ring	
+chili_pepper;rustic:chili_pepper;0;Chili Pepper	
+chili_pepper_seeds;rustic:chili_pepper_seeds;0;Chili Pepper Seeds	
+clay_wall;rustic:clay_wall;0;Clay Wall	
+clay_wall_cross;rustic:clay_wall_cross;0;Crossed Clay Wall	
+clay_wall_diag;rustic:clay_wall_diag;0;Diagonal Clay Wall	
+cloudsbluff;rustic:cloudsbluff;0;Cloudsbluff	
+cohosh;rustic:cohosh;0;Cohosh	
+condenser;rustic:condenser;0;Alchemic Condenser	
+condenser_advanced;rustic:condenser_advanced;0;Advanced Alchemic Condenser	
+core_root;rustic:core_root;0;Core Root	
+crop_stake;rustic:crop_stake;0;Wooden Stake	
+crushing_tub;rustic:crushing_tub;0;Crushing Tub	
+deathstalk_mushroom;rustic:deathstalk_mushroom;0;Deathstalk Mushroom	
+diorite_pillar;rustic:diorite_pillar;0;Diorite Pillar	
+dust_tiny_iron;rustic:dust_tiny_iron;0;Tiny Pile of Iron Dust	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:instant_health",Duration:1,Amplifier:0}]}	Elixir of Instant Health	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:instant_health",Duration:1,Amplifier:1}]}	Elixir of Instant Health	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:regeneration",Duration:900,Amplifier:0}]}	Elixir of Regeneration	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:regeneration",Duration:1800,Amplifier:0}]}	Elixir of Regeneration	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:regeneration",Duration:450,Amplifier:1}]}	Elixir of Regeneration	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:wither",Duration:900,Amplifier:0}]}	Elixir of Wither	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:wither",Duration:1800,Amplifier:0}]}	Elixir of Wither	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:wither",Duration:450,Amplifier:1}]}	Elixir of Wither	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:night_vision",Duration:3600,Amplifier:0}]}	Elixir of Night Vision	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:night_vision",Duration:9600,Amplifier:0}]}	Elixir of Night Vision	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:speed",Duration:3600,Amplifier:0}]}	Elixir of Speed	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:speed",Duration:9600,Amplifier:0}]}	Elixir of Speed	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:speed",Duration:1800,Amplifier:1}]}	Elixir of Speed	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:fire_resistance",Duration:3600,Amplifier:0}]}	Elixir of Fire Resistance	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:fire_resistance",Duration:9600,Amplifier:0}]}	Elixir of Fire Resistance	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:health_boost",Duration:3600,Amplifier:0}]}	Elixir of Health Boost	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:health_boost",Duration:9600,Amplifier:0}]}	Elixir of Health Boost	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:health_boost",Duration:1800,Amplifier:1}]}	Elixir of Health Boost	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:haste",Duration:3600,Amplifier:0}]}	Elixir of Haste	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:haste",Duration:9600,Amplifier:0}]}	Elixir of Haste	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:haste",Duration:1800,Amplifier:1}]}	Elixir of Haste	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:strength",Duration:3600,Amplifier:0}]}	Elixir of Strength	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:strength",Duration:9600,Amplifier:0}]}	Elixir of Strength	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"minecraft:strength",Duration:1800,Amplifier:1}]}	Elixir of Strength	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"rustic:ironskin",Duration:3600,Amplifier:0}]}	Elixir of Iron Skin	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"rustic:ironskin",Duration:9600,Amplifier:0}]}	Elixir of Iron Skin	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"rustic:ironskin",Duration:1800,Amplifier:1}]}	Elixir of Iron Skin	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"rustic:feather",Duration:3600,Amplifier:0}]}	Elixir of Feather	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"rustic:feather",Duration:9600,Amplifier:0}]}	Elixir of Feather	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"rustic:blazing_trail",Duration:3600,Amplifier:0}]}	Elixir of Blazing Trail	
+elixir;rustic:elixir;0;{ElixirEffects:[{Effect:"rustic:blazing_trail",Duration:9600,Amplifier:0}]}	Elixir of Blazing Trail	
+evaporating_basin;rustic:evaporating_basin;0;Drying Basin	
+fence_gate_ironwood;rustic:fence_gate_ironwood;0;Ironwood Fence Gate	
+fence_gate_olive;rustic:fence_gate_olive;0;Olive Wood Fence Gate	
+fence_ironwood;rustic:fence_ironwood;0;Ironwood Fence	
+fence_olive;rustic:fence_olive;0;Olive Wood Fence	
+fertile_soil;rustic:fertile_soil;0;Fertile Soil	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"oliveoil",Amount:1000}}	Bottle of Olive Oil	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"ironberryjuice",Amount:1000}}	Bottle of Ironberry Juice	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"wildberryjuice",Amount:1000}}	Bottle of Wildberry Juice	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"grapejuice",Amount:1000}}	Bottle of Grape Juice	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"applejuice",Amount:1000}}	Bottle of Apple Juice	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"alewort",Amount:1000}}	Bottle of Ale Wort	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"honey",Amount:1000}}	Bottle of Honey	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"ale",Amount:1000,Tag:{Quality:0.75f}}}	Bottle of Ale	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"cider",Amount:1000,Tag:{Quality:0.75f}}}	Bottle of Cider	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"ironwine",Amount:1000,Tag:{Quality:0.75f}}}	Bottle of Iron Wine	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"mead",Amount:1000,Tag:{Quality:0.75f}}}	Bottle of Mead	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"wildberrywine",Amount:1000,Tag:{Quality:0.75f}}}	Bottle of Wildberry Wine	
+fluid_bottle;rustic:fluid_bottle;0;{Fluid:{FluidName:"wine",Amount:1000,Tag:{Quality:0.75f}}}	Bottle of Wine	
+gargoyle;rustic:gargoyle;0;Gargoyle	
+ginseng;rustic:ginseng;0;Ginseng Root	
+golden_lantern;rustic:golden_lantern;0;Golden Lantern	
+granite_pillar;rustic:granite_pillar;0;Granite Pillar	
+grape_stem;rustic:grape_stem;0;Grape Seeds	
+grapes;rustic:grapes;0;Grapes	
+honeycomb;rustic:honeycomb;0;Honeycomb	
+horsetail;rustic:horsetail;0;Horsetail	
+iron_lantern;rustic:iron_lantern;0;Iron Lantern	
+iron_lattice;rustic:iron_lattice;0;Iron Lattice	
+ironberries;rustic:ironberries;0;Ironberries	
+ironwood_door;rustic:ironwood_door;0;Ironwood Door	
+ironwood_slab_item;rustic:ironwood_slab_item;0;Ironwood Slab	
+leaves;rustic:leaves;0;Olive Leaves	
+leaves;rustic:leaves;1;Ironwood Leaves	
+leaves_apple;rustic:leaves_apple;0;Apple Leaves	
+liquid_barrel;rustic:liquid_barrel;0;Liquid Barrel	
+log;rustic:log;0;Olive Wood	
+log;rustic:log;1;Ironwood	
+marsh_mallow;rustic:marsh_mallow;0;Marsh Mallow Root	
+mooncap_mushroom;rustic:mooncap_mushroom;0;Mooncap Mushroom	
+olive_door;rustic:olive_door;0;Olive Door	
+olive_slab_item;rustic:olive_slab_item;0;Olive Wood Slab	
+olives;rustic:olives;0;Olives	
+painted_wood_black;rustic:painted_wood_black;0;Black Painted Wood	
+painted_wood_blue;rustic:painted_wood_blue;0;Blue Painted Wood	
+painted_wood_brown;rustic:painted_wood_brown;0;Brown Painted Wood	
+painted_wood_cyan;rustic:painted_wood_cyan;0;Cyan Painted Wood	
+painted_wood_gray;rustic:painted_wood_gray;0;Gray Painted Wood	
+painted_wood_green;rustic:painted_wood_green;0;Green Painted Wood	
+painted_wood_light_blue;rustic:painted_wood_light_blue;0;Light Blue Painted Wood	
+painted_wood_lime;rustic:painted_wood_lime;0;Lime Painted Wood	
+painted_wood_magenta;rustic:painted_wood_magenta;0;Magenta Painted Wood	
+painted_wood_orange;rustic:painted_wood_orange;0;Orange Painted Wood	
+painted_wood_pink;rustic:painted_wood_pink;0;Pink Painted Wood	
+painted_wood_purple;rustic:painted_wood_purple;0;Purple Painted Wood	
+painted_wood_red;rustic:painted_wood_red;0;Red Painted Wood	
+painted_wood_silver;rustic:painted_wood_silver;0;Light Gray Painted Wood	
+painted_wood_white;rustic:painted_wood_white;0;White Painted Wood	
+painted_wood_yellow;rustic:painted_wood_yellow;0;Yellow Painted Wood	
+planks;rustic:planks;0;Olive Wood Planks	
+planks;rustic:planks;1;Ironwood Planks	
+retort;rustic:retort;0;Alchemic Retort	
+retort_advanced;rustic:retort_advanced;0;Advanced Alchemic Retort	
+rope;rustic:rope;0;Rope	
+sapling;rustic:sapling;0;Olive Sapling	
+sapling;rustic:sapling;1;Ironwood Sapling	
+sapling_apple;rustic:sapling_apple;0;Apple Sapling	
+slate;rustic:slate;0;Slate	
+slate_brick;rustic:slate_brick;0;Slate Brick	
+slate_brick_slab_item;rustic:slate_brick_slab_item;0;Slate Brick Slab	
+slate_chiseled;rustic:slate_chiseled;0;Chiseled Slate	
+slate_pillar;rustic:slate_pillar;0;Slate Pillar	
+slate_roof;rustic:slate_roof;0;Slate Roof	
+slate_roof_slab_item;rustic:slate_roof_slab_item;0;Slate Roof Slab	
+slate_tile;rustic:slate_tile;0;Slate Tile	
+stairs_ironwood;rustic:stairs_ironwood;0;Ironwood Stairs	
+stairs_olive;rustic:stairs_olive;0;Olive Wood Stairs	
+stairs_slate_brick;rustic:stairs_slate_brick;0;Slate Brick Stairs	
+stairs_slate_roof;rustic:stairs_slate_roof;0;Slate Roof Stairs	
+stone_pillar;rustic:stone_pillar;0;Stone Pillar	
+table_acacia;rustic:table_acacia;0;Acacia Table	
+table_big_oak;rustic:table_big_oak;0;Dark Oak Table	
+table_birch;rustic:table_birch;0;Birch Table	
+table_ironwood;rustic:table_ironwood;0;Ironwood Table	
+table_jungle;rustic:table_jungle;0;Jungle Table	
+table_oak;rustic:table_oak;0;Oak Table	
+table_olive;rustic:table_olive;0;Olive Wood Table	
+table_spruce;rustic:table_spruce;0;Spruce Table	
+tallow;rustic:tallow;0;Tallow	
+tomato;rustic:tomato;0;Tomato	
+tomato_seeds;rustic:tomato_seeds;0;Tomato Seeds	
+vase;rustic:vase;0;Pot	
+wildberries;rustic:wildberries;0;Wildberries	
+wildberry_bush;rustic:wildberry_bush;0;Wildberry Bush	
+wind_thistle;rustic:wind_thistle;0;Wind Thistle	
+tabularasa;tabula:tabularasa;0;Wax Tablet	
+engraved_stone_block;teutonmaterials:engraved_stone_block;0;Engraved Stone	
+fine_stone_block;teutonmaterials:fine_stone_block;0;Fine Stone	
+old_wood_block;teutonmaterials:old_wood_block;0;Old Wood	
+packed_cobble_block;teutonmaterials:packed_cobble_block;0;Packed Cobble	
+polished_planks_block;teutonmaterials:polished_planks_block;0;Polished Planks	
+polished_stone_block;teutonmaterials:polished_stone_block;0;Polished Stone	
+polished_wood_block;teutonmaterials:polished_wood_block;0;Polished Wood	
+pretzel;teutonmaterials:pretzel;0;Pretzel	
+roggenbrot;teutonmaterials:roggenbrot;0;Roggenbrot	
+teutonic_boots;teutonmaterials:teutonic_boots;0;Teutonic Boots	
+teutonic_chestplate;teutonmaterials:teutonic_chestplate;0;Teutonic Chestplate	
+teutonic_helmet;teutonmaterials:teutonic_helmet;0;Teutonic Full Helm	
+teutonic_leggings;teutonmaterials:teutonic_leggings;0;Teutonic Greaves	
+teutonic_sword;teutonmaterials:teutonic_sword;0;Teutonic Sword	
+alpha_fur;twilightforest:alpha_fur;0;Alpha Yeti Fur	
+arctic_boots;twilightforest:arctic_boots;0;Arctic Boots	
+arctic_chestplate;twilightforest:arctic_chestplate;0;Arctic Jacket	
+arctic_fur;twilightforest:arctic_fur;0;Arctic Fur	
+arctic_helmet;twilightforest:arctic_helmet;0;Arctic Hood	
+arctic_leggings;twilightforest:arctic_leggings;0;Arctic Leggings	
+armor_shard;twilightforest:armor_shard;0;Armor Shard	
+armor_shard_cluster;twilightforest:armor_shard_cluster;0;Armor Shard Cluster	
+aurora_block;twilightforest:aurora_block;0;Aurora Block	
+aurora_pillar;twilightforest:aurora_pillar;0;Aurora Pillar	
+aurora_slab;twilightforest:aurora_slab;0;Aurora Slab	
+auroralized_glass;twilightforest:auroralized_glass;0;Auroralized Glass	
+block_and_chain;twilightforest:block_and_chain;0;Block and Chain	
+block_storage;twilightforest:block_storage;0;Block of Ironwood	
+block_storage;twilightforest:block_storage;1;Block of Fiery Metal	
+block_storage;twilightforest:block_storage;2;Block of Steeleaf	
+block_storage;twilightforest:block_storage;3;Block of Arctic Fur	
+block_storage;twilightforest:block_storage;4;Block of Carminite	
+borer_essence;twilightforest:borer_essence;0;Borer Essence	
+boss_spawner;twilightforest:boss_spawner;0;Naga Spawner	
+burnt_thorns;twilightforest:burnt_thorns;0;Burnt Thorns	
+carminite;twilightforest:carminite;0;Carminite	
+castle_brick;twilightforest:castle_brick;0;Castle Brick	
+castle_brick;twilightforest:castle_brick;1;Worn Castle Brick	
+castle_brick;twilightforest:castle_brick;2;Cracked Castle Brick	
+castle_brick;twilightforest:castle_brick;3;Castle Roof Tile	
+castle_brick;twilightforest:castle_brick;4;Mossy Castle Brick	
+castle_brick;twilightforest:castle_brick;5;Thick Castle Brick	
+castle_door;twilightforest:castle_door;0;Yellow Castle Door	
+castle_door;twilightforest:castle_door;1;Violet Castle Door	
+castle_door;twilightforest:castle_door;2;Pink Castle Door	
+castle_door;twilightforest:castle_door;3;Blue Castle Door	
+castle_pillar;twilightforest:castle_pillar;0;Encased Castle Brick Pillar	
+castle_pillar;twilightforest:castle_pillar;1;Encased Castle Brick Tile	
+castle_pillar;twilightforest:castle_pillar;2;Bold Castle Brick Pillar	
+castle_pillar;twilightforest:castle_pillar;3;Bold Castle Brick Tiles	
+castle_rune_brick;twilightforest:castle_rune_brick;0;Pink Castle Rune Brick	
+castle_rune_brick;twilightforest:castle_rune_brick;1;Blue Castle Rune Brick	
+castle_rune_brick;twilightforest:castle_rune_brick;2;Yellow Castle Rune Brick	
+castle_rune_brick;twilightforest:castle_rune_brick;3;Violet Castle Rune Brick	
+castle_stairs;twilightforest:castle_stairs;0;Encased Castle Brick Stairs	
+castle_stairs;twilightforest:castle_stairs;8;Bold Castle Brick Stairs	
+castle_stairs_brick;twilightforest:castle_stairs_brick;0;Castle Brick Stairs	
+castle_stairs_cracked;twilightforest:castle_stairs_cracked;0;Cracked Castle Brick Stairs	
+castle_stairs_mossy;twilightforest:castle_stairs_mossy;0;Mossy Castle Brick Stairs	
+castle_stairs_worn;twilightforest:castle_stairs_worn;0;Worn Castle Brick Stairs	
+charm_of_keeping_1;twilightforest:charm_of_keeping_1;0;Charm of Keeping I	
+charm_of_keeping_2;twilightforest:charm_of_keeping_2;0;Charm of Keeping II	
+charm_of_keeping_3;twilightforest:charm_of_keeping_3;0;Charm of Keeping III	
+charm_of_life_1;twilightforest:charm_of_life_1;0;Charm of Life I	
+charm_of_life_2;twilightforest:charm_of_life_2;0;Charm of Life II	
+cicada;twilightforest:cicada;0;Cicada	
+cinder_furnace;twilightforest:cinder_furnace;0;Cinder Furnace [NYI]	
+cinder_log;twilightforest:cinder_log;0;Cinder Log [NYI]	
+cooked_meef;twilightforest:cooked_meef;0;Meef Steak	
+cooked_venison;twilightforest:cooked_venison;0;Venison Steak	
+crumble_horn;twilightforest:crumble_horn;0;Crumble Horn	
+cube_of_annihilation;twilightforest:cube_of_annihilation;0;Cube of Annihilation	
+cube_talisman;twilightforest:cube_talisman;0;Talisman of the Cube	
+dark_leaves;twilightforest:dark_leaves;0;Darkwood Leaves	
+deadrock;twilightforest:deadrock;0;Weathered Deadrock	
+deadrock;twilightforest:deadrock;1;Cracked Deadrock	
+deadrock;twilightforest:deadrock;2;Deadrock	
+ender_bow;twilightforest:ender_bow;0;Ender Bow	
+etched_nagastone;twilightforest:etched_nagastone;0;Etched Nagastone	
+etched_nagastone_mossy;twilightforest:etched_nagastone_mossy;0;Mossy Etched Nagastone	
+etched_nagastone_weathered;twilightforest:etched_nagastone_weathered;0;Ruined Etched Nagastone	
+experiment_115;twilightforest:experiment_115;0;Experiment 115	
+fiery_blood;twilightforest:fiery_blood;0;Fiery Blood	
+fiery_boots;twilightforest:fiery_boots;0;Fiery Boots	
+fiery_chestplate;twilightforest:fiery_chestplate;0;Fiery Plate	
+fiery_helmet;twilightforest:fiery_helmet;0;Fiery Helm	
+fiery_ingot;twilightforest:fiery_ingot;0;Fiery Ingot	
+fiery_leggings;twilightforest:fiery_leggings;0;Fiery Legs	
+fiery_pickaxe;twilightforest:fiery_pickaxe;0;Fiery Pick	
+fiery_sword;twilightforest:fiery_sword;0;{ench:[{lvl:2s,id:20s}]}	Fiery Sword	
+fiery_tears;twilightforest:fiery_tears;0;Fiery Tears	
+fire_jet;twilightforest:fire_jet;0;Smoking Block	
+fire_jet;twilightforest:fire_jet;3;Fire Jet	
+fire_jet;twilightforest:fire_jet;1;Encased Smoker	
+fire_jet;twilightforest:fire_jet;6;Encased Fire Jet	
+firefly;twilightforest:firefly;0;Firefly	
+firefly_jar;twilightforest:firefly_jar;0;Firefly Jar	
+fluffy_cloud;twilightforest:fluffy_cloud;0;Fluffy Cloud	
+force_field;twilightforest:force_field;0;Violet Force Field	
+force_field;twilightforest:force_field;1;Pink Force Field	
+force_field;twilightforest:force_field;2;Orange Force Field	
+force_field;twilightforest:force_field;3;Green Force Field	
+force_field;twilightforest:force_field;4;Blue Force Field	
+giant_cobblestone;twilightforest:giant_cobblestone;0;Giant Cobblestone	
+giant_leaves;twilightforest:giant_leaves;0;Giant Leaves	
+giant_log;twilightforest:giant_log;0;Giant Log	
+giant_obsidian;twilightforest:giant_obsidian;0;Giant Obsidian	
+giant_pickaxe;twilightforest:giant_pickaxe;0;Giant's Pickaxe	
+giant_sword;twilightforest:giant_sword;0;Giant's Sword	
+glass_sword;twilightforest:glass_sword;0;Glass Sword	
+hedge;twilightforest:hedge;0;Hedge	
+huge_lilypad;twilightforest:huge_lilypad;0;Huge Lily Pad	
+huge_stalk;twilightforest:huge_stalk;0;Huge Stalk	
+huge_waterlily;twilightforest:huge_waterlily;0;Huge Water Lily	
+hydra_chop;twilightforest:hydra_chop;0;Hydra Chop	
+ice_bomb;twilightforest:ice_bomb;0;Ice Bomb	
+ice_bow;twilightforest:ice_bow;0;Ice Bow	
+ice_sword;twilightforest:ice_sword;0;Ice Sword	
+ironwood_axe;twilightforest:ironwood_axe;0;{ench:[{lvl:1s,id:35s}]}	Ironwood Axe	
+ironwood_boots;twilightforest:ironwood_boots;0;{ench:[{lvl:1s,id:2s}]}	Ironwood Boots	
+ironwood_chestplate;twilightforest:ironwood_chestplate;0;{ench:[{lvl:1s,id:0s}]}	Ironwood Plate	
+ironwood_helmet;twilightforest:ironwood_helmet;0;{ench:[{lvl:1s,id:6s}]}	Ironwood Helm	
+ironwood_hoe;twilightforest:ironwood_hoe;0;Ironwood Hoe	
+ironwood_ingot;twilightforest:ironwood_ingot;0;Ironwood Ingot	
+ironwood_leggings;twilightforest:ironwood_leggings;0;{ench:[{lvl:1s,id:0s}]}	Ironwood Legs	
+ironwood_pickaxe;twilightforest:ironwood_pickaxe;0;{ench:[{lvl:1s,id:32s}]}	Ironwood Pick	
+ironwood_raw;twilightforest:ironwood_raw;0;Raw Ironwood Materials	
+ironwood_shovel;twilightforest:ironwood_shovel;0;{ench:[{lvl:1s,id:34s}]}	Ironwood Shovel	
+ironwood_sword;twilightforest:ironwood_sword;0;{ench:[{lvl:1s,id:19s}]}	Ironwood Sword	
+knightmetal_axe;twilightforest:knightmetal_axe;0;Knightly Axe	
+knightmetal_block;twilightforest:knightmetal_block;0;Block of Knightmetal	
+knightmetal_boots;twilightforest:knightmetal_boots;0;Knightly Boots	
+knightmetal_chestplate;twilightforest:knightmetal_chestplate;0;Knightly Plate	
+knightmetal_helmet;twilightforest:knightmetal_helmet;0;Knightly Helm	
+knightmetal_ingot;twilightforest:knightmetal_ingot;0;Knightmetal Ingot	
+knightmetal_leggings;twilightforest:knightmetal_leggings;0;Knightly Greaves	
+knightmetal_pickaxe;twilightforest:knightmetal_pickaxe;0;Knightly Pick	
+knightmetal_ring;twilightforest:knightmetal_ring;0;Knightmetal Loop	
+knightmetal_sword;twilightforest:knightmetal_sword;0;Knightly Sword	
+lamp_of_cinders;twilightforest:lamp_of_cinders;0;Lamp of Cinders	
+lifedrain_scepter;twilightforest:lifedrain_scepter;0;Scepter of Life Draining	
+liveroot;twilightforest:liveroot;0;Liveroot	
+magic_beans;twilightforest:magic_beans;0;Magic Beans	
+magic_leaves;twilightforest:magic_leaves;0;Timewood Leaves	
+magic_leaves;twilightforest:magic_leaves;1;Leaves of Transformation	
+magic_leaves;twilightforest:magic_leaves;2;Miner's Leaves	
+magic_leaves;twilightforest:magic_leaves;3;Sorting Leaves	
+magic_log;twilightforest:magic_log;0;Timewood	
+magic_log;twilightforest:magic_log;1;Transwood	
+magic_log;twilightforest:magic_log;2;Minewood	
+magic_log;twilightforest:magic_log;3;Sortingwood	
+magic_log_core;twilightforest:magic_log_core;0;Timewood Clock	
+magic_log_core;twilightforest:magic_log_core;1;Heart of Transformation	
+magic_log_core;twilightforest:magic_log_core;2;Minewood Core	
+magic_log_core;twilightforest:magic_log_core;3;Sortingwood Engine	
+magic_map_empty;twilightforest:magic_map_empty;0;Blank Magic Map	
+magic_map_focus;twilightforest:magic_map_focus;0;Magic Map Focus	
+maze_map_empty;twilightforest:maze_map_empty;0;Blank Maze Map	
+maze_map_focus;twilightforest:maze_map_focus;0;Maze Map Focus	
+maze_stone;twilightforest:maze_stone;0;Mazestone	
+maze_stone;twilightforest:maze_stone;1;Mazestone Brick	
+maze_stone;twilightforest:maze_stone;2;Chiseled Mazestone	
+maze_stone;twilightforest:maze_stone;3;Decorative Mazestone Brick	
+maze_stone;twilightforest:maze_stone;4;Cracked Mazestone Brick	
+maze_stone;twilightforest:maze_stone;5;Mossy Mazestone Brick	
+maze_stone;twilightforest:maze_stone;6;Mazestone Mosaic	
+maze_stone;twilightforest:maze_stone;7;Mazestone Border	
+maze_wafer;twilightforest:maze_wafer;0;Maze Wafer	
+mazebreaker_pickaxe;twilightforest:mazebreaker_pickaxe;0;{ench:[{lvl:4s,id:32s},{lvl:3s,id:34s},{lvl:2s,id:35s}]}	Mazebreaker	
+meef_stroganoff;twilightforest:meef_stroganoff;0;Meef Stroganoff	
+minotaur_axe;twilightforest:minotaur_axe;0;Minotaur Axe	
+moonworm;twilightforest:moonworm;0;Moonworm	
+moonworm_queen;twilightforest:moonworm_queen;0;Moonworm Queen	
+naga_chestplate;twilightforest:naga_chestplate;0;{ench:[{lvl:3s,id:1s}]}	Naga Scale Tunic	
+naga_leggings;twilightforest:naga_leggings;0;{ench:[{lvl:3s,id:0s}]}	Naga Scale Leggings	
+naga_scale;twilightforest:naga_scale;0;Naga Scale	
+naga_stone;twilightforest:naga_stone;0;Nagastone Head	
+naga_stone;twilightforest:naga_stone;1;Nagastone	
+nagastone_pillar;twilightforest:nagastone_pillar;0;Nagastone Pillar	
+nagastone_pillar_mossy;twilightforest:nagastone_pillar_mossy;0;Mossy Nagastone Pillar	
+nagastone_pillar_weathered;twilightforest:nagastone_pillar_weathered;0;Ruined Nagastone Pillar	
+nagastone_stairs;twilightforest:nagastone_stairs;0;Nagastone Stairs (Left)	
+nagastone_stairs;twilightforest:nagastone_stairs;8;Nagastone Stairs (Right)	
+nagastone_stairs_mossy;twilightforest:nagastone_stairs_mossy;0;Mossy Nagastone Stairs (Left)	
+nagastone_stairs_mossy;twilightforest:nagastone_stairs_mossy;8;Mossy Nagastone Stairs (Right)	
+nagastone_stairs_weathered;twilightforest:nagastone_stairs_weathered;0;Weathered Nagastone Stairs (Left)	
+nagastone_stairs_weathered;twilightforest:nagastone_stairs_weathered;8;Weathered Nagastone Stairs (Right)	
+ore_magnet;twilightforest:ore_magnet;0;Ore Magnet	
+ore_map_empty;twilightforest:ore_map_empty;0;Blank Maze/Ore Map	
+ore_meter;twilightforest:ore_meter;0;Ore Meter [WIP]	
+peacock_fan;twilightforest:peacock_fan;0;Peacock Feather Fan	
+phantom_chestplate;twilightforest:phantom_chestplate;0;Phantom Plate	
+phantom_helmet;twilightforest:phantom_helmet;0;Phantom Helm	
+raven_feather;twilightforest:raven_feather;0;Raven Feather	
+raw_meef;twilightforest:raw_meef;0;Raw Meef	
+raw_venison;twilightforest:raw_venison;0;Raw Venison	
+root;twilightforest:root;0;Roots	
+root;twilightforest:root;1;Liveroots	
+seeker_bow;twilightforest:seeker_bow;0;Seeker Bow	
+shield_scepter;twilightforest:shield_scepter;0;Scepter of Fortification	
+slider;twilightforest:slider;0;Slide Trap	
+slider;twilightforest:slider;1;Slide Trap 1	
+slider;twilightforest:slider;2;Slide Trap 2	
+slider;twilightforest:slider;3;Slide Trap 3	
+spiral_bricks;twilightforest:spiral_bricks;0;Spiral Stone Bricks	
+steeleaf_axe;twilightforest:steeleaf_axe;0;{ench:[{lvl:2s,id:32s}]}	Steeleaf Axe	
+steeleaf_boots;twilightforest:steeleaf_boots;0;{ench:[{lvl:2s,id:2s}]}	Steeleaf Boots	
+steeleaf_chestplate;twilightforest:steeleaf_chestplate;0;{ench:[{lvl:2s,id:3s}]}	Steeleaf Plate	
+steeleaf_helmet;twilightforest:steeleaf_helmet;0;{ench:[{lvl:2s,id:4s}]}	Steeleaf Helm	
+steeleaf_hoe;twilightforest:steeleaf_hoe;0;Steeleaf Hoe	
+steeleaf_ingot;twilightforest:steeleaf_ingot;0;Steeleaf	
+steeleaf_leggings;twilightforest:steeleaf_leggings;0;{ench:[{lvl:2s,id:1s}]}	Steeleaf Legs	
+steeleaf_pickaxe;twilightforest:steeleaf_pickaxe;0;{ench:[{lvl:2s,id:35s}]}	Steeleaf Pick	
+steeleaf_shovel;twilightforest:steeleaf_shovel;0;{ench:[{lvl:2s,id:32s}]}	Steeleaf Shovel	
+steeleaf_sword;twilightforest:steeleaf_sword;0;{ench:[{lvl:2s,id:21s}]}	Steeleaf Sword	
+stronghold_shield;twilightforest:stronghold_shield;0;Stronghold Shield	
+thorn_rose;twilightforest:thorn_rose;0;Thorn Rose	
+thorns;twilightforest:thorns;0;Thorns	
+thorns;twilightforest:thorns;1;Green Thorns	
+torchberries;twilightforest:torchberries;0;Torchberries	
+tower_device;twilightforest:tower_device;0;Reappearing Block	
+tower_device;twilightforest:tower_device;2;Vanishing Block	
+tower_device;twilightforest:tower_device;4;Locked Vanishing Block	
+tower_device;twilightforest:tower_device;5;Unlocked Vanishing Block	
+tower_device;twilightforest:tower_device;6;Carminite Builder	
+tower_device;twilightforest:tower_device;9;Anti-builder	
+tower_device;twilightforest:tower_device;10;Ghast Trap	
+tower_device;twilightforest:tower_device;12;Carminite Reactor	
+tower_key;twilightforest:tower_key;0;Tower Key	
+tower_wood;twilightforest:tower_wood;0;Towerwood Planks	
+tower_wood;twilightforest:tower_wood;1;Encased Towerwood	
+tower_wood;twilightforest:tower_wood;2;Cracked Towerwood	
+tower_wood;twilightforest:tower_wood;3;Mossy Towerwood	
+tower_wood;twilightforest:tower_wood;4;Infested Towerwood	
+transformation_powder;twilightforest:transformation_powder;0;Transformation Powder	
+triple_bow;twilightforest:triple_bow;0;Tri-bow	
+trollber;twilightforest:trollber;0;Trollber	
+trollsteinn;twilightforest:trollsteinn;0;Trollsteinn	
+trollvidr;twilightforest:trollvidr;0;Trollvidr	
+trophy;twilightforest:trophy;0;Naga Trophy	
+trophy;twilightforest:trophy;1;Twilight Lich Trophy	
+trophy;twilightforest:trophy;2;Hydra Trophy	
+trophy;twilightforest:trophy;3;Ur-Ghast Trophy	
+trophy;twilightforest:trophy;4;Knight Phantom Trophy	
+trophy;twilightforest:trophy;5;Snow Queen Trophy	
+trophy;twilightforest:trophy;6;Minoshroom Trophy	
+trophy;twilightforest:trophy;8;Questing Ram Trophy	
+trophy_pedestal;twilightforest:trophy_pedestal;0;Trophy Pedestal	
+twilight_leaves;twilightforest:twilight_leaves;0;Twilight Oak Leaves	
+twilight_leaves;twilightforest:twilight_leaves;1;Canopy Tree Leaves	
+twilight_leaves;twilightforest:twilight_leaves;2;Mangrove Leaves	
+twilight_leaves;twilightforest:twilight_leaves;3;Rainbow Oak Leaves	
+twilight_leaves_3;twilightforest:twilight_leaves_3;0;Thorn Leaves	
+twilight_leaves_3;twilightforest:twilight_leaves_3;1;Beanstalk Leaves	
+twilight_log;twilightforest:twilight_log;0;Twilight Oak Wood	
+twilight_log;twilightforest:twilight_log;1;Canopy Tree Wood	
+twilight_log;twilightforest:twilight_log;2;Mangrove Wood	
+twilight_log;twilightforest:twilight_log;3;Darkwood Wood	
+twilight_plant;twilightforest:twilight_plant;0;Moss Patch	
+twilight_plant;twilightforest:twilight_plant;1;Mayapple	
+twilight_plant;twilightforest:twilight_plant;2;Clover Patch [WIP]	
+twilight_plant;twilightforest:twilight_plant;3;Fiddlehead	
+twilight_plant;twilightforest:twilight_plant;4;Mushgloom	
+twilight_plant;twilightforest:twilight_plant;5;Forest Grass	
+twilight_plant;twilightforest:twilight_plant;6;Dried Bush	
+twilight_plant;twilightforest:twilight_plant;7;Torchberry Plant	
+twilight_plant;twilightforest:twilight_plant;8;Root Strands	
+twilight_sapling;twilightforest:twilight_sapling;0;Sickly Twilight Oak Sapling	
+twilight_sapling;twilightforest:twilight_sapling;1;Canopy Tree Sapling	
+twilight_sapling;twilightforest:twilight_sapling;2;Twilight Mangrove Sapling	
+twilight_sapling;twilightforest:twilight_sapling;3;Darkwood Sapling	
+twilight_sapling;twilightforest:twilight_sapling;4;Robust Twilight Oak Sapling	
+twilight_sapling;twilightforest:twilight_sapling;5;Tree of Time Sapling	
+twilight_sapling;twilightforest:twilight_sapling;6;Tree of Transformation Sapling	
+twilight_sapling;twilightforest:twilight_sapling;7;Miner's Tree Sapling	
+twilight_sapling;twilightforest:twilight_sapling;8;Sorting Tree Sapling	
+twilight_sapling;twilightforest:twilight_sapling;9;Rainbow Oak Sapling	
+twilight_scepter;twilightforest:twilight_scepter;0;Scepter of Twilight	
+uberous_soil;twilightforest:uberous_soil;0;Uberous Soil	
+uncrafting_table;twilightforest:uncrafting_table;0;Uncrafting Table	
+underbrick;twilightforest:underbrick;0;Underbrick	
+underbrick;twilightforest:underbrick;1;Mossy Underbrick	
+underbrick;twilightforest:underbrick;2;Cracked Underbrick	
+unripe_trollber;twilightforest:unripe_trollber;0;Unripe Trollber	
+wispy_cloud;twilightforest:wispy_cloud;0;Wispy Cloud	
+yeti_boots;twilightforest:yeti_boots;0;{ench:[{lvl:2s,id:0s},{lvl:4s,id:2s}]}	Yeti Boots	
+yeti_chestplate;twilightforest:yeti_chestplate;0;{ench:[{lvl:2s,id:0s}]}	Yeti Jacket	
+yeti_helmet;twilightforest:yeti_helmet;0;{ench:[{lvl:2s,id:0s}]}	Yeti Horned Helm	
+yeti_leggings;twilightforest:yeti_leggings;0;{ench:[{lvl:2s,id:0s}]}	Yeti Leggings	
+zombie_scepter;twilightforest:zombie_scepter;0;Zombie Scepter	
+bound_scroll;waystones:bound_scroll;0;Bound Scroll	
+return_scroll;waystones:return_scroll;0;Return Scroll	
+warp_scroll;waystones:warp_scroll;0;Warp Scroll	
+warp_stone;waystones:warp_stone;0;Warp Stone	
+waystone;waystones:waystone;0;Waystone

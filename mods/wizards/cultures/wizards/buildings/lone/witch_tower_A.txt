@@ -1,7 +1,7 @@
 building.length=24
 building.width=28
 building.showtownhallsigns=false
-areatoclear=4
+areatoclear=0
 
 building.startinggood=cider,1.0,8,16
 building.startinggood=porkchops,1.0,2,4

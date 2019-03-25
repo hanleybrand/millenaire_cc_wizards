@@ -1,0 +1,278 @@
+,,,,,,,,,,,
+twilightforest:alpha_fur,0,,Alpha Yeti Fur,,item.twilightforest.alphaFur,twilightforest.item.ItemTF,-,,64,0,twilightforest:alpha_fur#inventory
+twilightforest:arctic_boots,0,,Arctic Boots,Dyeable like Leather Armor,item.twilightforest.arcticBoots,twilightforest.item.ItemTFArcticArmor,-,,1,130,twilightforest:arctic_boots#inventory
+twilightforest:arctic_chestplate,0,,Arctic Jacket,Dyeable like Leather Armor,item.twilightforest.arcticPlate,twilightforest.item.ItemTFArcticArmor,-,,1,160,twilightforest:arctic_chestplate#inventory
+twilightforest:arctic_fur,0,,Arctic Fur,,item.twilightforest.arcticFur,twilightforest.item.ItemTF,-,furArctic,64,0,twilightforest:arctic_fur#inventory
+twilightforest:arctic_helmet,0,,Arctic Hood,Dyeable like Leather Armor,item.twilightforest.arcticHelm,twilightforest.item.ItemTFArcticArmor,-,,1,110,twilightforest:arctic_helmet#inventory
+twilightforest:arctic_leggings,0,,Arctic Leggings,Dyeable like Leather Armor,item.twilightforest.arcticLegs,twilightforest.item.ItemTFArcticArmor,-,,1,150,twilightforest:arctic_leggings#inventory
+twilightforest:armor_shard,0,,Armor Shard,,item.twilightforest.armorShards,twilightforest.item.ItemTF,-,,64,0,twilightforest:armor_shard#inventory
+twilightforest:armor_shard_cluster,0,,Armor Shard Cluster,,item.twilightforest.shardCluster,twilightforest.item.ItemTF,-,oreKnightmetal,64,0,twilightforest:armor_shard_cluster#inventory
+twilightforest:aurora_block,0,,Aurora Block,,tile.twilightforest.AuroraBrick,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:aurora_block#variant=0
+twilightforest:aurora_pillar,0,,Aurora Pillar,,tile.twilightforest.AuroraPillar,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:aurora_pillar#axis=x
+twilightforest:aurora_slab,0,,Aurora Slab,,tile.twilightforest.AuroraSlab,net.minecraft.item.ItemSlab,+,,64,0,twilightforest:aurora_slab#half=bottom
+twilightforest:auroralized_glass,0,,Auroralized Glass,,tile.twilightforest.AuroralizedGlass,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:auroralized_glass#normal
+twilightforest:block_and_chain,0,,Block and Chain,,item.twilightforest.chainBlock,twilightforest.item.ItemTFChainBlock,-,,1,99,twilightforest:block_and_chain#inventory
+twilightforest:block_storage,0,,Block of Ironwood,,tile.twilightforest.BlockOfStorage.0,twilightforest.item.ItemTFCompressed,+,,64,0,twilightforest:block_storage#variant=ironwood
+twilightforest:block_storage,1,,Block of Fiery Metal,,tile.twilightforest.BlockOfStorage.1,twilightforest.item.ItemTFCompressed,+,blockFiery,64,0,twilightforest:block_storage#inventory_fiery
+twilightforest:block_storage,2,,Block of Steeleaf,,tile.twilightforest.BlockOfStorage.2,twilightforest.item.ItemTFCompressed,+,blockSteeleaf,64,0,twilightforest:block_storage#variant=steelleaf
+twilightforest:block_storage,3,,Block of Arctic Fur,,tile.twilightforest.BlockOfStorage.3,twilightforest.item.ItemTFCompressed,+,,64,0,twilightforest:block_storage#variant=arctic_fur
+twilightforest:block_storage,4,,Block of Carminite,,tile.twilightforest.BlockOfStorage.4,twilightforest.item.ItemTFCompressed,+,,64,0,twilightforest:block_storage#variant=carminite
+twilightforest:borer_essence,0,,Borer Essence,,item.twilightforest.borerEssence,twilightforest.item.ItemTF,-,,64,0,twilightforest:borer_essence#inventory
+twilightforest:boss_spawner,0,,Naga Spawner,,tile.twilightforest.BossSpawner.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:boss_spawner#normal
+twilightforest:burnt_thorns,0,,Burnt Thorns,,tile.twilightforest.BurntThorns,net.minecraft.item.ItemBlock,+,,64,0,"twilightforest:burnt_thorns#axis=y,east=false,north=false,south=false,west=false"
+twilightforest:carminite,0,,Carminite,,item.twilightforest.carminite,twilightforest.item.ItemTF,-,carminite,64,0,twilightforest:carminite#inventory
+twilightforest:castle_brick,0,,Castle Brick,,tile.twilightforest.CastleBrick.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_brick#variant=normal
+twilightforest:castle_brick,1,,Worn Castle Brick,,tile.twilightforest.CastleBrick.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_brick#variant=worn
+twilightforest:castle_brick,2,,Cracked Castle Brick,,tile.twilightforest.CastleBrick.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_brick#variant=cracked
+twilightforest:castle_brick,3,,Castle Roof Tile,,tile.twilightforest.CastleBrick.3,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_brick#variant=roof
+twilightforest:castle_brick,4,,Mossy Castle Brick,,tile.twilightforest.CastleBrick.4,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_brick#variant=mossy
+twilightforest:castle_brick,5,,Thick Castle Brick,,tile.twilightforest.CastleBrick.5,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_brick#variant=frame
+twilightforest:castle_door,0,,Yellow Castle Door,,tile.twilightforest.CastleDoor.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_door#active=false,lock_index=0"
+twilightforest:castle_door,1,,Violet Castle Door,,tile.twilightforest.CastleDoor.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_door#active=false,lock_index=1"
+twilightforest:castle_door,2,,Pink Castle Door,,tile.twilightforest.CastleDoor.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_door#active=false,lock_index=2"
+twilightforest:castle_door,3,,Blue Castle Door,,tile.twilightforest.CastleDoor.3,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_door#active=false,lock_index=3"
+twilightforest:castle_pillar,0,,Encased Castle Brick Pillar,,tile.twilightforest.CastlePillar.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_pillar#axis=y,variant=encased"
+twilightforest:castle_pillar,1,,Encased Castle Brick Tile,,tile.twilightforest.CastlePillar.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_pillar#axis=none,variant=encased"
+twilightforest:castle_pillar,2,,Bold Castle Brick Pillar,,tile.twilightforest.CastlePillar.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_pillar#axis=y,variant=bold"
+twilightforest:castle_pillar,3,,Bold Castle Brick Tiles,,tile.twilightforest.CastlePillar.3,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_pillar#axis=none,variant=bold"
+twilightforest:castle_rune_brick,0,,Pink Castle Rune Brick,,tile.twilightforest.CastleMagic.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_rune_brick#color=pink
+twilightforest:castle_rune_brick,1,,Blue Castle Rune Brick,,tile.twilightforest.CastleMagic.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_rune_brick#color=blue
+twilightforest:castle_rune_brick,2,,Yellow Castle Rune Brick,,tile.twilightforest.CastleMagic.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_rune_brick#color=yellow
+twilightforest:castle_rune_brick,3,,Violet Castle Rune Brick,,tile.twilightforest.CastleMagic.3,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:castle_rune_brick#color=purple
+twilightforest:castle_stairs,0,,Encased Castle Brick Stairs,,tile.twilightforest.CastleStairs.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_stairs#facing=south,half=bottom,shape=straight,variant=encased"
+twilightforest:castle_stairs,8,,Bold Castle Brick Stairs,,tile.twilightforest.CastleStairs.8,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_stairs#facing=south,half=bottom,shape=straight,variant=bold"
+twilightforest:castle_stairs_brick,0,,Castle Brick Stairs,,tile.twilightforest.CastleStairsBrick.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_stairs_brick#facing=south,half=bottom,shape=straight"
+twilightforest:castle_stairs_cracked,0,,Cracked Castle Brick Stairs,,tile.twilightforest.CastleStairsCracked.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_stairs_cracked#facing=south,half=bottom,shape=straight"
+twilightforest:castle_stairs_mossy,0,,Mossy Castle Brick Stairs,,tile.twilightforest.CastleStairsMossy.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_stairs_mossy#facing=south,half=bottom,shape=straight"
+twilightforest:castle_stairs_worn,0,,Worn Castle Brick Stairs,,tile.twilightforest.CastleStairsWorn.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:castle_stairs_worn#facing=south,half=bottom,shape=straight"
+twilightforest:charm_of_keeping_1,0,,Charm of Keeping I,,item.twilightforest.charmOfKeeping1,twilightforest.item.ItemCharmBaubleable,-,,64,0,twilightforest:charm_of_keeping_1#inventory
+twilightforest:charm_of_keeping_2,0,,Charm of Keeping II,,item.twilightforest.charmOfKeeping2,twilightforest.item.ItemCharmBaubleable,-,,64,0,twilightforest:charm_of_keeping_2#inventory
+twilightforest:charm_of_keeping_3,0,,Charm of Keeping III,,item.twilightforest.charmOfKeeping3,twilightforest.item.ItemCharmBaubleable,-,,64,0,twilightforest:charm_of_keeping_3#inventory
+twilightforest:charm_of_life_1,0,,Charm of Life I,,item.twilightforest.charmOfLife1,twilightforest.item.ItemCharmBaubleable,-,,64,0,twilightforest:charm_of_life_1#inventory
+twilightforest:charm_of_life_2,0,,Charm of Life II,,item.twilightforest.charmOfLife2,twilightforest.item.ItemCharmBaubleable,-,,64,0,twilightforest:charm_of_life_2#inventory
+twilightforest:cicada,0,,Cicada,,tile.twilightforest.Cicada,twilightforest.item.ItemBlockWearable,+,,64,0,twilightforest:cicada#inventory
+twilightforest:cinder_furnace,0,,Cinder Furnace [NYI],,tile.twilightforest.CinderFurnaceIdle,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:cinder_furnace#facing=north
+twilightforest:cinder_log,0,,Cinder Log [NYI],This block has effects that are not yet implemented.,tile.twilightforest.CinderLog.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:cinder_log#axis=y
+twilightforest:cooked_meef,0,,Meef Steak,,item.twilightforest.meefSteak,twilightforest.item.ItemTFFood,-,,64,0,twilightforest:cooked_meef#inventory
+twilightforest:cooked_venison,0,,Venison Steak,,item.twilightforest.venisonCooked,twilightforest.item.ItemTFFood,-,,64,0,twilightforest:cooked_venison#inventory
+twilightforest:crumble_horn,0,,Crumble Horn,,item.twilightforest.crumbleHorn,twilightforest.item.ItemTFCrumbleHorn,-,,1,1024,twilightforest:crumble_horn#inventory
+twilightforest:cube_of_annihilation,0,,Cube of Annihilation,,item.twilightforest.cubeOfAnnihilation,twilightforest.item.ItemTFCubeOfAnnihilation,-,,1,0,twilightforest:cube_of_annihilation#inventory
+twilightforest:cube_talisman,0,,Talisman of the Cube,,item.twilightforest.cubeTalisman,twilightforest.item.ItemTF,-,,64,0,twilightforest:cube_talisman#inventory
+twilightforest:dark_leaves,0,,Darkwood Leaves,,tile.twilightforest.DarkLeaves,net.minecraft.item.ItemBlock,+,treeLeaves,64,0,twilightforest:dark_leaves#normal
+twilightforest:deadrock,0,,Weathered Deadrock,,tile.twilightforest.Deadrock.surface,net.minecraft.item.ItemMultiTexture,+,,64,0,twilightforest:deadrock#variant=surface
+twilightforest:deadrock,1,,Cracked Deadrock,,tile.twilightforest.Deadrock.cracked,net.minecraft.item.ItemMultiTexture,+,,64,0,twilightforest:deadrock#variant=cracked
+twilightforest:deadrock,2,,Deadrock,,tile.twilightforest.Deadrock.solid,net.minecraft.item.ItemMultiTexture,+,,64,0,twilightforest:deadrock#variant=solid
+twilightforest:ender_bow,0,,Ender Bow,,item.twilightforest.enderBow,twilightforest.item.ItemTFEnderBow,-,,1,384,twilightforest:ender_bow#inventory
+twilightforest:etched_nagastone,0,,Etched Nagastone,,tile.twilightforest.EtchedNagastone,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:etched_nagastone#facing=down
+twilightforest:etched_nagastone_mossy,0,,Mossy Etched Nagastone,,tile.twilightforest.EtchedNagastoneMossy,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:etched_nagastone_mossy#facing=down
+twilightforest:etched_nagastone_weathered,0,,Ruined Etched Nagastone,,tile.twilightforest.EtchedNagastoneWeathered,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:etched_nagastone_weathered#facing=down
+twilightforest:experiment_115,0,,Experiment 115,,item.twilightforest.experiment115,twilightforest.item.ItemTFExperiment115,-,,64,0,twilightforest:experiment_115#inventory
+twilightforest:fiery_blood,0,,Fiery Blood,,item.twilightforest.fieryBlood,twilightforest.item.ItemTF,-,,64,0,twilightforest:fiery_blood#inventory
+twilightforest:fiery_boots,0,,Fiery Boots,Burns attackers,item.twilightforest.fieryBoots,twilightforest.item.ItemTFFieryArmor,-,,1,325,twilightforest:fiery_boots#inventory
+twilightforest:fiery_chestplate,0,,Fiery Plate,Burns attackers,item.twilightforest.fieryPlate,twilightforest.item.ItemTFFieryArmor,-,,1,400,twilightforest:fiery_chestplate#inventory
+twilightforest:fiery_helmet,0,,Fiery Helm,Burns attackers,item.twilightforest.fieryHelm,twilightforest.item.ItemTFFieryArmor,-,,1,275,twilightforest:fiery_helmet#inventory
+twilightforest:fiery_ingot,0,,Fiery Ingot,,item.twilightforest.fieryIngot,twilightforest.item.ItemTF,-,ingotFiery,64,0,twilightforest:fiery_ingot#inventory
+twilightforest:fiery_leggings,0,,Fiery Legs,Burns attackers,item.twilightforest.fieryLegs,twilightforest.item.ItemTFFieryArmor,-,,1,375,twilightforest:fiery_leggings#inventory
+twilightforest:fiery_pickaxe,0,,Fiery Pick,Auto-smelting,item.twilightforest.fieryPick,twilightforest.item.ItemTFFieryPick,-,,1,1024,twilightforest:fiery_pickaxe#inventory
+twilightforest:fiery_sword,0,"{ench:[{lvl:2s,id:20s}]}",Fiery Sword,Burns targets,item.twilightforest.fierySword,twilightforest.item.ItemTFFierySword,-,,1,1024,twilightforest:fiery_sword#inventory
+twilightforest:fiery_tears,0,,Fiery Tears,,item.twilightforest.fieryTears,twilightforest.item.ItemTF,-,,64,0,twilightforest:fiery_tears#inventory
+twilightforest:fire_jet,0,,Smoking Block,,tile.twilightforest.FireJet.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:fire_jet#variant=smoker
+twilightforest:fire_jet,3,,Fire Jet,,tile.twilightforest.FireJet.3,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:fire_jet#variant=jet_idle
+twilightforest:fire_jet,1,,Encased Smoker,,tile.twilightforest.FireJet.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:fire_jet#variant=encased_smoker_off
+twilightforest:fire_jet,6,,Encased Fire Jet,,tile.twilightforest.FireJet.6,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:fire_jet#variant=encased_jet_idle
+twilightforest:firefly,0,,Firefly,,tile.twilightforest.Firefly,twilightforest.item.ItemBlockWearable,+,,64,0,twilightforest:firefly#inventory
+twilightforest:firefly_jar,0,,Firefly Jar,,tile.twilightforest.FireflyJar,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:firefly_jar#normal
+twilightforest:fluffy_cloud,0,,Fluffy Cloud,,tile.twilightforest.FluffyCloud,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:fluffy_cloud#normal
+twilightforest:force_field,0,,Violet Force Field,,tile.twilightforest.ForceField.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:force_field#inventory
+twilightforest:force_field,1,,Pink Force Field,,tile.twilightforest.ForceField.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:force_field#inventory
+twilightforest:force_field,2,,Orange Force Field,,tile.twilightforest.ForceField.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:force_field#inventory
+twilightforest:force_field,3,,Green Force Field,,tile.twilightforest.ForceField.3,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:force_field#inventory
+twilightforest:force_field,4,,Blue Force Field,,tile.twilightforest.ForceField.4,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:force_field#inventory
+twilightforest:giant_cobblestone,0,,Giant Cobblestone,,tile.twilightforest.GiantCobble,twilightforest.item.ItemTFGiantBlock,+,,64,0,twilightforest:giant_cobblestone#inventory
+twilightforest:giant_leaves,0,,Giant Leaves,,tile.twilightforest.GiantLeaves,twilightforest.item.ItemTFGiantBlock,+,,64,0,twilightforest:giant_leaves#inventory
+twilightforest:giant_log,0,,Giant Log,,tile.twilightforest.GiantLog,twilightforest.item.ItemTFGiantBlock,+,,64,0,twilightforest:giant_log#inventory
+twilightforest:giant_obsidian,0,,Giant Obsidian,,tile.twilightforest.GiantObsidian,twilightforest.item.ItemTFGiantBlock,+,,64,0,twilightforest:giant_obsidian#inventory
+twilightforest:giant_pickaxe,0,,Giant's Pickaxe,Breaks giant blocks,item.twilightforest.giantPick,twilightforest.item.ItemTFGiantPick,-,,1,1024,twilightforest:giant_pickaxe#inventory
+twilightforest:giant_sword,0,,Giant's Sword,,item.twilightforest.giantSword,twilightforest.item.ItemTFGiantSword,-,,1,1024,twilightforest:giant_sword#inventory
+twilightforest:glass_sword,0,,Glass Sword,,item.twilightforest.glassSword,twilightforest.item.ItemTFGlassSword,-,,1,1,twilightforest:glass_sword#inventory
+twilightforest:hedge,0,,Hedge,,tile.twilightforest.Hedge.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:hedge#variant=hedge
+twilightforest:huge_lilypad,0,,Huge Lily Pad,,tile.twilightforest.HugeLilyPad,twilightforest.item.ItemBlockTFHugeLilyPad,+,,64,0,twilightforest:huge_lilypad#inventory
+twilightforest:huge_stalk,0,,Huge Stalk,,tile.twilightforest.HugeStalk,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:huge_stalk#normal
+twilightforest:huge_waterlily,0,,Huge Water Lily,,tile.twilightforest.HugeWaterLily,twilightforest.item.ItemBlockTFHugeWaterLily,+,,64,0,twilightforest:huge_waterlily#inventory
+twilightforest:hydra_chop,0,,Hydra Chop,,item.twilightforest.hydraChop,twilightforest.item.ItemTFHydraChops,-,,64,0,twilightforest:hydra_chop#inventory
+twilightforest:ice_bomb,0,,Ice Bomb,,item.twilightforest.iceBomb,twilightforest.item.ItemTFIceBomb,-,,16,0,twilightforest:ice_bomb#inventory
+twilightforest:ice_bow,0,,Ice Bow,,item.twilightforest.iceBow,twilightforest.item.ItemTFIceBow,-,,1,384,twilightforest:ice_bow#inventory
+twilightforest:ice_sword,0,,Ice Sword,,item.twilightforest.iceSword,twilightforest.item.ItemTFIceSword,-,,1,32,twilightforest:ice_sword#inventory
+twilightforest:ironwood_axe,0,"{ench:[{lvl:1s,id:35s}]}",Ironwood Axe,,item.twilightforest.ironwoodAxe,twilightforest.item.ItemTFIronwoodAxe,-,,1,512,twilightforest:ironwood_axe#inventory
+twilightforest:ironwood_boots,0,"{ench:[{lvl:1s,id:2s}]}",Ironwood Boots,,item.twilightforest.ironwoodBoots,twilightforest.item.ItemTFIronwoodArmor,-,,1,260,twilightforest:ironwood_boots#inventory
+twilightforest:ironwood_chestplate,0,"{ench:[{lvl:1s,id:0s}]}",Ironwood Plate,,item.twilightforest.ironwoodPlate,twilightforest.item.ItemTFIronwoodArmor,-,,1,320,twilightforest:ironwood_chestplate#inventory
+twilightforest:ironwood_helmet,0,"{ench:[{lvl:1s,id:6s}]}",Ironwood Helm,,item.twilightforest.ironwoodHelm,twilightforest.item.ItemTFIronwoodArmor,-,,1,220,twilightforest:ironwood_helmet#inventory
+twilightforest:ironwood_hoe,0,,Ironwood Hoe,,item.twilightforest.ironwoodHoe,twilightforest.item.ItemTFIronwoodHoe,-,,1,512,twilightforest:ironwood_hoe#inventory
+twilightforest:ironwood_ingot,0,,Ironwood Ingot,,item.twilightforest.ironwoodIngot,twilightforest.item.ItemTF,-,ingotIronwood,64,0,twilightforest:ironwood_ingot#inventory
+twilightforest:ironwood_leggings,0,"{ench:[{lvl:1s,id:0s}]}",Ironwood Legs,,item.twilightforest.ironwoodLegs,twilightforest.item.ItemTFIronwoodArmor,-,,1,300,twilightforest:ironwood_leggings#inventory
+twilightforest:ironwood_pickaxe,0,"{ench:[{lvl:1s,id:32s}]}",Ironwood Pick,,item.twilightforest.ironwoodPick,twilightforest.item.ItemTFIronwoodPick,-,,1,512,twilightforest:ironwood_pickaxe#inventory
+twilightforest:ironwood_raw,0,,Raw Ironwood Materials,,item.twilightforest.ironwoodRaw,twilightforest.item.ItemTF,-,oreIronwood,64,0,twilightforest:ironwood_raw#inventory
+twilightforest:ironwood_shovel,0,"{ench:[{lvl:1s,id:34s}]}",Ironwood Shovel,,item.twilightforest.ironwoodShovel,twilightforest.item.ItemTFIronwoodShovel,-,,1,512,twilightforest:ironwood_shovel#inventory
+twilightforest:ironwood_sword,0,"{ench:[{lvl:1s,id:19s}]}",Ironwood Sword,,item.twilightforest.ironwoodSword,twilightforest.item.ItemTFIronwoodSword,-,,1,512,twilightforest:ironwood_sword#inventory
+twilightforest:knightmetal_axe,0,,Knightly Axe,Extra damage to unarmored targets,item.twilightforest.knightlyAxe,twilightforest.item.ItemTFKnightlyAxe,-,,1,512,twilightforest:knightmetal_axe#inventory
+twilightforest:knightmetal_block,0,,Block of Knightmetal,,tile.twilightforest.KnightmetalBlock,net.minecraft.item.ItemBlock,+,blockKnightmetal,64,0,twilightforest:knightmetal_block#normal
+twilightforest:knightmetal_boots,0,,Knightly Boots,,item.twilightforest.knightlyBoots,twilightforest.item.ItemTFKnightlyArmor,-,,1,260,twilightforest:knightmetal_boots#inventory
+twilightforest:knightmetal_chestplate,0,,Knightly Plate,,item.twilightforest.knightlyPlate,twilightforest.item.ItemTFKnightlyArmor,-,,1,320,twilightforest:knightmetal_chestplate#inventory
+twilightforest:knightmetal_helmet,0,,Knightly Helm,,item.twilightforest.knightlyHelm,twilightforest.item.ItemTFKnightlyArmor,-,,1,220,twilightforest:knightmetal_helmet#inventory
+twilightforest:knightmetal_ingot,0,,Knightmetal Ingot,,item.twilightforest.knightMetal,twilightforest.item.ItemTF,-,ingotKnightmetal,64,0,twilightforest:knightmetal_ingot#inventory
+twilightforest:knightmetal_leggings,0,,Knightly Greaves,,item.twilightforest.knightlyLegs,twilightforest.item.ItemTFKnightlyArmor,-,,1,300,twilightforest:knightmetal_leggings#inventory
+twilightforest:knightmetal_pickaxe,0,,Knightly Pick,Extra damage to armored targets,item.twilightforest.knightlyPick,twilightforest.item.ItemTFKnightlyPick,-,,1,512,twilightforest:knightmetal_pickaxe#inventory
+twilightforest:knightmetal_ring,0,,Knightmetal Loop,,item.twilightforest.knightmetalRing,twilightforest.item.ItemTF,-,,64,0,twilightforest:knightmetal_ring#inventory
+twilightforest:knightmetal_sword,0,,Knightly Sword,Extra damage to armored targets,item.twilightforest.knightlySword,twilightforest.item.ItemTFKnightlySword,-,,1,512,twilightforest:knightmetal_sword#inventory
+twilightforest:lamp_of_cinders,0,,Lamp of Cinders,,item.twilightforest.lampOfCinders,twilightforest.item.ItemTFLampOfCinders,-,,1,1024,twilightforest:lamp_of_cinders#inventory
+twilightforest:lifedrain_scepter,0,,Scepter of Life Draining,99 charges left,item.twilightforest.scepterLifeDrain,twilightforest.item.ItemTFScepterLifeDrain,-,,1,99,twilightforest:lifedrain_scepter#inventory
+twilightforest:liveroot,0,,Liveroot,,item.twilightforest.liveRoot,twilightforest.item.ItemTF,-,,64,0,twilightforest:liveroot#inventory
+twilightforest:magic_beans,0,,Magic Beans,,item.twilightforest.magicBeans,twilightforest.item.ItemTFMagicBeans,-,,64,0,twilightforest:magic_beans#inventory
+twilightforest:magic_leaves,0,,Timewood Leaves,,tile.twilightforest.MagicLeaves.0,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:magic_leaves#variant=time
+twilightforest:magic_leaves,1,,Leaves of Transformation,,tile.twilightforest.MagicLeaves.1,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:magic_leaves#variant=trans
+twilightforest:magic_leaves,2,,Miner's Leaves,,tile.twilightforest.MagicLeaves.2,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:magic_leaves#variant=mine
+twilightforest:magic_leaves,3,,Sorting Leaves,,tile.twilightforest.MagicLeaves.3,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:magic_leaves#variant=sort
+twilightforest:magic_log,0,,Timewood,,tile.twilightforest.MagicLog.0,twilightforest.item.ItemBlockTFMeta,+,logWood,64,0,"twilightforest:magic_log#axis=y,variant=time"
+twilightforest:magic_log,1,,Transwood,,tile.twilightforest.MagicLog.1,twilightforest.item.ItemBlockTFMeta,+,logWood,64,0,"twilightforest:magic_log#axis=y,variant=trans"
+twilightforest:magic_log,2,,Minewood,,tile.twilightforest.MagicLog.2,twilightforest.item.ItemBlockTFMeta,+,logWood,64,0,"twilightforest:magic_log#axis=y,variant=mine"
+twilightforest:magic_log,3,,Sortingwood,,tile.twilightforest.MagicLog.3,twilightforest.item.ItemBlockTFMeta,+,logWood,64,0,"twilightforest:magic_log#axis=y,variant=sort"
+twilightforest:magic_log_core,0,,Timewood Clock,,tile.twilightforest.MagicLogSpecial.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:magic_log_core#axis=y,variant=time"
+twilightforest:magic_log_core,1,,Heart of Transformation,,tile.twilightforest.MagicLogSpecial.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:magic_log_core#axis=y,variant=trans"
+twilightforest:magic_log_core,2,,Minewood Core,,tile.twilightforest.MagicLogSpecial.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:magic_log_core#axis=y,variant=mine"
+twilightforest:magic_log_core,3,,Sortingwood Engine,,tile.twilightforest.MagicLogSpecial.3,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:magic_log_core#axis=y,variant=sort"
+twilightforest:magic_map_empty,0,,Blank Magic Map,,item.twilightforest.emptyMagicMap,twilightforest.item.ItemTFEmptyMagicMap,-,,64,0,twilightforest:magic_map_empty#inventory
+twilightforest:magic_map_focus,0,,Magic Map Focus,,item.twilightforest.magicMapFocus,twilightforest.item.ItemTF,-,,64,0,twilightforest:magic_map_focus#inventory
+twilightforest:maze_map_empty,0,,Blank Maze Map,,item.twilightforest.emptyMazeMap,twilightforest.item.ItemTFEmptyMazeMap,-,,64,0,twilightforest:maze_map_empty#inventory
+twilightforest:maze_map_focus,0,,Maze Map Focus,,item.twilightforest.mazeMapFocus,twilightforest.item.ItemTF,-,,64,0,twilightforest:maze_map_focus#inventory
+twilightforest:maze_stone,0,,Mazestone,,tile.twilightforest.Mazestone.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:maze_stone#variant=plain
+twilightforest:maze_stone,1,,Mazestone Brick,,tile.twilightforest.Mazestone.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:maze_stone#variant=brick
+twilightforest:maze_stone,2,,Chiseled Mazestone,,tile.twilightforest.Mazestone.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:maze_stone#variant=chiseled
+twilightforest:maze_stone,3,,Decorative Mazestone Brick,,tile.twilightforest.Mazestone.3,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:maze_stone#variant=decorative
+twilightforest:maze_stone,4,,Cracked Mazestone Brick,,tile.twilightforest.Mazestone.4,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:maze_stone#variant=cracked
+twilightforest:maze_stone,5,,Mossy Mazestone Brick,,tile.twilightforest.Mazestone.5,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:maze_stone#variant=mossy
+twilightforest:maze_stone,6,,Mazestone Mosaic,,tile.twilightforest.Mazestone.6,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:maze_stone#variant=mosaic
+twilightforest:maze_stone,7,,Mazestone Border,,tile.twilightforest.Mazestone.7,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:maze_stone#variant=border
+twilightforest:maze_wafer,0,,Maze Wafer,,item.twilightforest.mazeWafer,twilightforest.item.ItemTFFood,-,,64,0,twilightforest:maze_wafer#inventory
+twilightforest:mazebreaker_pickaxe,0,"{ench:[{lvl:4s,id:32s},{lvl:3s,id:34s},{lvl:2s,id:35s}]}",Mazebreaker,,item.twilightforest.mazebreakerPick,twilightforest.item.ItemTFMazebreakerPick,-,,1,1561,twilightforest:mazebreaker_pickaxe#inventory
+twilightforest:meef_stroganoff,0,,Meef Stroganoff,,item.twilightforest.meefStroganoff,twilightforest.item.ItemTFSoup,-,,1,0,twilightforest:meef_stroganoff#inventory
+twilightforest:minotaur_axe,0,,Minotaur Axe,Extra damage while charging,item.twilightforest.minotaurAxe,twilightforest.item.ItemTFMinotaurAxe,-,,1,1561,twilightforest:minotaur_axe#inventory
+twilightforest:moonworm,0,,Moonworm,,tile.twilightforest.Moonworm,twilightforest.item.ItemBlockWearable,+,,64,0,twilightforest:moonworm#inventory
+twilightforest:moonworm_queen,0,,Moonworm Queen,,item.twilightforest.moonwormQueen,twilightforest.item.ItemTFMoonwormQueen,-,,1,256,twilightforest:moonworm_queen#inventory
+twilightforest:naga_chestplate,0,"{ench:[{lvl:3s,id:1s}]}",Naga Scale Tunic,,item.twilightforest.plateNaga,twilightforest.item.ItemTFNagaArmor,-,,1,336,twilightforest:naga_chestplate#inventory
+twilightforest:naga_leggings,0,"{ench:[{lvl:3s,id:0s}]}",Naga Scale Leggings,,item.twilightforest.legsNaga,twilightforest.item.ItemTFNagaArmor,-,,1,315,twilightforest:naga_leggings#inventory
+twilightforest:naga_scale,0,,Naga Scale,,item.twilightforest.nagaScale,twilightforest.item.ItemTF,-,,64,0,twilightforest:naga_scale#inventory
+twilightforest:naga_stone,0,,Nagastone Head,,tile.twilightforest.Nagastone.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:naga_stone#variant=east_head
+twilightforest:naga_stone,1,,Nagastone,,tile.twilightforest.Nagastone.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:naga_stone#variant=axis_x
+twilightforest:nagastone_pillar,0,,Nagastone Pillar,,tile.twilightforest.NagastonePillar,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:nagastone_pillar#axis=y
+twilightforest:nagastone_pillar_mossy,0,,Mossy Nagastone Pillar,,tile.twilightforest.NagastonePillarMossy,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:nagastone_pillar_mossy#axis=y
+twilightforest:nagastone_pillar_weathered,0,,Ruined Nagastone Pillar,,tile.twilightforest.NagastonePillarWeathered,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:nagastone_pillar_weathered#axis=y
+twilightforest:nagastone_stairs,0,,Nagastone Stairs (Left),,tile.twilightforest.NagastoneStairs.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:nagastone_stairs#direction=left,facing=south,half=bottom,shape=straight"
+twilightforest:nagastone_stairs,8,,Nagastone Stairs (Right),,tile.twilightforest.NagastoneStairs.8,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:nagastone_stairs#direction=right,facing=south,half=bottom,shape=straight"
+twilightforest:nagastone_stairs_mossy,0,,Mossy Nagastone Stairs (Left),,tile.twilightforest.NagastoneStairsMossy.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:nagastone_stairs_mossy#direction=left,facing=south,half=bottom,shape=straight"
+twilightforest:nagastone_stairs_mossy,8,,Mossy Nagastone Stairs (Right),,tile.twilightforest.NagastoneStairsMossy.8,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:nagastone_stairs_mossy#direction=right,facing=south,half=bottom,shape=straight"
+twilightforest:nagastone_stairs_weathered,0,,Weathered Nagastone Stairs (Left),,tile.twilightforest.NagastoneStairsWeathered.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:nagastone_stairs_weathered#direction=left,facing=south,half=bottom,shape=straight"
+twilightforest:nagastone_stairs_weathered,8,,Weathered Nagastone Stairs (Right),,tile.twilightforest.NagastoneStairsWeathered.8,twilightforest.item.ItemBlockTFMeta,+,,64,0,"twilightforest:nagastone_stairs_weathered#direction=right,facing=south,half=bottom,shape=straight"
+twilightforest:ore_magnet,0,,Ore Magnet,,item.twilightforest.oreMagnet,twilightforest.item.ItemTFOreMagnet,-,,1,12,twilightforest:ore_magnet#inventory
+twilightforest:ore_map_empty,0,,Blank Maze/Ore Map,,item.twilightforest.emptyOreMap,twilightforest.item.ItemTFEmptyMazeMap,-,,64,0,twilightforest:ore_map_empty#inventory
+twilightforest:ore_meter,0,,Ore Meter [WIP],,item.twilightforest.oreMeter,twilightforest.item.ItemTFOreMeter,-,,1,0,twilightforest:ore_meter#inventory
+twilightforest:peacock_fan,0,,Peacock Feather Fan,,item.twilightforest.peacockFan,twilightforest.item.ItemTFPeacockFan,-,,1,1024,twilightforest:peacock_fan#inventory
+twilightforest:phantom_chestplate,0,,Phantom Plate,Is never lost on death,item.twilightforest.phantomPlate,twilightforest.item.ItemTFPhantomArmor,-,,1,480,twilightforest:phantom_chestplate#inventory
+twilightforest:phantom_helmet,0,,Phantom Helm,Is never lost on death,item.twilightforest.phantomHelm,twilightforest.item.ItemTFPhantomArmor,-,,1,330,twilightforest:phantom_helmet#inventory
+twilightforest:raven_feather,0,,Raven Feather,,item.twilightforest.tfFeather,twilightforest.item.ItemTF,-,,64,0,twilightforest:raven_feather#inventory
+twilightforest:raw_meef,0,,Raw Meef,,item.twilightforest.meefRaw,twilightforest.item.ItemTFFood,-,,64,0,twilightforest:raw_meef#inventory
+twilightforest:raw_venison,0,,Raw Venison,,item.twilightforest.venisonRaw,twilightforest.item.ItemTFFood,-,,64,0,twilightforest:raw_venison#inventory
+twilightforest:root,0,,Roots,,tile.twilightforest.Roots.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:root#variant=root
+twilightforest:root,1,,Liveroots,,tile.twilightforest.Roots.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:root#variant=liveroot
+twilightforest:seeker_bow,0,,Seeker Bow,,item.twilightforest.seekerBow,twilightforest.item.ItemTFSeekerBow,-,,1,384,twilightforest:seeker_bow#inventory
+twilightforest:shield_scepter,0,,Scepter of Fortification,9 charges left,item.twilightforest.scepterShield,twilightforest.item.ItemTFShieldWand,-,,1,9,twilightforest:shield_scepter#inventory
+twilightforest:slider,0,,Slide Trap,,tile.twilightforest.Slider.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:slider#axis=y
+twilightforest:slider,1,,Slide Trap 1,,tile.twilightforest.Slider.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:slider#axis=y
+twilightforest:slider,2,,Slide Trap 2,,tile.twilightforest.Slider.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:slider#axis=y
+twilightforest:slider,3,,Slide Trap 3,,tile.twilightforest.Slider.3,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:slider#axis=y
+twilightforest:spiral_bricks,0,,Spiral Stone Bricks,,tile.twilightforest.SpiralBricks,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:x_spiral_bricks#diagonal=bottom_left
+twilightforest:steeleaf_axe,0,"{ench:[{lvl:2s,id:32s}]}",Steeleaf Axe,,item.twilightforest.steeleafAxe,twilightforest.item.ItemTFSteeleafAxe,-,,1,131,twilightforest:steeleaf_axe#inventory
+twilightforest:steeleaf_boots,0,"{ench:[{lvl:2s,id:2s}]}",Steeleaf Boots,,item.twilightforest.steeleafBoots,twilightforest.item.ItemTFSteeleafArmor,-,,1,130,twilightforest:steeleaf_boots#inventory
+twilightforest:steeleaf_chestplate,0,"{ench:[{lvl:2s,id:3s}]}",Steeleaf Plate,,item.twilightforest.steeleafPlate,twilightforest.item.ItemTFSteeleafArmor,-,,1,160,twilightforest:steeleaf_chestplate#inventory
+twilightforest:steeleaf_helmet,0,"{ench:[{lvl:2s,id:4s}]}",Steeleaf Helm,,item.twilightforest.steeleafHelm,twilightforest.item.ItemTFSteeleafArmor,-,,1,110,twilightforest:steeleaf_helmet#inventory
+twilightforest:steeleaf_hoe,0,,Steeleaf Hoe,,item.twilightforest.steeleafHoe,twilightforest.item.ItemTFSteeleafHoe,-,,1,131,twilightforest:steeleaf_hoe#inventory
+twilightforest:steeleaf_ingot,0,,Steeleaf,,item.twilightforest.steeleafIngot,twilightforest.item.ItemTF,-,ingotSteeleaf,64,0,twilightforest:steeleaf_ingot#inventory
+twilightforest:steeleaf_leggings,0,"{ench:[{lvl:2s,id:1s}]}",Steeleaf Legs,,item.twilightforest.steeleafLegs,twilightforest.item.ItemTFSteeleafArmor,-,,1,150,twilightforest:steeleaf_leggings#inventory
+twilightforest:steeleaf_pickaxe,0,"{ench:[{lvl:2s,id:35s}]}",Steeleaf Pick,,item.twilightforest.steeleafPick,twilightforest.item.ItemTFSteeleafPick,-,,1,131,twilightforest:steeleaf_pickaxe#inventory
+twilightforest:steeleaf_shovel,0,"{ench:[{lvl:2s,id:32s}]}",Steeleaf Shovel,,item.twilightforest.steeleafShovel,twilightforest.item.ItemTFSteeleafShovel,-,,1,131,twilightforest:steeleaf_shovel#inventory
+twilightforest:steeleaf_sword,0,"{ench:[{lvl:2s,id:21s}]}",Steeleaf Sword,,item.twilightforest.steeleafSword,twilightforest.item.ItemTFSteeleafSword,-,,1,131,twilightforest:steeleaf_sword#inventory
+twilightforest:stronghold_shield,0,,Stronghold Shield,,tile.twilightforest.Shield.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:stronghold_shield#facing=down
+twilightforest:thorn_rose,0,,Thorn Rose,,tile.twilightforest.ThornRose,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:thorn_rose#inventory
+twilightforest:thorns,0,,Thorns,,tile.twilightforest.Thorns.brown,net.minecraft.item.ItemMultiTexture,+,,64,0,"twilightforest:thorns#axis=y,east=false,north=false,south=false,variant=brown,west=false"
+twilightforest:thorns,1,,Green Thorns,,tile.twilightforest.Thorns.green,net.minecraft.item.ItemMultiTexture,+,,64,0,"twilightforest:thorns#axis=y,east=false,north=false,south=false,variant=green,west=false"
+twilightforest:torchberries,0,,Torchberries,,item.twilightforest.torchberries,twilightforest.item.ItemTF,-,,64,0,twilightforest:torchberries#inventory
+twilightforest:tower_device,0,,Reappearing Block,,tile.twilightforest.TowerDevice.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:tower_device#variant=reappearing_inactive
+twilightforest:tower_device,2,,Vanishing Block,,tile.twilightforest.TowerDevice.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:tower_device#variant=vanish_inactive
+twilightforest:tower_device,4,,Locked Vanishing Block,,tile.twilightforest.TowerDevice.4,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:tower_device#variant=vanish_locked
+twilightforest:tower_device,5,,Unlocked Vanishing Block,,tile.twilightforest.TowerDevice.5,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:tower_device#variant=vanish_unlocked
+twilightforest:tower_device,6,,Carminite Builder,,tile.twilightforest.TowerDevice.6,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:tower_device#variant=builder_inactive
+twilightforest:tower_device,9,,Anti-builder,,tile.twilightforest.TowerDevice.9,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:tower_device#variant=antibuilder
+twilightforest:tower_device,10,,Ghast Trap,,tile.twilightforest.TowerDevice.10,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:tower_device#variant=ghasttrap_inactive
+twilightforest:tower_device,12,,Carminite Reactor,,tile.twilightforest.TowerDevice.12,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:tower_device#variant=reactor_inactive
+twilightforest:tower_key,0,,Tower Key,,item.twilightforest.towerKey,twilightforest.item.ItemTFTowerKey,-,,64,0,twilightforest:tower_key#inventory
+twilightforest:tower_wood,0,,Towerwood Planks,,tile.twilightforest.TowerStone.0,twilightforest.item.ItemBlockTFMeta,+,plankWood,64,0,twilightforest:tower_wood#variant=plain
+twilightforest:tower_wood,1,,Encased Towerwood,,tile.twilightforest.TowerStone.1,twilightforest.item.ItemBlockTFMeta,+,plankWood,64,0,twilightforest:tower_wood#variant=encased
+twilightforest:tower_wood,2,,Cracked Towerwood,,tile.twilightforest.TowerStone.2,twilightforest.item.ItemBlockTFMeta,+,plankWood,64,0,twilightforest:tower_wood#variant=cracked
+twilightforest:tower_wood,3,,Mossy Towerwood,,tile.twilightforest.TowerStone.3,twilightforest.item.ItemBlockTFMeta,+,plankWood,64,0,twilightforest:tower_wood#variant=mossy
+twilightforest:tower_wood,4,,Infested Towerwood,,tile.twilightforest.TowerStone.4,twilightforest.item.ItemBlockTFMeta,+,plankWood,64,0,twilightforest:tower_wood#variant=infested
+twilightforest:transformation_powder,0,,Transformation Powder,,item.twilightforest.transformPowder,twilightforest.item.ItemTFTransformPowder,-,,64,0,twilightforest:transformation_powder#inventory
+twilightforest:triple_bow,0,,Tri-bow,,item.twilightforest.tripleBow,twilightforest.item.ItemTFTripleBow,-,,1,384,twilightforest:triple_bow#inventory
+twilightforest:trollber,0,,Trollber,,tile.twilightforest.TrollBer,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:trollber#inventory
+twilightforest:trollsteinn,0,,Trollsteinn,,tile.twilightforest.TrollSteinn,net.minecraft.item.ItemBlock,+,,64,0,"twilightforest:trollsteinn#down=false,east=false,north=false,south=false,up=false,west=false"
+twilightforest:trollvidr,0,,Trollvidr,,tile.twilightforest.TrollVidr,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:trollvidr#inventory
+twilightforest:trophy,0,,Naga Trophy,,item.twilightforest.tf_trophy.name,twilightforest.item.ItemTFTrophy,-,,64,0,twilightforest:trophy_tesr#inventory
+twilightforest:trophy,1,,Twilight Lich Trophy,,item.twilightforest.tf_trophy.name,twilightforest.item.ItemTFTrophy,-,,64,0,twilightforest:trophy_tesr#inventory
+twilightforest:trophy,2,,Hydra Trophy,,item.twilightforest.tf_trophy.name,twilightforest.item.ItemTFTrophy,-,,64,0,twilightforest:trophy_tesr#inventory
+twilightforest:trophy,3,,Ur-Ghast Trophy,,item.twilightforest.tf_trophy.name,twilightforest.item.ItemTFTrophy,-,,64,0,twilightforest:trophy_tesr#inventory
+twilightforest:trophy,4,,Knight Phantom Trophy,,item.twilightforest.tf_trophy.name,twilightforest.item.ItemTFTrophy,-,,64,0,twilightforest:trophy_tesr#inventory
+twilightforest:trophy,5,,Snow Queen Trophy,,item.twilightforest.tf_trophy.name,twilightforest.item.ItemTFTrophy,-,,64,0,twilightforest:trophy_tesr#inventory
+twilightforest:trophy,6,,Minoshroom Trophy,,item.twilightforest.tf_trophy.name,twilightforest.item.ItemTFTrophy,-,,64,0,twilightforest:trophy_tesr#inventory
+twilightforest:trophy,8,,Questing Ram Trophy,,item.twilightforest.tf_trophy.name,twilightforest.item.ItemTFTrophy,-,,64,0,twilightforest:trophy_tesr#inventory
+twilightforest:trophy_pedestal,0,,Trophy Pedestal,,tile.twilightforest.TrophyPedestal.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:trophy_pedestal_ctm#latent=false
+twilightforest:twilight_leaves,0,,Twilight Oak Leaves,,tile.twilightforest.Leaves.0,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:twilight_leaves#variant=oak
+twilightforest:twilight_leaves,1,,Canopy Tree Leaves,,tile.twilightforest.Leaves.1,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:twilight_leaves#variant=canopy
+twilightforest:twilight_leaves,2,,Mangrove Leaves,,tile.twilightforest.Leaves.2,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:twilight_leaves#variant=mangrove
+twilightforest:twilight_leaves,3,,Rainbow Oak Leaves,,tile.twilightforest.Leaves.3,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:twilight_leaves#variant=rainboak
+twilightforest:twilight_leaves_3,0,,Thorn Leaves,,tile.twilightforest.Leaves3.0,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:twilight_leaves_3#variant=thorn
+twilightforest:twilight_leaves_3,1,,Beanstalk Leaves,,tile.twilightforest.Leaves3.1,twilightforest.item.ItemBlockTFLeaves,+,treeLeaves,64,0,twilightforest:twilight_leaves_3#variant=beanstalk
+twilightforest:twilight_log,0,,Twilight Oak Wood,,tile.twilightforest.Log.0,twilightforest.item.ItemBlockTFMeta,+,logWood,64,0,"twilightforest:twilight_log#axis=y,variant=oak"
+twilightforest:twilight_log,1,,Canopy Tree Wood,,tile.twilightforest.Log.1,twilightforest.item.ItemBlockTFMeta,+,logWood,64,0,"twilightforest:twilight_log#axis=y,variant=canopy"
+twilightforest:twilight_log,2,,Mangrove Wood,,tile.twilightforest.Log.2,twilightforest.item.ItemBlockTFMeta,+,logWood,64,0,"twilightforest:twilight_log#axis=y,variant=mangrove"
+twilightforest:twilight_log,3,,Darkwood Wood,,tile.twilightforest.Log.3,twilightforest.item.ItemBlockTFMeta,+,logWood,64,0,"twilightforest:twilight_log#axis=y,variant=dark"
+twilightforest:twilight_plant,0,,Moss Patch,,tile.twilightforest.Plant.0,twilightforest.item.ItemBlockTFPlant,+,,64,0,twilightforest:twilight_plant#inventory_mosspatch
+twilightforest:twilight_plant,1,,Mayapple,,tile.twilightforest.Plant.1,twilightforest.item.ItemBlockTFPlant,+,,64,0,twilightforest:twilight_plant#inventory_mayapple
+twilightforest:twilight_plant,2,,Clover Patch [WIP],"This block is a work in progress and may have bugs or unintended effects that may damage your world.
+Use with caution.",tile.twilightforest.Plant.2,twilightforest.item.ItemBlockTFPlant,+,,64,0,twilightforest:twilight_plant#inventory_cloverpatch
+twilightforest:twilight_plant,3,,Fiddlehead,,tile.twilightforest.Plant.3,twilightforest.item.ItemBlockTFPlant,+,,64,0,twilightforest:twilight_plant#inventory_fiddlehead
+twilightforest:twilight_plant,4,,Mushgloom,,tile.twilightforest.Plant.4,twilightforest.item.ItemBlockTFPlant,+,,64,0,twilightforest:twilight_plant#inventory_mushgloom
+twilightforest:twilight_plant,5,,Forest Grass,,tile.twilightforest.Plant.5,twilightforest.item.ItemBlockTFPlant,+,,64,0,twilightforest:twilight_plant#inventory_forestgrass
+twilightforest:twilight_plant,6,,Dried Bush,,tile.twilightforest.Plant.6,twilightforest.item.ItemBlockTFPlant,+,,64,0,twilightforest:twilight_plant#inventory_deadbush
+twilightforest:twilight_plant,7,,Torchberry Plant,,tile.twilightforest.Plant.7,twilightforest.item.ItemBlockTFPlant,+,,64,0,twilightforest:twilight_plant#inventory_torchberry
+twilightforest:twilight_plant,8,,Root Strands,,tile.twilightforest.Plant.8,twilightforest.item.ItemBlockTFPlant,+,,64,0,twilightforest:twilight_plant#inventory_root_strand
+twilightforest:twilight_sapling,0,,Sickly Twilight Oak Sapling,,tile.twilightforest.Sapling.0,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_oak
+twilightforest:twilight_sapling,1,,Canopy Tree Sapling,,tile.twilightforest.Sapling.1,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_canopy
+twilightforest:twilight_sapling,2,,Twilight Mangrove Sapling,,tile.twilightforest.Sapling.2,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_mangrove
+twilightforest:twilight_sapling,3,,Darkwood Sapling,,tile.twilightforest.Sapling.3,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_darkwood
+twilightforest:twilight_sapling,4,,Robust Twilight Oak Sapling,,tile.twilightforest.Sapling.4,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_hollow_oak
+twilightforest:twilight_sapling,5,,Tree of Time Sapling,,tile.twilightforest.Sapling.5,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_time
+twilightforest:twilight_sapling,6,,Tree of Transformation Sapling,,tile.twilightforest.Sapling.6,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_transformation
+twilightforest:twilight_sapling,7,,Miner's Tree Sapling,,tile.twilightforest.Sapling.7,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_mining
+twilightforest:twilight_sapling,8,,Sorting Tree Sapling,,tile.twilightforest.Sapling.8,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_sorting
+twilightforest:twilight_sapling,9,,Rainbow Oak Sapling,,tile.twilightforest.Sapling.9,twilightforest.item.TFRegisterItemEvent$1,+,treeSapling,64,0,twilightforest:twilight_sapling#inventory_rainbow
+twilightforest:twilight_scepter,0,,Scepter of Twilight,99 charges left,item.twilightforest.scepterTwilight,twilightforest.item.ItemTFTwilightWand,-,,1,99,twilightforest:twilight_scepter#inventory
+twilightforest:uberous_soil,0,,Uberous Soil,,tile.twilightforest.UberousSoil,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:uberous_soil#normal
+twilightforest:uncrafting_table,0,,Uncrafting Table,,tile.twilightforest.UncraftingTable,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:uncrafting_table#ctm
+twilightforest:underbrick,0,,Underbrick,,tile.twilightforest.UnderBrick.0,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:underbrick#variant=normal
+twilightforest:underbrick,1,,Mossy Underbrick,,tile.twilightforest.UnderBrick.1,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:underbrick#variant=mossy
+twilightforest:underbrick,2,,Cracked Underbrick,,tile.twilightforest.UnderBrick.2,twilightforest.item.ItemBlockTFMeta,+,,64,0,twilightforest:underbrick#variant=cracked
+twilightforest:unripe_trollber,0,,Unripe Trollber,,tile.twilightforest.UnripeTrollBer,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:unripe_trollber#inventory
+twilightforest:wispy_cloud,0,,Wispy Cloud,,tile.twilightforest.WispyCloud,net.minecraft.item.ItemBlock,+,,64,0,twilightforest:wispy_cloud#normal
+twilightforest:yeti_boots,0,"{ench:[{lvl:2s,id:0s},{lvl:4s,id:2s}]}",Yeti Boots,Chills attackers,item.twilightforest.yetiBoots,twilightforest.item.ItemTFYetiArmor,-,,1,260,twilightforest:yeti_boots#inventory
+twilightforest:yeti_chestplate,0,"{ench:[{lvl:2s,id:0s}]}",Yeti Jacket,Chills attackers,item.twilightforest.yetiPlate,twilightforest.item.ItemTFYetiArmor,-,,1,320,twilightforest:yeti_chestplate#inventory
+twilightforest:yeti_helmet,0,"{ench:[{lvl:2s,id:0s}]}",Yeti Horned Helm,Chills attackers,item.twilightforest.yetiHelm,twilightforest.item.ItemTFYetiArmor,-,,1,220,twilightforest:yeti_helmet#inventory
+twilightforest:yeti_leggings,0,"{ench:[{lvl:2s,id:0s}]}",Yeti Leggings,Chills attackers,item.twilightforest.yetiLegs,twilightforest.item.ItemTFYetiArmor,-,,1,300,twilightforest:yeti_leggings#inventory
+twilightforest:zombie_scepter,0,,Zombie Scepter,9 charges left,item.twilightforest.scepterZombie,twilightforest.item.ItemTFZombieWand,-,,1,9,twilightforest:zombie_scepter#inventory

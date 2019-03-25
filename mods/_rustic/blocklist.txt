@@ -1,0 +1,35 @@
+
+
+//rustic woods
+//[PropertyEnum{name=axis, values=[x, y, z, none]}, name=variant, values=[olive, ironwood]}]
+log_olive;rustic:log;0;false;237/237/1
+planks_olive;rustic:planks;0;false;237/237/2
+log_olive_none;rustic:log;variant=olive,axis=none;false;237/237/3;rustic:log;0;1
+log_olive_x;rustic:log;variant=olive,axis=none;false;237/237/4;rustic:log;0;1
+log_olive_y;rustic:log;variant=olive,axis=none;false;237/237/5;rustic:log;0;1
+log_olive_z;rustic:log;variant=olive,axis=none;false;237/237/6;rustic:log;0;1
+
+log_ironwood;rustic:log;1;false;237/237/10
+planks_iron;rustic:planks;1;false;237/237/11
+log_ironwood_none;rustic:log;variant=ironwood,axis=none;false;237/237/12;rustic:log;1;1
+log_ironwood_x;rustic:log;variant=ironwood,axis=none;false;237/237/13;rustic:log;1;1
+log_ironwood_y;rustic:log;variant=ironwood,axis=none;false;237/237/14;rustic:log;1;1
+log_ironwood_z;rustic:log;variant=ironwood,axis=none;false;237/237/15;rustic:log;1;1
+
+// should the cost of the painted woods be the dye rather than wood?
+painted_wood_black;rustic:painted_wood_black;0;false;237/237/24;anywood;;1
+painted_wood_blue;rustic:painted_wood_blue;0;false;237/237/25;anywood;;1
+painted_wood_brown;rustic:painted_wood_brown;0;false;237/237/26;anywood;;1
+painted_wood_cyan;rustic:painted_wood_cyan;0;false;237/237/27;anywood;;1
+painted_wood_gray;rustic:painted_wood_gray;0;false;237/237/28;anywood;;1
+painted_wood_green;rustic:painted_wood_green;0;false;237/237/29;anywood;;1
+painted_wood_light_blue;rustic:painted_wood_light_blue;0;false;237/237/30;anywood;;1
+painted_wood_lime;rustic:painted_wood_lime;0;false;237/237/31;anywood;;1
+painted_wood_magenta;rustic:painted_wood_magenta;0;false;237/237/32;anywood;;1
+painted_wood_orange;rustic:painted_wood_orange;0;false;237/237/33;anywood;;1
+painted_wood_pink;rustic:painted_wood_pink;0;false;237/237/34;anywood;;1
+painted_wood_purple;rustic:painted_wood_purple;0;false;237/237/35;anywood;;1
+painted_wood_red;rustic:painted_wood_red;0;false;237/237/36;anywood;;1
+painted_wood_silver;rustic:painted_wood_silver;0;false;237/237/37;anywood;;1
+painted_wood_white;rustic:painted_wood_white;0;false;237/237/38;anywood;;1
+painted_wood_yellow;rustic:painted_wood_yellow;0;false;237/237/39;anywood;;1

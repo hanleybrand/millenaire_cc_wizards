@@ -1,0 +1,13 @@
+ID,Class Name,BlockState Properties,BlockState Class Name
+ebwizardry:arcane_workbench,electroblob.wizardry.block.BlockArcaneWorkbench,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:crystal_block,net.minecraft.block.Block,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:crystal_flower,electroblob.wizardry.block.BlockCrystalFlower,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:crystal_ore,electroblob.wizardry.block.BlockCrystalOre,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:ice_statue,electroblob.wizardry.block.BlockStatue,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:magic_light,electroblob.wizardry.block.BlockMagicLight,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:meteor,net.minecraft.block.Block,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:petrified_stone,electroblob.wizardry.block.BlockStatue,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:snare,electroblob.wizardry.block.BlockSnare,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:spectral_block,electroblob.wizardry.block.BlockSpectral,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:transportation_stone,electroblob.wizardry.block.BlockTransportationStone,[],net.minecraft.block.state.BlockStateContainer
+ebwizardry:vanishing_cobweb,electroblob.wizardry.block.BlockVanishingCobweb,[],net.minecraft.block.state.BlockStateContainer

@@ -1,0 +1,13 @@
+,,,,,,,,,,,
+effortlessbuilding:randomizer_bag,0,,Randomizer Bag,"§9Rightclick§7 to place a random block
+§9Sneak + rightclick§7 to open inventory",item.effortlessbuilding:randomizer_bag,nl.requios.effortlessbuilding.item.ItemRandomizerBag,-,,1,0,effortlessbuilding:randomizer_bag#inventory
+effortlessbuilding:reach_upgrade1,0,,Reach Upgrade 1,§7Consume to increase reach to §950,item.effortlessbuilding:reach_upgrade1,nl.requios.effortlessbuilding.item.ItemReachUpgrade1,-,,1,0,effortlessbuilding:reach_upgrade1#inventory
+effortlessbuilding:reach_upgrade2,0,,Reach Upgrade 2,"§7Consume to increase reach to §9100
+§7Previous upgrades need to be consumed first",item.effortlessbuilding:reach_upgrade2,nl.requios.effortlessbuilding.item.ItemReachUpgrade2,-,,1,0,effortlessbuilding:reach_upgrade2#inventory
+effortlessbuilding:reach_upgrade3,0,,Reach Upgrade 3,"§7Consume to increase reach to §9200
+§7Previous upgrades need to be consumed first",item.effortlessbuilding:reach_upgrade3,nl.requios.effortlessbuilding.item.ItemReachUpgrade3,-,,1,0,effortlessbuilding:reach_upgrade3#inventory
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,

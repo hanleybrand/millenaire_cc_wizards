@@ -29,11 +29,13 @@ crystal_block;ebwizardry:crystal_block;0;false;235/235/65
 crystal_ore;ebwizardry:crystal_ore;0;false;235/235/66
 crystal_flower;ebwizardry:crystal_flower;0;false;235/235/67
 
-waystone;waystones:waystone;facing=north,base=true;true;235/235/96
-waystone;waystones:waystone;facing=south,base=true;true;235/235/97
-waystone;waystones:waystone;facing=east,base=true;true;235/235/98
-waystone;waystones:waystone;facing=west,base=true;true;235/235/99
-waystone;waystones:waystone;facing=north,base=false;true;235/235/100
-waystone;waystones:waystone;facing=south,base=false;true;235/235/101
-waystone;waystones:waystone;facing=east,base=false;true;235/235/102
-waystone;waystones:waystone;facing=west,base=false;true;235/235/103
+waystone;waystones:waystone;facing=north,base=true;true;235/235/96;;;0
+waystone;waystones:waystone;facing=south,base=true;true;235/235/97;;;0
+waystone;waystones:waystone;facing=east,base=true;true;235/235/98;;;0
+waystone;waystones:waystone;facing=west,base=true;true;235/235/99;;;0
+waystone;waystones:waystone;facing=north,base=false;true;235/235/100;;;0
+waystone;waystones:waystone;facing=south,base=false;true;235/235/101;;;0
+waystone;waystones:waystone;facing=east,base=false;true;235/235/102;;;0
+waystone;waystones:waystone;facing=west,base=false;true;235/235/103;;;0
+
+twilight_portal;twilghtforest:twilight_portal;is_one_way=false;true;235/235/110;;;0

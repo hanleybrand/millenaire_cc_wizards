@@ -6,10 +6,11 @@ icon=ciderapple
 baseheight=0.4
 
 travelbook_held_item=ciderapple
-travelbook_category=wizard
+travelbook_category=creature
 
 texture=textures/entity/wizards/special/house_elf.png
 
+goal=gorest
 goal=bringBackResourcesHome
 goal=gatherGoods
 goal=gatherciderappleshome
@@ -23,9 +24,10 @@ bringBackHomeGood=ciderapple
 startingInv=sapling_appletree,10
 
 toolneededclass=axes
+toolneededclass=toolssword
 
 baseAttackStrength=5
-defaultweapon=woodaxe
-startingInv=woodaxe,1
+defaultweapon=stoneaxe
+startingInv=stoneaxe,1
 
-experiencegiven=1
+experiencegiven=5

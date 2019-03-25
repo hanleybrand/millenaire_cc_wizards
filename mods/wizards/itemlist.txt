@@ -11,7 +11,7 @@ blazerod;minecraft:blaze_rod;0;Blaze Rod
 // spell_book;wizardry:spell_book;1;Spell Book // doesn't work, who knows why?
 magic_crystal;ebwizardry:magic_crystal;0;Magic Crystal
 magic_silk;ebwizardry:magic_silk;0;Magic Silk
-scroll_126;ebwizardry:scroll;126;Ice Lance
+scroll_of_ice_lance;ebwizardry:scroll;126;Ice Lance
 
 // wizard gear 
 wizard_hat;ebwizardry:wizard_hat;0;Wizard Hat
@@ -55,3 +55,133 @@ wizard_boots_healing;ebwizardry:wizard_boots_healing;0;Healer Boots
 wizard_leggings_healing;ebwizardry:wizard_leggings_healing;0;Healer Pants
 
 magic_wand;ebwizardry:magic_wand;0;Magic Wand
+
+//wizardy scrolls
+scroll_of_agility;ebwizardry:scroll;39;Scroll of Agility
+scroll_of_arc;ebwizardry:scroll;5;Scroll of Arc
+scroll_of_arcane_jammer;ebwizardry:scroll;133;Scroll of Arcane Jammer
+scroll_of_arrow_rain;ebwizardry:scroll;108;Scroll of Arrow Rain
+scroll_of_banish;ebwizardry:scroll;116;Scroll of Banish
+scroll_of_black_hole;ebwizardry:scroll;105;Scroll of Black Hole
+scroll_of_blink;ebwizardry:scroll;38;Scroll of Blink
+scroll_of_blizzard;ebwizardry:scroll;54;Scroll of Blizzard
+scroll_of_bubble;ebwizardry:scroll;34;Scroll of Bubble
+scroll_of_chain_lightning;ebwizardry:scroll;60;Scroll of Chain Lightning
+scroll_of_clairvoyance;ebwizardry:scroll;119;Scroll of Clairvoyance
+scroll_of_cobwebs;ebwizardry:scroll;131;Scroll of Cobwebs
+scroll_of_conjure_armor;ebwizardry:scroll;134;Scroll of Conjure Armor
+scroll_of_conjure_bow;ebwizardry:scroll;42;Scroll of Conjure Bow
+scroll_of_conjure_pickaxe;ebwizardry:scroll;41;Scroll of Conjure Pickaxe
+scroll_of_conjure_sword;ebwizardry:scroll;40;Scroll of Conjure Sword
+scroll_of_cure_effects;ebwizardry:scroll;46;Scroll of Cure Effects
+scroll_of_curse_of_soulbinding;ebwizardry:scroll;130;Scroll of Curse of Soulbinding
+scroll_of_darkness_orb;ebwizardry:scroll;69;Scroll of Darkness Orb
+scroll_of_darkvision;ebwizardry:scroll;118;Scroll of Darkvision
+scroll_of_dart;ebwizardry:scroll;9;Scroll of Dart
+scroll_of_decay;ebwizardry:scroll;71;Scroll of Decay
+scroll_of_decoy;ebwizardry:scroll;132;Scroll of Decoy
+scroll_of_detonate;ebwizardry:scroll;50;Scroll of Detonate
+scroll_of_diamondflesh;ebwizardry:scroll;109;Scroll of Diamondflesh
+scroll_of_earthquake;ebwizardry:scroll;139;Scroll of Earthquake
+scroll_of_entrapment;ebwizardry:scroll;67;Scroll of Entrapment
+scroll_of_fire_resistance;ebwizardry:scroll;51;Scroll of Fire Resistance
+scroll_of_fire_sigil;ebwizardry:scroll;16;Scroll of Fire Sigil
+scroll_of_fireball;ebwizardry:scroll;13;Scroll of Fireball
+scroll_of_firebolt;ebwizardry:scroll;17;Scroll of Firebolt
+scroll_of_firebomb;ebwizardry:scroll;15;Scroll of Firebomb
+scroll_of_fireskin;ebwizardry:scroll;52;Scroll of Fireskin
+scroll_of_flaming_axe;ebwizardry:scroll;53;Scroll of Flaming Axe
+scroll_of_flaming_weapon;ebwizardry:scroll;125;Scroll of Flaming Weapon
+scroll_of_font_of_mana;ebwizardry:scroll;140;Scroll of Font of Mana
+scroll_of_font_of_vitality;ebwizardry:scroll;110;Scroll of Font of Vitality
+scroll_of_force_arrow;ebwizardry:scroll;43;Scroll of Force Arrow
+scroll_of_force_orb;ebwizardry:scroll;81;Scroll of Force Orb
+scroll_of_forcefield;ebwizardry:scroll;88;Scroll of Forcefield
+scroll_of_forest's_curse;ebwizardry:scroll;102;Scroll of Forest's Curse
+scroll_of_freeze;ebwizardry:scroll;3;Scroll of Freeze
+scroll_of_freezing_weapon;ebwizardry:scroll;127;Scroll of Freezing Weapon
+scroll_of_frost_axe;ebwizardry:scroll;58;Scroll of Frost Axe
+scroll_of_frost_sigil;ebwizardry:scroll;22;Scroll of Frost Sigil
+scroll_of_greater_fireball;ebwizardry:scroll;124;Scroll of Greater Fireball
+scroll_of_greater_heal;ebwizardry:scroll;86;Scroll of Greater Heal
+scroll_of_group_heal;ebwizardry:scroll;135;Scroll of Group Heal
+scroll_of_growth_aura;ebwizardry:scroll;33;Scroll of Growth Aura
+scroll_of_hailstorm;ebwizardry:scroll;136;Scroll of Hailstorm
+scroll_of_heal_ally;ebwizardry:scroll;47;Scroll of Heal Ally
+scroll_of_heal;ebwizardry:scroll;12;Scroll of Heal
+scroll_of_healing_aura;ebwizardry:scroll;87;Scroll of Healing Aura
+scroll_of_homing_spark;ebwizardry:scroll;25;Scroll of Homing Spark
+scroll_of_ice_age;ebwizardry:scroll;94;Scroll of Ice Age
+scroll_of_ice_charge;ebwizardry:scroll;57;Scroll of Ice Charge
+scroll_of_ice_lance;ebwizardry:scroll;126;Scroll of Ice Lance
+scroll_of_ice_shard;ebwizardry:scroll;20;Scroll of Ice Shard
+scroll_of_ice_shroud;ebwizardry:scroll;56;Scroll of Ice Shroud
+scroll_of_ice_spikes;ebwizardry:scroll;128;Scroll of Ice Spikes
+scroll_of_ice_statue;ebwizardry:scroll;21;Scroll of Ice Statue
+scroll_of_ignite;ebwizardry:scroll;2;Scroll of Ignite
+scroll_of_imbue_weapon;ebwizardry:scroll;121;Scroll of Imbue Weapon
+scroll_of_intimidate;ebwizardry:scroll;115;Scroll of Intimidate
+scroll_of_invigorating_presence;ebwizardry:scroll;122;Scroll of Invigorating Presence
+scroll_of_invisibility;ebwizardry:scroll;79;Scroll of Invisibility
+scroll_of_invoke_weather;ebwizardry:scroll;59;Scroll of Invoke Weather
+scroll_of_ironflesh;ebwizardry:scroll;89;Scroll of Ironflesh
+scroll_of_leap;ebwizardry:scroll;113;Scroll of Leap
+scroll_of_light;ebwizardry:scroll;10;Scroll of Light
+scroll_of_lightning_arrow;ebwizardry:scroll;27;Scroll of Lightning Arrow
+scroll_of_lightning_bolt;ebwizardry:scroll;61;Scroll of Lightning Bolt
+scroll_of_lightning_disk;ebwizardry:scroll;64;Scroll of Lightning Disk
+scroll_of_lightning_hammer;ebwizardry:scroll;98;Scroll of Lightning Hammer
+scroll_of_lightning_pulse;ebwizardry:scroll;129;Scroll of Lightning Pulse
+scroll_of_lightning_sigil;ebwizardry:scroll;26;Scroll of Lightning Sigil
+scroll_of_magic_missile;ebwizardry:scroll;1;Scroll of Magic Missile
+scroll_of_metamorphosis;ebwizardry:scroll;30;Scroll of Metamorphosis
+scroll_of_meteor;ebwizardry:scroll;91;Scroll of Meteor
+scroll_of_mind_control;ebwizardry:scroll;65;Scroll of Mind Control
+scroll_of_mind_trick;ebwizardry:scroll;112;Scroll of Mind Trick
+scroll_of_oakflesh;ebwizardry:scroll;123;Scroll of Oakflesh
+scroll_of_petrify;ebwizardry:scroll;78;Scroll of Petrify
+scroll_of_phase_step;ebwizardry:scroll;84;Scroll of Phase Step
+scroll_of_plague_of_darkness;ebwizardry:scroll;99;Scroll of Plague of Darkness
+scroll_of_pocket_furnace;ebwizardry:scroll;114;Scroll of Pocket Furnace
+scroll_of_pocket_workbench;ebwizardry:scroll;120;Scroll of Pocket Workbench
+scroll_of_poison_bomb;ebwizardry:scroll;36;Scroll of Poison Bomb
+scroll_of_poison;ebwizardry:scroll;32;Scroll of Poison
+scroll_of_replenish_hunger;ebwizardry:scroll;45;Scroll of Replenish Hunger
+scroll_of_ring_of_fire;ebwizardry:scroll;49;Scroll of Ring of Fire
+scroll_of_shockwave;ebwizardry:scroll;106;Scroll of Shockwave
+scroll_of_silverfish_swarm;ebwizardry:scroll;104;Scroll of Silverfish Swarm
+scroll_of_sixth_sense;ebwizardry:scroll;117;Scroll of Sixth Sense
+scroll_of_slime;ebwizardry:scroll;77;Scroll of Slime
+scroll_of_smoke_bomb;ebwizardry:scroll;111;Scroll of Smoke Bomb
+scroll_of_snare;ebwizardry:scroll;8;Scroll of Snare
+scroll_of_snowball;ebwizardry:scroll;4;Scroll of Snowball
+scroll_of_spark_bomb;ebwizardry:scroll;24;Scroll of Spark Bomb
+scroll_of_spectral_pathway;ebwizardry:scroll;83;Scroll of Spectral Pathway
+scroll_of_spider_swarm;ebwizardry:scroll;76;Scroll of Spider Swarm
+scroll_of_static_aura;ebwizardry:scroll;63;Scroll of Static Aura
+scroll_of_summon_blaze;ebwizardry:scroll;48;Scroll of Summon Blaze
+scroll_of_summon_ice_giant;ebwizardry:scroll;96;Scroll of Summon Ice Giant
+scroll_of_summon_ice_wraith;ebwizardry:scroll;55;Scroll of Summon Ice Wraith
+scroll_of_summon_iron_golem;ebwizardry:scroll;107;Scroll of Summon Iron Golem
+scroll_of_summon_lightning_wraith;ebwizardry:scroll;62;Scroll of Summon Lightning Wraith
+scroll_of_summon_phoenix;ebwizardry:scroll;93;Scroll of Summon Phoenix
+scroll_of_summon_shadow_wraith;ebwizardry:scroll;101;Scroll of Summon Shadow Wraith
+scroll_of_summon_skeleton_legion;ebwizardry:scroll;100;Scroll of Summon Skeleton Legion
+scroll_of_summon_skeleton;ebwizardry:scroll;29;Scroll of Summon Skeleton
+scroll_of_summon_snow_golem;ebwizardry:scroll;19;Scroll of Summon Snow Golem
+scroll_of_summon_spirit_horse;ebwizardry:scroll;75;Scroll of Summon Spirit Horse
+scroll_of_summon_spirit_wolf;ebwizardry:scroll;37;Scroll of Summon Spirit Wolf
+scroll_of_summon_storm_elemental;ebwizardry:scroll;138;Scroll of Summon Storm Elemental
+scroll_of_summon_wither_skeleton;ebwizardry:scroll;66;Scroll of Summon Wither Skeleton
+scroll_of_summon_zombie;ebwizardry:scroll;7;Scroll of Summon Zombie
+scroll_of_telekinesis;ebwizardry:scroll;11;Scroll of Telekinesis
+scroll_of_thunderbolt;ebwizardry:scroll;6;Scroll of Thunderbolt
+scroll_of_thunderstorm;ebwizardry:scroll;97;Scroll of Thunderstorm
+scroll_of_tornado;ebwizardry:scroll;73;Scroll of Tornado
+scroll_of_transience;ebwizardry:scroll;90;Scroll of Transience
+scroll_of_transportation;ebwizardry:scroll;82;Scroll of Transportation
+scroll_of_vanishing_box;ebwizardry:scroll;85;Scroll of Vanishing Box
+scroll_of_water_breathing;ebwizardry:scroll;72;Scroll of Water Breathing
+scroll_of_whirlwind;ebwizardry:scroll;35;Scroll of Whirlwind
+scroll_of_wither_skull;ebwizardry:scroll;68;Scroll of Wither Skull
+scroll_of_wither;ebwizardry:scroll;31;Scroll of Wither

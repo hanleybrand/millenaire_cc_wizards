@@ -1,0 +1,11 @@
+ID,Metadata,NBT Tag Compound,Display Name,Tooltip,Translation Key,Class Name,Is ItemBlock,OreDict Names,Max Stack Size,Max Damage,Model Name
+ftfloocraft:floopowder_eight,0,,Floo Powder,§aConcentration: 8 tp/p,item.floopowder,com.fredtargaryen.floocraft.item.ItemFlooPowder,-,,64,0,ftfloocraft:floopowder_eight#inventory
+ftfloocraft:floopowder_four,0,,Floo Powder,§aConcentration: 4 tp/p,item.floopowder,com.fredtargaryen.floocraft.item.ItemFlooPowder,-,,64,0,ftfloocraft:floopowder_four#inventory
+ftfloocraft:floopowder_infinite,0,,Floo Powder,"§aConcentration: ∞ tp/p
+Creative mode only!",item.floopowder,com.fredtargaryen.floocraft.item.ItemFlooPowder,-,,64,0,ftfloocraft:floopowder_infinite#inventory
+ftfloocraft:floopowder_one,0,,Floo Powder,"§aConcentration: 1 tp/p
+Can use in crafting",item.floopowder,com.fredtargaryen.floocraft.item.ItemFlooPowder,-,,64,0,ftfloocraft:floopowder_one#inventory
+ftfloocraft:floopowder_two,0,,Floo Powder,§aConcentration: 2 tp/p,item.floopowder,com.fredtargaryen.floocraft.item.ItemFlooPowder,-,,64,0,ftfloocraft:floopowder_two#inventory
+ftfloocraft:flootorch,0,,Floo Torch,,tile.flootorch,net.minecraft.item.ItemBlock,+,,64,0,ftfloocraft:flootorch#inventory
+ftfloocraft:floowerpot,0,,Floower Pot,,tile.floowerpot,net.minecraft.item.ItemBlock,+,,64,0,ftfloocraft:floowerpot#inventory
+ftfloocraft:itemfloosign,0,,Floo Sign,,item.itemfloosign,com.fredtargaryen.floocraft.item.ItemFlooSign,-,,16,0,ftfloocraft:itemfloosign#inventory

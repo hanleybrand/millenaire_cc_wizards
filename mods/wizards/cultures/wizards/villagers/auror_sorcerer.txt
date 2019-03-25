@@ -42,7 +42,7 @@ toolneededclass=toolssword
 
 baseAttackStrength=4
 tag=helpInAttacks
-defaultweapon=scroll_126
+defaultweapon=scroll_of_ice_lance
 startingInv=wizard_hat_sorcery,1
 startingInv=wizard_robe_sorcery,1
 startingInv=wizard_boots_sorcery,1

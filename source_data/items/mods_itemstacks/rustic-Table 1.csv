@@ -1,0 +1,233 @@
+ID,Metadata,Display Name,NBT Tag Compound,Tooltip,Translation Key,Class Name,Is ItemBlock,OreDict Names,Max Stack Size,Max Damage,Model Name
+rustic:aloe_vera,0,Aloe Vera,,,tile.rustic.aloe_vera,rustic.common.blocks.crops.BlockHerbBase$ItemHerbBase,+,,64,0,rustic:aloe_vera#inventory
+rustic:andesite_pillar,0,Andesite Pillar,,,tile.rustic.andesite_pillar,net.minecraft.item.ItemBlock,+,,64,0,rustic:andesite_pillar#inventory
+rustic:apiary,0,Apiary,,,tile.rustic.apiary,net.minecraft.item.ItemBlock,+,,64,0,rustic:apiary#inventory
+rustic:apple_seeds,0,Apple Seeds,,,tile.rustic.apple_seeds,net.minecraft.item.ItemBlock,+,,64,0,rustic:apple_seeds#inventory
+rustic:barrel,0,Barrel,,,tile.rustic.barrel,net.minecraft.item.ItemBlock,+,,64,0,rustic:barrel#inventory
+rustic:bee,0,Bee,,,item.rustic.bee,rustic.common.items.ItemBase,-,,64,0,rustic:bee#normal
+rustic:beehive,0,Beehive,,,tile.rustic.beehive,net.minecraft.item.ItemBlock,+,,64,0,rustic:beehive#inventory
+rustic:beeswax,0,Beeswax,,,item.rustic.beeswax,rustic.common.items.ItemBase,-,"wax
+tallow",64,0,rustic:beeswax#normal
+rustic:blood_orchid,0,Blood Orchid,,,tile.rustic.blood_orchid,rustic.common.blocks.crops.BlockHerbBase$ItemHerbBase,+,,64,0,rustic:blood_orchid#inventory
+rustic:book,0,Almanac,,,item.rustic.book,rustic.common.items.ItemBook,-,,1,0,rustic:book#normal
+rustic:brewing_barrel,0,Brewing Barrel,,,tile.rustic.brewing_barrel,net.minecraft.item.ItemBlock,+,,64,0,rustic:brewing_barrel#inventory
+rustic:cabinet,0,Cabinet,,,tile.rustic.cabinet,net.minecraft.item.ItemBlock,+,,64,0,rustic:cabinet#inventory
+rustic:candle,0,Iron Candle,,,tile.rustic.candle,net.minecraft.item.ItemBlock,+,,64,0,rustic:candle#inventory
+rustic:candle_gold,0,Golden Candle,,,tile.rustic.candle_gold,net.minecraft.item.ItemBlock,+,,64,0,rustic:candle_gold#inventory
+rustic:chain,0,Iron Chain,,,tile.rustic.chain,net.minecraft.item.ItemBlock,+,,64,0,rustic:chain#inventory
+rustic:chain_gold,0,Golden Chain,,,tile.rustic.chain_gold,net.minecraft.item.ItemBlock,+,,64,0,rustic:chain_gold#inventory
+rustic:chair_acacia,0,Acacia Chair,,,tile.rustic.chair_acacia,net.minecraft.item.ItemBlock,+,,64,0,rustic:chair_acacia#inventory
+rustic:chair_big_oak,0,Dark Oak Chair,,,tile.rustic.chair_big_oak,net.minecraft.item.ItemBlock,+,,64,0,rustic:chair_big_oak#inventory
+rustic:chair_birch,0,Birch Chair,,,tile.rustic.chair_birch,net.minecraft.item.ItemBlock,+,,64,0,rustic:chair_birch#inventory
+rustic:chair_ironwood,0,Ironwood Chair,,,tile.rustic.chair_ironwood,net.minecraft.item.ItemBlock,+,,64,0,rustic:chair_ironwood#inventory
+rustic:chair_jungle,0,Jungle Chair,,,tile.rustic.chair_jungle,net.minecraft.item.ItemBlock,+,,64,0,rustic:chair_jungle#inventory
+rustic:chair_oak,0,Oak Chair,,,tile.rustic.chair_oak,net.minecraft.item.ItemBlock,+,,64,0,rustic:chair_oak#inventory
+rustic:chair_olive,0,Olive Wood Chair,,,tile.rustic.chair_olive,net.minecraft.item.ItemBlock,+,,64,0,rustic:chair_olive#inventory
+rustic:chair_spruce,0,Spruce Chair,,,tile.rustic.chair_spruce,net.minecraft.item.ItemBlock,+,,64,0,rustic:chair_spruce#inventory
+rustic:chamomile,0,Chamomile,,,tile.rustic.chamomile,rustic.common.blocks.crops.BlockHerbBase$ItemHerbBase,+,,64,0,rustic:chamomile#inventory
+rustic:chandelier,0,Iron Chandelier Ring,,,tile.rustic.chandelier,net.minecraft.item.ItemBlock,+,,64,0,rustic:chandelier#inventory
+rustic:chandelier_gold,0,Golden Chandelier Ring,,,tile.rustic.chandelier_gold,net.minecraft.item.ItemBlock,+,,64,0,rustic:chandelier_gold#inventory
+rustic:chili_pepper,0,Chili Pepper,,,item.rustic.chili_pepper,rustic.common.items.ModItems$4,-,"cropChilipepper
+listAllpepper",64,0,rustic:chili_pepper#normal
+rustic:chili_pepper_seeds,0,Chili Pepper Seeds,,,item.rustic.chili_pepper_seeds,rustic.common.items.ItemStakeCropSeed,-,,64,0,rustic:chili_pepper_seeds#normal
+rustic:clay_wall,0,Clay Wall,,,tile.rustic.clay_wall,net.minecraft.item.ItemBlock,+,,64,0,rustic:clay_wall#inventory
+rustic:clay_wall_cross,0,Crossed Clay Wall,,,tile.rustic.clay_wall_cross,net.minecraft.item.ItemBlock,+,,64,0,rustic:clay_wall_cross#inventory
+rustic:clay_wall_diag,0,Diagonal Clay Wall,,,tile.rustic.clay_wall_diag,net.minecraft.item.ItemBlock,+,,64,0,rustic:clay_wall_diag#inventory
+rustic:cloudsbluff,0,Cloudsbluff,,,item.tile.rustic.cloudsbluff,rustic.common.blocks.crops.Herbs$13,-,,64,0,rustic:cloudsbluff#normal
+rustic:cohosh,0,Cohosh,,,tile.rustic.cohosh,rustic.common.blocks.crops.BlockHerbBase$ItemHerbBase,+,,64,0,rustic:cohosh#inventory
+rustic:condenser,0,Alchemic Condenser,,,tile.rustic.condenser,net.minecraft.item.ItemBlock,+,,64,0,rustic:condenser#inventory
+rustic:condenser_advanced,0,Advanced Alchemic Condenser,,,tile.rustic.condenser_advanced,net.minecraft.item.ItemBlock,+,,64,0,rustic:condenser_advanced#inventory
+rustic:core_root,0,Core Root,,,item.tile.rustic.core_root,rustic.common.items.ItemHerbEdible,-,,64,0,rustic:core_root#normal
+rustic:crop_stake,0,Wooden Stake,,,tile.rustic.crop_stake,net.minecraft.item.ItemBlock,+,,64,0,rustic:crop_stake#inventory
+rustic:crushing_tub,0,Crushing Tub,,,tile.rustic.crushing_tub,net.minecraft.item.ItemBlock,+,,64,0,rustic:crushing_tub#inventory
+rustic:deathstalk_mushroom,0,Deathstalk Mushroom,,,tile.rustic.deathstalk_mushroom,rustic.common.blocks.crops.BlockHerbBase$ItemHerbBase,+,,64,0,rustic:deathstalk_mushroom#inventory
+rustic:diorite_pillar,0,Diorite Pillar,,,tile.rustic.diorite_pillar,net.minecraft.item.ItemBlock,+,,64,0,rustic:diorite_pillar#inventory
+rustic:dust_tiny_iron,0,Tiny Pile of Iron Dust,,,item.rustic.dust_tiny_iron,rustic.common.items.ItemBase,-,dustTinyIron,64,0,rustic:dust_tiny_iron#normal
+rustic:elixir,0,Elixir of Instant Health,"{ElixirEffects:[{Effect:""minecraft:instant_health"",Duration:1,Amplifier:0}]}",§9Instant Health,item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Instant Health,"{ElixirEffects:[{Effect:""minecraft:instant_health"",Duration:1,Amplifier:1}]}",§9Instant Health II,item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Regeneration,"{ElixirEffects:[{Effect:""minecraft:regeneration"",Duration:900,Amplifier:0}]}",§9Regeneration (0:45),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Regeneration,"{ElixirEffects:[{Effect:""minecraft:regeneration"",Duration:1800,Amplifier:0}]}",§9Regeneration (1:30),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Regeneration,"{ElixirEffects:[{Effect:""minecraft:regeneration"",Duration:450,Amplifier:1}]}",§9Regeneration II (0:22),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Wither,"{ElixirEffects:[{Effect:""minecraft:wither"",Duration:900,Amplifier:0}]}",§cWither (0:45),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Wither,"{ElixirEffects:[{Effect:""minecraft:wither"",Duration:1800,Amplifier:0}]}",§cWither (1:30),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Wither,"{ElixirEffects:[{Effect:""minecraft:wither"",Duration:450,Amplifier:1}]}",§cWither II (0:22),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Night Vision,"{ElixirEffects:[{Effect:""minecraft:night_vision"",Duration:3600,Amplifier:0}]}",§9Night Vision (3:00),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Night Vision,"{ElixirEffects:[{Effect:""minecraft:night_vision"",Duration:9600,Amplifier:0}]}",§9Night Vision (8:00),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Speed,"{ElixirEffects:[{Effect:""minecraft:speed"",Duration:3600,Amplifier:0}]}","§9Speed (3:00)
+
+§5When Applied:
+§9+20% Speed",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Speed,"{ElixirEffects:[{Effect:""minecraft:speed"",Duration:9600,Amplifier:0}]}","§9Speed (8:00)
+
+§5When Applied:
+§9+20% Speed",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Speed,"{ElixirEffects:[{Effect:""minecraft:speed"",Duration:1800,Amplifier:1}]}","§9Speed II (1:30)
+
+§5When Applied:
+§9+40% Speed",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Fire Resistance,"{ElixirEffects:[{Effect:""minecraft:fire_resistance"",Duration:3600,Amplifier:0}]}",§9Fire Resistance (3:00),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Fire Resistance,"{ElixirEffects:[{Effect:""minecraft:fire_resistance"",Duration:9600,Amplifier:0}]}",§9Fire Resistance (8:00),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Health Boost,"{ElixirEffects:[{Effect:""minecraft:health_boost"",Duration:3600,Amplifier:0}]}","§9Health Boost (3:00)
+
+§5When Applied:
+§9+4 Max Health",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Health Boost,"{ElixirEffects:[{Effect:""minecraft:health_boost"",Duration:9600,Amplifier:0}]}","§9Health Boost (8:00)
+
+§5When Applied:
+§9+4 Max Health",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Health Boost,"{ElixirEffects:[{Effect:""minecraft:health_boost"",Duration:1800,Amplifier:1}]}","§9Health Boost II (1:30)
+
+§5When Applied:
+§9+8 Max Health",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Haste,"{ElixirEffects:[{Effect:""minecraft:haste"",Duration:3600,Amplifier:0}]}","§9Haste (3:00)
+
+§5When Applied:
+§9+10% Attack Speed",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Haste,"{ElixirEffects:[{Effect:""minecraft:haste"",Duration:9600,Amplifier:0}]}","§9Haste (8:00)
+
+§5When Applied:
+§9+10% Attack Speed",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Haste,"{ElixirEffects:[{Effect:""minecraft:haste"",Duration:1800,Amplifier:1}]}","§9Haste II (1:30)
+
+§5When Applied:
+§9+20% Attack Speed",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Strength,"{ElixirEffects:[{Effect:""minecraft:strength"",Duration:3600,Amplifier:0}]}","§9Strength (3:00)
+
+§5When Applied:
+§9+3 Attack Damage",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Strength,"{ElixirEffects:[{Effect:""minecraft:strength"",Duration:9600,Amplifier:0}]}","§9Strength (8:00)
+
+§5When Applied:
+§9+3 Attack Damage",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Strength,"{ElixirEffects:[{Effect:""minecraft:strength"",Duration:1800,Amplifier:1}]}","§9Strength II (1:30)
+
+§5When Applied:
+§9+6 Attack Damage",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Iron Skin,"{ElixirEffects:[{Effect:""rustic:ironskin"",Duration:3600,Amplifier:0}]}","§9Iron Skin (3:00)
+
+§5When Applied:
+§9+2 Armor Toughness
+§9+3 Armor",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Iron Skin,"{ElixirEffects:[{Effect:""rustic:ironskin"",Duration:9600,Amplifier:0}]}","§9Iron Skin (8:00)
+
+§5When Applied:
+§9+2 Armor Toughness
+§9+3 Armor",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Iron Skin,"{ElixirEffects:[{Effect:""rustic:ironskin"",Duration:1800,Amplifier:1}]}","§9Iron Skin II (1:30)
+
+§5When Applied:
+§9+4 Armor Toughness
+§9+6 Armor",item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Feather,"{ElixirEffects:[{Effect:""rustic:feather"",Duration:3600,Amplifier:0}]}",§9Feather (3:00),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Feather,"{ElixirEffects:[{Effect:""rustic:feather"",Duration:9600,Amplifier:0}]}",§9Feather (8:00),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Blazing Trail,"{ElixirEffects:[{Effect:""rustic:blazing_trail"",Duration:3600,Amplifier:0}]}",§9Blazing Trail (3:00),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:elixir,0,Elixir of Blazing Trail,"{ElixirEffects:[{Effect:""rustic:blazing_trail"",Duration:9600,Amplifier:0}]}",§9Blazing Trail (8:00),item.rustic.elixir,rustic.common.items.ItemElixir,-,,16,0,rustic:elixir#normal
+rustic:evaporating_basin,0,Drying Basin,,,tile.rustic.evaporating_basin,net.minecraft.item.ItemBlock,+,,64,0,rustic:evaporating_basin#inventory
+rustic:fence_gate_ironwood,0,Ironwood Fence Gate,,,tile.rustic.fence_gate_ironwood,net.minecraft.item.ItemBlock,+,,64,0,rustic:fence_gate_ironwood#inventory
+rustic:fence_gate_olive,0,Olive Wood Fence Gate,,,tile.rustic.fence_gate_olive,net.minecraft.item.ItemBlock,+,,64,0,rustic:fence_gate_olive#inventory
+rustic:fence_ironwood,0,Ironwood Fence,,,tile.rustic.fence_ironwood,net.minecraft.item.ItemBlock,+,,64,0,rustic:fence_ironwood#inventory
+rustic:fence_olive,0,Olive Wood Fence,,,tile.rustic.fence_olive,net.minecraft.item.ItemBlock,+,,64,0,rustic:fence_olive#inventory
+rustic:fertile_soil,0,Fertile Soil,,,tile.rustic.fertile_soil,net.minecraft.item.ItemBlock,+,,64,0,rustic:fertile_soil#inventory
+rustic:fluid_bottle,0,Bottle of Olive Oil,"{Fluid:{FluidName:""oliveoil"",Amount:1000}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Ironberry Juice,"{Fluid:{FluidName:""ironberryjuice"",Amount:1000}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Wildberry Juice,"{Fluid:{FluidName:""wildberryjuice"",Amount:1000}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Grape Juice,"{Fluid:{FluidName:""grapejuice"",Amount:1000}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Apple Juice,"{Fluid:{FluidName:""applejuice"",Amount:1000}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Ale Wort,"{Fluid:{FluidName:""alewort"",Amount:1000}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Honey,"{Fluid:{FluidName:""honey"",Amount:1000}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Ale,"{Fluid:{FluidName:""ale"",Amount:1000,Tag:{Quality:0.75f}}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Cider,"{Fluid:{FluidName:""cider"",Amount:1000,Tag:{Quality:0.75f}}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Iron Wine,"{Fluid:{FluidName:""ironwine"",Amount:1000,Tag:{Quality:0.75f}}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Mead,"{Fluid:{FluidName:""mead"",Amount:1000,Tag:{Quality:0.75f}}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Wildberry Wine,"{Fluid:{FluidName:""wildberrywine"",Amount:1000,Tag:{Quality:0.75f}}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:fluid_bottle,0,Bottle of Wine,"{Fluid:{FluidName:""wine"",Amount:1000,Tag:{Quality:0.75f}}}",,item.rustic.fluid_bottle,rustic.common.items.ItemFluidBottle,-,,64,0,rustic:fluid_bottle#inventory
+rustic:gargoyle,0,Gargoyle,,,tile.rustic.gargoyle,net.minecraft.item.ItemBlock,+,,64,0,rustic:gargoyle#inventory
+rustic:ginseng,0,Ginseng Root,,,item.tile.rustic.ginseng,rustic.common.items.ItemHerbEdible,-,,64,0,rustic:ginseng#normal
+rustic:golden_lantern,0,Golden Lantern,,,tile.rustic.golden_lantern,net.minecraft.item.ItemBlock,+,,64,0,rustic:golden_lantern#inventory
+rustic:granite_pillar,0,Granite Pillar,,,tile.rustic.granite_pillar,net.minecraft.item.ItemBlock,+,,64,0,rustic:granite_pillar#inventory
+rustic:grape_stem,0,Grape Seeds,,,tile.rustic.grape_stem,net.minecraft.item.ItemBlock,+,,64,0,rustic:grape_stem#inventory
+rustic:grapes,0,Grapes,,,item.rustic.grapes,rustic.common.items.ModItems$6,-,"dyePurple
+listAllfruit
+listAllberry
+cropGrape",64,0,rustic:grapes#normal
+rustic:honeycomb,0,Honeycomb,,,item.rustic.honeycomb,rustic.common.items.ItemBase,-,,64,0,rustic:honeycomb#normal
+rustic:horsetail,0,Horsetail,,,tile.rustic.horsetail,rustic.common.blocks.crops.BlockHerbBase$ItemHerbBase,+,,64,0,rustic:horsetail#inventory
+rustic:iron_lantern,0,Iron Lantern,,,tile.rustic.iron_lantern,net.minecraft.item.ItemBlock,+,,64,0,rustic:iron_lantern#inventory
+rustic:iron_lattice,0,Iron Lattice,,,tile.rustic.iron_lattice,net.minecraft.item.ItemBlock,+,,64,0,rustic:iron_lattice_item#inventory
+rustic:ironberries,0,Ironberries,,,item.rustic.ironberries,rustic.common.items.ModItems$2,-,"cropIronberry
+listAllfruit
+listAllberry
+dyeLightGray",64,0,rustic:ironberries#normal
+rustic:ironwood_door,0,Ironwood Door,,,item.tile.rustic.ironwood_door,rustic.common.blocks.BlockDoorRustic$1,-,,64,0,rustic:ironwood_door#inventory
+rustic:ironwood_slab_item,0,Ironwood Slab,,,tile.rustic.ironwood_slab,rustic.common.blocks.slab.ItemBlockSlabBase,+,slabWood,64,0,rustic:ironwood_slab#normal
+rustic:leaves,0,Olive Leaves,,,tile.rustic.leaves_olive,rustic.common.blocks.BlockLeavesRustic$1,+,treeLeaves,64,0,rustic:leaves_olive#inventory
+rustic:leaves,1,Ironwood Leaves,,,tile.rustic.leaves_ironwood,rustic.common.blocks.BlockLeavesRustic$1,+,treeLeaves,64,0,rustic:leaves_ironwood#inventory
+rustic:leaves_apple,0,Apple Leaves,,,tile.rustic.leaves_apple,net.minecraft.item.ItemBlock,+,treeLeaves,64,0,rustic:leaves_apple#inventory
+rustic:liquid_barrel,0,Liquid Barrel,,,tile.rustic.liquid_barrel,net.minecraft.item.ItemBlock,+,,64,0,rustic:liquid_barrel#inventory
+rustic:log,0,Olive Wood,,,tile.rustic.log_olive,rustic.common.blocks.BlockLogRustic$1,+,"logWood
+treeWood",64,0,rustic:log_olive#inventory
+rustic:log,1,Ironwood,,,tile.rustic.log_ironwood,rustic.common.blocks.BlockLogRustic$1,+,"logWood
+treeWood",64,0,rustic:log_ironwood#inventory
+rustic:marsh_mallow,0,Marsh Mallow Root,,,item.tile.rustic.marsh_mallow,rustic.common.items.ItemHerbEdible,-,,64,0,rustic:marsh_mallow#normal
+rustic:mooncap_mushroom,0,Mooncap Mushroom,,,tile.rustic.mooncap_mushroom,rustic.common.blocks.crops.BlockHerbBase$ItemHerbBase,+,,64,0,rustic:mooncap_mushroom#inventory
+rustic:olive_door,0,Olive Door,,,item.tile.rustic.olive_door,rustic.common.blocks.BlockDoorRustic$1,-,,64,0,rustic:olive_door#inventory
+rustic:olive_slab_item,0,Olive Wood Slab,,,tile.rustic.olive_slab,rustic.common.blocks.slab.ItemBlockSlabBase,+,slabWood,64,0,rustic:olive_slab#normal
+rustic:olives,0,Olives,,,item.rustic.olives,rustic.common.items.ModItems$1,-,"cropOlive
+listAllfruit",64,0,rustic:olives#normal
+rustic:painted_wood_black,0,Black Painted Wood,,,tile.rustic.painted_wood_black,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_black#inventory
+rustic:painted_wood_blue,0,Blue Painted Wood,,,tile.rustic.painted_wood_blue,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_blue#inventory
+rustic:painted_wood_brown,0,Brown Painted Wood,,,tile.rustic.painted_wood_brown,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_brown#inventory
+rustic:painted_wood_cyan,0,Cyan Painted Wood,,,tile.rustic.painted_wood_cyan,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_cyan#inventory
+rustic:painted_wood_gray,0,Gray Painted Wood,,,tile.rustic.painted_wood_gray,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_gray#inventory
+rustic:painted_wood_green,0,Green Painted Wood,,,tile.rustic.painted_wood_green,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_green#inventory
+rustic:painted_wood_light_blue,0,Light Blue Painted Wood,,,tile.rustic.painted_wood_light_blue,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_light_blue#inventory
+rustic:painted_wood_lime,0,Lime Painted Wood,,,tile.rustic.painted_wood_lime,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_lime#inventory
+rustic:painted_wood_magenta,0,Magenta Painted Wood,,,tile.rustic.painted_wood_magenta,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_magenta#inventory
+rustic:painted_wood_orange,0,Orange Painted Wood,,,tile.rustic.painted_wood_orange,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_orange#inventory
+rustic:painted_wood_pink,0,Pink Painted Wood,,,tile.rustic.painted_wood_pink,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_pink#inventory
+rustic:painted_wood_purple,0,Purple Painted Wood,,,tile.rustic.painted_wood_purple,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_purple#inventory
+rustic:painted_wood_red,0,Red Painted Wood,,,tile.rustic.painted_wood_red,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_red#inventory
+rustic:painted_wood_silver,0,Light Gray Painted Wood,,,tile.rustic.painted_wood_silver,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_silver#inventory
+rustic:painted_wood_white,0,White Painted Wood,,,tile.rustic.painted_wood_white,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_white#inventory
+rustic:painted_wood_yellow,0,Yellow Painted Wood,,,tile.rustic.painted_wood_yellow,net.minecraft.item.ItemBlock,+,plankWood,64,0,rustic:painted_wood_yellow#inventory
+rustic:planks,0,Olive Wood Planks,,,tile.rustic.planks_olive,rustic.common.blocks.BlockPlanksRustic$1,+,plankWood,64,0,rustic:planks_olive#inventory
+rustic:planks,1,Ironwood Planks,,,tile.rustic.planks_ironwood,rustic.common.blocks.BlockPlanksRustic$1,+,plankWood,64,0,rustic:planks_ironwood#inventory
+rustic:retort,0,Alchemic Retort,,,tile.rustic.retort,net.minecraft.item.ItemBlock,+,,64,0,rustic:retort#inventory
+rustic:retort_advanced,0,Advanced Alchemic Retort,,,tile.rustic.retort_advanced,net.minecraft.item.ItemBlock,+,,64,0,rustic:retort_advanced#inventory
+rustic:rope,0,Rope,,,tile.rustic.rope,net.minecraft.item.ItemBlock,+,,64,0,rustic:rope#inventory
+rustic:sapling,0,Olive Sapling,,,tile.rustic.sapling_olive,rustic.common.blocks.BlockSaplingRustic$1,+,treeSapling,64,0,rustic:sapling_olive#inventory
+rustic:sapling,1,Ironwood Sapling,,,tile.rustic.sapling_ironwood,rustic.common.blocks.BlockSaplingRustic$1,+,treeSapling,64,0,rustic:sapling_ironwood#inventory
+rustic:sapling_apple,0,Apple Sapling,,,tile.rustic.sapling_apple,net.minecraft.item.ItemBlock,+,treeSapling,64,0,rustic:sapling_apple#inventory
+rustic:slate,0,Slate,,,tile.rustic.slate,net.minecraft.item.ItemBlock,+,slate,64,0,rustic:slate#inventory
+rustic:slate_brick,0,Slate Brick,,,tile.rustic.slate_brick,net.minecraft.item.ItemBlock,+,slate,64,0,rustic:slate_brick#inventory
+rustic:slate_brick_slab_item,0,Slate Brick Slab,,,tile.rustic.slate_brick_slab,rustic.common.blocks.slab.ItemBlockSlabBase,+,,64,0,rustic:slate_brick_slab#normal
+rustic:slate_chiseled,0,Chiseled Slate,,,tile.rustic.slate_chiseled,net.minecraft.item.ItemBlock,+,slate,64,0,rustic:slate_chiseled#inventory
+rustic:slate_pillar,0,Slate Pillar,,,tile.rustic.slate_pillar,net.minecraft.item.ItemBlock,+,slate,64,0,rustic:slate_pillar#inventory
+rustic:slate_roof,0,Slate Roof,,,tile.rustic.slate_roof,net.minecraft.item.ItemBlock,+,slate,64,0,rustic:slate_roof#inventory
+rustic:slate_roof_slab_item,0,Slate Roof Slab,,,tile.rustic.slate_roof_slab,rustic.common.blocks.slab.ItemBlockSlabBase,+,,64,0,rustic:slate_roof_slab#normal
+rustic:slate_tile,0,Slate Tile,,,tile.rustic.slate_tile,net.minecraft.item.ItemBlock,+,slate,64,0,rustic:slate_tile#inventory
+rustic:stairs_ironwood,0,Ironwood Stairs,,,tile.rustic.stairs_ironwood,net.minecraft.item.ItemBlock,+,stairWood,64,0,rustic:stairs_ironwood#inventory
+rustic:stairs_olive,0,Olive Wood Stairs,,,tile.rustic.stairs_olive,net.minecraft.item.ItemBlock,+,stairWood,64,0,rustic:stairs_olive#inventory
+rustic:stairs_slate_brick,0,Slate Brick Stairs,,,tile.rustic.stairs_slate_brick,net.minecraft.item.ItemBlock,+,,64,0,rustic:stairs_slate_brick#inventory
+rustic:stairs_slate_roof,0,Slate Roof Stairs,,,tile.rustic.stairs_slate_roof,net.minecraft.item.ItemBlock,+,,64,0,rustic:stairs_slate_roof#inventory
+rustic:stone_pillar,0,Stone Pillar,,,tile.rustic.stone_pillar,net.minecraft.item.ItemBlock,+,,64,0,rustic:stone_pillar#inventory
+rustic:table_acacia,0,Acacia Table,,,tile.rustic.table_acacia,net.minecraft.item.ItemBlock,+,,64,0,rustic:table_acacia#inventory
+rustic:table_big_oak,0,Dark Oak Table,,,tile.rustic.table_big_oak,net.minecraft.item.ItemBlock,+,,64,0,rustic:table_big_oak#inventory
+rustic:table_birch,0,Birch Table,,,tile.rustic.table_birch,net.minecraft.item.ItemBlock,+,,64,0,rustic:table_birch#inventory
+rustic:table_ironwood,0,Ironwood Table,,,tile.rustic.table_ironwood,net.minecraft.item.ItemBlock,+,,64,0,rustic:table_ironwood#inventory
+rustic:table_jungle,0,Jungle Table,,,tile.rustic.table_jungle,net.minecraft.item.ItemBlock,+,,64,0,rustic:table_jungle#inventory
+rustic:table_oak,0,Oak Table,,,tile.rustic.table_oak,net.minecraft.item.ItemBlock,+,,64,0,rustic:table_oak#inventory
+rustic:table_olive,0,Olive Wood Table,,,tile.rustic.table_olive,net.minecraft.item.ItemBlock,+,,64,0,rustic:table_olive#inventory
+rustic:table_spruce,0,Spruce Table,,,tile.rustic.table_spruce,net.minecraft.item.ItemBlock,+,,64,0,rustic:table_spruce#inventory
+rustic:tallow,0,Tallow,,,item.rustic.tallow,rustic.common.items.ItemBase,-,"wax
+tallow",64,0,rustic:tallow#normal
+rustic:tomato,0,Tomato,,,item.rustic.tomato,rustic.common.items.ModItems$3,-,"cropTomato
+listAllveggie",64,0,rustic:tomato#normal
+rustic:tomato_seeds,0,Tomato Seeds,,,item.rustic.tomato_seeds,rustic.common.items.ItemStakeCropSeed,-,,64,0,rustic:tomato_seeds#normal
+rustic:vase,0,Pot,,,tile.rustic.vase,rustic.common.blocks.BlockVase$1,+,,64,0,rustic:vase_0#inventory
+rustic:wildberries,0,Wildberries,,,item.rustic.wildberries,rustic.common.items.ModItems$5,-,"listAllfruit
+dyeRed
+listAllberry
+cropWildberry",64,0,rustic:wildberries#normal
+rustic:wildberry_bush,0,Wildberry Bush,,,tile.rustic.wildberry_bush,net.minecraft.item.ItemBlock,+,,64,0,rustic:wildberry_bush#inventory
+rustic:wind_thistle,0,Wind Thistle,,,tile.rustic.wind_thistle,rustic.common.blocks.crops.BlockHerbBase$ItemHerbBase,+,,64,0,rustic:wind_thistle#inventory

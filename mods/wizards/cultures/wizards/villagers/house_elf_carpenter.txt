@@ -1,6 +1,6 @@
 native_name=Wood Elf
 gender=male
-familyNameList=blank
+familyNameList=elf_last_names
 firstNameList=house_elf_names
 icon=timberframecross
 baseheight=0.4
