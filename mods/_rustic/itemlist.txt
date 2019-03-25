@@ -1,0 +1,124 @@
+aloe_vera;rustic:aloe_vera;0;Aloe Vera	
+andesite_pillar;rustic:andesite_pillar;0;Andesite Pillar	
+apiary;rustic:apiary;0;Apiary	
+apple_seeds;rustic:apple_seeds;0;Apple Seeds	
+barrel;rustic:barrel;0;Barrel	
+bee;rustic:bee;0;Bee	
+beehive;rustic:beehive;0;Beehive	
+beeswax;rustic:beeswax;0;Beeswax	
+blood_orchid;rustic:blood_orchid;0;Blood Orchid	
+book;rustic:book;0;Almanac	
+brewing_barrel;rustic:brewing_barrel;0;Brewing Barrel	
+cabinet;rustic:cabinet;0;Cabinet	
+candle;rustic:candle;0;Iron Candle	
+candle_gold;rustic:candle_gold;0;Golden Candle	
+chain;rustic:chain;0;Iron Chain	
+chain_gold;rustic:chain_gold;0;Golden Chain	
+chair_acacia;rustic:chair_acacia;0;Acacia Chair	
+chair_big_oak;rustic:chair_big_oak;0;Dark Oak Chair	
+chair_birch;rustic:chair_birch;0;Birch Chair	
+chair_ironwood;rustic:chair_ironwood;0;Ironwood Chair	
+chair_jungle;rustic:chair_jungle;0;Jungle Chair	
+chair_oak;rustic:chair_oak;0;Oak Chair	
+chair_olive;rustic:chair_olive;0;Olive Wood Chair	
+chair_spruce;rustic:chair_spruce;0;Spruce Chair	
+chamomile;rustic:chamomile;0;Chamomile	
+chandelier;rustic:chandelier;0;Iron Chandelier Ring	
+chandelier_gold;rustic:chandelier_gold;0;Golden Chandelier Ring	
+chili_pepper;rustic:chili_pepper;0;Chili Pepper	
+chili_pepper_seeds;rustic:chili_pepper_seeds;0;Chili Pepper Seeds	
+clay_wall;rustic:clay_wall;0;Clay Wall	
+clay_wall_cross;rustic:clay_wall_cross;0;Crossed Clay Wall	
+clay_wall_diag;rustic:clay_wall_diag;0;Diagonal Clay Wall	
+cloudsbluff;rustic:cloudsbluff;0;Cloudsbluff	
+cohosh;rustic:cohosh;0;Cohosh	
+condenser;rustic:condenser;0;Alchemic Condenser	
+condenser_advanced;rustic:condenser_advanced;0;Advanced Alchemic Condenser	
+core_root;rustic:core_root;0;Core Root	
+crop_stake;rustic:crop_stake;0;Wooden Stake	
+crushing_tub;rustic:crushing_tub;0;Crushing Tub	
+deathstalk_mushroom;rustic:deathstalk_mushroom;0;Deathstalk Mushroom	
+diorite_pillar;rustic:diorite_pillar;0;Diorite Pillar	
+dust_tiny_iron;rustic:dust_tiny_iron;0;Tiny Pile of Iron Dust	
+evaporating_basin;rustic:evaporating_basin;0;Drying Basin	
+fence_gate_ironwood;rustic:fence_gate_ironwood;0;Ironwood Fence Gate	
+fence_gate_olive;rustic:fence_gate_olive;0;Olive Wood Fence Gate	
+fence_ironwood;rustic:fence_ironwood;0;Ironwood Fence	
+fence_olive;rustic:fence_olive;0;Olive Wood Fence	
+fertile_soil;rustic:fertile_soil;0;Fertile Soil	
+gargoyle;rustic:gargoyle;0;Gargoyle	
+ginseng;rustic:ginseng;0;Ginseng Root	
+golden_lantern;rustic:golden_lantern;0;Golden Lantern	
+granite_pillar;rustic:granite_pillar;0;Granite Pillar	
+grape_stem;rustic:grape_stem;0;Grape Seeds	
+grapes;rustic:grapes;0;Grapes	
+honeycomb;rustic:honeycomb;0;Honeycomb	
+horsetail;rustic:horsetail;0;Horsetail	
+iron_lantern;rustic:iron_lantern;0;Iron Lantern	
+iron_lattice;rustic:iron_lattice;0;Iron Lattice	
+ironberries;rustic:ironberries;0;Ironberries	
+ironwood_door;rustic:ironwood_door;0;Ironwood Door	
+ironwood_slab_item;rustic:ironwood_slab_item;0;Ironwood Slab	
+leaves;rustic:leaves;0;Olive Leaves	
+leaves;rustic:leaves;1;Ironwood Leaves	
+leaves_apple;rustic:leaves_apple;0;Apple Leaves	
+liquid_barrel;rustic:liquid_barrel;0;Liquid Barrel	
+olivelog;rustic:log;0;Olive Wood	
+ironwoodlog;rustic:log;1;Ironwood	
+marsh_mallow;rustic:marsh_mallow;0;Marsh Mallow Root	
+mooncap_mushroom;rustic:mooncap_mushroom;0;Mooncap Mushroom	
+olive_door;rustic:olive_door;0;Olive Door	
+olive_slab_item;rustic:olive_slab_item;0;Olive Wood Slab	
+olives;rustic:olives;0;Olives	
+painted_wood_black;rustic:painted_wood_black;0;Black Painted Wood	
+painted_wood_blue;rustic:painted_wood_blue;0;Blue Painted Wood	
+painted_wood_brown;rustic:painted_wood_brown;0;Brown Painted Wood	
+painted_wood_cyan;rustic:painted_wood_cyan;0;Cyan Painted Wood	
+painted_wood_gray;rustic:painted_wood_gray;0;Gray Painted Wood	
+painted_wood_green;rustic:painted_wood_green;0;Green Painted Wood	
+painted_wood_light_blue;rustic:painted_wood_light_blue;0;Light Blue Painted Wood	
+painted_wood_lime;rustic:painted_wood_lime;0;Lime Painted Wood	
+painted_wood_magenta;rustic:painted_wood_magenta;0;Magenta Painted Wood	
+painted_wood_orange;rustic:painted_wood_orange;0;Orange Painted Wood	
+painted_wood_pink;rustic:painted_wood_pink;0;Pink Painted Wood	
+painted_wood_purple;rustic:painted_wood_purple;0;Purple Painted Wood	
+painted_wood_red;rustic:painted_wood_red;0;Red Painted Wood	
+painted_wood_silver;rustic:painted_wood_silver;0;Light Gray Painted Wood	
+painted_wood_white;rustic:painted_wood_white;0;White Painted Wood	
+painted_wood_yellow;rustic:painted_wood_yellow;0;Yellow Painted Wood	
+oliveplanks;rustic:planks;0;Olive Wood Planks	
+ironwoodplanks;rustic:planks;1;Ironwood Planks	
+retort;rustic:retort;0;Alchemic Retort	
+retort_advanced;rustic:retort_advanced;0;Advanced Alchemic Retort	
+rope;rustic:rope;0;Rope	
+sapling;rustic:sapling;0;Olive Sapling	
+sapling;rustic:sapling;1;Ironwood Sapling	
+sapling_apple;rustic:sapling_apple;0;Apple Sapling	
+slate;rustic:slate;0;Slate	
+slate_brick;rustic:slate_brick;0;Slate Brick	
+slate_brick_slab_item;rustic:slate_brick_slab_item;0;Slate Brick Slab	
+slate_chiseled;rustic:slate_chiseled;0;Chiseled Slate	
+slate_pillar;rustic:slate_pillar;0;Slate Pillar	
+slate_roof;rustic:slate_roof;0;Slate Roof	
+slate_roof_slab_item;rustic:slate_roof_slab_item;0;Slate Roof Slab	
+slate_tile;rustic:slate_tile;0;Slate Tile	
+stairs_ironwood;rustic:stairs_ironwood;0;Ironwood Stairs	
+stairs_olive;rustic:stairs_olive;0;Olive Wood Stairs	
+stairs_slate_brick;rustic:stairs_slate_brick;0;Slate Brick Stairs	
+stairs_slate_roof;rustic:stairs_slate_roof;0;Slate Roof Stairs	
+stone_pillar;rustic:stone_pillar;0;Stone Pillar	
+table_acacia;rustic:table_acacia;0;Acacia Table	
+table_big_oak;rustic:table_big_oak;0;Dark Oak Table	
+table_birch;rustic:table_birch;0;Birch Table	
+table_ironwood;rustic:table_ironwood;0;Ironwood Table	
+table_jungle;rustic:table_jungle;0;Jungle Table	
+table_oak;rustic:table_oak;0;Oak Table	
+table_olive;rustic:table_olive;0;Olive Wood Table	
+table_spruce;rustic:table_spruce;0;Spruce Table	
+tallow;rustic:tallow;0;Tallow	
+tomato;rustic:tomato;0;Tomato	
+tomato_seeds;rustic:tomato_seeds;0;Tomato Seeds	
+vase;rustic:vase;0;Pot	
+wildberries;rustic:wildberries;0;Wildberries	
+wildberry_bush;rustic:wildberry_bush;0;Wildberry Bush	
+wind_thistle;rustic:wind_thistle;0;Wind Thistle	

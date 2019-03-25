@@ -1,35 +1,435 @@
+//simple tags:
+//name is only indicative
+//first value after is the block reference, second the meta value OR a value chain ("variant=oak" for example)
+//third whether it should be placed after the other blocks
+//fourth is colour like previously
+//then the price defined in three fields:
+//first either block or item reference (ex: minecraft:stone, minecraft:iron_ingot)
+//then if the previous field was block, optional value string (ex: variant=birch)
+//then the quantity
 
+// note: it seems like barrel contents (e.g. a liquid_barrel with the contents ale_wort:level=10 )
+// are ignored by the exporter completely
 
+// the following are unused/mistakes so the numbers can be reclaimed
+// taken -- wildberry_bush_2;rustic:wildberry_bush;age=2;true;237/238/84
+//taken --clay_wall_south;rustic:clay_wall;facing=south;false;237/237/57;anywood;;2
+//taken --clay_wall_east;rustic:clay_wall;facing=east;false;237/237/58;anywood;;2
+//taken --clay_wall_west;rustic:clay_wall;facing=west;false;237/237/59;anywood;;2
+//taken --andesite_pillar_none;rustic:andesite_pillar;axis=none;false;237/237/40
+//taken --diorite_pillar_none;rustic:diorite_pillar;axis=none;false;237/237/44
+//taken --granite_pillar_none;rustic:granite_pillar;axis=none;false;237/237/48
+//taken --slate_pillar_none;rustic:slate_pillar;axis=none;false;237/237/52
+
+//log_olive;rustic:log;0;false;237/237/1
+//log_olive_none;rustic:log;variant=olive,axis=none;false;237/237/3;rustic:log;0;1
+//log_ironwood_none;rustic:log;variant=ironwood,axis=none;false;237/237/12;ironwoodlog;;1
+//log_ironwood;rustic:log;1;false;237/237/10
+//chandelier_2;rustic:chandelier;age=2;true;237/238/44
+//chandelier_3;rustic:chandelier;age=3;true;237/238/45
+//wildberry_bush_3;rustic:wildberry_bush;age=3;true;237/238/85
+//clay_wall_cross_south;rustic:clay_wall_cross;facing=south;false;237/237/61;anywood;;2
+//clay_wall_cross_east;rustic:clay_wall_cross;facing=east;false;237/237/62;anywood;;2
+//clay_wall_cross_west;rustic:clay_wall_cross;facing=west;false;237/237/63;anywood;;2
+//olive_door_north_upper_left;rustic:olive_door;half=upper,hinge=left,facing=north;false;237/237/166
+//olive_door_south_upper_left;rustic:olive_door;half=upper,hinge=left,facing=south;false;237/237/167
+//olive_door_east_upper_left;rustic:olive_door;half=upper,hinge=left,facing=east;false;237/237/168
+//olive_door_west_upper_left;rustic:olive_door;half=upper,hinge=left,facing=west;false;237/237/169
+//olive_door_north_lower_left;rustic:olive_door;half=lower,hinge=left,facing=north;false;237/237/170
+//olive_door_south_lower_left;rustic:olive_door;half=lower,hinge=left,facing=south;false;237/237/171
+//olive_door_east_lower_left;rustic:olive_door;half=lower,hinge=left,facing=east;false;237/237/172
+//olive_door_west_lower_left;rustic:olive_door;half=lower,hinge=left,facing=west;false;237/237/173
+//olive_door_north_upper_right;rustic:olive_door;half=upper,hinge=right,facing=north;false;237/237/174
+//olive_door_south_upper_right;rustic:olive_door;half=upper,hinge=right,facing=south;false;237/237/175
+//olive_door_east_upper_right;rustic:olive_door;half=upper,hinge=right,facing=east;false;237/237/176
+//olive_door_west_upper_right;rustic:olive_door;half=upper,hinge=right,facing=west;false;237/237/177
+//olive_door_north_lower_right;rustic:olive_door;half=lower,hinge=right,facing=north;false;237/237/178
+//olive_door_south_lower_right;rustic:olive_door;half=lower,hinge=right,facing=south;false;237/237/179
+//olive_door_east_lower_right;rustic:olive_door;half=lower,hinge=right,facing=east;false;237/237/180
+//olive_door_west_lower_right;rustic:olive_door;half=lower,hinge=right,facing=west;false;237/237/181
+//ironwood_door_north_upper_left;rustic:ironwood_door;half=upper,hinge=left,facing=north;false;237/237/182
+//ironwood_door_south_upper_left;rustic:ironwood_door;half=upper,hinge=left,facing=south;false;237/237/183
+//ironwood_door_east_upper_left;rustic:ironwood_door;half=upper,hinge=left,facing=east;false;237/237/184
+//ironwood_door_west_upper_left;rustic:ironwood_door;half=upper,hinge=left,facing=west;false;237/237/185
+//ironwood_door_north_lower_left;rustic:ironwood_door;half=lower,hinge=left,facing=north;false;237/237/186
+//ironwood_door_south_lower_left;rustic:ironwood_door;half=lower,hinge=left,facing=south;false;237/237/187
+//ironwood_door_east_lower_left;rustic:ironwood_door;half=lower,hinge=left,facing=east;false;237/237/188
+//ironwood_door_west_lower_left;rustic:ironwood_door;half=lower,hinge=left,facing=west;false;237/237/189
+//ironwood_door_north_upper_right;rustic:ironwood_door;half=upper,hinge=right,facing=north;false;237/237/190
+//ironwood_door_south_upper_right;rustic:ironwood_door;half=upper,hinge=right,facing=south;false;237/237/191
+//ironwood_door_east_upper_right;rustic:ironwood_door;half=upper,hinge=right,facing=east;false;237/237/192
+//ironwood_door_west_upper_right;rustic:ironwood_door;half=upper,hinge=right,facing=west;false;237/237/193
+//ironwood_door_north_lower_right;rustic:ironwood_door;half=lower,hinge=right,facing=north;false;237/237/194
+//ironwood_door_south_lower_right;rustic:ironwood_door;half=lower,hinge=right,facing=south;false;237/237/195
+//ironwood_door_east_lower_right;rustic:ironwood_door;half=lower,hinge=right,facing=east;false;237/237/196
+//ironwood_door_west_lower_right;rustic:ironwood_door;half=lower,hinge=right,facing=west;false;237/237/197
+//
+//
+//MillenaireName;MC_blockID;Placed_Second;RGBColor;OptPriceBlockRef;OptPriceBlockValString;OptPriceBlockQuantCost
 //rustic woods
-//[PropertyEnum{name=axis, values=[x, y, z, none]}, name=variant, values=[olive, ironwood]}]
-log_olive;rustic:log;0;false;237/237/1
-planks_olive;rustic:planks;0;false;237/237/2
-log_olive_none;rustic:log;variant=olive,axis=none;false;237/237/3;rustic:log;0;1
-log_olive_x;rustic:log;variant=olive,axis=none;false;237/237/4;rustic:log;0;1
-log_olive_y;rustic:log;variant=olive,axis=none;false;237/237/5;rustic:log;0;1
-log_olive_z;rustic:log;variant=olive,axis=none;false;237/237/6;rustic:log;0;1
+// 1-6
 
-log_ironwood;rustic:log;1;false;237/237/10
-planks_iron;rustic:planks;1;false;237/237/11
-log_ironwood_none;rustic:log;variant=ironwood,axis=none;false;237/237/12;rustic:log;1;1
-log_ironwood_x;rustic:log;variant=ironwood,axis=none;false;237/237/13;rustic:log;1;1
-log_ironwood_y;rustic:log;variant=ironwood,axis=none;false;237/237/14;rustic:log;1;1
-log_ironwood_z;rustic:log;variant=ironwood,axis=none;false;237/237/15;rustic:log;1;1
-
+planks_olive;rustic:planks;0;false;237/237/2;rustic:planks;0;1
+log_olive_x;rustic:log;variant=olive,axis=x;false;237/237/4;rustic:log;0;1
+log_olive_y;rustic:log;variant=olive,axis=y;false;237/237/5;rustic:log;0;1
+log_olive_z;rustic:log;variant=olive,axis=z;false;237/237/6;rustic:log;0;1
+// 11-17
+planks_ironwood;rustic:planks;1;false;237/237/11;rustic:planks;1;1
+log_ironwood_x;rustic:log;variant=ironwood,axis=x;false;237/237/13;rustic:log;;1
+log_ironwood_y;rustic:log;variant=ironwood,axis=y;false;237/237/14;rustic:log;;1
+log_ironwood_z;rustic:log;variant=ironwood,axis=z;false;237/237/15;rustic:log;;1
+leaves_olive;rustic:leaves;0;false;237/237/16
+leaves_ironwood;rustic:leaves;1;false;237/237/17
+olive_doubleslab;rustic:olive_doubleslab;1;false;237/237/18;rustic:olive_slab_item;;2
+olive_slab_bottom;rustic:olive_slab;0;false;237/237/19;rustic:olive_slab_item;;1
+olive_slab_top;rustic:olive_slab;1;false;237/237/20;rustic:olive_slab_item;;1
+ironwood_doubleslab;rustic:ironwood_doubleslab;1;false;237/237/21;rustic:ironwood_slab_item;;2
+ironwood_slab_bottom;rustic:ironwood_slab;0;false;237/237/22;rustic:ironwood_slab_item;;1
+ironwood_slab_top;rustic:ironwood_slab;1;false;237/237/23;rustic:ironwood_slab_item;;1
 // should the cost of the painted woods be the dye rather than wood?
-painted_wood_black;rustic:painted_wood_black;0;false;237/237/24;anywood;;1
-painted_wood_blue;rustic:painted_wood_blue;0;false;237/237/25;anywood;;1
-painted_wood_brown;rustic:painted_wood_brown;0;false;237/237/26;anywood;;1
-painted_wood_cyan;rustic:painted_wood_cyan;0;false;237/237/27;anywood;;1
-painted_wood_gray;rustic:painted_wood_gray;0;false;237/237/28;anywood;;1
-painted_wood_green;rustic:painted_wood_green;0;false;237/237/29;anywood;;1
-painted_wood_light_blue;rustic:painted_wood_light_blue;0;false;237/237/30;anywood;;1
-painted_wood_lime;rustic:painted_wood_lime;0;false;237/237/31;anywood;;1
-painted_wood_magenta;rustic:painted_wood_magenta;0;false;237/237/32;anywood;;1
-painted_wood_orange;rustic:painted_wood_orange;0;false;237/237/33;anywood;;1
-painted_wood_pink;rustic:painted_wood_pink;0;false;237/237/34;anywood;;1
-painted_wood_purple;rustic:painted_wood_purple;0;false;237/237/35;anywood;;1
-painted_wood_red;rustic:painted_wood_red;0;false;237/237/36;anywood;;1
-painted_wood_silver;rustic:painted_wood_silver;0;false;237/237/37;anywood;;1
-painted_wood_white;rustic:painted_wood_white;0;false;237/237/38;anywood;;1
-painted_wood_yellow;rustic:painted_wood_yellow;0;false;237/237/39;anywood;;1
+// 24-39
+painted_wood_black;rustic:painted_wood_black;0;false;237/237/24;anywood;;2
+painted_wood_blue;rustic:painted_wood_blue;0;false;237/237/25;anywood;;2
+painted_wood_brown;rustic:painted_wood_brown;0;false;237/237/26;anywood;;2
+painted_wood_cyan;rustic:painted_wood_cyan;0;false;237/237/27;anywood;;2
+painted_wood_gray;rustic:painted_wood_gray;0;false;237/237/28;anywood;;2
+painted_wood_green;rustic:painted_wood_green;0;false;237/237/29;anywood;;2
+painted_wood_light_blue;rustic:painted_wood_light_blue;0;false;237/237/30;anywood;;2
+painted_wood_lime;rustic:painted_wood_lime;0;false;237/237/31;anywood;;2
+painted_wood_magenta;rustic:painted_wood_magenta;0;false;237/237/32;anywood;;2
+painted_wood_orange;rustic:painted_wood_orange;0;false;237/237/33;anywood;;2
+painted_wood_pink;rustic:painted_wood_pink;0;false;237/237/34;anywood;;2
+painted_wood_purple;rustic:painted_wood_purple;0;false;237/237/35;anywood;;2
+painted_wood_red;rustic:painted_wood_red;0;false;237/237/36;anywood;;2
+painted_wood_silver;rustic:painted_wood_silver;0;false;237/237/37;anywood;;2
+painted_wood_white;rustic:painted_wood_white;0;false;237/237/38;anywood;;2
+painted_wood_yellow;rustic:painted_wood_yellow;0;false;237/237/39;anywood;;2
+// pillars -- 
+andesite_pillar_x;rustic:andesite_pillar;axis=x;false;237/237/41
+andesite_pillar_y;rustic:andesite_pillar;axis=y;false;237/237/42
+andesite_pillar_z;rustic:andesite_pillar;axis=z;false;237/237/43
+diorite_pillar_x;rustic:diorite_pillar;axis=x;false;237/237/45
+diorite_pillar_y;rustic:diorite_pillar;axis=y;false;237/237/46
+diorite_pillar_z;rustic:diorite_pillar;axis=z;false;237/237/47
+granite_pillar_x;rustic:granite_pillar;axis=x;false;237/237/49
+granite_pillar_y;rustic:granite_pillar;axis=y;false;237/237/50
+granite_pillar_z;rustic:granite_pillar;axis=z;false;237/237/51
+slate_pillar_x;rustic:slate_pillar;axis=x;false;237/237/53
+slate_pillar_y;rustic:slate_pillar;axis=y;false;237/237/54
+slate_pillar_z;rustic:slate_pillar;axis=z;false;237/237/55
+stone_pillar_x;rustic:stone_pillar;axis=x;false;237/237/57
+stone_pillar_y;rustic:stone_pillar;axis=y;false;237/237/58
+stone_pillar_z;rustic:stone_pillar;axis=z;false;237/237/59
+
+clay_wall;rustic:clay_wall;0;false;237/237/56;anywood;;2
+clay_wall_cross;rustic:clay_wall_cross;0;false;237/237/60;anywood;;2
+clay_wall_diag_north;rustic:clay_wall_diag;facing=north;false;237/237/64;anywood;;2
+clay_wall_diag_south;rustic:clay_wall_diag;facing=south;false;237/237/65;anywood;;2
+clay_wall_diag_east;rustic:clay_wall_diag;facing=east;false;237/237/66;anywood;;2
+clay_wall_diag_west;rustic:clay_wall_diag;facing=west;false;237/237/67;anywood;;2
+slate;rustic:slate;0;false;237/237/68
+slate_tile;rustic:slate_tile;0;false;237/237/69
+slate_chiseled;rustic:slate_chiseled;0;false;237/237/70
+slate_roof;rustic:slate_roof;0;false;237/237/71
+slate_roof_slab_bottom;rustic:slate_roof_slab;0;false;237/237/72
+slate_roof_slab_top;rustic:slate_roof_slab;1;false;237/237/73
+slate_brick;rustic:slate_brick;0;false;237/237/74
+slate_brick_slab_bottom;rustic:slate_brick_slab;0;false;237/237/75
+slate_brick_slab_top;rustic:slate_brick_slab;1;false;237/237/76
+// barrels/storage
+barrel;rustic:barrel;0;false;237/237/77
+liquid_barrel;rustic:liquid_barrel;0;false;237/237/78
+brewing_barrel_north;rustic:brewing_barrel;facing=north;false;237/237/79
+brewing_barrel_south;rustic:brewing_barrel;facing=south;false;237/237/80
+brewing_barrel_east;rustic:brewing_barrel;facing=east;false;237/237/81
+brewing_barrel_west;rustic:brewing_barrel;facing=west;false;237/237/82
+
+// lights
+candle;rustic:candle;1;false;237/237/83
+candle_up;rustic:candle;facing=up;false;237/237/84
+candle_north;rustic:candle;facing=north;false;237/237/85
+candle_south;rustic:candle;facing=south;false;237/237/86
+candle_east;rustic:candle;facing=east;false;237/237/87
+candle_west;rustic:candle;facing=west;false;237/237/88
+candle_gold_up;rustic:candle_gold;facing=up;false;237/237/89
+candle_gold_north;rustic:candle_gold;facing=north;false;237/237/90
+candle_gold_south;rustic:candle_gold;facing=south;false;237/237/91
+candle_gold_east;rustic:candle_gold;facing=east;false;237/237/92
+candle_gold_west;rustic:candle_gold;facing=west;false;237/237/93
+iron_lantern_up;rustic:iron_lantern;facing=up;false;237/237/94
+iron_lantern_down;rustic:iron_lantern;facing=down;false;237/237/95
+iron_lantern_north;rustic:iron_lantern;facing=north;false;237/237/96
+iron_lantern_south;rustic:iron_lantern;facing=south;false;237/237/97
+iron_lantern_east;rustic:iron_lantern;facing=east;false;237/237/98
+iron_lantern_west;rustic:iron_lantern;facing=west;false;237/237/99
+golden_lantern_up;rustic:golden_lantern;facing=up;false;237/237/100
+golden_lantern_down;rustic:golden_lantern;facing=down;false;237/237/101
+golden_lantern_north;rustic:golden_lantern;facing=north;false;237/237/102
+golden_lantern_south;rustic:golden_lantern;facing=south;false;237/237/103
+golden_lantern_east;rustic:golden_lantern;facing=east;false;237/237/104
+golden_lantern_west;rustic:golden_lantern;facing=west;false;237/237/105
+
+chandelier;rustic:chandelier;0;true;237/238/42
+chandelier_gold;rustic:chandelier_gold;0;true;237/238/43
+
+//  decorations
+vase_0;rustic:vase;0;false;237/237/106
+vase_1;rustic:vase;1;false;237/237/107
+vase_2;rustic:vase;2;false;237/237/108
+vase_3;rustic:vase;3;false;237/237/109
+vase_4;rustic:vase;4;false;237/237/110
+vase_5;rustic:vase;5;false;237/237/111
+gargoyle_north;rustic:gargoyle;facing=north;false;237/237/112
+gargoyle_south;rustic:gargoyle;facing=south;false;237/237/113
+gargoyle_east;rustic:gargoyle;facing=east;false;237/237/114
+gargoyle_west;rustic:gargoyle;facing=west;false;237/237/115
+// can't find iron_lattice - try metadata instead of value
+//iron_lattice;rustic:iron_lattice;leaves=true;false;237/237/116
+//iron_lattice_leaves;rustic:iron_lattice;leaves=true;false;237/237/117
+iron_lattice;rustic:iron_lattice;0;false;237/237/116
+iron_lattice_leaves;rustic:iron_lattice;1;false;237/237/117
+//tables 
+table_acacia;rustic:table_acacia;0;false;237/237/118
+table_big_oak;rustic:table_big_oak;0;false;237/237/119
+table_birch;rustic:table_birch;0;false;237/237/120
+table_ironwood;rustic:table_ironwood;0;false;237/237/121
+table_jungle;rustic:table_jungle;0;false;237/237/122
+table_oak;rustic:table_oak;0;false;237/237/123
+table_olive;rustic:table_olive;0;false;237/237/124
+table_spruce;rustic:table_spruce;0;false;237/237/125
+// chairs -- hoo boy thats a lot of chairs
+chair_big_oak;rustic:chair_big_oak;0;false;237/237/126
+chair_big_oak_north;rustic:chair_big_oak;facing=north;false;237/237/127
+chair_big_oak_south;rustic:chair_big_oak;facing=south;false;237/237/128
+chair_big_oak_east;rustic:chair_big_oak;facing=east;false;237/237/129
+chair_big_oak_west;rustic:chair_big_oak;facing=west;false;237/237/130
+chair_acacia;rustic:chair_acacia;0;false;237/237/131
+chair_acacia_north;rustic:chair_acacia;facing=north;false;237/237/132
+chair_acacia_south;rustic:chair_acacia;facing=south;false;237/237/133
+chair_acacia_east;rustic:chair_acacia;facing=east;false;237/237/134
+chair_acacia_west;rustic:chair_acacia;facing=west;false;237/237/135
+chair_birch;rustic:chair_birch;0;false;237/237/136
+chair_birch_north;rustic:chair_birch;facing=north;false;237/237/137
+chair_birch_south;rustic:chair_birch;facing=south;false;237/237/138
+chair_birch_east;rustic:chair_birch;facing=east;false;237/237/139
+chair_birch_west;rustic:chair_birch;facing=west;false;237/237/140
+chair_ironwood;rustic:chair_ironwood;0;false;237/237/141
+chair_ironwood_north;rustic:chair_ironwood;facing=north;false;237/237/142
+chair_ironwood_south;rustic:chair_ironwood;facing=south;false;237/237/143
+chair_ironwood_east;rustic:chair_ironwood;facing=east;false;237/237/144
+chair_ironwood_west;rustic:chair_ironwood;facing=west;false;237/237/145
+chair_jungle;rustic:chair_jungle;0;false;237/237/146
+chair_jungle_north;rustic:chair_jungle;facing=north;false;237/237/147
+chair_jungle_south;rustic:chair_jungle;facing=south;false;237/237/148
+chair_jungle_east;rustic:chair_jungle;facing=east;false;237/237/149
+chair_jungle_west;rustic:chair_jungle;facing=west;false;237/237/150
+chair_oak;rustic:chair_oak;0;false;237/237/151
+chair_oak_north;rustic:chair_oak;facing=north;false;237/237/152
+chair_oak_south;rustic:chair_oak;facing=south;false;237/237/153
+chair_oak_east;rustic:chair_oak;facing=east;false;237/237/154
+chair_oak_west;rustic:chair_oak;facing=west;false;237/237/155
+chair_olive;rustic:chair_olive;0;false;237/237/156
+chair_olive_north;rustic:chair_olive;facing=north;false;237/237/157
+chair_olive_south;rustic:chair_olive;facing=south;false;237/237/158
+chair_olive_east;rustic:chair_olive;facing=east;false;237/237/159
+chair_olive_west;rustic:chair_olive;facing=west;false;237/237/160
+chair_spruce;rustic:chair_spruce;0;false;237/237/161
+chair_spruce_north;rustic:chair_spruce;facing=north;false;237/237/162
+chair_spruce_south;rustic:chair_spruce;facing=south;false;237/237/163
+chair_spruce_east;rustic:chair_spruce;facing=east;false;237/237/164
+chair_spruce_west;rustic:chair_spruce;facing=west;false;237/237/165
+// doors - I thought there were a lot of chairs!
+olive_doorTop;rustic:olive_door;facing=east;true;237/237/166;anywood;;6
+olive_doorBottom;rustic:olive_door;facing=west;true;237/237/167;anywood;;6
+olive_doorLeft;rustic:olive_door;facing=north;true;237/237/168;anywood;;6
+olive_doorRight;rustic:olive_door;facing=south;true;237/237/169;anywood;;6
+olive_doorUpper;rustic:olive_door;half=upper,hinge=left;true;237/237/170;;;0
+olive_doorUpperInv;rustic:olive_door;half=upper,hinge=right;true;237/237/171;;;0
+ironwood_doorTop;rustic:ironwood_door;facing=east;true;237/237/172;anywood;;6
+ironwood_doorBottom;rustic:ironwood_door;facing=west;true;237/237/173;anywood;;6
+ironwood_doorLeft;rustic:ironwood_door;facing=north;true;237/237/174;anywood;;6
+ironwood_doorRight;rustic:ironwood_door;facing=south;true;237/237/175;anywood;;6
+ironwood_doorUpper;rustic:ironwood_door;half=upper,hinge=left;true;237/237/176;;;0
+ironwood_doorUpperInv;rustic:ironwood_door;half=upper,hinge=right;true;237/237/177;;;0
+
+//  alchemy
+// condensers have facings facing=north and bottom=true/false value strings
+condenser_north;rustic:condenser;bottom=false,facing=north;false;237/237/198
+condenser_south;rustic:condenser;bottom=false,facing=south;false;237/237/199
+condenser_east;rustic:condenser;bottom=false,facing=east;false;237/237/200
+condenser_west;rustic:condenser;bottom=false,facing=west;false;237/237/201
+condenser_advanced_north;rustic:condenser_advanced;bottom=false,facing=north;false;237/237/202
+condenser_advanced_south;rustic:condenser_advanced;bottom=false,facing=south;false;237/237/203
+condenser_advanced_east;rustic:condenser_advanced;bottom=false,facing=east;false;237/237/204
+condenser_advanced_west;rustic:condenser_advanced;bottom=false,facing=west;false;237/237/205
+condenser_north_bottom;rustic:condenser;bottom=true,facing=north;false;237/237/206
+condenser_south_bottom;rustic:condenser;bottom=true,facing=south;false;237/237/207
+condenser_east_bottom;rustic:condenser;bottom=true,facing=east;false;237/237/208
+condenser_west_bottom;rustic:condenser;bottom=true,facing=west;false;237/237/209
+condenser_advanced_north_bottom;rustic:condenser_advanced;bottom=true,facing=north;false;237/237/210
+condenser_advanced_south_bottom;rustic:condenser_advanced;bottom=true,facing=south;false;237/237/211
+condenser_advanced_east_bottom;rustic:condenser_advanced;bottom=true,facing=east;false;237/237/212
+condenser_advanced_west_bottom;rustic:condenser_advanced;bottom=true,facing=west;false;237/237/213
+// retorts have facing values
+retort_north;rustic:retort;facing=north;false;237/237/214
+retort_south;rustic:retort;facing=south;false;237/237/215
+retort_east;rustic:retort;facing=east;false;237/237/216
+retort_west;rustic:retort;facing=west;false;237/237/217
+retort_advanced_north;rustic:retort_advanced;facing=north;false;237/237/218
+retort_advanced_south;rustic:retort_advanced;facing=south;false;237/237/219
+retort_advanced_east;rustic:retort_advanced;facing=east;false;237/237/220
+retort_advanced_west;rustic:retort_advanced;facing=west;false;237/237/221
+
+//cabinet 220-234
+
+cabinet_2;rustic:cabinet;2;false;237/237/222
+cabinet_3;rustic:cabinet;3;false;237/237/223
+cabinet_4;rustic:cabinet;4;false;237/237/224
+cabinet_5;rustic:cabinet;5;false;237/237/225
+cabinet_6;rustic:cabinet;6;false;237/237/226
+cabinet_7;rustic:cabinet;7;false;237/237/227
+cabinet_8;rustic:cabinet;8;false;237/237/228
+cabinet_9;rustic:cabinet;9;false;237/237/229
+cabinet_10;rustic:cabinet;10;false;237/237/230
+cabinet_11;rustic:cabinet;11;false;237/237/231
+cabinet_12;rustic:cabinet;12;false;237/237/232
+cabinet_13;rustic:cabinet;13;false;237/237/233
+cabinet_14;rustic:cabinet;14;false;237/237/234
+cabinet_0;rustic:cabinet;0;false;237/237/235
+cabinet_1;rustic:cabinet;1;false;237/237/236
+
+//fences
+fence_olive_0;rustic:fence_olive;0;false;237/237/237
+fence_gate_olive_0;rustic:fence_gate_olive;0;false;237/237/238
+fence_gate_olive_1;rustic:fence_gate_olive;1;false;237/237/239
+fence_gate_olive_2;rustic:fence_gate_olive;2;false;237/237/240
+fence_gate_olive_3;rustic:fence_gate_olive;3;false;237/237/241
+fence_gate_olive_4;rustic:fence_gate_olive;4;false;237/237/242
+fence_gate_olive_5;rustic:fence_gate_olive;5;false;237/237/243
+fence_gate_olive_6;rustic:fence_gate_olive;6;false;237/237/244
+fence_gate_olive_7;rustic:fence_gate_olive;7;false;237/237/245
+fence_ironwood_0;rustic:fence_ironwood;0;false;237/237/333
+fence_gate_ironwood_0;rustic:fence_gate_ironwood;0;false;237/237/246
+fence_gate_ironwood_1;rustic:fence_gate_ironwood;1;false;237/237/247
+fence_gate_ironwood_2;rustic:fence_gate_ironwood;2;false;237/237/248
+fence_gate_ironwood_3;rustic:fence_gate_ironwood;3;false;237/237/249
+fence_gate_ironwood_4;rustic:fence_gate_ironwood;4;false;237/237/250
+fence_gate_ironwood_5;rustic:fence_gate_ironwood;5;false;237/237/251
+fence_gate_ironwood_6;rustic:fence_gate_ironwood;6;false;237/237/252
+fence_gate_ironwood_7;rustic:fence_gate_ironwood;7;false;237/237/253
+
+// ok leave the last 2 colors in 237/237/0-255
+// start with 237/238/0-255
+// stairs - how much time ya got?
+stairs_olive_north_top;rustic:stairs_olive;half=top,facing=north;false;237/238/0
+stairs_olive_south_top;rustic:stairs_olive;half=top,facing=south;false;237/238/1
+stairs_olive_east_top;rustic:stairs_olive;half=top,facing=east;false;237/238/2
+stairs_olive_west_top;rustic:stairs_olive;half=top,facing=west;false;237/238/3
+stairs_olive_north_bottom;rustic:stairs_olive;half=bottom,facing=north;false;237/238/4
+stairs_olive_south_bottom;rustic:stairs_olive;half=bottom,facing=south;false;237/238/5
+stairs_olive_east_bottom;rustic:stairs_olive;half=bottom,facing=east;false;237/238/6
+stairs_olive_west_bottom;rustic:stairs_olive;half=bottom,facing=west;false;237/238/7
+stairs_ironwood_north_top;rustic:stairs_ironwood;half=top,facing=north;false;237/238/8
+stairs_ironwood_south_top;rustic:stairs_ironwood;half=top,facing=south;false;237/238/9
+stairs_ironwood_east_top;rustic:stairs_ironwood;half=top,facing=east;false;237/238/10
+stairs_ironwood_west_top;rustic:stairs_ironwood;half=top,facing=west;false;237/238/11
+stairs_ironwood_north_bottom;rustic:stairs_ironwood;half=bottom,facing=north;false;237/238/12
+stairs_ironwood_south_bottom;rustic:stairs_ironwood;half=bottom,facing=south;false;237/238/13
+stairs_ironwood_east_bottom;rustic:stairs_ironwood;half=bottom,facing=east;false;237/238/14
+stairs_ironwood_west_bottom;rustic:stairs_ironwood;half=bottom,facing=west;false;237/238/15
+// agriculture blocks, plants and saplings
+fertile_soil;rustic:fertile_soil;0;false;237/238/16
+crop_stake;rustic:crop_stake;0;false;237/238/17
+crushing_tub;rustic:crushing_tub;0;false;237/238/18
+stake_tied;rustic:stake_tied;0;false;237/238/19
+rope;rustic:rope;0;false;237/238/20
+rope;rustic:rope;1;false;237/238/21
+rope;rustic:rope;2;false;237/238/22
+apiary;rustic:apiary;0;false;237/238/23
+apiary_north;rustic:apiary;facing=north;false;237/238/24
+apiary_south;rustic:apiary;facing=south;false;237/238/25
+apiary_east;rustic:apiary;facing=east;false;237/238/26
+apiary_west;rustic:apiary;facing=west;false;237/238/27
+beehive_north;rustic:beehive;facing=north;false;237/238/28
+beehive_south;rustic:beehive;facing=south;false;237/238/29
+beehive_east;rustic:beehive;facing=east;false;237/238/30
+beehive_west;rustic:beehive;facing=west;false;237/238/31
+//planted growables
+sapling_olive;rustic:sapling;0;false;237/238/32
+sapling_ironwood;rustic:sapling;1;false;237/238/33
+aloe_vera_0;rustic:aloe_vera;age=0;true;237/238/34
+aloe_vera_1;rustic:aloe_vera;age=1;true;237/238/35
+aloe_vera_2;rustic:aloe_vera;age=2;true;237/238/36
+aloe_vera_3;rustic:aloe_vera;age=3;true;237/238/37
+chamomile_0;rustic:chamomile;age=0;true;237/238/38
+chamomile_1;rustic:chamomile;age=1;true;237/238/39
+chamomile_2;rustic:chamomile;age=2;true;237/238/40
+chamomile_3;rustic:chamomile;age=3;true;237/238/41
+
+chili_crop_0;rustic:chili_crop;age=0;true;237/238/46
+chili_crop_1;rustic:chili_crop;age=1;true;237/238/47
+chili_crop_2;rustic:chili_crop;age=2;true;237/238/48
+chili_crop_3;rustic:chili_crop;age=3;true;237/238/49
+core_root_0;rustic:core_root;age=0;true;237/238/50
+core_root_1;rustic:core_root;age=1;true;237/238/51
+core_root_2;rustic:core_root;age=2;true;237/238/52
+core_root_3;rustic:core_root;age=3;true;237/238/53
+cloudsbluff_0;rustic:cloudsbluff;age=0;true;237/238/54
+cloudsbluff_1;rustic:cloudsbluff;age=1;true;237/238/55
+cloudsbluff_2;rustic:cloudsbluff;age=2;true;237/238/56
+cloudsbluff_3;rustic:cloudsbluff;age=3;true;237/238/57
+cohosh_0;rustic:cohosh;age=0;true;237/238/58
+cohosh_1;rustic:cohosh;age=1;true;237/238/59
+cohosh_2;rustic:cohosh;age=2;true;237/238/60
+cohosh_3;rustic:cohosh;age=3;true;237/238/61
+deathstalk_mushroom_0;rustic:deathstalk_mushroom;age=0;true;237/238/62
+deathstalk_mushroom_1;rustic:deathstalk_mushroom;age=1;true;237/238/63
+deathstalk_mushroom_2;rustic:deathstalk_mushroom;age=2;true;237/238/64
+deathstalk_mushroom_3;rustic:deathstalk_mushroom;age=3;true;237/238/65
+ginseng_0;rustic:ginseng;age=0;true;237/238/66
+ginseng_1;rustic:ginseng;age=1;true;237/238/67
+ginseng_2;rustic:ginseng;age=2;true;237/238/68
+ginseng_3;rustic:ginseng;age=3;true;237/238/69
+grape_stem_0;rustic:grape_stem;age=0;true;237/238/70
+grape_stem_1;rustic:grape_stem;age=1;true;237/238/71
+grape_stem_2;rustic:grape_stem;age=2;true;237/238/72
+grape_stem_3;rustic:grape_stem;age=3;true;237/238/73
+horsetail_0;rustic:horsetail;age=0;true;237/238/74
+horsetail_1;rustic:horsetail;age=1;true;237/238/75
+horsetail_2;rustic:horsetail;age=2;true;237/238/76
+horsetail_3;rustic:horsetail;age=3;true;237/238/84
+marsh_mallow_0;rustic:marsh_mallow;age=0;true;237/238/78
+marsh_mallow_1;rustic:marsh_mallow;age=1;true;237/238/79
+marsh_mallow_2;rustic:marsh_mallow;age=2;true;237/238/80
+marsh_mallow_3;rustic:marsh_mallow;age=3;true;237/238/81
+wildberry_bush;rustic:wildberry_bush;0;true;237/238/82
+wildberry_bush_berries;rustic:wildberry_bush;1;true;237/238/83
+wind_thistle_0;rustic:wind_thistle;age=0;true;237/238/86
+wind_thistle_1;rustic:wind_thistle;age=1;true;237/238/87
+wind_thistle_2;rustic:wind_thistle;age=2;true;237/238/88
+wind_thistle_3;rustic:wind_thistle;age=3;true;237/238/89
+tomato_crop_0;rustic:tomato_crop;age=0;true;237/238/90
+tomato_crop_1;rustic:tomato_crop;age=1;true;237/238/91
+tomato_crop_2;rustic:tomato_crop;age=2;true;237/238/92
+tomato_crop_3;rustic:tomato_crop;age=3;true;237/238/93
+
+// whoops forgot some stairs
+stairs_slate_roof_north_top;rustic:stairs_slate_roof;half=top,facing=north;false;237/238/94
+stairs_slate_roof_south_top;rustic:stairs_slate_roof;half=top,facing=south;false;237/238/95
+stairs_slate_roof_east_top;rustic:stairs_slate_roof;half=top,facing=east;false;237/238/96
+stairs_slate_roof_west_top;rustic:stairs_slate_roof;half=top,facing=west;false;237/238/97
+stairs_slate_roof_north_bottom;rustic:stairs_slate_roof;half=bottom,facing=north;false;237/238/98
+stairs_slate_roof_south_bottom;rustic:stairs_slate_roof;half=bottom,facing=south;false;237/238/99
+stairs_slate_roof_east_bottom;rustic:stairs_slate_roof;half=bottom,facing=east;false;237/238/100
+stairs_slate_roof_west_bottom;rustic:stairs_slate_roof;half=bottom,facing=west;false;237/238/101
+
+// and some crops
+blood_orchid_0;rustic:blood_orchid;age=0;true;237/238/102
+blood_orchid_1;rustic:blood_orchid;age=1;true;237/238/103
+blood_orchid_2;rustic:blood_orchid;age=2;true;237/238/104
+blood_orchid_3;rustic:blood_orchid;age=3;true;237/238/105
+
+mooncap_mushroom_0;rustic:mooncap_mushroom;age=0;true;237/237/40
+mooncap_mushroom_1;rustic:mooncap_mushroom;age=1;true;237/237/44
+mooncap_mushroom_2;rustic:mooncap_mushroom;age=2;true;237/237/48
+mooncap_mushroom_3;rustic:mooncap_mushroom;age=3;true;237/237/52
