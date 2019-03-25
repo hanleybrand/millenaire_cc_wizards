@@ -1,7 +1,0 @@
-ID,Class Name,BlockState Properties,BlockState Class Name
-ftfloocraft:blockfloosign,com.fredtargaryen.floocraft.block.BlockFlooSign,"[PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}]",net.minecraft.block.state.BlockStateContainer
-ftfloocraft:flootorch,com.fredtargaryen.floocraft.block.BlockFlooTorch,"[PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[up, north, south, west, east]}]",net.minecraft.block.state.BlockStateContainer
-ftfloocraft:floowerpot,com.fredtargaryen.floocraft.block.BlockFloowerPot,[],net.minecraft.block.state.BlockStateContainer
-ftfloocraft:greenflamesbusy,com.fredtargaryen.floocraft.block.GreenFlamesBusy,"[PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}]",net.minecraft.block.state.BlockStateContainer
-ftfloocraft:greenflamesidle,com.fredtargaryen.floocraft.block.GreenFlamesIdle,"[PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}]",net.minecraft.block.state.BlockStateContainer
-ftfloocraft:greenflamestemp,com.fredtargaryen.floocraft.block.GreenFlamesTemp,"[PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}]",net.minecraft.block.state.BlockStateContainer

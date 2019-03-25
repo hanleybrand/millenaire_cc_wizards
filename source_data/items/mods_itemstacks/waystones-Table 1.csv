@@ -1,6 +1,0 @@
-ID,Metadata,NBT Tag Compound,Display Name,Tooltip,Translation Key,Class Name,Is ItemBlock,OreDict Names,Max Stack Size,Max Damage,Model Name
-waystones:bound_scroll,0,,Bound Scroll,§7Bound to: None,item.waystones:bound_scroll,net.blay09.mods.waystones.item.ItemBoundScroll,-,,64,0,waystones:bound_scroll#inventory
-waystones:return_scroll,0,,Return Scroll,§7Bound to: §3Madsalmarure Plains,item.waystones:return_scroll,net.blay09.mods.waystones.item.ItemReturnScroll,-,,64,0,waystones:return_scroll#inventory
-waystones:warp_scroll,0,,Warp Scroll,,item.waystones:warp_scroll,net.blay09.mods.waystones.item.ItemWarpScroll,-,,64,0,waystones:warp_scroll#inventory
-waystones:warp_stone,0,,Warp Stone,,item.waystones:warp_stone,net.blay09.mods.waystones.item.ItemWarpStone,-,,1,100,waystones:warp_stone#inventory
-waystones:waystone,0,,Waystone,,tile.waystones:waystone,net.minecraft.item.ItemBlock,+,,64,0,waystones:waystone#inventory
