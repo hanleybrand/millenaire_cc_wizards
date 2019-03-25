@@ -8,7 +8,7 @@ baseheight=0.4
 travelbook_category=wizard
 travelbook_held_item=timberframecross
 
-texture=textures/entity/wizards/special/house_elf.png
+texture=millenaire_generic_villagers:special/house_elf.png
 
 goal=gorest
 goal=makeTimberFramePlainOak

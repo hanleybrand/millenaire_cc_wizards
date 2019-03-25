@@ -1,6 +1,7 @@
 building.length=21
 building.width=24
 building.icon=wizard_hat
+building.max=1
 
 initial.startlevel=-1
 initial.nativename=inn
@@ -8,6 +9,7 @@ initial.priority=600
 initial.tag=leasure
 initial.tag=pathnode
 initial.tag=patrol
+initial.tag=nopaths
 
 initial.shop=inn
 initial.signs=2,1,3,5,7,8,6,4,0
