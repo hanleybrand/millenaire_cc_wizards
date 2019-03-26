@@ -1,0 +1,19 @@
+
+priority=50
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=sapling_ironwood
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=plantcropsapling_ironwood
+labelkey=plantcropsapling_ironwood
+
+//objets tenus par le villageois
+heldItems=rustic:sapling_ironwood
+
+//Type de plante
+//Type of plant
+croptype=sapling_ironwood
+
+soiltype=rustic:fertile_soil
+seed=sapling_ironwood

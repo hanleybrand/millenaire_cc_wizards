@@ -1,0 +1,19 @@
+
+priority=50
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=wind_thistle
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=plantcropwind_thistle
+labelkey=plantcropwind_thistle
+
+//objets tenus par le villageois
+heldItems=rustic:wind_thistle
+
+//Type de plante
+//Type of plant
+croptype=wind_thistle
+
+soiltype=rustic:fertile_soil
+seed=wind_thistle

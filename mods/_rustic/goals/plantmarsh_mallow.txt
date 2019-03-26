@@ -1,0 +1,19 @@
+
+priority=50
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=marsh_mallow
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=plantcropmarsh_mallow
+labelkey=plantcropmarsh_mallow
+
+//objets tenus par le villageois
+heldItems=rustic:marsh_mallow
+
+//Type de plante
+//Type of plant
+croptype=marsh_mallow
+
+soiltype=rustic:fertile_soil
+seed=marsh_mallow

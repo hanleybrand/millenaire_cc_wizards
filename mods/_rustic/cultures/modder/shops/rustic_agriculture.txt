@@ -1,0 +1,3 @@
+buys=aloe_vera,apple_seeds,bee,beeswax,blood_orchid,chamomile,chili_pepper,chili_pepper_seeds,cloudsbluff,cohosh,core_root,deathstalk_mushroom,dust_tiny_iron,ginseng,grape_stem,grapes,honeycomb,horsetail,ironberries,marsh_mallow,mooncap_mushroom,olives,wildberries,wind_thistle,tallow,tomato,tomato_seeds
+
+sells=aloe_vera,apple_seeds,bee,beeswax,blood_orchid,chamomile,chili_pepper,chili_pepper_seeds,cloudsbluff,cohosh,core_root,deathstalk_mushroom,dust_tiny_iron,ginseng,grape_stem,grapes,honeycomb,horsetail,ironberries,marsh_mallow,mooncap_mushroom,olives,wildberries,wind_thistle,tallow,tomato,tomato_seeds

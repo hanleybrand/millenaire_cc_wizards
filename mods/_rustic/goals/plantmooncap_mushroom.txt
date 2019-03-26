@@ -1,0 +1,19 @@
+
+priority=50
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=mooncap_mushroom
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=plantcropmooncap_mushroom
+labelkey=plantcropmooncap_mushroom
+
+//objets tenus par le villageois
+heldItems=rustic:mooncap_mushroom
+
+//Type de plante
+//Type of plant
+croptype=mooncap_mushroom
+
+soiltype=rustic:fertile_soil
+seed=mooncap_mushroom

@@ -1,0 +1,19 @@
+
+priority=50
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=wildberries
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=plantcropwildberries
+labelkey=plantcropwildberries
+
+//objets tenus par le villageois
+heldItems=rustic:wildberries
+
+//Type de plante
+//Type of plant
+croptype=wildberries
+
+soiltype=rustic:fertile_soil
+seed=wildberries

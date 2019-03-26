@@ -20,9 +20,9 @@
 //taken --diorite_pillar_none;rustic:diorite_pillar;axis=none;false;237/237/44
 //taken --granite_pillar_none;rustic:granite_pillar;axis=none;false;237/237/48
 //taken --slate_pillar_none;rustic:slate_pillar;axis=none;false;237/237/52
+//taken --log_olive;rustic:log;0;false;237/237/1
+//taken --log_olive_none;rustic:log;variant=olive,axis=none;false;237/237/3;rustic:log;0;1
 
-//log_olive;rustic:log;0;false;237/237/1
-//log_olive_none;rustic:log;variant=olive,axis=none;false;237/237/3;rustic:log;0;1
 //log_ironwood_none;rustic:log;variant=ironwood,axis=none;false;237/237/12;ironwoodlog;;1
 //log_ironwood;rustic:log;1;false;237/237/10
 //chandelier_2;rustic:chandelier;age=2;true;237/238/44
@@ -79,7 +79,9 @@ log_ironwood_x;rustic:log;variant=ironwood,axis=x;false;237/237/13;rustic:log;;1
 log_ironwood_y;rustic:log;variant=ironwood,axis=y;false;237/237/14;rustic:log;;1
 log_ironwood_z;rustic:log;variant=ironwood,axis=z;false;237/237/15;rustic:log;;1
 leaves_olive;rustic:leaves;0;false;237/237/16
+leaves_olive_8;rustic:leaves;8;false;237/237/3
 leaves_ironwood;rustic:leaves;1;false;237/237/17
+leaves_ironwood_9;rustic:leaves;9;false;237/237/1
 olive_doubleslab;rustic:olive_doubleslab;1;false;237/237/18;rustic:olive_slab_item;;2
 olive_slab_bottom;rustic:olive_slab;0;false;237/237/19;rustic:olive_slab_item;;1
 olive_slab_top;rustic:olive_slab;1;false;237/237/20;rustic:olive_slab_item;;1

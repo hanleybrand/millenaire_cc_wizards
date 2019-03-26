@@ -7,7 +7,7 @@ bee;rustic:bee;0;Bee
 beehive;rustic:beehive;0;Beehive	
 beeswax;rustic:beeswax;0;Beeswax	
 blood_orchid;rustic:blood_orchid;0;Blood Orchid	
-book;rustic:book;0;Almanac	
+rustic_book;rustic:book;0;Almanac	
 brewing_barrel;rustic:brewing_barrel;0;Brewing Barrel	
 cabinet;rustic:cabinet;0;Cabinet	
 candle;rustic:candle;0;Iron Candle	
