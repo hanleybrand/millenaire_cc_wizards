@@ -14,11 +14,11 @@
 // 
 
 priority=50
-buildinglimit=aloe_vera,64
-townhalllimit=aloe_vera,64
-maxsimultaneousinbuilding=1
-//tag a building must have for action to be possible. If absent, then the villager's house is used.
+//buildinglimit=aloe_vera,64
+//townhalllimit=aloe_vera,64
+//maxsimultaneousinbuilding=1
 
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
 buildingTag=aloe_vera
 
 //specify if the label and sentences for this goal is not the name of the goal itself
@@ -26,7 +26,7 @@ sentencekey=plantcropaloe_vera
 labelkey=plantcropaloe_vera
 
 //objets tenus par le villageois -- Items they hold
-heldItems=rustic:aloe_vera
+heldItems=aloe_vera
 
 //Type de plante --Type of plant
 croptype=aloe_vera
@@ -34,6 +34,6 @@ croptype=aloe_vera
 soiltype=rustic:fertile_soil
 seed=aloe_vera
 
-goal.plantcropaloe_vera=planting aloe_vera
+//goal.plantcropaloe_vera=planting aloe_vera
 
     

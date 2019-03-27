@@ -1,5 +1,7 @@
 //Item key;item id;item meta;label (indicative only)
 
+waystone;waystones:waystone;0;Waystone
+
 waterbucket;minecraft:water_bucket;0;Water Bucket
 full_bottle;minecraft:potion;0;Water Bottle
 swift_potion;minecraft:potion;8194;Swift Potion
@@ -53,9 +55,7 @@ wizard_hat_healing;ebwizardry:wizard_hat_healing;0;Healer Hat
 wizard_robe_healing;ebwizardry:wizard_robe_healing;0;Healer Robe
 wizard_boots_healing;ebwizardry:wizard_boots_healing;0;Healer Boots
 wizard_leggings_healing;ebwizardry:wizard_leggings_healing;0;Healer Pants
-
 magic_wand;ebwizardry:magic_wand;0;Magic Wand
-
 //wizardy scrolls
 scroll_of_agility;ebwizardry:scroll;39;Scroll of Agility
 scroll_of_arc;ebwizardry:scroll;5;Scroll of Arc

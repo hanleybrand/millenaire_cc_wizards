@@ -15,9 +15,9 @@
 
 
 priority=40
-buildinglimit=cloudsbluff,64
-townhalllimit=cloudsbluff,64
-maxsimultaneousinbuilding=1
+// buildinglimit=cloudsbluff,64
+// townhalllimit=cloudsbluff,64
+// maxsimultaneousinbuilding=1
 
 //tag a building must have for action to be possible. If absent, then the villager's house is used.
 buildingTag=cloudsbluff

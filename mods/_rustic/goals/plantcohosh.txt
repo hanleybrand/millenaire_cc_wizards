@@ -14,11 +14,11 @@
 // 
 
 priority=50
-buildinglimit=cohosh,64
-townhalllimit=cohosh,64
-maxsimultaneousinbuilding=1
-//tag a building must have for action to be possible. If absent, then the villager's house is used.
+//buildinglimit=cohosh,64
+//townhalllimit=cohosh,64
+//maxsimultaneousinbuilding=1
 
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
 buildingTag=cohosh
 
 //specify if the label and sentences for this goal is not the name of the goal itself
@@ -26,7 +26,7 @@ sentencekey=plantcropcohosh
 labelkey=plantcropcohosh
 
 //objets tenus par le villageois -- Items they hold
-heldItems=rustic:cohosh
+heldItems=cohosh
 
 //Type de plante --Type of plant
 croptype=cohosh
@@ -34,6 +34,6 @@ croptype=cohosh
 soiltype=rustic:fertile_soil
 seed=cohosh
 
-goal.plantcropcohosh=planting cohosh
+//goal.plantcropcohosh=planting cohosh
 
     

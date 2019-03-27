@@ -1,0 +1,26 @@
+native_name=Sorcerer
+alt_native_name=Sorcerer's Apprentice
+gender=female
+familyNameList=wizard_family_names
+firstNameList=female_names
+tag=helpInAttacks
+icon=wizard_hat_sorcery
+
+travelbook_category=wizard
+travelbook_display=true
+villagerconfig=sorcerer_equip
+
+
+texture=millenaire_generic_villagers:female/sarah.png
+
+
+
+startingInv=wizard_robe_sorcery,1
+
+goal=gorest
+goal=gosocialise
+goal=chat
+goal=patrol
+goal=huntmonster
+
+experiencegiven=10

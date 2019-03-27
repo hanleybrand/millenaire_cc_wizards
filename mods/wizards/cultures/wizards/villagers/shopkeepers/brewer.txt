@@ -1,0 +1,18 @@
+native_name=Witches' Brewer
+gender=female
+familyNameList=wizard_family_names
+firstNameList=female_names
+baseheight=0.9
+model=femaleasymmetrical
+tag=seller
+icon=cauldron
+
+travelbook_category=wizard
+travelbook_display=true
+villagerconfig=wizardsequipment
+
+texture=millenaire_generic_villagers:female/lee_asym.png
+
+goal=gorest
+goal=gosocialise
+goal=chat

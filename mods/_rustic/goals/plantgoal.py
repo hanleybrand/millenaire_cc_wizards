@@ -19,11 +19,11 @@ def plant_goals(crops=None):
 // 
 
 priority=50
-buildinglimit=$crop,64
-townhalllimit=$crop,64
-maxsimultaneousinbuilding=1
-//tag a building must have for action to be possible. If absent, then the villager's house is used.
+//buildinglimit=$crop,64
+//townhalllimit=$crop,64
+//maxsimultaneousinbuilding=1
 
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
 buildingTag=$crop
 
 //specify if the label and sentences for this goal is not the name of the goal itself
@@ -31,7 +31,7 @@ sentencekey=plantcrop$crop
 labelkey=plantcrop$crop
 
 //objets tenus par le villageois -- Items they hold
-heldItems=rustic:$crop
+heldItems=$crop
 
 //Type de plante --Type of plant
 croptype=$crop
@@ -39,7 +39,7 @@ croptype=$crop
 soiltype=rustic:fertile_soil
 seed=$crop
 
-goal.plantcrop$crop=planting $crop
+//goal.plantcrop$crop=planting $crop
 
     """  # type: str
 
@@ -60,9 +60,9 @@ goal.plantcrop$crop=planting $crop
 
 
 priority=40
-buildinglimit=$crop,64
-townhalllimit=$crop,64
-maxsimultaneousinbuilding=1
+// buildinglimit=$crop,64
+// townhalllimit=$crop,64
+// maxsimultaneousinbuilding=1
 
 //tag a building must have for action to be possible. If absent, then the villager's house is used.
 buildingTag=$crop
@@ -104,23 +104,43 @@ building.startinggood=$crop,8,4
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
+goal=plant$crop
 goal=harvest$crop
 ```
 
 **RECOMMENDED VILLAGER TAGS** : use in [villager].txt files
 ```
-goal=plant$crop
 startinginv=$crop,8
 bringbackhomegood=$crop
 collectgood=$crop
 ```
+    """
 
+    buildings_all = """
+initial.tag=$crop
+building.startinggood=$crop,8,4
+        """
+
+    villagers_all = """    
+goal=plant$crop
+goal=harvest$crop
+startinginv=$crop,8
+bringbackhomegood=$crop
+collectgood=$crop
+"""
+
+    strings_md = """
+goal.plant$crop=Planting $crop
+goal.harvest$crop=Harvesting $crop
     """
 
     plantt = Template(planting_goal)
     harvt = Template(harvesting_goal)
     build = Template(buildings)
     vill = Template(villagers)
+    villall = Template(villagers_all)
+    buildall = Template(buildings_all)
+    stringsfile = Template(strings_md)
 
     for cropname in crops:
         plant_filename = 'plant' + cropname + '.txt'
@@ -138,11 +158,27 @@ collectgood=$crop
         print 'saving building_tag_list.txt'
         for cropname in crops:
             bt.writelines(build.substitute(crop=cropname))
+        bt.write("""\n### All Tags \n ``` """)
+        for cropname in crops:
+            bt.writelines(buildall.substitute(crop=cropname))
+        bt.write("""\n```\n""")
+
 
     with open('_villager_tag_list.md', 'w') as vt:
         print 'saving building_tag_list.txt'
         for cropname in crops:
             vt.writelines(vill.substitute(crop=cropname))
+        vt.write("""\n### All Tags \n ``` """)
+        for cropname in crops:
+            vt.writelines(villall.substitute(crop=cropname))
+        vt.write("""\n```\n""")
+
+    with open('_strings.md', 'w') as st:
+        print 'saving strings_list.txt'
+        st.write("""\n### Copy these to languages/[lang]]/stings.txt \n ``` """)
+        for cropname in crops:
+            st.writelines(stringsfile.substitute(crop=cropname))
+        st.write("""\n```\n""")
 
 if __name__ == "__main__":
 

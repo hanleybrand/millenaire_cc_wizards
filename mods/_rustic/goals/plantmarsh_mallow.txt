@@ -14,11 +14,11 @@
 // 
 
 priority=50
-buildinglimit=marsh_mallow,64
-townhalllimit=marsh_mallow,64
-maxsimultaneousinbuilding=1
-//tag a building must have for action to be possible. If absent, then the villager's house is used.
+//buildinglimit=marsh_mallow,64
+//townhalllimit=marsh_mallow,64
+//maxsimultaneousinbuilding=1
 
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
 buildingTag=marsh_mallow
 
 //specify if the label and sentences for this goal is not the name of the goal itself
@@ -26,7 +26,7 @@ sentencekey=plantcropmarsh_mallow
 labelkey=plantcropmarsh_mallow
 
 //objets tenus par le villageois -- Items they hold
-heldItems=rustic:marsh_mallow
+heldItems=marsh_mallow
 
 //Type de plante --Type of plant
 croptype=marsh_mallow
@@ -34,6 +34,6 @@ croptype=marsh_mallow
 soiltype=rustic:fertile_soil
 seed=marsh_mallow
 
-goal.plantcropmarsh_mallow=planting marsh_mallow
+//goal.plantcropmarsh_mallow=planting marsh_mallow
 
     

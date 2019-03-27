@@ -56,7 +56,6 @@ liquid_barrel,5,3,4,4,3,false,,0,crafting
 condenser,5,3,4,4,3,false,,0,crafting
 condenser_advanced,10,5,4,4,45,false,,0,crafting
 gargoyle,5,3,4,4,3,false,,0,crafting
-liquid_barrel,50,25,32,16,45,false,,0,crafting
 retort,50,25,32,16,45,false,,0,crafting
 retort_advanced,50,25,32,16,45,false,,0,crafting
 table_acacia,50,25,32,16,45,false,,0,crafting
@@ -88,7 +87,7 @@ ironwood_door,50,25,32,16,45,false,,0,construction
 ironwood_slab_item,50,25,32,16,45,false,,0,construction
 olivelog,50,25,32,16,45,false,,0,construction
 ironwoodlog,50,25,32,16,45,false,,0,construction
-,,,,,,,,,construction
+/// ,,,,,,,,,construction
 olive_door,50,25,32,16,45,false,,0,construction
 olive_slab_item,50,25,32,16,45,false,,0,construction
 painted_wood_black,50,25,32,16,45,false,,0,construction

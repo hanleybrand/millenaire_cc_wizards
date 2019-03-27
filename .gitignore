@@ -19,3 +19,8 @@ millenaire.log
 mods/examplemod/*
 travelbook/*
 /resources used*.txt
+.idea/workspace.xml
+.idea/modules.xml
+*.xml
+*.iml
+.idea/vcs.xml

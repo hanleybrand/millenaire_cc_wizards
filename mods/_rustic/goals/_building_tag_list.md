@@ -103,3 +103,45 @@ initial.tag=wind_thistle
 building.startinggood=wind_thistle,8,4
 ```
     
+### All Tags 
+ ``` 
+initial.tag=aloe_vera
+building.startinggood=aloe_vera,8,4
+        
+initial.tag=blood_orchid
+building.startinggood=blood_orchid,8,4
+        
+initial.tag=chamomile
+building.startinggood=chamomile,8,4
+        
+initial.tag=chili_pepper
+building.startinggood=chili_pepper,8,4
+        
+initial.tag=cloudsbluff
+building.startinggood=cloudsbluff,8,4
+        
+initial.tag=cohosh
+building.startinggood=cohosh,8,4
+        
+initial.tag=core_root
+building.startinggood=core_root,8,4
+        
+initial.tag=deathstalk_mushroom
+building.startinggood=deathstalk_mushroom,8,4
+        
+initial.tag=ginseng
+building.startinggood=ginseng,8,4
+        
+initial.tag=horsetail
+building.startinggood=horsetail,8,4
+        
+initial.tag=marsh_mallow
+building.startinggood=marsh_mallow,8,4
+        
+initial.tag=mooncap_mushroom
+building.startinggood=mooncap_mushroom,8,4
+        
+initial.tag=wind_thistle
+building.startinggood=wind_thistle,8,4
+        
+```

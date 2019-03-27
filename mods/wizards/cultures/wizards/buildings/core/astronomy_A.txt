@@ -1,12 +1,16 @@
 building.length=14
 building.width=22
 
+building.icon=wizard_hat
+
 initial.startlevel=-1
 initial.nativename=astronomy
 initial.tag=leasure
 initial.tag=patrol
 
+shop=scrolls
+
 initial.male=sorcerer
-initial.female=sorcerer
+initial.female=sorceress
 
 travelbook_category=research
