@@ -22,10 +22,10 @@
 //taken --slate_pillar_none;rustic:slate_pillar;axis=none;false;237/237/52
 //taken --log_olive;rustic:log;0;false;237/237/1
 //taken --log_olive_none;rustic:log;variant=olive,axis=none;false;237/237/3;rustic:log;0;1
+//taken -- chandelier_2;rustic:chandelier;age=2;true;237/238/44
+//taken -- log_ironwood_none;rustic:log;variant=ironwood,axis=none;false;237/237/12;ironwoodlog;;1
 
-//log_ironwood_none;rustic:log;variant=ironwood,axis=none;false;237/237/12;ironwoodlog;;1
 //log_ironwood;rustic:log;1;false;237/237/10
-//chandelier_2;rustic:chandelier;age=2;true;237/238/44
 //chandelier_3;rustic:chandelier;age=3;true;237/238/45
 //wildberry_bush_3;rustic:wildberry_bush;age=3;true;237/238/85
 //clay_wall_cross_south;rustic:clay_wall_cross;facing=south;false;237/237/61;anywood;;2
@@ -69,15 +69,15 @@
 //rustic woods
 // 1-6
 
-planks_olive;rustic:planks;0;false;237/237/2;rustic:planks;0;1
-log_olive_x;rustic:log;variant=olive,axis=x;false;237/237/4;rustic:log;0;1
-log_olive_y;rustic:log;variant=olive,axis=y;false;237/237/5;rustic:log;0;1
-log_olive_z;rustic:log;variant=olive,axis=z;false;237/237/6;rustic:log;0;1
+planks_olive;rustic:planks;0;false;237/237/2;rustic:planks;variant=olive;1
+log_olive_x;rustic:log;variant=olive,axis=x;false;237/237/4;rustic:log;variant=olive;1
+log_olive_y;rustic:log;variant=olive,axis=y;false;237/237/5;rustic:log;variant=olive;1
+log_olive_z;rustic:log;variant=olive,axis=z;false;237/237/6;rustic:log;variant=olive;1
 // 11-17
-planks_ironwood;rustic:planks;1;false;237/237/11;rustic:planks;1;1
-log_ironwood_x;rustic:log;variant=ironwood,axis=x;false;237/237/13;rustic:log;;1
-log_ironwood_y;rustic:log;variant=ironwood,axis=y;false;237/237/14;rustic:log;;1
-log_ironwood_z;rustic:log;variant=ironwood,axis=z;false;237/237/15;rustic:log;;1
+planks_ironwood;rustic:planks;1;false;237/237/11;rustic:planks;variant=ironwood;1
+log_ironwood_x;rustic:log;variant=ironwood,axis=x;false;237/237/13;rustic:log;variant=ironwood;1
+log_ironwood_y;rustic:log;variant=ironwood,axis=y;false;237/237/14;rustic:log;variant=ironwood;1
+log_ironwood_z;rustic:log;variant=ironwood,axis=z;false;237/237/15;rustic:log;variant=ironwood;1
 leaves_olive;rustic:leaves;0;false;237/237/16
 leaves_olive_8;rustic:leaves;8;false;237/237/3
 leaves_ironwood;rustic:leaves;1;false;237/237/17
@@ -147,29 +147,29 @@ brewing_barrel_east;rustic:brewing_barrel;facing=east;false;237/237/81
 brewing_barrel_west;rustic:brewing_barrel;facing=west;false;237/237/82
 
 // lights
-candle;rustic:candle;1;false;237/237/83
-candle_up;rustic:candle;facing=up;false;237/237/84
-candle_north;rustic:candle;facing=north;false;237/237/85
-candle_south;rustic:candle;facing=south;false;237/237/86
-candle_east;rustic:candle;facing=east;false;237/237/87
-candle_west;rustic:candle;facing=west;false;237/237/88
-candle_gold_up;rustic:candle_gold;facing=up;false;237/237/89
-candle_gold_north;rustic:candle_gold;facing=north;false;237/237/90
-candle_gold_south;rustic:candle_gold;facing=south;false;237/237/91
-candle_gold_east;rustic:candle_gold;facing=east;false;237/237/92
-candle_gold_west;rustic:candle_gold;facing=west;false;237/237/93
-iron_lantern_up;rustic:iron_lantern;facing=up;false;237/237/94
-iron_lantern_down;rustic:iron_lantern;facing=down;false;237/237/95
-iron_lantern_north;rustic:iron_lantern;facing=north;false;237/237/96
-iron_lantern_south;rustic:iron_lantern;facing=south;false;237/237/97
-iron_lantern_east;rustic:iron_lantern;facing=east;false;237/237/98
-iron_lantern_west;rustic:iron_lantern;facing=west;false;237/237/99
-golden_lantern_up;rustic:golden_lantern;facing=up;false;237/237/100
-golden_lantern_down;rustic:golden_lantern;facing=down;false;237/237/101
-golden_lantern_north;rustic:golden_lantern;facing=north;false;237/237/102
-golden_lantern_south;rustic:golden_lantern;facing=south;false;237/237/103
-golden_lantern_east;rustic:golden_lantern;facing=east;false;237/237/104
-golden_lantern_west;rustic:golden_lantern;facing=west;false;237/237/105
+candle;rustic:candle;1;true;237/237/83
+candle_up;rustic:candle;facing=up;true;237/237/84
+candle_north;rustic:candle;facing=north;true;237/237/85
+candle_south;rustic:candle;facing=south;true;237/237/86
+candle_east;rustic:candle;facing=east;true;237/237/87
+candle_west;rustic:candle;facing=west;true;237/237/88
+candle_gold_up;rustic:candle_gold;facing=up;true;237/237/89
+candle_gold_north;rustic:candle_gold;facing=north;true;237/237/90
+candle_gold_south;rustic:candle_gold;facing=south;true;237/237/91
+candle_gold_east;rustic:candle_gold;facing=east;true;237/237/92
+candle_gold_west;rustic:candle_gold;facing=west;true;237/237/93
+iron_lantern_up;rustic:iron_lantern;facing=up;true;237/237/94
+iron_lantern_down;rustic:iron_lantern;facing=down;true;237/237/95
+iron_lantern_north;rustic:iron_lantern;facing=north;true;237/237/96
+iron_lantern_south;rustic:iron_lantern;facing=south;true;237/237/97
+iron_lantern_east;rustic:iron_lantern;facing=east;true;237/237/98
+iron_lantern_west;rustic:iron_lantern;facing=west;true;237/237/99
+golden_lantern_up;rustic:golden_lantern;facing=up;true;237/237/100
+golden_lantern_down;rustic:golden_lantern;facing=down;true;237/237/101
+golden_lantern_north;rustic:golden_lantern;facing=north;true;237/237/102
+golden_lantern_south;rustic:golden_lantern;facing=south;true;237/237/103
+golden_lantern_east;rustic:golden_lantern;facing=east;true;237/237/104
+golden_lantern_west;rustic:golden_lantern;facing=west;true;237/237/105
 
 chandelier;rustic:chandelier;0;true;237/238/42
 chandelier_gold;rustic:chandelier_gold;0;true;237/238/43
@@ -367,7 +367,9 @@ chamomile_0;rustic:chamomile;age=0;true;237/238/38
 chamomile_1;rustic:chamomile;age=1;true;237/238/39
 chamomile_2;rustic:chamomile;age=2;true;237/238/40
 chamomile_3;rustic:chamomile;age=3;true;237/238/41
+aloe_vera;rustic:aloe_vera;3;true;237/238/44
 
+chili_pepper;rustic:chili_crop;age=3;true;237/237/12
 chili_crop_0;rustic:chili_crop;age=0;true;237/238/46
 chili_crop_1;rustic:chili_crop;age=1;true;237/238/47
 chili_crop_2;rustic:chili_crop;age=2;true;237/238/48

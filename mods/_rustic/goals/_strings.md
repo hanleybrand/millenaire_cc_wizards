@@ -1,43 +1,43 @@
 
 ### Copy these to languages/[lang]]/stings.txt 
  ``` 
-goal.plantaloe_vera=Planting aloe_vera
-goal.harvestaloe_vera=Harvesting aloe_vera
+goal.plantaloe_vera=Planting \u \u
+goal.harvestaloe_vera=Harvesting \u \u
     
-goal.plantblood_orchid=Planting blood_orchid
-goal.harvestblood_orchid=Harvesting blood_orchid
+goal.plantblood_orchid=Planting \u \u
+goal.harvestblood_orchid=Harvesting \u \u
     
-goal.plantchamomile=Planting chamomile
-goal.harvestchamomile=Harvesting chamomile
+goal.plantchamomile=Planting \u \u
+goal.harvestchamomile=Harvesting \u \u
     
-goal.plantchili_pepper=Planting chili_pepper
-goal.harvestchili_pepper=Harvesting chili_pepper
+goal.plantchili_pepper=Planting \u \u
+goal.harvestchili_pepper=Harvesting \u \u
     
-goal.plantcloudsbluff=Planting cloudsbluff
-goal.harvestcloudsbluff=Harvesting cloudsbluff
+goal.plantcloudsbluff=Planting \u \u
+goal.harvestcloudsbluff=Harvesting \u \u
     
-goal.plantcohosh=Planting cohosh
-goal.harvestcohosh=Harvesting cohosh
+goal.plantcohosh=Planting \u \u
+goal.harvestcohosh=Harvesting \u \u
     
-goal.plantcore_root=Planting core_root
-goal.harvestcore_root=Harvesting core_root
+goal.plantcore_root=Planting \u \u
+goal.harvestcore_root=Harvesting \u \u
     
-goal.plantdeathstalk_mushroom=Planting deathstalk_mushroom
-goal.harvestdeathstalk_mushroom=Harvesting deathstalk_mushroom
+goal.plantdeathstalk_mushroom=Planting \u \u
+goal.harvestdeathstalk_mushroom=Harvesting \u \u
     
-goal.plantginseng=Planting ginseng
-goal.harvestginseng=Harvesting ginseng
+goal.plantginseng=Planting \u \u
+goal.harvestginseng=Harvesting \u \u
     
-goal.planthorsetail=Planting horsetail
-goal.harvesthorsetail=Harvesting horsetail
+goal.planthorsetail=Planting \u \u
+goal.harvesthorsetail=Harvesting \u \u
     
-goal.plantmarsh_mallow=Planting marsh_mallow
-goal.harvestmarsh_mallow=Harvesting marsh_mallow
+goal.plantmarsh_mallow=Planting \u \u
+goal.harvestmarsh_mallow=Harvesting \u \u
     
-goal.plantmooncap_mushroom=Planting mooncap_mushroom
-goal.harvestmooncap_mushroom=Harvesting mooncap_mushroom
+goal.plantmooncap_mushroom=Planting \u \u
+goal.harvestmooncap_mushroom=Harvesting \u \u
     
-goal.plantwind_thistle=Planting wind_thistle
-goal.harvestwind_thistle=Harvesting wind_thistle
+goal.plantwind_thistle=Planting \u \u
+goal.harvestwind_thistle=Harvesting \u \u
     
 ```

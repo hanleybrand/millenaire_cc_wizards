@@ -1,8 +1,11 @@
-native_name=Sorcerer
-alt_native_name=Sorcerer's Apprentice
+native_name=Sorceress
+alt_native_name=Sorceress' Apprentice
 gender=female
 familyNameList=wizard_family_names
 firstNameList=female_names
+malechild=boy
+femalechild=girl
+tag=seller
 tag=helpInAttacks
 icon=wizard_hat_sorcery
 

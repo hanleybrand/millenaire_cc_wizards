@@ -1,12 +1,13 @@
 import sys
 from string import Template
+import re
 
 def plant_goals(crops=None):
 
     planting_goal = """
 // BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
 // initial.tag=$crop
-// building.startinggood=$crop,8,4
+// building.startinggood=$crop,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
 // goal=plant$crop
@@ -39,14 +40,14 @@ croptype=$crop
 soiltype=rustic:fertile_soil
 seed=$crop
 
-//goal.plantcrop$crop=planting $crop
+
 
     """  # type: str
 
     harvesting_goal = """
 // BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
 // initial.tag=$crop
-// building.startinggood=$crop,8,4
+// building.startinggood=$crop,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
 // goal=harvest$crop
@@ -72,19 +73,20 @@ sentencekey=harvest$crop
 labelkey=harvest$crop
 
 // (Minecraft ID of a block ('wheat')):Type of plant to harvest.
-croptype = $crop
+croptype=$crop
 
 //(item, chance and (optional) required tag ('leather,50' or 'boudin,50,oven')):
 //Item to be harvested, with chance.
-harvestitem $crop,50
+harvestitem=$crop,100
+harvestitem=$crop,75
+harvestitem=$crop,50
 
 //  Boons for irrigated villages. (item (from itemlist.txt)):
-irrigationbonuscrop = $crop
+irrigationbonuscrop=$crop
 
 // Blockstate the crop must have to be harvested. If not set, must have a meta of 7.
 // (a Minecraft blockstate ('red_flower;type=blue_orchid')):
-harvestblockstate=$crop;age=3
-
+harvestblockstate=rustic:$crop;age=3
 
     """  # type: str
 
@@ -94,7 +96,7 @@ harvestblockstate=$crop;age=3
 **BUILDING TAGS** : use in [building].txt files for non-residential building to be used for tag
 ```
 initial.tag=$crop
-building.startinggood=$crop,8,4
+building.startinggood=$crop,1,8,4
 ```
     """
 
@@ -118,7 +120,7 @@ collectgood=$crop
 
     buildings_all = """
 initial.tag=$crop
-building.startinggood=$crop,8,4
+building.startinggood=$crop,1,8,4
         """
 
     villagers_all = """    
@@ -130,8 +132,8 @@ collectgood=$crop
 """
 
     strings_md = """
-goal.plant$crop=Planting $crop
-goal.harvest$crop=Harvesting $crop
+goal.plant$crop=Planting $crop_print
+goal.harvest$crop=Harvesting $crop_print
     """
 
     plantt = Template(planting_goal)
@@ -143,8 +145,9 @@ goal.harvest$crop=Harvesting $crop
     stringsfile = Template(strings_md)
 
     for cropname in crops:
-        plant_filename = 'plant' + cropname + '.txt'
-        harvest_filename = 'harvest' + cropname + '.txt'
+
+        plant_filename = 'genericplanting/plant' + cropname + '.txt'
+        harvest_filename = 'genericharvesting/harvest' + cropname + '.txt'
 
         print 'saving ' + plant_filename
         with open(plant_filename, 'w') as f:
@@ -177,7 +180,8 @@ goal.harvest$crop=Harvesting $crop
         print 'saving strings_list.txt'
         st.write("""\n### Copy these to languages/[lang]]/stings.txt \n ``` """)
         for cropname in crops:
-            st.writelines(stringsfile.substitute(crop=cropname))
+            crop_print = re.sub(r'([A-Za-z]+)(:?_*)([A-Za-z]*)', "\u\1 \u\3", cropname)
+            st.writelines(stringsfile.substitute(crop=cropname, crop_print=crop_print))
         st.write("""\n```\n""")
 
 if __name__ == "__main__":

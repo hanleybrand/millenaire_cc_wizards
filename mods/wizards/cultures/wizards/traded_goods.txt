@@ -47,7 +47,7 @@ wizard_robe_healing,800,400,0,0,,false,,1024,crafting
 wizard_boots_healing,400,200,0,0,,false,,1024,crafting
 wizard_leggings_healing,500,250,0,0,,false,,1024,crafting
 //--//
-arcane_workbench,50,25,16,8,30,true,1024,crafting
+arcane_workbench,50,25,16,8,30,true,,1024,crafting
 
 // --- // SCROLLS // --- //
 scroll_of_agility,300,120,8,4,300,false,,1024,weapons
@@ -90,7 +90,7 @@ scroll_of_font_of_vitality,300,120,8,4,300,false,,1024,weapons
 scroll_of_force_arrow,300,120,8,4,300,false,,1024,weapons
 scroll_of_force_orb,300,120,8,4,300,false,,1024,weapons
 scroll_of_forcefield,300,120,8,4,300,false,,1024,weapons
-scroll_of_forest's_curse,300,120,8,4,300,false,,1024,weapons
+scroll_of_forests_curse,300,120,8,4,300,false,,1024,weapons
 scroll_of_freeze,300,120,8,4,300,false,,1024,weapons
 scroll_of_freezing_weapon,300,120,8,4,300,false,,1024,weapons
 scroll_of_frost_axe,300,120,8,4,300,false,,1024,weapons

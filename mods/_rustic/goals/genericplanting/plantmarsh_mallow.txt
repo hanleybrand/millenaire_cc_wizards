@@ -1,0 +1,39 @@
+
+// BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
+// initial.tag=marsh_mallow
+// building.startinggood=marsh_mallow,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=plantmarsh_mallow
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// goal=harvestmarsh_mallow
+// startinginv=marsh_mallow,8
+// bringbackhomegood=marsh_mallow
+// collectgood=marsh_mallow
+// 
+
+priority=50
+//buildinglimit=marsh_mallow,64
+//townhalllimit=marsh_mallow,64
+//maxsimultaneousinbuilding=1
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=marsh_mallow
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=plantcropmarsh_mallow
+labelkey=plantcropmarsh_mallow
+
+//objets tenus par le villageois -- Items they hold
+heldItems=marsh_mallow
+
+//Type de plante --Type of plant
+croptype=marsh_mallow
+
+soiltype=rustic:fertile_soil
+seed=marsh_mallow
+
+
+
+    

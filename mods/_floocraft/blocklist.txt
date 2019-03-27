@@ -1,12 +1,12 @@
 floowerpot;ftfloocraft:floowerpot;0;true;237/238/190
 //flames probably needs to be on top of a fuel block
 green_flames_8;ftfloocraft:greenflamesidle;8;true;237/238/191
-flootorch_1;ftfloocraft:flootorch;1;true;237/238/192;ftfloocraft:flootorch;0;1
-flootorch_2;ftfloocraft:flootorch;2;true;237/238/193;ftfloocraft:flootorch;0;1
-flootorch_3;ftfloocraft:flootorch;3;true;237/238/194;ftfloocraft:flootorch;0;1
-flootorch_4;ftfloocraft:flootorch;4;true;237/238/195;ftfloocraft:flootorch;0;1
-flootorch_5;ftfloocraft:flootorch;5;true;237/238/196;ftfloocraft:flootorch;0;1
-floo_sign_north_top;ftfloocraft:blockfloosign;facing=north;true;2237/238/197;ftfloocraft:itemfloosign;0;1
-floo_sign_south_top;ftfloocraft:blockfloosign;facing=south;true;2237/238/198;ftfloocraft:itemfloosign;0;1
-floo_sign_east_top;ftfloocraft:blockfloosign;facing=east;true;2237/238/199;ftfloocraft:itemfloosign;0;1
-floo_sign_west_top;ftfloocraft:blockfloosign;facing=west;true;2237/238/200;ftfloocraft:itemfloosign;0;1
+flootorch_1;ftfloocraft:flootorch;1;true;237/238/192;anywood;;1
+flootorch_2;ftfloocraft:flootorch;2;true;237/238/193;anywood;;1
+flootorch_3;ftfloocraft:flootorch;3;true;237/238/194;anywood;;1
+flootorch_4;ftfloocraft:flootorch;4;true;237/238/195;anywood;;1
+flootorch_5;ftfloocraft:flootorch;5;true;237/238/196;anywood;;1
+floo_sign_north_top;ftfloocraft:blockfloosign;facing=north;true;2237/238/197;anywood;;1
+floo_sign_south_top;ftfloocraft:blockfloosign;facing=south;true;2237/238/198;anywood;;1
+floo_sign_east_top;ftfloocraft:blockfloosign;facing=east;true;2237/238/199;anywood;;1
+floo_sign_west_top;ftfloocraft:blockfloosign;facing=west;true;2237/238/200;anywood;;1

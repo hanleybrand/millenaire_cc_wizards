@@ -9,9 +9,22 @@ travelbook_display=false
 texture=textures/entity/norman/male/nor_nobleman_0.png
 clothes=free,textures/entity/norman/male/clothes/nor_glassblow_0.png
 
+
+
 goal=gorest
 goal=gosocialise
 goal=chat
+goal=plantchamomile
+goal=harvestchamomile
+goal=gathergoods
+goal=deliverResourcesShop
+goal=GetHouseTHResources
+goal=getGoodsHousehold
+goal=deliverGoodsHousehold
+
+startinginv=chamomile,8
+bringbackhomegood=chamomile
+collectgood=chamomile
 
 startinginv=bee,8
 bringbackhomegood=bee

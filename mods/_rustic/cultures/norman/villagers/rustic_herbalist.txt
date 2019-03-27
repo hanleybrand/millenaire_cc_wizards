@@ -3,7 +3,10 @@ gender=female
 familyNameList=family_names
 firstNameList=women_names
 baseheight=0.9
+malechild=boy
+femalechild=girl
 model=femaleasymmetrical
+
 icon=chamomile
 
 travelbook_display=false

@@ -1,5 +1,4 @@
 sells=bookshelves,cauldron,carrot,purse,healing_potion,blazepowder,blazerod,summoningwand,magic_crystal,magic_silk,wizard_hat,wizard_robe,wizard_boots,wizard_leggings
-
 buys=healing_potion,blazepowder,blazerod,pumpkin,magic_crystal,magic_silk,wizard_hat,wizard_robe,wizard_boots,wizard_leggings,wood,wood_pine,wood_birch,wood_jungle,wood_acacia,wood_darkoak,cobblestone,stone,timberframeplain,timberframecross,bed_straw,glass,stained_glass_white,stained_glass_yellow,stained_glass_yellow_red,stained_glass_red_blue,stained_glass_green_blue,rosette,carpet_red,carpet_white,carpet_yellow,iron,wool_white,wool_lightgray,wool_gray,wool_black,wool_brown,wool_pink,bookshelves,cauldron,leather
 
 buysoptional=normanAxe,normanPickaxe,normanShovel,normanHoe,mayanpickaxe,mayanaxe,mayanshovel,mayanhoe,stonePickaxe,stoneAxe,stoneShovel,stoneHoe,steelPickaxe,steelAxe,steelShovel,steelHoe,diamondPickaxe,diamondAxe,diamondShovel,diamondHoe,cider,calva,cacauhaa,sake,rasgulla,winefancy,winebasic,cake,cookie,masa,chickencurry,vegcurry,cooked_mutton,bread,beefcooked,porkchopscooked,chickenmeatcooked,fishcooked,egg

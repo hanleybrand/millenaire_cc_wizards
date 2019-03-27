@@ -41,5 +41,10 @@ start=tavern
 start=astronomy
 start=waystone
 start=elf_hut
-start=elf_hut
 
+core=astronomy
+core=astronomy
+core=cottage1
+core=cottage2
+
+never=inn

@@ -1,0 +1,45 @@
+
+// BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
+// initial.tag=deathstalk_mushroom
+// building.startinggood=deathstalk_mushroom,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=harvestdeathstalk_mushroom
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// goal=plantdeathstalk_mushroom
+// startinginv=deathstalk_mushroom,8
+// bringbackhomegood=deathstalk_mushroom
+// collectgood=deathstalk_mushroom
+// 
+
+
+priority=40
+// buildinglimit=deathstalk_mushroom,64
+// townhalllimit=deathstalk_mushroom,64
+// maxsimultaneousinbuilding=1
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=deathstalk_mushroom
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=harvestdeathstalk_mushroom
+labelkey=harvestdeathstalk_mushroom
+
+// (Minecraft ID of a block ('wheat')):Type of plant to harvest.
+croptype=deathstalk_mushroom
+
+//(item, chance and (optional) required tag ('leather,50' or 'boudin,50,oven')):
+//Item to be harvested, with chance.
+harvestitem=deathstalk_mushroom,100
+harvestitem=deathstalk_mushroom,75
+harvestitem=deathstalk_mushroom,50
+
+//  Boons for irrigated villages. (item (from itemlist.txt)):
+irrigationbonuscrop=deathstalk_mushroom
+
+// Blockstate the crop must have to be harvested. If not set, must have a meta of 7.
+// (a Minecraft blockstate ('red_flower;type=blue_orchid')):
+harvestblockstate=rustic:deathstalk_mushroom;age=3
+
+    

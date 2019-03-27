@@ -1,0 +1,43 @@
+
+// BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
+// initial.tag=chili_pepper
+// building.startinggood=chili_pepper,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=harvestchili_pepper
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// goal=plantchili_pepper
+// startinginv=chili_pepper,8
+// bringbackhomegood=chili_pepper
+// collectgood=chili_pepper
+// 
+
+
+priority=40
+// buildinglimit=chili_pepper,64
+// townhalllimit=chili_pepper,64
+// maxsimultaneousinbuilding=1
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=chili_pepper
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=harvestchili_pepper
+labelkey=harvestchili_pepper
+
+// (Minecraft ID of a block ('wheat')):Type of plant to harvest.
+croptype=chili_pepper
+
+//(item, chance and (optional) required tag ('leather,50' or 'boudin,50,oven')):
+//Item to be harvested, with chance.
+harvestitem=chili_pepper,100
+harvestitem=chili_pepper,75
+harvestitem=chili_pepper,50
+
+//  Boons for irrigated villages. (item (from itemlist.txt)):
+irrigationbonuscrop=chili_pepper
+
+// Blockstate the crop must have to be harvested. If not set, must have a meta of 7.
+// (a Minecraft blockstate ('red_flower;type=blue_orchid')):
+harvestblockstate=rustic:chili_crop;age=3
