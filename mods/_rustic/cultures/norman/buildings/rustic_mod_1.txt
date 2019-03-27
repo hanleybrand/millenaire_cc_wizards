@@ -1,0 +1,16 @@
+building.length=16
+building.width=12
+
+building.showtownhallsigns=false
+
+initial.startlevel=-6
+initial.nativename=Rustic Mod Demo One
+
+initial.shop=rustic_agriculture
+
+initial.tag=chamomile
+building.startinggood=chamomile,8,4
+
+initial.male=rustic_guy
+initial.female=rustic_herbalist
+

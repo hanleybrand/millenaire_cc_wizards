@@ -1,0 +1,44 @@
+
+// BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
+// initial.tag=horsetail
+// building.startinggood=horsetail,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=harvesthorsetail
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// goal=planthorsetail
+// startinginv=horsetail,8
+// bringbackhomegood=horsetail
+// collectgood=horsetail
+// 
+
+
+priority=40
+buildinglimit=horsetail,64
+townhalllimit=horsetail,64
+maxsimultaneousinbuilding=1
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=horsetail
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=harvesthorsetail
+labelkey=harvesthorsetail
+
+// (Minecraft ID of a block ('wheat')):Type of plant to harvest.
+croptype = horsetail
+
+//(item, chance and (optional) required tag ('leather,50' or 'boudin,50,oven')):
+//Item to be harvested, with chance.
+harvestitem horsetail,50
+
+//  Boons for irrigated villages. (item (from itemlist.txt)):
+irrigationbonuscrop = horsetail
+
+// Blockstate the crop must have to be harvested. If not set, must have a meta of 7.
+// (a Minecraft blockstate ('red_flower;type=blue_orchid')):
+harvestblockstate=horsetail;age=3
+
+
+    

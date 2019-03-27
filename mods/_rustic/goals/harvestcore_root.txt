@@ -1,0 +1,44 @@
+
+// BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
+// initial.tag=core_root
+// building.startinggood=core_root,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=harvestcore_root
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// goal=plantcore_root
+// startinginv=core_root,8
+// bringbackhomegood=core_root
+// collectgood=core_root
+// 
+
+
+priority=40
+buildinglimit=core_root,64
+townhalllimit=core_root,64
+maxsimultaneousinbuilding=1
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=core_root
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=harvestcore_root
+labelkey=harvestcore_root
+
+// (Minecraft ID of a block ('wheat')):Type of plant to harvest.
+croptype = core_root
+
+//(item, chance and (optional) required tag ('leather,50' or 'boudin,50,oven')):
+//Item to be harvested, with chance.
+harvestitem core_root,50
+
+//  Boons for irrigated villages. (item (from itemlist.txt)):
+irrigationbonuscrop = core_root
+
+// Blockstate the crop must have to be harvested. If not set, must have a meta of 7.
+// (a Minecraft blockstate ('red_flower;type=blue_orchid')):
+harvestblockstate=core_root;age=3
+
+
+    

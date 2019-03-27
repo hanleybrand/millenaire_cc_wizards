@@ -1,19 +1,39 @@
 
-priority=50
+// BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
+// initial.tag=wind_thistle
+// building.startinggood=wind_thistle,8,4
 
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=plantwind_thistle
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// goal=harvestwind_thistle
+// startinginv=wind_thistle,8
+// bringbackhomegood=wind_thistle
+// collectgood=wind_thistle
+// 
+
+priority=50
+buildinglimit=wind_thistle,64
+townhalllimit=wind_thistle,64
+maxsimultaneousinbuilding=1
 //tag a building must have for action to be possible. If absent, then the villager's house is used.
+
 buildingTag=wind_thistle
 
 //specify if the label and sentences for this goal is not the name of the goal itself
 sentencekey=plantcropwind_thistle
 labelkey=plantcropwind_thistle
 
-//objets tenus par le villageois
+//objets tenus par le villageois -- Items they hold
 heldItems=rustic:wind_thistle
 
-//Type de plante
-//Type of plant
+//Type de plante --Type of plant
 croptype=wind_thistle
 
 soiltype=rustic:fertile_soil
 seed=wind_thistle
+
+goal.plantcropwind_thistle=planting wind_thistle
+
+    

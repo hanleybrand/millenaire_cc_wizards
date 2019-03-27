@@ -91,8 +91,8 @@ ironwoodplanks;rustic:planks;1;Ironwood Planks
 retort;rustic:retort;0;Alchemic Retort	
 retort_advanced;rustic:retort_advanced;0;Advanced Alchemic Retort	
 rope;rustic:rope;0;Rope	
-sapling;rustic:sapling;0;Olive Sapling	
-sapling;rustic:sapling;1;Ironwood Sapling	
+sapling_olive;rustic:sapling;0;Olive Sapling	
+sapling_ironwood;rustic:sapling;1;Ironwood Sapling	
 sapling_apple;rustic:sapling_apple;0;Apple Sapling	
 slate;rustic:slate;0;Slate	
 slate_brick;rustic:slate_brick;0;Slate Brick	

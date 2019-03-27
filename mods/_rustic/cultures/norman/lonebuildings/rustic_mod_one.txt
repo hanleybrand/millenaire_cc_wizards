@@ -1,14 +1,14 @@
 
 name=Rustic Demo
 icon=chair_acacia
-weight=10
+weight=0
+max=0
 radius=15
+spawnable=true
+
+travelbook_display=false
 
 //Vanilla biomes
-biome=ExtremeHills
-biome=ExtremeHills M
-biome=ExtremeHills+
-biome=ExtremeHills+ M
 biome=Taiga
 biome=Taiga M
 biome=Forest
@@ -17,4 +17,4 @@ biome=Plains
 biome=Sunflower Plains
 
 //starting buildings=
-centre=demo1
+centre=rustic_mod_1	

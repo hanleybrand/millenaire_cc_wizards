@@ -1,9 +1,0 @@
-building.length=16
-building.width=12
-
-initial.startlevel=-6
-initial.nativename=export1
-initial.shop=agriculture
-
-initial.male=rustic_guy
-initial.female=herbalist

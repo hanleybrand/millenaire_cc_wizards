@@ -1,0 +1,44 @@
+
+// BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
+// initial.tag=ginseng
+// building.startinggood=ginseng,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=harvestginseng
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// goal=plantginseng
+// startinginv=ginseng,8
+// bringbackhomegood=ginseng
+// collectgood=ginseng
+// 
+
+
+priority=40
+buildinglimit=ginseng,64
+townhalllimit=ginseng,64
+maxsimultaneousinbuilding=1
+
+//tag a building must have for action to be possible. If absent, then the villager's house is used.
+buildingTag=ginseng
+
+//specify if the label and sentences for this goal is not the name of the goal itself
+sentencekey=harvestginseng
+labelkey=harvestginseng
+
+// (Minecraft ID of a block ('wheat')):Type of plant to harvest.
+croptype = ginseng
+
+//(item, chance and (optional) required tag ('leather,50' or 'boudin,50,oven')):
+//Item to be harvested, with chance.
+harvestitem ginseng,50
+
+//  Boons for irrigated villages. (item (from itemlist.txt)):
+irrigationbonuscrop = ginseng
+
+// Blockstate the crop must have to be harvested. If not set, must have a meta of 7.
+// (a Minecraft blockstate ('red_flower;type=blue_orchid')):
+harvestblockstate=ginseng;age=3
+
+
+    
