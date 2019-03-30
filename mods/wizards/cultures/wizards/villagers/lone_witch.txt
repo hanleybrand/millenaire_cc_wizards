@@ -10,7 +10,7 @@ travelbook_category=wizard
 travelbook_display=true
 villagerconfig=wizardsequipment
 
-texture=millenaire_generic_villagers:female/sarah.png
+texture=millenaire_generic_villagers:textures/female/sarah.png
 
 
 startingInv=wizard_robe,1

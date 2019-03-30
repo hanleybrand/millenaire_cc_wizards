@@ -14,7 +14,7 @@ travelbook_display=true
 villagerconfig=sorcerer_equip
 
 
-texture=millenaire_generic_villagers:female/sarah.png
+texture=millenaire_generic_villagers:textures/female/sarah.png
 
 
 

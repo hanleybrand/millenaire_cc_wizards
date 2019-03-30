@@ -39,3 +39,6 @@ waystone;waystones:waystone;facing=east,base=false;true;235/235/102;;;0
 waystone;waystones:waystone;facing=west,base=false;true;235/235/103;;;0
 
 twilight_portal;twilghtforest:twilight_portal;is_one_way=false;true;235/235/110;;;0
+
+//
+//diamond_dropper;minecraft:

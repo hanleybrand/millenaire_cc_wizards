@@ -9,24 +9,24 @@ icon=steelsword
 
 travelbook_display=true
 
-texture=millenaire_generic_villagers:male/male_almond_1.png
-texture=millenaire_generic_villagers:male/male_almond_2.png
-texture=millenaire_generic_villagers:male/male_almond_1_5.png
-texture=millenaire_generic_villagers:male/male_almond_3.png
-texture=millenaire_generic_villagers:male/male_beige_1_5.png
-texture=millenaire_generic_villagers:male/male_beige_1.png
-texture=millenaire_generic_villagers:male/male_beige_2_5.png
-texture=millenaire_generic_villagers:male/male_beige_2.png
-texture=millenaire_generic_villagers:male/male_beige_3.png
-texture=millenaire_generic_villagers:male/male_beige_4.png
-texture=millenaire_generic_villagers:male/male_pale_ivory_1.png
-texture=millenaire_generic_villagers:male/male_pale_ivory_2.png
-texture=millenaire_generic_villagers:male/male_pale_ivory_3.png
-texture=millenaire_generic_villagers:male/male_pale_ivory_4.png
-texture=millenaire_generic_villagers:male/male_pale_ivory_5.png
+texture=millenaire_generic_villagers:textures/male/male_almond_1.png
+texture=millenaire_generic_villagers:textures/male/male_almond_2.png
+texture=millenaire_generic_villagers:textures/male/male_almond_1_5.png
+texture=millenaire_generic_villagers:textures/male/male_almond_3.png
+texture=millenaire_generic_villagers:textures/male/male_beige_1_5.png
+texture=millenaire_generic_villagers:textures/male/male_beige_1.png
+texture=millenaire_generic_villagers:textures/male/male_beige_2_5.png
+texture=millenaire_generic_villagers:textures/male/male_beige_2.png
+texture=millenaire_generic_villagers:textures/male/male_beige_3.png
+texture=millenaire_generic_villagers:textures/male/male_beige_4.png
+texture=millenaire_generic_villagers:textures/male/male_pale_ivory_1.png
+texture=millenaire_generic_villagers:textures/male/male_pale_ivory_2.png
+texture=millenaire_generic_villagers:textures/male/male_pale_ivory_3.png
+texture=millenaire_generic_villagers:textures/male/male_pale_ivory_4.png
+texture=millenaire_generic_villagers:textures/male/male_pale_ivory_5.png
 
-clothes=free,millenaire_generic_villagers:male/clothes/green_shirt.png
-clothes=free,millenaire_generic_villagers:male/clothes/blue_shirt.png
+clothes=free,millenaire_generic_villagers:textures/male/clothes/green_shirt.png
+clothes=free,millenaire_generic_villagers:textures/male/clothes/blue_shirt.png
 
 goal=gorest
 goal=patrol

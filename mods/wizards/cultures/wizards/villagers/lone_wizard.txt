@@ -11,10 +11,10 @@ travelbook_display=true
 villagerconfig=wizardsequipment
 
 
-texture=millenaire_generic_villagers:male/beardy.png
+texture=millenaire_generic_villagers:textures/male/beardy.png
 
-clothes=free,millenaire_generic_villagers:male/clothes/green_shirt.png
-clothes=free,millenaire_generic_villagers:male/clothes/blue_shirt.png
+clothes=free,millenaire_generic_villagers:textures/male/clothes/green_shirt.png
+clothes=free,millenaire_generic_villagers:textures/male/clothes/blue_shirt.png
 
 startingInv=wizard_robe,1
 

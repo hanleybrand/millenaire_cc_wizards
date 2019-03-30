@@ -12,7 +12,7 @@ icon=steelaxe
 
 travelbook_held_item=steelaxe
 
-texture=millenaire_generic_villagers:male/rebel_goblin.png
+texture=millenaire_generic_villagers:textures/male/rebel_goblin.png
 
 goal=gorest
 goal=patrol

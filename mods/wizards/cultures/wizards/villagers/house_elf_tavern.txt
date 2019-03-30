@@ -8,7 +8,7 @@ baseheight=0.4
 travelbook_held_item=ciderapple
 travelbook_category=creature
 
-texture=millenaire_generic_villagers:special/house_elf.png
+texture=millenaire_generic_villagers:textures/special/house_elf.png
 
 goal=gorest
 goal=bringBackResourcesHome
