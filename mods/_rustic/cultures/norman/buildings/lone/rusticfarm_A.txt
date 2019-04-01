@@ -1,0 +1,8 @@
+building.length=10
+building.width=10
+
+initial.startlevel=-1
+initial.nativename=Rustic Farm
+icon=vase
+initial.tag=chamomile
+

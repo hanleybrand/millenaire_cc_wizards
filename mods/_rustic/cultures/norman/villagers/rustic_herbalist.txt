@@ -22,23 +22,15 @@ goal=gosocialise
 goal=chat
 goal=makebonemeal
 
+
 goal=plantchamomile
+goal=plantchamomilerustic
+goal=plantchamomilemill
 goal=harvestchamomile
 startinginv=chamomile,8
 bringbackhomegood=chamomile
 collectgood=chamomile
 
-goal=plantchili_pepper
-goal=harvestchili_pepper
-startinginv=chili_pepper,8
-bringbackhomegood=chili_pepper
-collectgood=chili_pepper
-
-goal=plantcloudsbluff
-goal=harvestcloudsbluff
-startinginv=cloudsbluff,8
-bringbackhomegood=cloudsbluff
-collectgood=cloudsbluff
 
 
 startinginv=bone,8

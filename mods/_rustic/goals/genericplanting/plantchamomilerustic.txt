@@ -13,7 +13,7 @@
 // collectgood=chamomile
 // 
 
-priority=70
+priority=50
 //buildinglimit=chamomile,64
 //townhalllimit=chamomile,64
 //maxsimultaneousinbuilding=1
@@ -31,9 +31,9 @@ heldItems=chamomile
 //Type de plante --Type of plant
 croptype=chamomile
 
-// soiltype=minecraft:farmland;moisture=7 ?
-//soiltype=minecraft:farmland
-//seed=chamomile
+soiltype=rustic:fertile_soil
+seed=chamomile
 
-plantblockstate=rustic:chamomile;age=0
-soiltype=grass
+
+
+    

@@ -31,9 +31,11 @@ heldItems=chamomile
 //Type de plante --Type of plant
 croptype=chamomile
 
-// soiltype=minecraft:farmland;moisture=7 ?
-//soiltype=minecraft:farmland
-//seed=chamomile
+// ? soiltype=millenaire:soil;croptype=flowersoil
 
-plantblockstate=rustic:chamomile;age=0
-soiltype=grass
+soiltype=millenaire:soil
+seed=chamomile
+
+
+
+    

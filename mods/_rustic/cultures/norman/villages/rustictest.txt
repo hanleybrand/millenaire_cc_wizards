@@ -2,7 +2,7 @@ name=Rustic Demo
 icon=chair_acacia
 weight=1
 max=0
-radius=15
+radius=20
 spawnable=true
 icon=vase
 
@@ -17,5 +17,5 @@ biome=Plains
 biome=Sunflower Plains
 
 //starting buildings=
-centre=goals
-start=rusticfarm
+centre=goaltest
+start=rustictest

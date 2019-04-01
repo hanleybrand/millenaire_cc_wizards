@@ -6,7 +6,7 @@
 
 
 
-### All the tags
+### All the hardcoded tags
 
 ```
 // tags for everybody
@@ -94,6 +94,7 @@ goal=gethousethresources
 goal=deliverresourcesshop
 
 // bring home resources in villager inventory produced by mining, crafting etc.
+// is this case sensitive? 
 goal=bringbackresourceshome
 
 
@@ -108,12 +109,6 @@ goal=harvestsugarcane
 // plant at home - no associate hardcoded building tag
 goal=plantcocoa
 goal=harvestcocoa
-
-
-
-
-
-
 
 ///// -- special case goals
 

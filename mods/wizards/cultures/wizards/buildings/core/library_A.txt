@@ -4,5 +4,6 @@ building.width=16
 initial.startlevel=-1
 initial.nativename=Village Library
 initial.tag=leasure
+initial.tag=patrol
 
 building.icon=bookshelves

@@ -35,6 +35,10 @@ goal=gorest
 goal=gosocialise
 goal=chat
 goal=patrol
+goal=GetHouseTHResources
+goal=construction
+goal=buildpath
+goal=clearoldpath
 goal=huntmonster
 
 

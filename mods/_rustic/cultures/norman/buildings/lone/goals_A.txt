@@ -17,6 +17,8 @@ building.startinggood=chamomile,1,8,4
 initial.male=rustic_guy
 initial.female=rustic_herbalist
 
+
+
 initial.tag=aloe_vera
 building.startinggood=aloe_vera,1,8,4
         

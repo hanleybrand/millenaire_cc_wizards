@@ -12,6 +12,7 @@ initial.tag=drinking
 initial.tag=leasure
 initial.tag=pathnode
 initial.shop=tavern
+initial.tag=patrol
 
 
 

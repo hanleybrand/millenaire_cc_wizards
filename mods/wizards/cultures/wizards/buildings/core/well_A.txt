@@ -1,8 +1,8 @@
 building.length=8
 building.width=8
+building.icon=bucketwater
 
 initial.startlevel=-5
-initial.nativename=well
+initial.nativename=Well
 initial.tag=pathnode
-
-building.icon=bucketwater
+initial.tag=patrol
