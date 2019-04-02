@@ -1,10 +1,10 @@
 building.length=7
-building.width=9
+building.width=7
 
 initial.startlevel=-1
 initial.nativename=Elf Hut
 
-initial.male=house_elf_tavern
+
 initial.male=house_elf_carpenter
 
 initial.tag=patrol

@@ -3,7 +3,7 @@ gender=male
 familyNameList=blank
 firstNameList=house_elf_names
 icon=ciderapple
-baseheight=0.4
+baseheight=0.5
 
 travelbook_held_item=ciderapple
 travelbook_category=creature
@@ -11,6 +11,11 @@ travelbook_category=creature
 texture=millenaire_generic_villagers:textures/special/house_elf.png
 
 goal=gorest
+goal=gosocialise
+goal=GetHouseTHResources
+goal=construction
+goal=buildpath
+goal=clearoldpath
 goal=bringBackResourcesHome
 goal=gatherGoods
 goal=gatherciderappleshome

@@ -33,6 +33,10 @@ startingInv=wizard_robe,1
 goal=gorest
 goal=gosocialise
 goal=chat
+goal=GetHouseTHResources
+goal=construction
+goal=buildpath
+goal=clearoldpath
 goal=patrol
 goal=huntmonster
 

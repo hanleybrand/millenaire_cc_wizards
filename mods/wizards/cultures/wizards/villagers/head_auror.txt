@@ -1,4 +1,4 @@
-native_name=Auror
+native_name=Head Auror
 gender=male
 familyNameList=wizard_family_names
 firstNameList=male_names

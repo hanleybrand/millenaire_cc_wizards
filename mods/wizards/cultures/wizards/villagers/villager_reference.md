@@ -1,8 +1,14 @@
 ### Villager tags in groups
 
 
+##### construction
+```
+goal=getResourcesForBuild
+goal=construction
+goal=buildpath
+goal=clearoldpath
 
-
+```
 
 
 

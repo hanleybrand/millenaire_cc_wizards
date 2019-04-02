@@ -18,4 +18,3 @@ biome=Sunflower Plains
 
 //starting buildings=
 centre=goals
-start=rusticfarm

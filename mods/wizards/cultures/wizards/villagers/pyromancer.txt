@@ -39,6 +39,7 @@ goal=gorest
 goal=gosocialise
 goal=chat
 goal=patrol
+goal=makenormanstainedglass_white
 goal=huntmonster
 
 experiencegiven=10
