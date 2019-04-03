@@ -29,6 +29,8 @@ clothes=free,millenaire_generic_villagers:textures/male/clothes/green_shirt.png
 clothes=free,millenaire_generic_villagers:textures/male/clothes/blue_shirt.png
 
 goal=gorest
+goal=gosocialise
+goal=chat
 goal=patrol
 goal=huntmonster
 

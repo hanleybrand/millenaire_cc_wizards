@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=mooncap_mushroom,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gathermooncap_mushroomhome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=mooncap_mushroom,8
+// bringbackhomegood=mooncap_mushroom
+// collectgood=mooncap_mushroom
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:mooncap_mushroom;age=3
+resultingBlockState=rustic:mooncap_mushroom;age=0
+
+helditems=mooncap_mushroom
+
+harvestitem=mooncap_mushroom,100
+harvestitem=mooncap_mushroom,100
+
+buildinglimit=mooncap_mushroom,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gathermooncap_mushroomhome
+labelkey=gathermooncap_mushroomhome
+
+duration=4000
+
+    

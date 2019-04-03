@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=chamomile,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gatherchamomilehome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=chamomile,8
+// bringbackhomegood=chamomile
+// collectgood=chamomile
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:chamomile;age=3
+resultingBlockState=rustic:chamomile;age=0
+
+helditems=chamomile
+
+harvestitem=chamomile,100
+harvestitem=chamomile,100
+
+buildinglimit=chamomile,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gatherchamomilehome
+labelkey=gatherchamomilehome
+
+duration=4000
+
+    

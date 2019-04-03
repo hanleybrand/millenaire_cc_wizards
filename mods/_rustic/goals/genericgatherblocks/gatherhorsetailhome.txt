@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=horsetail,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gatherhorsetailhome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=horsetail,8
+// bringbackhomegood=horsetail
+// collectgood=horsetail
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:horsetail;age=3
+resultingBlockState=rustic:horsetail;age=0
+
+helditems=horsetail
+
+harvestitem=horsetail,100
+harvestitem=horsetail,100
+
+buildinglimit=horsetail,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gatherhorsetailhome
+labelkey=gatherhorsetailhome
+
+duration=4000
+
+    

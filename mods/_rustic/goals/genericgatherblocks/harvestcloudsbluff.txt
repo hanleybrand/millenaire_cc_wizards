@@ -4,36 +4,35 @@
 // building.startinggood=cloudsbluff,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
-// goal=plantcloudsbluff
+// goal=harvestcloudsbluff
 
 // RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
-// goal=harvestcloudsbluff
+// goal=gathercloudsbluff
 // startinginv=cloudsbluff,8
 // bringbackhomegood=cloudsbluff
 // collectgood=cloudsbluff
 // 
 
-priority=50
-//buildinglimit=cloudsbluff,64
-//townhalllimit=cloudsbluff,64
-//maxsimultaneousinbuilding=1
-
+priority=80
+range=2
 //tag a building must have for action to be possible. If absent, then the villager's house is used.
+
 buildingTag=cloudsbluff
 
-//specify if the label and sentences for this goal is not the name of the goal itself
-sentencekey=plantcropcloudsbluff
-labelkey=plantcropcloudsbluff
+gatherBlockState=rustic:cloudsbluff;age=3
+resultingBlockState=rustic:cloudsbluff;age=0
 
-//objets tenus par le villageois -- Items they hold
-heldItems=cloudsbluff
+helditems=cloudsbluff
 
-//Type de plante --Type of plant
-croptype=cloudsbluff
+harvestitem=cloudsbluff,100
+harvestitem=cloudsbluff,100
 
-soiltype=rustic:fertile_soil
-seed=cloudsbluff
+buildinglimit=cloudsbluff,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
 
+sentencekey=gathercloudsbluffhome
+labelkey=gathercloudsbluffhome
 
-
+duration=4000
     

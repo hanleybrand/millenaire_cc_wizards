@@ -8,12 +8,11 @@ initial.nativename=Rustic Home
 
 initial.shop=rustic_agriculture
 
-initial.male=rustic_guy
-initial_female=rustic_herbalist
+initial.male=rustic_guy_home
+initial_female=rustic_herbalist_home
 
-initial.male=rustic_guy
-initial.female=rustic_herbalist
-
+initial.male=rustic_guy_home
+initial.female=rustic_herbalist_home
 
 
 building.startinggood=chamomile,1,8,4

@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=aloe_vera,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gatheraloe_verahome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=aloe_vera,8
+// bringbackhomegood=aloe_vera
+// collectgood=aloe_vera
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:aloe_vera;age=3
+resultingBlockState=rustic:aloe_vera;age=0
+
+helditems=aloe_vera
+
+harvestitem=aloe_vera,100
+harvestitem=aloe_vera,100
+
+buildinglimit=aloe_vera,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gatheraloe_verahome
+labelkey=gatheraloe_verahome
+
+duration=4000
+
+    

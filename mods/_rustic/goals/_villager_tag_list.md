@@ -1,6 +1,6 @@
 
     
-### CROP: aloe_vera
+### HERB: aloe_vera
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -16,7 +16,7 @@ collectgood=aloe_vera
 ```
     
     
-### CROP: blood_orchid
+### HERB: blood_orchid
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -32,7 +32,7 @@ collectgood=blood_orchid
 ```
     
     
-### CROP: chamomile
+### HERB: chamomile
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -48,23 +48,7 @@ collectgood=chamomile
 ```
     
     
-### CROP: chili_pepper
-
-**REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
-```
-goal=plantchili_pepper
-goal=harvestchili_pepper
-```
-
-**RECOMMENDED VILLAGER TAGS** : use in [villager].txt files
-```
-startinginv=chili_pepper,8
-bringbackhomegood=chili_pepper
-collectgood=chili_pepper
-```
-    
-    
-### CROP: cloudsbluff
+### HERB: cloudsbluff
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -80,7 +64,7 @@ collectgood=cloudsbluff
 ```
     
     
-### CROP: cohosh
+### HERB: cohosh
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -96,7 +80,7 @@ collectgood=cohosh
 ```
     
     
-### CROP: core_root
+### HERB: core_root
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -112,7 +96,7 @@ collectgood=core_root
 ```
     
     
-### CROP: deathstalk_mushroom
+### HERB: deathstalk_mushroom
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -128,7 +112,7 @@ collectgood=deathstalk_mushroom
 ```
     
     
-### CROP: ginseng
+### HERB: ginseng
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -144,7 +128,7 @@ collectgood=ginseng
 ```
     
     
-### CROP: horsetail
+### HERB: horsetail
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -160,7 +144,7 @@ collectgood=horsetail
 ```
     
     
-### CROP: marsh_mallow
+### HERB: marsh_mallow
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -176,7 +160,7 @@ collectgood=marsh_mallow
 ```
     
     
-### CROP: mooncap_mushroom
+### HERB: mooncap_mushroom
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -192,7 +176,7 @@ collectgood=mooncap_mushroom
 ```
     
     
-### CROP: wind_thistle
+### HERB: wind_thistle
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
@@ -209,80 +193,74 @@ collectgood=wind_thistle
     
 ### All Tags 
  ```     
-goal=plantaloe_vera
-goal=harvestaloe_vera
+goal=gatheraloe_verahome
+gatheraloe_vera
 startinginv=aloe_vera,8
 bringbackhomegood=aloe_vera
 collectgood=aloe_vera
     
-goal=plantblood_orchid
-goal=harvestblood_orchid
+goal=gatherblood_orchidhome
+gatherblood_orchid
 startinginv=blood_orchid,8
 bringbackhomegood=blood_orchid
 collectgood=blood_orchid
     
-goal=plantchamomile
-goal=harvestchamomile
+goal=gatherchamomilehome
+gatherchamomile
 startinginv=chamomile,8
 bringbackhomegood=chamomile
 collectgood=chamomile
     
-goal=plantchili_pepper
-goal=harvestchili_pepper
-startinginv=chili_pepper,8
-bringbackhomegood=chili_pepper
-collectgood=chili_pepper
-    
-goal=plantcloudsbluff
-goal=harvestcloudsbluff
+goal=gathercloudsbluffhome
+gathercloudsbluff
 startinginv=cloudsbluff,8
 bringbackhomegood=cloudsbluff
 collectgood=cloudsbluff
     
-goal=plantcohosh
-goal=harvestcohosh
+goal=gathercohoshhome
+gathercohosh
 startinginv=cohosh,8
 bringbackhomegood=cohosh
 collectgood=cohosh
     
-goal=plantcore_root
-goal=harvestcore_root
+goal=gathercore_roothome
+gathercore_root
 startinginv=core_root,8
 bringbackhomegood=core_root
 collectgood=core_root
     
-goal=plantdeathstalk_mushroom
-goal=harvestdeathstalk_mushroom
+goal=gatherdeathstalk_mushroomhome
+gatherdeathstalk_mushroom
 startinginv=deathstalk_mushroom,8
 bringbackhomegood=deathstalk_mushroom
 collectgood=deathstalk_mushroom
     
-goal=plantginseng
-goal=harvestginseng
+goal=gatherginsenghome
+gatherginseng
 startinginv=ginseng,8
 bringbackhomegood=ginseng
 collectgood=ginseng
     
-goal=planthorsetail
-goal=harvesthorsetail
+goal=gatherhorsetailhome
+gatherhorsetail
 startinginv=horsetail,8
 bringbackhomegood=horsetail
 collectgood=horsetail
     
-goal=plantmarsh_mallow
-goal=harvestmarsh_mallow
+goal=gathermarsh_mallowhome
+gathermarsh_mallow
 startinginv=marsh_mallow,8
 bringbackhomegood=marsh_mallow
 collectgood=marsh_mallow
     
-goal=plantmooncap_mushroom
-goal=harvestmooncap_mushroom
+goal=gathermooncap_mushroomhome
+gathermooncap_mushroom
 startinginv=mooncap_mushroom,8
 bringbackhomegood=mooncap_mushroom
 collectgood=mooncap_mushroom
     
-goal=plantwind_thistle
-goal=harvestwind_thistle
+goal=gatherwind_thistlehome
+gatherwind_thistle
 startinginv=wind_thistle,8
 bringbackhomegood=wind_thistle
 collectgood=wind_thistle

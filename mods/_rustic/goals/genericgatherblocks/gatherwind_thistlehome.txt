@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=wind_thistle,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gatherwind_thistlehome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=wind_thistle,8
+// bringbackhomegood=wind_thistle
+// collectgood=wind_thistle
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:wind_thistle;age=3
+resultingBlockState=rustic:wind_thistle;age=0
+
+helditems=wind_thistle
+
+harvestitem=wind_thistle,100
+harvestitem=wind_thistle,100
+
+buildinglimit=wind_thistle,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gatherwind_thistlehome
+labelkey=gatherwind_thistlehome
+
+duration=4000
+
+    

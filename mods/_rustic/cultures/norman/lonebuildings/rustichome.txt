@@ -1,0 +1,19 @@
+name=Rustic Demo
+icon=chair_acacia
+weight=1
+max=0
+radius=20
+spawnable=true
+
+travelbook_display=false
+
+//Vanilla biomes
+biome=Taiga
+biome=Taiga M
+biome=Forest
+biome=Flower Forest
+biome=Plains
+biome=Sunflower Plains
+
+//starting buildings=
+centre=goals_home

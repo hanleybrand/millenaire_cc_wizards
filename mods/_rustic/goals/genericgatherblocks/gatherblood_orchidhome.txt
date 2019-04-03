@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=blood_orchid,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gatherblood_orchidhome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=blood_orchid,8
+// bringbackhomegood=blood_orchid
+// collectgood=blood_orchid
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:blood_orchid;age=3
+resultingBlockState=rustic:blood_orchid;age=0
+
+helditems=blood_orchid
+
+harvestitem=blood_orchid,100
+harvestitem=blood_orchid,100
+
+buildinglimit=blood_orchid,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gatherblood_orchidhome
+labelkey=gatherblood_orchidhome
+
+duration=4000
+
+    

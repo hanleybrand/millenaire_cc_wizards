@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=ginseng,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gatherginsenghome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=ginseng,8
+// bringbackhomegood=ginseng
+// collectgood=ginseng
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:ginseng;age=3
+resultingBlockState=rustic:ginseng;age=0
+
+helditems=ginseng
+
+harvestitem=ginseng,100
+harvestitem=ginseng,100
+
+buildinglimit=ginseng,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gatherginsenghome
+labelkey=gatherginsenghome
+
+duration=4000
+
+    

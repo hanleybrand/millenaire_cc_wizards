@@ -4,36 +4,35 @@
 // building.startinggood=blood_orchid,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
-// goal=plantblood_orchid
+// goal=harvestblood_orchid
 
 // RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
-// goal=harvestblood_orchid
+// goal=gatherblood_orchid
 // startinginv=blood_orchid,8
 // bringbackhomegood=blood_orchid
 // collectgood=blood_orchid
 // 
 
-priority=50
-//buildinglimit=blood_orchid,64
-//townhalllimit=blood_orchid,64
-//maxsimultaneousinbuilding=1
-
+priority=80
+range=2
 //tag a building must have for action to be possible. If absent, then the villager's house is used.
+
 buildingTag=blood_orchid
 
-//specify if the label and sentences for this goal is not the name of the goal itself
-sentencekey=plantcropblood_orchid
-labelkey=plantcropblood_orchid
+gatherBlockState=rustic:blood_orchid;age=3
+resultingBlockState=rustic:blood_orchid;age=0
 
-//objets tenus par le villageois -- Items they hold
-heldItems=blood_orchid
+helditems=blood_orchid
 
-//Type de plante --Type of plant
-croptype=blood_orchid
+harvestitem=blood_orchid,100
+harvestitem=blood_orchid,100
 
-soiltype=rustic:fertile_soil
-seed=blood_orchid
+buildinglimit=blood_orchid,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
 
+sentencekey=gatherblood_orchidhome
+labelkey=gatherblood_orchidhome
 
-
+duration=4000
     

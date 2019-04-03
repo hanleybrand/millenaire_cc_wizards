@@ -12,29 +12,33 @@ goal=clearoldpath
 
 
 
-### All the hardcoded tags
+### All the hardcoded tags sorted by type
 
 ```
 // tags for everybody
 
 // auto-added to all villagers
 goal=sleep
+```
 
+```
 // use as a default goal (it ensures the villager always has somethig to do)
 goal=gorest
 //go to buildings with the leisure tag
 goal=gosocialise
 // actually chat
 goal=chat
-
+```
+```
 /// = village defense - may or may not wish to pair with goal=raidvillage
 goal=defendvillage
 goal=huntmonster
 // or 
 //
 goal=hide
+```
 
-
+```
 //player economy
 goal=beseller
 
@@ -48,20 +52,24 @@ goal=keepstall
 goal=visitbuilding
 // visit a building with tag=inn
 goal=visitinn
+```
 
 
+```
 //alchemy 
 goal=plantwarts
 goal=harvestwarts
 // currently broken
 goal=brewpotions
+```
 
-// construction -- earth wizards?
-goal=clearoldpath
-goal=buildpath
-goal=getresourcesforbuild
+```
+// construction 
+goal=getResourcesForBuild
 goal=construction
-
+goal=buildpath
+goal=clearoldpath
+```
 
 //// resource gathering //
 

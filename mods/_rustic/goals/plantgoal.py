@@ -2,190 +2,177 @@ import sys
 from string import Template
 import re
 
-def plant_goals(crops=None):
+def herb_goals(herbs=None):
 
-    planting_goal = """
-// BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
-// initial.tag=$crop
-// building.startinggood=$crop,1,8,4
+    gathering_home = """
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=$herb,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
-// goal=plant$crop
+// goal=gather${herb}home
 
 // RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
-// goal=harvest$crop
-// startinginv=$crop,8
-// bringbackhomegood=$crop
-// collectgood=$crop
+// startinginv=$herb,8
+// bringbackhomegood=$herb
+// collectgood=$herb
 // 
+priority=80
+range=2
 
-priority=50
-//buildinglimit=$crop,64
-//townhalllimit=$crop,64
-//maxsimultaneousinbuilding=1
+gatherBlockState=rustic:$herb;age=3
+resultingBlockState=rustic:$herb;age=0
 
-//tag a building must have for action to be possible. If absent, then the villager's house is used.
-buildingTag=$crop
+helditems=$herb
 
-//specify if the label and sentences for this goal is not the name of the goal itself
-sentencekey=plantcrop$crop
-labelkey=plantcrop$crop
+harvestitem=$herb,100
+harvestitem=$herb,100
 
-//objets tenus par le villageois -- Items they hold
-heldItems=$crop
+buildinglimit=$herb,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
 
-//Type de plante --Type of plant
-croptype=$crop
+sentencekey=gather${herb}home
+labelkey=gather${herb}home
 
-soiltype=rustic:fertile_soil
-seed=$crop
-
-
+duration=4000
 
     """  # type: str
 
-    harvesting_goal = """
+    gathering = """
 // BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
-// initial.tag=$crop
-// building.startinggood=$crop,1,8,4
+// initial.tag=$herb
+// building.startinggood=$herb,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
-// goal=harvest$crop
+// goal=harvest$herb
 
 // RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
-// goal=plant$crop
-// startinginv=$crop,8
-// bringbackhomegood=$crop
-// collectgood=$crop
+// goal=gather$herb
+// startinginv=$herb,8
+// bringbackhomegood=$herb
+// collectgood=$herb
 // 
 
-
-priority=40
-// buildinglimit=$crop,64
-// townhalllimit=$crop,64
-// maxsimultaneousinbuilding=1
-
+priority=80
+range=2
 //tag a building must have for action to be possible. If absent, then the villager's house is used.
-buildingTag=$crop
 
-//specify if the label and sentences for this goal is not the name of the goal itself
-sentencekey=harvest$crop
-labelkey=harvest$crop
+buildingTag=$herb
 
-// (Minecraft ID of a block ('wheat')):Type of plant to harvest.
-croptype=$crop
+gatherBlockState=rustic:$herb;age=3
+resultingBlockState=rustic:$herb;age=0
 
-//(item, chance and (optional) required tag ('leather,50' or 'boudin,50,oven')):
-//Item to be harvested, with chance.
-harvestitem=$crop,100
-harvestitem=$crop,75
-harvestitem=$crop,50
+helditems=$herb
 
-//  Boons for irrigated villages. (item (from itemlist.txt)):
-irrigationbonuscrop=$crop
+harvestitem=$herb,100
+harvestitem=$herb,100
 
-// Blockstate the crop must have to be harvested. If not set, must have a meta of 7.
-// (a Minecraft blockstate ('red_flower;type=blue_orchid')):
-harvestblockstate=rustic:$crop;age=3
+buildinglimit=$herb,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
 
+sentencekey=gather${herb}home
+labelkey=gather${herb}home
+
+duration=4000
     """  # type: str
 
     buildings = """
     
-### CROP: $crop
+### HERB: $herb
 **BUILDING TAGS** : use in [building].txt files for non-residential building to be used for tag
 ```
-initial.tag=$crop
-building.startinggood=$crop,1,8,4
+initial.tag=$herb
+building.startinggood=$herb,1,8,4
 ```
     """
 
     villagers = """
     
-### CROP: $crop
+### HERB: $herb
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
-goal=plant$crop
-goal=harvest$crop
+goal=plant$herb
+goal=harvest$herb
 ```
 
 **RECOMMENDED VILLAGER TAGS** : use in [villager].txt files
 ```
-startinginv=$crop,8
-bringbackhomegood=$crop
-collectgood=$crop
+startinginv=$herb,8
+bringbackhomegood=$herb
+collectgood=$herb
 ```
     """
 
     buildings_all = """
-initial.tag=$crop
-building.startinggood=$crop,1,8,4
+initial.tag=$herb
+building.startinggood=$herb,1,8,4
         """
 
     villagers_all = """    
-goal=plant$crop
-goal=harvest$crop
-startinginv=$crop,8
-bringbackhomegood=$crop
-collectgood=$crop
+goal=gather${herb}home
+gather${herb}
+startinginv=$herb,8
+bringbackhomegood=$herb
+collectgood=$herb
 """
 
     strings_md = """
-goal.plant$crop=Planting $crop_print
-goal.harvest$crop=Harvesting $crop_print
+goal.gather${herb}home=Gathering $herb_print
+goal.gather${herb}home=Gathering $herb_print
     """
 
-    plantt = Template(planting_goal)
-    harvt = Template(harvesting_goal)
+    gath_home = Template(gathering_home)
+    gath = Template(gathering)
     build = Template(buildings)
     vill = Template(villagers)
     villall = Template(villagers_all)
     buildall = Template(buildings_all)
     stringsfile = Template(strings_md)
 
-    for cropname in crops:
+    for herb in herbs:
 
-        plant_filename = 'genericplanting/plant' + cropname + '.txt'
-        harvest_filename = 'genericharvesting/harvest' + cropname + '.txt'
+        gather_home_filename = 'genericgatherblocks/gather' + herb + 'home.txt'
+        gather_filename = 'genericgatherblocks/harvest' + herb + '.txt'
 
-        print 'saving ' + plant_filename
-        with open(plant_filename, 'w') as f:
-            f.writelines(plantt.substitute(crop=cropname))
+        print 'saving ' + gather_home_filename
+        with open(gather_home_filename, 'w') as f:
+            f.writelines(gath_home.substitute(herb=herb))
 
-        print 'saving ' + harvest_filename
-        with open(harvest_filename, 'w') as fi:
-            fi.writelines(harvt.substitute(crop=cropname))
+        print 'saving ' + gather_filename
+        with open(gather_filename, 'w') as fi:
+            fi.writelines(gath.substitute(herb=herb))
 
     with open('_building_tag_list.md', 'w') as bt:
         print 'saving building_tag_list.txt'
-        for cropname in crops:
-            bt.writelines(build.substitute(crop=cropname))
+        for herb in herbs:
+            bt.writelines(build.substitute(herb=herb))
         bt.write("""\n### All Tags \n ``` """)
-        for cropname in crops:
-            bt.writelines(buildall.substitute(crop=cropname))
+        for herb in herbs:
+            bt.writelines(buildall.substitute(herb=herb))
         bt.write("""\n```\n""")
 
 
     with open('_villager_tag_list.md', 'w') as vt:
         print 'saving building_tag_list.txt'
-        for cropname in crops:
-            vt.writelines(vill.substitute(crop=cropname))
+        for herb in herbs:
+            vt.writelines(vill.substitute(herb=herb))
         vt.write("""\n### All Tags \n ``` """)
-        for cropname in crops:
-            vt.writelines(villall.substitute(crop=cropname))
+        for herb in herbs:
+            vt.writelines(villall.substitute(herb=herb))
         vt.write("""\n```\n""")
 
     with open('_strings.md', 'w') as st:
         print 'saving strings_list.txt'
         st.write("""\n### Copy these to languages/[lang]]/stings.txt \n ``` """)
-        for cropname in crops:
-            crop_print = re.sub(r'([A-Za-z]+)(:?_*)([A-Za-z]*)', "\u\1 \u\3", cropname)
-            st.writelines(stringsfile.substitute(crop=cropname, crop_print=crop_print))
+        for herb in herbs:
+            herb_print = re.sub(r'([A-Za-z]+)(:?_*)([A-Za-z]*)', "\u\1 \u\3", herb)
+            st.writelines(stringsfile.substitute(herb=herb, herb_print=herb_print))
         st.write("""\n```\n""")
 
 if __name__ == "__main__":
 
-    crops = ['aloe_vera', 'blood_orchid', 'chamomile', 'chili_pepper', 'cloudsbluff', 'cohosh', 'core_root',
+    herbs = ['aloe_vera', 'blood_orchid', 'chamomile', 'cloudsbluff', 'cohosh', 'core_root',
              'deathstalk_mushroom',  'ginseng',  'horsetail', 'marsh_mallow', 'mooncap_mushroom', 'wind_thistle']
-    plant_goals(crops)
+    herb_goals(herbs)

@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=core_root,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gathercore_roothome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=core_root,8
+// bringbackhomegood=core_root
+// collectgood=core_root
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:core_root;age=3
+resultingBlockState=rustic:core_root;age=0
+
+helditems=core_root
+
+harvestitem=core_root,100
+harvestitem=core_root,100
+
+buildinglimit=core_root,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gathercore_roothome
+labelkey=gathercore_roothome
+
+duration=4000
+
+    

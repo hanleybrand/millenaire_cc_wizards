@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=deathstalk_mushroom,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gatherdeathstalk_mushroomhome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=deathstalk_mushroom,8
+// bringbackhomegood=deathstalk_mushroom
+// collectgood=deathstalk_mushroom
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:deathstalk_mushroom;age=3
+resultingBlockState=rustic:deathstalk_mushroom;age=0
+
+helditems=deathstalk_mushroom
+
+harvestitem=deathstalk_mushroom,100
+harvestitem=deathstalk_mushroom,100
+
+buildinglimit=deathstalk_mushroom,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gatherdeathstalk_mushroomhome
+labelkey=gatherdeathstalk_mushroomhome
+
+duration=4000
+
+    

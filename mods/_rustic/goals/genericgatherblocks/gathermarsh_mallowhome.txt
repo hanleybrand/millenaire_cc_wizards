@@ -1,0 +1,33 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=marsh_mallow,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gathermarsh_mallowhome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=marsh_mallow,8
+// bringbackhomegood=marsh_mallow
+// collectgood=marsh_mallow
+// 
+priority=80
+range=2
+
+gatherBlockState=rustic:marsh_mallow;age=3
+resultingBlockState=rustic:marsh_mallow;age=0
+
+helditems=marsh_mallow
+
+harvestitem=marsh_mallow,100
+harvestitem=marsh_mallow,100
+
+buildinglimit=marsh_mallow,128
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gathermarsh_mallowhome
+labelkey=gathermarsh_mallowhome
+
+duration=4000
+
+    

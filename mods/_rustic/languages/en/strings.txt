@@ -26,3 +26,7 @@ goal.plantmooncap_mushroom=Planting mooncap mushroom
 goal.harvestmooncap_mushroom=Harvesting mooncap mushroom
 goal.plantwind_thistle=Planting wind_thistle
 goal.harvestwind_thistle=Harvesting wind_thistle
+
+goal.plantflowerchamomile=Flowerplanting Chamomile
+goal.harvestchamomilehome=Home Harvesting Chamomile
+goal.gatherchamomilehome=Home Gathering Chamomile
