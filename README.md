@@ -12,9 +12,11 @@ Check out my idea for adding mod support -- besically a faux culture that's just
       * blocklist.txt and itemlist.txt seem pretty solid, with a few cosmetic problems
           * beehives,candles (and possibly lanterns)  sometimes break on placement
       * goals are still a work-in-progress
-          * villagers will not perform rustic planting tasks (e.g.  goal=plantchamomile)
-          * villagers will not perform rustic planting tasks (e.g.  goal=harvestchamomile)
+          * villagers will not perform rustic agriculture tasks (e.g.  goal=plantgrapes)
+          * actually it might not make sense to use rustic's apples and grapes since millenaire also implements those
+          * villagers **will** perform rustic herb planting tasks (e.g.  goal=harvestchamomile)
           * villagers **will** perform rustic gather tasks (e.g. villagers a tag collect the tagged item)
+          * villagers will not craft rustic items (e.g. smiths won't make candles/lanterns, carpenters won't make rustic items)
   
   Currently being worked on:
   * _floocraft ([FLoocraft](https://minecraft.curseforge.com/projects/floocraft)
