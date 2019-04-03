@@ -41,10 +41,9 @@ duration=4000
     gathering = """
 // BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
 // initial.tag=$herb
-// building.startinggood=$herb,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
-// goal=harvest$herb
+// goal=gather$herb
 
 // RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
 // goal=gather$herb
@@ -67,12 +66,11 @@ helditems=$herb
 harvestitem=$herb,100
 harvestitem=$herb,100
 
-buildinglimit=$herb,128
-maxsimultaneousinbuilding=2
-collectInBuilding=true
+villagelimit=$herb,64
+maxsimultaneoustotal=2
 
-sentencekey=gather${herb}home
-labelkey=gather${herb}home
+sentencekey=gather${herb}
+labelkey=gather${herb}
 
 duration=4000
     """  # type: str
@@ -93,8 +91,9 @@ building.startinggood=$herb,1,8,4
 
 **REQUIRED VILLAGER TAGS** must be in [villager].txt file for this tag to work
 ```
-goal=plant$herb
-goal=harvest$herb
+goal=gather${herb}home
+// or
+goal=gather${herb}
 ```
 
 **RECOMMENDED VILLAGER TAGS** : use in [villager].txt files
@@ -112,7 +111,7 @@ building.startinggood=$herb,1,8,4
 
     villagers_all = """    
 goal=gather${herb}home
-gather${herb}
+goal=gather${herb}
 startinginv=$herb,8
 bringbackhomegood=$herb
 collectgood=$herb
@@ -134,7 +133,7 @@ goal.gather${herb}home=Gathering $herb_print
     for herb in herbs:
 
         gather_home_filename = 'genericgatherblocks/gather' + herb + 'home.txt'
-        gather_filename = 'genericgatherblocks/harvest' + herb + '.txt'
+        gather_filename = 'genericgatherblocks/gather' + herb + '.txt'
 
         print 'saving ' + gather_home_filename
         with open(gather_home_filename, 'w') as f:
@@ -168,7 +167,8 @@ goal.gather${herb}home=Gathering $herb_print
         st.write("""\n### Copy these to languages/[lang]]/stings.txt \n ``` """)
         for herb in herbs:
             herb_print = re.sub(r'([A-Za-z]+)(:?_*)([A-Za-z]*)', "\u\1 \u\3", herb)
-            st.writelines(stringsfile.substitute(herb=herb, herb_print=herb_print))
+            #st.writelines(stringsfile.substitute(herb=herb, herb_print=herb_print))
+            st.writelines(stringsfile.substitute(herb=herb, herb_print=herb))
         st.write("""\n```\n""")
 
 if __name__ == "__main__":

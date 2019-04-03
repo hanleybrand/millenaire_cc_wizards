@@ -1,10 +1,9 @@
 
 // BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
 // initial.tag=core_root
-// building.startinggood=core_root,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
-// goal=harvestcore_root
+// goal=gathercore_root
 
 // RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
 // goal=gathercore_root
@@ -27,12 +26,11 @@ helditems=core_root
 harvestitem=core_root,100
 harvestitem=core_root,100
 
-buildinglimit=core_root,128
-maxsimultaneousinbuilding=2
-collectInBuilding=true
+villagelimit=core_root,64
+maxsimultaneoustotal=2
 
-sentencekey=gathercore_roothome
-labelkey=gathercore_roothome
+sentencekey=gathercore_root
+labelkey=gathercore_root
 
 duration=4000
     

@@ -1,10 +1,9 @@
 
 // BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
 // initial.tag=cohosh
-// building.startinggood=cohosh,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
-// goal=harvestcohosh
+// goal=gathercohosh
 
 // RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
 // goal=gathercohosh
@@ -27,12 +26,11 @@ helditems=cohosh
 harvestitem=cohosh,100
 harvestitem=cohosh,100
 
-buildinglimit=cohosh,128
-maxsimultaneousinbuilding=2
-collectInBuilding=true
+villagelimit=cohosh,64
+maxsimultaneoustotal=2
 
-sentencekey=gathercohoshhome
-labelkey=gathercohoshhome
+sentencekey=gathercohosh
+labelkey=gathercohosh
 
 duration=4000
     

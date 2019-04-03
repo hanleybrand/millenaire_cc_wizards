@@ -1,10 +1,9 @@
 
 // BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
 // initial.tag=marsh_mallow
-// building.startinggood=marsh_mallow,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
-// goal=harvestmarsh_mallow
+// goal=gathermarsh_mallow
 
 // RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
 // goal=gathermarsh_mallow
@@ -27,12 +26,11 @@ helditems=marsh_mallow
 harvestitem=marsh_mallow,100
 harvestitem=marsh_mallow,100
 
-buildinglimit=marsh_mallow,128
-maxsimultaneousinbuilding=2
-collectInBuilding=true
+villagelimit=marsh_mallow,64
+maxsimultaneoustotal=2
 
-sentencekey=gathermarsh_mallowhome
-labelkey=gathermarsh_mallowhome
+sentencekey=gathermarsh_mallow
+labelkey=gathermarsh_mallow
 
 duration=4000
     

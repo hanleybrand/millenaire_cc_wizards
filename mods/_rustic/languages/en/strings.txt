@@ -1,32 +1,35 @@
-goal.plantaloe_vera=Planting aloe vera
-goal.harvestaloe_vera=Harvesting aloe vera
-goal.plantblood_orchid=Planting blood orchid
-goal.harvestblood_orchid=Harvesting blood orchid
-goal.plantchamomilemill=Mill Soil chamomile
-goal.plantchamomile=Plant flower chamomile 
-goal.plantchamomilerustic=Rustic chamomile
-goal.harvestchamomile=Harvesting chamomile
-goal.plantchili_pepper=Planting chili_pepper
-goal.harvestchili_pepper=Harvesting chili pepper
-goal.plantcloudsbluff=Planting cloudsbluff
-goal.harvestcloudsbluff=Harvesting cloudsbluff 
-goal.plantcohosh=Planting cohosh
-goal.harvestcohosh=Harvesting cohosh
-goal.plantcore_root=Planting cor root
-goal.harvestcore_root=Harvesting core root
-goal.plantdeathstalk_mushroom=Planting deathstalk mushroom
-goal.harvestdeathstalk_mushroom=Harvesting deathstalk mushroom
-goal.plantginseng=Planting ginseng
-goal.harvestginseng=Harvesting ginseng
-goal.planthorsetail=Planting horsetail
-goal.harvesthorsetail=Harvesting horsetail
-goal.plantmarsh_mallow=Planting marsh_mallow
-goal.harvestmarsh_mallow=Harvesting marsh_mallow
-goal.plantmooncap_mushroom=Planting mooncap mushroom
-goal.harvestmooncap_mushroom=Harvesting mooncap mushroom
-goal.plantwind_thistle=Planting wind_thistle
-goal.harvestwind_thistle=Harvesting wind_thistle
-
-goal.plantflowerchamomile=Flowerplanting Chamomile
-goal.harvestchamomilehome=Home Harvesting Chamomile
-goal.gatherchamomilehome=Home Gathering Chamomile
+goal.gatheraloe verahome=Gathering aloe vera
+goal.gatheraloe verahome=Gathering aloe vera
+   
+goal.gatherblood orchidhome=Gathering blood orchid
+goal.gatherblood orchidhome=Gathering blood orchid
+   
+goal.gatherchamomilehome=Gathering chamomile
+goal.gatherchamomilehome=Gathering chamomile
+   
+goal.gathercloudsbluffhome=Gathering cloudsbluff
+goal.gathercloudsbluffhome=Gathering cloudsbluff
+   
+goal.gathercohoshhome=Gathering cohosh
+goal.gathercohoshhome=Gathering cohosh
+   
+goal.gathercore roothome=Gathering core root
+goal.gathercore roothome=Gathering core root
+   
+goal.gatherdeathstalk mushroomhome=Gathering deathstalk mushroom
+goal.gatherdeathstalk mushroomhome=Gathering deathstalk mushroom
+   
+goal.gatherginsenghome=Gathering ginseng
+goal.gatherginsenghome=Gathering ginseng
+   
+goal.gatherhorsetailhome=Gathering horsetail
+goal.gatherhorsetailhome=Gathering horsetail
+   
+goal.gathermarsh mallowhome=Gathering marsh mallow
+goal.gathermarsh mallowhome=Gathering marsh mallow
+   
+goal.gathermooncap mushroomhome=Gathering mooncap mushroom
+goal.gathermooncap mushroomhome=Gathering mooncap mushroom
+   
+goal.gatherwind thistlehome=Gathering wind thistle
+goal.gatherwind thistlehome=Gathering wind thistle

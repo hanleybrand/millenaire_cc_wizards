@@ -1,10 +1,9 @@
 
 // BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
 // initial.tag=cloudsbluff
-// building.startinggood=cloudsbluff,1,8,4
 
 // REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
-// goal=harvestcloudsbluff
+// goal=gathercloudsbluff
 
 // RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
 // goal=gathercloudsbluff
@@ -27,12 +26,11 @@ helditems=cloudsbluff
 harvestitem=cloudsbluff,100
 harvestitem=cloudsbluff,100
 
-buildinglimit=cloudsbluff,128
-maxsimultaneousinbuilding=2
-collectInBuilding=true
+villagelimit=cloudsbluff,64
+maxsimultaneoustotal=2
 
-sentencekey=gathercloudsbluffhome
-labelkey=gathercloudsbluffhome
+sentencekey=gathercloudsbluff
+labelkey=gathercloudsbluff
 
 duration=4000
     
