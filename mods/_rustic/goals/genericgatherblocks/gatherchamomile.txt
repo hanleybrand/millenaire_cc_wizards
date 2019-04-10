@@ -34,3 +34,37 @@ labelkey=gatherchamomile
 
 duration=4000
     
+    
+    
+
+// BUILDING TAGS - use in [building].txt files for non-residential building to be used for tag
+// initial.tag=chamomile
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gatherchamomile
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// goal=gatherchamomile
+// startinginv=chamomile,8
+// bringbackhomegood=chamomile
+// collectgood=chamomile
+// 
+
+priority=80
+range=2
+buildingTag=chamomile
+helditems=chamomile
+gatherBlockState=rustic:chamomile;age=3
+resultingBlockState=rustic:chamomile;age=0
+
+harvestitem=chamomile,100
+harvestitem=chamomile,100
+
+villagelimit=chamomile,64
+maxsimultaneoustotal=2
+
+sentencekey=gatherchamomile
+labelkey=gatherchamomile
+
+duration=4000
+    

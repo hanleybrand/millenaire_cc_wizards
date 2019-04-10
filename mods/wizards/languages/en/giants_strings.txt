@@ -1,0 +1,5 @@
+culture.giants=giant
+culture.fullname=Giants
+
+travelbook_category.giant=Giants
+travelbook_category.gianthouse=Giant Dwellings

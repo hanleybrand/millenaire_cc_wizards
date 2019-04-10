@@ -41,6 +41,8 @@ start=tavern
 start=astronomy
 start=waystone
 start=elf_hut
+start=dkoakgrove
+start=rusticherb_plains
 
 core=astronomy
 core=astronomy

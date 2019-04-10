@@ -24,17 +24,17 @@ travelbookTradeGoodCategory=playeritem
 travelbookTradeGoodCategory=foreigntrade
 
 travelBookCategoryIcon=wizard,wizard_hat
-travelBookCategoryIcon=creature,woodaxe
+travelBookCategoryIcon=creature,magic_crystal
 travelBookCategoryIcon=foreigner,denier
 travelBookCategoryIcon=council,cauldron
-travelBookCategoryIcon=lonewizard,torch
+travelBookCategoryIcon=lonewizard,magic_wand
 
 travelBookCategoryIcon=townhall,wizard_hat
 travelBookCategoryIcon=house,chest
 travelBookCategoryIcon=research,crafting_table
 travelBookCategoryIcon=leisure,cider
 travelBookCategoryIcon=servant,woodaxe
-travelBookCategoryIcon=lonebuilding,magic_crystal
+travelBookCategoryIcon=lonebuilding,magic_wand
 travelBookCategoryIcon=playerbuilding,chest
 
 travelBookCategoryIcon=construction,timberframecross

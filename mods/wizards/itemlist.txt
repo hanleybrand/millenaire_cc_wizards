@@ -1,15 +1,16 @@
 //Item key;item id;item meta;label (indicative only)
 
-waystone;waystones:waystone;0;Waystone
+//waystone;waystones:waystone;0;Waystone
 
-waterbucket;minecraft:water_bucket;0;Water Bucket
 full_bottle;minecraft:potion;0;Water Bottle
 swift_potion;minecraft:potion;8194;Swift Potion
 strength_potion;minecraft:potion;8265;Strength Potion
 healing_potion;minecraft:potion;8197;Health Potion I
-sugar;minecraft:sugar;0;Sugar
 blazepowder;minecraft:blaze_powder;0;Blaze Powder
 blazerod;minecraft:blaze_rod;0;Blaze Rod	
+
+
+// ebwizardry stuff 
 // spell_book;wizardry:spell_book;1;Spell Book // doesn't work, who knows why?
 arcane_workbench;ebwizardry:arcane_workbench;0;Arcane Workbench
 magic_crystal;ebwizardry:magic_crystal;0;Magic Crystal
@@ -178,3 +179,7 @@ scroll_of_water_breathing;ebwizardry:scroll;72;Scroll of Water Breathing
 scroll_of_whirlwind;ebwizardry:scroll;35;Scroll of Whirlwind
 scroll_of_wither_skull;ebwizardry:scroll;68;Scroll of Wither Skull
 scroll_of_wither;ebwizardry:scroll;31;Scroll of Wither
+
+
+// experimental
+head_hanleybrand;minecraft:skull;SkullOwner=hanleybrand;235/235/235;Head of Hanleybrand

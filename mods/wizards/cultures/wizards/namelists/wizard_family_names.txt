@@ -261,7 +261,7 @@ Illbode
 Illefoster
 Ilwicht
 Interfector
-Jacob's
+Jacob
 Jenkins
 Jinx
 Johnson
@@ -287,7 +287,7 @@ Kneen
 Knotley
 Kobe
 Krauss
-Krum'L
+Krum
 La Croix
 Labyrinth
 Langstirap
@@ -386,7 +386,7 @@ Neteheved
 Nettles
 Noel
 Norwood
-Nott'O
+Nott
 Nox
 O’Brian
 Oddpick
