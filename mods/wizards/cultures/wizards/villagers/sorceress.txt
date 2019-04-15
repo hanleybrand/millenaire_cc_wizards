@@ -16,18 +16,25 @@ villagerconfig=sorcerer_equip
 
 texture=millenaire_generic_villagers:textures/female/sarah.png
 
-
-
 startingInv=wizard_robe_sorcery,1
 
 goal=gorest
 goal=gosocialise
 goal=chat
 goal=patrol
+goal=huntmonster
+
 goal=GetHouseTHResources
+goal=getResourcesForBuild
 goal=construction
 goal=buildpath
 goal=clearoldpath
-goal=huntmonster
 
+toolneededclass=axes
+toolneededclass=shovels
+toolneededclass=pickaxes
+
+baseAttackStrength=8
+tag=helpInAttacks
+defaultweapon=woodaxe
 experiencegiven=10

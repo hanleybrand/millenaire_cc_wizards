@@ -33,11 +33,21 @@ startingInv=wizard_robe,1
 goal=gorest
 goal=gosocialise
 goal=chat
-goal=GetHouseTHResources
-goal=construction
-goal=buildpath
-goal=clearoldpath
 goal=patrol
 goal=huntmonster
 
+goal=GetHouseTHResources
+goal=getResourcesForBuild
+goal=construction
+goal=buildpath
+goal=clearoldpath
+
+
+toolneededclass=axes
+toolneededclass=shovels
+toolneededclass=pickaxes
+
+baseAttackStrength=8
+tag=helpInAttacks
+defaultweapon=woodaxe
 experiencegiven=10

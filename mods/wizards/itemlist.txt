@@ -182,4 +182,4 @@ scroll_of_wither;ebwizardry:scroll;31;Scroll of Wither
 
 
 // experimental
-head_hanleybrand;minecraft:skull;SkullOwner=hanleybrand;235/235/235;Head of Hanleybrand
+head_hanleybrand;minecraft:skull;SkullOwner=hanleybrand;Head of Hanleybrand

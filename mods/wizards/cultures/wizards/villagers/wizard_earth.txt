@@ -35,12 +35,19 @@ goal=gorest
 goal=gosocialise
 goal=chat
 goal=patrol
+goal=huntmonster
+
 goal=GetHouseTHResources
 goal=getResourcesForBuild
 goal=construction
 goal=buildpath
 goal=clearoldpath
-goal=huntmonster
 
+toolneededclass=axes
+toolneededclass=shovels
+toolneededclass=pickaxes
 
+baseAttackStrength=8
+tag=helpInAttacks
+defaultweapon=woodaxe
 experiencegiven=10
