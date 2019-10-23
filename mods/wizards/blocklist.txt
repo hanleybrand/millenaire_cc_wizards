@@ -13,7 +13,7 @@ pumpkinwest;minecraft:pumpkin;facing=west;true;255/128/1;minecraft:pumpkin;0;0
 pumpkinnorth;minecraft:pumpkin;facing=north;true;255/128/2;minecraft:pumpkin;0;0
 pumpkineast;minecraft:pumpkin;facing=east;true;255/128/3;minecraft:pumpkin;0;0
 
-double_stone_slab;minecraft:double_stone_slab;5;false;151/151/151;minecraft:stonebrick;0;1
+double_stone_slab;minecraft:double_stone_slab;5;false;151/151/151;minecraft:stone_brick;0;1
 double_oak_slab;minecraft:double_wooden_slab;0;false;235/234/41;minecraft:planks;variant=dark_oak;1
 double_dark_oak_slab;minecraft:double_wooden_slab;5;false;235/234/42
 
@@ -24,14 +24,14 @@ farmland;minecraft:farmland;7;false;235/235/4;dirt;;1
 jukebox;minecraft:jukebox;0;false;235/235/32;anywood;;8
 noteblock;minecraft:noteblock;0;false;235/235/33;anywood;;8
 
-arcane_workbench;ebwizardry:arcane_workbench;0;false;235/235/64
-crystal_block;ebwizardry:crystal_block;0;false;235/235/65
-crystal_ore;ebwizardry:crystal_ore;0;false;235/235/66
-crystal_flower;ebwizardry:crystal_flower;0;false;235/235/67
+arcane_workbench;ebwizardry:arcane_workbench;0;false;235/235/64;;;0
+crystal_block;ebwizardry:crystal_block;0;false;235/235/65;;;0
+crystal_ore;ebwizardry:crystal_ore;0;false;235/235/66;;;0
+crystal_flower;ebwizardry:crystal_flower;0;false;235/235/67;ebwizardry:crystal_flower;;1
 
 
 
-twilight_portal;twilghtforest:twilight_portal;is_one_way=false;true;235/235/110;;;0
+twilight_portal;twilightforest:twilight_portal;is_one_way=false;true;235/235/110;;;0
 
 // experimental
 //diamond_dropper;minecraft:
@@ -41,4 +41,18 @@ twilight_portal;twilghtforest:twilight_portal;is_one_way=false;true;235/235/110;
 // /give @p skull 1 3 {SkullOwner:"MHF_Chest"}  
 
 // /give @p skull 1 3 {SkullOwner:"hanleybrand"}
-skull_hanleybrand;minecraft:skull;SkullOwner=hanleybrand;235/235/235;minecraft:bone;;1
+skull_hanleybrand;minecraft:skull;SkullOwner=hanleybrand;true;235/235/235;;;0
+// /give @p minecraft:banner 1 0 
+// {BlockEntityTag:
+// {Base:15,Patterns:[{Pattern:gra,Color:4},{Pattern:sc,Color:15},{Pattern:bt,Color:14},{Pattern:bts,Color:2},{Pattern:flo,Color:1}]}}
+wizbanner_norf;minecraft:wall_banner;base=15,facing=north,patterns=[{Pattern:gra,Color:4},{Pattern:sc,Color:15},{Pattern:bt,Color:14},{Pattern:bts,Color:2},{Pattern:flo,Color:1}];true;235/235/236;minecraft:wool;;4
+wizbanner_souf;minecraft:wall_banner;base=15,facing=south,patterns="[{Pattern:gra,Color:4},{Pattern:sc,Color:15},{Pattern:bt,Color:14},{Pattern:bts,Color:2},{Pattern:flo,Color:1}]";true;235/235/237;minecraft:minecraft:wool;;4
+wizbanner_easf;minecraft:wall_banner;facing=east,BlockEntityTag={Base:15,Patterns:[{Pattern:gra,Color:4},{Pattern:sc,Color:15},{Pattern:bt,Color:14},{Pattern:bts,Color:2},{Pattern:flo,Color:1}]}};true;235/235/238;minecraft:minecraft:wool;;4
+wizbanner_wesf;minecraft:wall_banner;base=15,facing=west,BlockEntityTag={Base:15,Patterns:[{Pattern:gra,Color:4},{Pattern:sc,Color:15},{Pattern:bt,Color:14},{Pattern:bts,Color:2},{Pattern:flo,Color:1}]}};true;235/235/239;minecraft:wool;;4
+
+black_banner_norf;minecraft:wall_banner;base=0,facing=north;true;235/235/240;minecraft:wool;;4
+black_banner_souf;minecraft:wall_banner;base=0,facing=south;true;235/235/241;minecraft:wool;;4
+black_banner_easf;minecraft:wall_banner;base=0,facing=east;true;235/235/242;minecraft:wool;;4
+black_banner_wesf;minecraft:wall_banner;base=0,facing=west;true;235/235/243;minecraft:wool;;4
+
+concrete_black;minecraft:concrete;15;false;235/235/244;minecraft:concrete;;1

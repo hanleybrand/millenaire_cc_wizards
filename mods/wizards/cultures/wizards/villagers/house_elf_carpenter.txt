@@ -3,7 +3,7 @@ gender=male
 familyNameList=elf_last_names
 firstNameList=house_elf_names
 icon=timberframecross
-baseheight=0.9
+baseheight=0.7
 
 travelbook_category=creature
 travelbook_held_item=woodaxe

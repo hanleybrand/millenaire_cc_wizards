@@ -3,7 +3,7 @@ gender=male
 familyNameList=blank
 firstNameList=house_elf_names
 icon=ciderapple
-baseheight=0.5
+baseheight=0.8
 
 travelbook_held_item=ciderapple
 travelbook_category=creature

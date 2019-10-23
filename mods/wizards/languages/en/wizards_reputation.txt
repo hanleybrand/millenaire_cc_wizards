@@ -8,7 +8,7 @@
 2*64*64;Friend of the village;Wizards must stick together - make your self at home.
 8*64*64;One of us;The Ministry has sent an owl indicating that we should consider you an authority of sorts. 
 
-32*64*64;Natural leader;Word from the holy roman empire has come, they have named you a Teuton by extension of the greatness you have bought to our humble town. $name it is an honor to stand at your side! 
+32*64*64;Natural leader;The . $name it is an honor to stand at your side! 
 
 -64;Nuisance;Be careful. You have upset the wrong people and your reputation is suffering. It's a mistake to get on the wrong side of the wizarding community.
 -4*64;Unpleasant outsider;There are rumors the Ministry is lokking for you, $name. You should leave before trouble finds you.

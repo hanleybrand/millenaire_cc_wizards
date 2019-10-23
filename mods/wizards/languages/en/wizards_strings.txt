@@ -1,5 +1,5 @@
-culture.wizards=Wizards
-culture.fullname=Wizards & Witches
+culture.wizards=Wizard
+culture.fullname=Magical Folk
 villager.auror=Auror
 villager.head_auror=Head Auror
 villager.merchant=Trader
@@ -8,10 +8,10 @@ villager.shopwitch=Village Shopkeeper
 townhall.inn=The Inn
 shop.inn=The Inn
 
-travelbook_category.wizard=Wizards & Witches
+travelbook_category.wizard=Magical Folk
 travelbook_category.lonewizard=Wild Ones
 travelbook_category.creature=Magical Creatures
-travelbook_category.foreigner=Muggles & Traders
+travelbook_category.foreigner=Foreigners
 travelbook_category.council=Wizard's Council
 
 travelbook_category.townhall=Town Halls

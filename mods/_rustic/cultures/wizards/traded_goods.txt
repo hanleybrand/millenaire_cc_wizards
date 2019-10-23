@@ -1,0 +1,145 @@
+name, selling price, buying price, reserved quantity, target quantity, foreign merchant price, auto-generated, needed equipment(deprecated), minimum reputation,  desc code for the help screen
+// comparisons,,,,,,,,,
+// wood,2,1,128,1024,0,FALSE,,0,construction
+// iron,25,20,0,10,0,FALSE,,0,crafting
+// gold ,0,64,0,0,64,FALSE,,0,construction
+// cauldron ( 7 iron bars),200,180,2,4,0,FALSE,,0,construction
+// wool ,10,8,0,64,12,FALSE,,0,construction
+// leather,20,0,16,64,25,FALSE,,0,crafting
+// beefraw,25,20,4,64,32,FALSE,,0,agriculture
+// beefcooked,28,20,4,64,48,FALSE,,0,agriculture
+// steelChest,0,20*8,0,0,10*25,FALSE,,0,foreigntrade
+// diamondChest,0,3*64*8,0,0,8*20*64,FALSE,,0,foreigntrade
+,,,,,,,,,
+rustic_book,10,5,16,8,,FALSE,,1024,playeritem
+/// herbology ,,,,,,,,,
+aloe_vera,2,1,16,64,,FALSE,,1024,crafting
+beeswax,2,1,16,64,,FALSE,,1024,crafting
+blood_orchid,2,1,16,64,,FALSE,,1024,crafting
+chamomile,2,1,16,64,,FALSE,,1024,crafting
+cloudsbluff,2,1,16,64,,FALSE,,1024,crafting
+cohosh,2,1,16,64,,FALSE,,1024,crafting
+core_root,2,1,16,64,,FALSE,,1024,crafting
+deathstalk_mushroom,2,1,16,64,,FALSE,,1024,crafting
+ginseng,2,1,16,64,,FALSE,,1024,crafting
+honeycomb,2,1,16,64,,FALSE,,1024,crafting
+horsetail,2,1,16,64,,FALSE,,1024,crafting
+ironberries,2,1,16,64,,FALSE,,1024,crafting
+marsh_mallow,2,1,16,64,,FALSE,,1024,crafting
+mooncap_mushroom,2,1,16,64,,FALSE,,1024,crafting
+wind_thistle,2,1,16,64,,FALSE,,1024,crafting
+/// agriculture ,,,,,,,,,
+apple_seeds,2,1,16,64,,FALSE,,1024,agriculture
+bee,20,0,16,64,,FALSE,,1024,agriculture
+chili_pepper_seeds,0,0,0,0,,FALSE,,1024,agriculture
+chili_pepper,0,0,0,0,,FALSE,,1024,agriculture
+grape_stem,0,0,0,0,,FALSE,,1024,agriculture
+grapes,0,0,0,0,,FALSE,,1024,agriculture
+leaves_apple,0,0,0,0,,FALSE,,1024,agriculture
+leaves,0,0,0,0,,FALSE,,1024,agriculture
+leaves,0,0,0,0,,FALSE,,1024,agriculture
+olives,0,0,0,0,,FALSE,,1024,agriculture
+sapling_apple,0,0,0,0,,FALSE,,1024,agriculture
+sapling_ironwood,2,1,16,64,,FALSE,,1024,agriculture
+sapling_olive,0,0,0,0,,FALSE,,1024,agriculture
+tomato_seeds,0,0,0,0,,FALSE,,1024,agriculture
+tomato,0,0,0,0,,FALSE,,1024,agriculture
+wildberries,0,0,0,0,,FALSE,,1024,agriculture
+wildberry_bush,0,0,0,0,,FALSE,,1024,agriculture
+,,,,,,,,,
+/// crafting ,,,,,,,,,
+tallow,20,0,16,64,,FALSE,,1024,crafting
+dust_tiny_iron,0,0,0,0,,FALSE,,1024,crafting
+,,,,,,,,,
+apiary,0,0,0,0,,FALSE,,2048,construction
+barrel,0,0,0,0,,FALSE,,2048,construction
+brewing_barrel,0,0,0,0,,FALSE,,2048,construction
+condenser_advanced,400,300,1,2,,FALSE,,2048,construction
+condenser,200,120,1,2,,FALSE,,2048,construction
+crop_stake,0,0,0,0,,FALSE,,2048,construction
+crushing_tub,0,0,0,0,,FALSE,,2048,construction
+evaporating_basin,0,0,0,0,,FALSE,,2048,construction
+liquid_barrel,0,0,0,0,,FALSE,,2048,construction
+retort_advanced,400,300,3,6,,FALSE,,2048,construction
+retort,200,90,2,4,,FALSE,,2048,construction
+,,,,,,,,,
+/// construction ,,,,,,,,,
+andesite_pillar,16,14,0,0,,FALSE,,512,construction
+clay_wall_cross,16,14,0,0,,FALSE,,512,construction
+clay_wall_diag,16,14,0,0,,FALSE,,512,construction
+clay_wall,16,14,0,0,,FALSE,,512,construction
+diorite_pillar,16,14,0,0,,FALSE,,512,construction
+iron_lantern,25,20,16,32,,FALSE,,512,construction
+iron_lattice,25,20,0,0,,FALSE,,512,construction
+ironwood_door,100,50,0,0,,FALSE,,512,construction
+ironwood_slab_item,100,50,0,0,,FALSE,,512,construction
+ironwoodlog,2,1,0,0,,FALSE,,512,construction
+ironwoodplanks,1,1,0,0,,FALSE,,512,construction
+olive_door,100,50,0,0,,FALSE,,512,construction
+olive_slab_item,100,50,0,0,,FALSE,,512,construction
+olivelog,2,1,0,0,,FALSE,,512,construction
+oliveplanks,1,1,0,0,,FALSE,,512,construction
+painted_wood_black,4,2,0,0,,FALSE,,512,construction
+painted_wood_blue,4,2,0,0,,FALSE,,512,construction
+painted_wood_brown,4,2,0,0,,FALSE,,512,construction
+painted_wood_cyan,4,2,0,0,,FALSE,,512,construction
+painted_wood_gray,4,2,0,0,,FALSE,,512,construction
+painted_wood_green,4,2,0,0,,FALSE,,512,construction
+painted_wood_light_blue,4,2,0,0,,FALSE,,512,construction
+painted_wood_lime,4,2,0,0,,FALSE,,512,construction
+painted_wood_magenta,4,2,0,0,,FALSE,,512,construction
+painted_wood_orange,4,2,0,0,,FALSE,,512,construction
+painted_wood_pink,4,2,0,0,,FALSE,,512,construction
+painted_wood_purple,4,2,0,0,,FALSE,,512,construction
+painted_wood_red,4,2,0,0,,FALSE,,512,construction
+painted_wood_silver,4,2,0,0,,FALSE,,512,construction
+painted_wood_white,4,2,0,0,,FALSE,,512,construction
+painted_wood_yellow,4,2,0,0,,FALSE,,512,construction
+slate_brick_slab_item,3,2,0,0,,FALSE,,512,construction
+slate_brick,5,3,0,0,,FALSE,,512,construction
+slate_chiseled,5,3,0,0,,FALSE,,512,construction
+slate_pillar,5,3,0,0,,FALSE,,512,construction
+slate_roof_slab_item,2,1,0,0,,FALSE,,512,construction
+slate_roof,5,3,0,0,,FALSE,,512,construction
+slate_tile,5,3,0,0,,FALSE,,512,construction
+slate,2,1,0,0,,FALSE,,512,construction
+stairs_ironwood,4,2,0,0,,FALSE,,512,construction
+stairs_olive,4,2,0,0,,FALSE,,512,construction
+stairs_slate_brick,5,3,0,0,,FALSE,,512,construction
+stairs_slate_roof,5,3,0,0,,FALSE,,512,construction
+stone_pillar,16,14,0,0,,FALSE,,512,construction
+,,,,,,,,,
+chain,3,1,0,0,,FALSE,,512,construction
+rope,2,1,0,0,,FALSE,,512,construction
+,,,,,,,,,
+cabinet,16,14,0,0,,FALSE,,512,construction
+candle_gold,64,32,0,0,,FALSE,,512,construction
+candle,5,3,16,32,,FALSE,,512,construction
+chain_gold,16,14,0,0,,FALSE,,512,construction
+chair_acacia,16,14,0,0,,FALSE,,512,construction
+chair_big_oak,16,14,0,0,,FALSE,,512,construction
+chair_birch,16,14,0,0,,FALSE,,512,construction
+chair_ironwood,16,14,0,0,,FALSE,,512,construction
+chair_jungle,16,14,0,0,,FALSE,,512,construction
+chair_oak,16,14,0,0,,FALSE,,512,construction
+chair_olive,16,14,0,0,,FALSE,,512,construction
+chair_spruce,16,14,0,0,,FALSE,,512,construction
+chandelier_gold,64,32,0,0,,FALSE,,512,construction
+chandelier,100,50,8,16,,FALSE,,512,construction
+fence_gate_ironwood,4,2,0,0,,FALSE,,512,construction
+fence_gate_olive,4,2,0,0,,FALSE,,512,construction
+fence_ironwood,4,2,0,0,,FALSE,,512,construction
+fence_olive,4,2,0,0,,FALSE,,512,construction
+fertile_soil,2,1,0,0,,FALSE,,512,construction
+gargoyle,100,50,16,8,,FALSE,,512,construction
+golden_lantern,100,50,16,8,,FALSE,,512,construction
+granite_pillar,16,14,0,0,,FALSE,,512,construction
+table_acacia,20,16,0,0,,FALSE,,512,construction
+table_big_oak,20,16,0,0,,FALSE,,512,construction
+table_birch,20,16,0,0,,FALSE,,512,construction
+table_ironwood,20,16,0,0,,FALSE,,512,construction
+table_jungle,20,16,0,0,,FALSE,,512,construction
+table_oak,20,16,0,0,,FALSE,,512,construction
+table_olive,20,16,0,0,,FALSE,,512,construction
+table_spruce,20,16,0,0,,FALSE,,512,construction
+vase,100,50,4,8,,FALSE,,512,construction

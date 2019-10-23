@@ -51,4 +51,4 @@ toolneededclass=pickaxes
 baseAttackStrength=8
 tag=helpInAttacks
 defaultweapon=woodaxe
-experiencegiven=10
+experiencegiven=5

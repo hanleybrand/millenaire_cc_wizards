@@ -1,0 +1,26 @@
+
+priority=50
+
+
+sentencekey=makestainedglass
+labelkey=makestainedglass
+
+//en/in millisecondes
+duration=20000
+
+//objets tenus par le villageois
+heldItems=glass,stained_glass_white
+
+//chaque action consome tous les objets "input" et produit tous les "output"
+//each action will require and use all the inputs and produce all the outputs
+input=glass,1
+output=stained_glass_white,2
+
+//s'il y a plus d'objets dans le batiment que ça, arrêter le but
+//if more than that number of item is present in building, stop goal
+townhalllimit=stained_glass_white,128
+
+
+//son à jouer quand un objet est fabriqué
+//sound to play once an object is done
+sound=glass

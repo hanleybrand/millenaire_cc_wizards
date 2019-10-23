@@ -1,18 +1,20 @@
-native_name=Witch
-alt_native_name=Witch's Apprentice
+native_name=Earth Witch
+alt_native_name=Earth Witch's Apprentice
+
+tag=helpInAttacks
+icon=wizard_hat_earth
+
+travelbook_category=wizard
+travelbook_display=true
+villagerconfig=earth_mage_equip
+
 gender=female
+model=femaleasymmetrical
 familyNameList=wizard_family_names
 firstNameList=female_names
 malechild=wizardling
 femalechild=witchling
-tag=helpInAttacks
-icon=magic_crystal
 
-travelbook_category=wizard
-travelbook_display=true
-villagerconfig=wizardsequipment
-
-model=femaleasymmetrical
 
 texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_1.png
 texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_2.png
@@ -47,8 +49,8 @@ clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_grey_ho
 // robes
 clothes=free,1,millenaire_generic_villagers:textures/clothes/f_asym_robe_grey.png
 clothes=free,1,millenaire_generic_villagers:textures/clothes/f_asym_robe_dark.png
-clothes=free,1,millenaire_generic_villagers:textures/clothes/f_asym_robe_scarlet.png
-startingInv=wizard_robe,1
+
+startingInv=wizard_robe_earth,1
 
 goal=gorest
 goal=gosocialise
@@ -61,7 +63,6 @@ goal=getResourcesForBuild
 goal=construction
 goal=buildpath
 goal=clearoldpath
-
 
 toolneededclass=axes
 toolneededclass=shovels

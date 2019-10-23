@@ -4,12 +4,9 @@ gender=male
 familyNameList=wizard_family_names
 firstNameList=male_names
 
-tag=helpInAttacks
 icon=wizard_hat_fire
-
 travelbook_category=wizard
 travelbook_display=true
-villagerconfig=pyromancer_equip
 
 
 texture=millenaire_generic_villagers:textures/male/male_almond_1.png
@@ -28,18 +25,26 @@ texture=millenaire_generic_villagers:textures/male/male_pale_ivory_3.png
 texture=millenaire_generic_villagers:textures/male/male_pale_ivory_4.png
 texture=millenaire_generic_villagers:textures/male/male_pale_ivory_5.png
 
-
 clothes=free,millenaire_generic_villagers:textures/male/clothes/green_shirt.png
 clothes=free,millenaire_generic_villagers:textures/male/clothes/blue_shirt.png
 //clothes=free,1,millenaire_generic_villagers:textures/male/clothes/green_shirt_hood.png
 
+villagerconfig=pyromancer_equip
+
 startingInv=wizard_robe_fire,1
+
+requiredGood=sand,64
+requiredGood=glass,64
 
 goal=gorest
 goal=gosocialise
 goal=chat
-goal=patrol
-goal=makenormanstainedglass_white
-goal=huntmonster
 
-experiencegiven=10
+goal=makenormanstainedglass
+goal=cooksand
+goal=tendfurnace
+
+
+experiencegiven=5
+baseAttackStrength=6
+tag=helpInAttacks
