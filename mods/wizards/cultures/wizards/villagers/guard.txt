@@ -38,10 +38,10 @@ toolneededclass=armour
 toolneededclass=toolssword
 
 
-baseAttackStrength=5
+baseAttackStrength=6
 tag=helpInAttacks
 defaultweapon=steelsword
 startingInv=steelchest,1
 startingInv=steellegs,1
 startingInv=wizard_leggings,1
-experiencegiven=20
+experiencegiven=4

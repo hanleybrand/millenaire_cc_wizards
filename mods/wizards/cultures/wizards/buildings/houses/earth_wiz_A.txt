@@ -1,0 +1,21 @@
+building.length=16
+building.width=16
+building.areatoclear=2
+
+building.icon=wizard_hat_earth
+building.travelbook_category=house
+
+building.startinggood=cider,1.0,8,16
+building.startinggood=porkchops,1.0,2,4
+building.startinggood=bread,1.0,8,16
+
+initial.pathwidth=3
+
+initial.male=wizard_earth
+initial.female=witch_earth
+
+initial.startlevel=-3
+initial.nativename=Earth Wizard Home
+
+upgrade2.priority=75
+upgrade2.startlevel=-11

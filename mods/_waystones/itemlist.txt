@@ -1,3 +1,2 @@
-
 waystone;waystones:waystone;0;Waystone
 warpstone;waystones:warpstone;0;Warpstone

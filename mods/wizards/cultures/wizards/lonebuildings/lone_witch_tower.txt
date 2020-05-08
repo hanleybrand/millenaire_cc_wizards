@@ -1,7 +1,6 @@
 name=Wild Tower
 icon=bed_red
 weight=75
-radius=15
 
 
 //Vanilla biomes

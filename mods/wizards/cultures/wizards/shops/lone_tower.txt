@@ -1,0 +1,3 @@
+buys=magic_silk,glowstone_dust,string,mutton,wool_white,crystal_flower,magic_crystal
+
+sells=cooked_mutton,magic_silk,wizard_hat,wizard_robe,wizard_boots,wizard_leggings,arcane_workbench,id_scroll

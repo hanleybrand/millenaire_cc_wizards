@@ -1,24 +1,110 @@
 native_name=Wild Witch
 alt_native_name=Wild Witch's Apprentice
+
 gender=female
+model=femaleasymmetrical
+
 familyNameList=wizard_family_names
 firstNameList=female_names
-tag=helpInAttacks
-icon=magic_crystal
 
+malechild=wizardling
+femalechild=witchling
+
+icon=magic_crystal
 travelbook_category=wizard
 travelbook_display=true
-villagerconfig=wizardsequipment
 
-texture=millenaire_generic_villagers:textures/female/sarah.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_1.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_2.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_3.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_4.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_5.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_6.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_7.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_8.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_elder_1.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_elder_2.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/female_beige_1.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_1.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_2.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_3.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_4.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_5.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_6.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_7.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_8.png
 
 
-startingInv=wizard_robe,1
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_green.png
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_light.png
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_grey.png
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_light_grey.png
+// hoods
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_green_hood.png
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_grey_hood.png
+// robes
+clothes=free,1,millenaire_generic_villagers:textures/clothes/f_asym_robe_grey.png
+clothes=free,1,millenaire_generic_villagers:textures/clothes/f_asym_robe_dark.png
+clothes=free,1,millenaire_generic_villagers:textures/clothes/f_asym_robe_scarlet.png
+
 
 goal=gorest
-goal=gosocialise
 goal=chat
+
+goal=slaughtersheep
+goal=shearsheep
+goal=breed
+goal=cooklamb
+goal=tendfurnace
+goal=makeBread
+
+goal=gathermagicflowers
+goal=makecrystals
+goal=makemagicsilk
+
+goal=bringbackresourceshome
+goal=getgoodshousehold
+bringBackHomeGood=mutton
+bringBackHomeGood=cooked_mutton
+bringBackHomeGood=wool_white
+bringBackHomeGood=wool_gray
+bringBackHomeGood=wool_lightgray
+bringBackHomeGood=wool_black
+bringBackHomeGood=wool_brown
+bringBackHomeGood=wool_pink
+bringBackHomeGood=crystal_flower
+bringBackHomeGood=string
+bringBackHomeGood=magic_crystal
+bringBackHomeGood=magic_silk
+
+
 goal=patrol
 goal=huntmonster
 
-experiencegiven=10
+villagerconfig=wizardsequipment
+
+
+collectGood=mutton
+collectGood=wool_white
+collectGood=wool_gray
+collectGood=wool_lightgray
+collectGood=wool_black
+collectGood=wool_brown
+collectGood=wool_pink
+
+requiredGood=wheat,20
+requiredGood=mutton,20
+requiredGood=crystal_flower,32
+requiredGood=string,64
+requiredGood=magic_crystal,16
+
+
+startingInv=wizard_robe,1
+startingInv=iron_sword,1
+
+toolneededclass=armour
+toolneededclass=toolssword
+
+tag=helpInAttacks
+baseAttackStrength=8
+experiencegiven=5

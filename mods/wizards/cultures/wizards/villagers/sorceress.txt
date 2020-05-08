@@ -3,8 +3,8 @@ alt_native_name=Sorceress' Apprentice
 gender=female
 familyNameList=wizard_family_names
 firstNameList=female_names
-malechild=boy
-femalechild=girl
+malechild=wizardling
+femalechild=witchling
 tag=seller
 tag=helpInAttacks
 icon=wizard_hat_sorcery
@@ -13,8 +13,43 @@ travelbook_category=wizard
 travelbook_display=true
 villagerconfig=sorcerer_equip
 
+baseheight=0.9
+model=femaleasymmetrical
 
-texture=millenaire_generic_villagers:textures/female/sarah.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_1.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_2.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_3.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_4.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_5.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_6.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_7.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_8.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_elder_1.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/beige_elder_2.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/female_beige_1.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_1.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_2.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_3.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_4.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_5.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_6.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_7.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_8.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_anime_1.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_anime_2.png
+texture=millenaire_generic_villagers:textures/female/asymmetrical/sienna_anime_3.png
+
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_green.png
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_light.png
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_grey.png
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_light_grey.png
+// hoods
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_green_hood.png
+clothes=free,0,millenaire_generic_villagers:textures/clothes/f_asym_base_grey_hood.png
+// robes
+clothes=free,1,millenaire_generic_villagers:textures/clothes/f_asym_robe_grey.png
+clothes=free,1,millenaire_generic_villagers:textures/clothes/f_asym_robe_dark.png
+clothes=free,1,millenaire_generic_villagers:textures/clothes/f_asym_robe_scarlet.png
 
 startingInv=wizard_robe_sorcery,1
 
@@ -37,4 +72,4 @@ toolneededclass=pickaxes
 baseAttackStrength=8
 tag=helpInAttacks
 defaultweapon=woodaxe
-experiencegiven=10
+experiencegiven=5

@@ -1,0 +1,25 @@
+native_name=Little Witch
+alt_native_name=Apprentice Witch
+alt_key=teenwitch
+gender=female
+tag=child
+familyNameList=wizard_family_names
+firstNameList=female_names
+icon=crystal_flower
+
+travelbook_held_item=crystal_flower
+
+texture=millenaire_generic_villagers:textures/children/witchling_1.png
+texture=millenaire_generic_villagers:textures/children/witchling_2.png
+texture=millenaire_generic_villagers:textures/children/witchling_3.png
+
+goal=gorest
+goal=gosocialise
+goal=chat
+goal=becomeAdult
+goal=goplay
+goal=goplaywithfriends
+
+tag=hide
+
+baseAttackStrength=1

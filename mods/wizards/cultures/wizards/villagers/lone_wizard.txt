@@ -16,12 +16,41 @@ texture=millenaire_generic_villagers:textures/male/beardy.png
 clothes=free,millenaire_generic_villagers:textures/male/clothes/green_shirt.png
 clothes=free,millenaire_generic_villagers:textures/male/clothes/blue_shirt.png
 
-startingInv=wizard_robe,1
+tag=seller
 
 goal=gorest
-goal=gosocialise
 goal=chat
+
+goal=slaughtersheep
+goal=shearsheep
+goal=breed
+goal=cooklamb
+goal=tendfurnace
+goal=makeBread
+
+goal=gathermagicflowers
+goal=makecrystals
+goal=makemagicsilk
+
 goal=patrol
 goal=huntmonster
+
+collectGood=mutton
+collectGood=wool_white
+collectGood=wool_gray
+collectGood=wool_lightgray
+collectGood=wool_black
+collectGood=wool_brown
+collectGood=wool_pink
+
+requiredGood=wheat,20
+requiredGood=mutton,64
+requiredGood=crystal_flower,32
+requiredGood=string,64
+requiredGood=magic_crystal,16
+
+
+startingInv=wizard_robe,1
+startingInv=iron_sword,1
 
 experiencegiven=10

@@ -1,0 +1,42 @@
+
+// BUILDING TAGS - use in [building].txt files for home gathering
+// building.startinggood=crystal_flower,1,8,4
+
+// REQUIRED VILLAGER TAGS  - must be in [villager].txt file for this tag to work
+// goal=gathermagicflowerhome
+
+// RECOMMENDED VILLAGER TAGS  - use in [villager].txt files
+// startinginv=crystal_flower,8
+// bringbackhomegood=crystal_flower
+// collectgood=crystal_flower
+// 
+
+travelbookshow=true
+icon=crystal_flower
+
+priority=80
+range=1
+lookatgoal=true
+
+gatherBlockState=ebwizardry:crystal_flower;0
+resultingBlockState=ebwizardry:crystal_flower;0
+
+helditems=crystal_flower
+
+harvestitem=crystal_flower,100
+harvestitem=string,100
+harvestitem=string,100
+harvestitem=string,100
+harvestitem=string,100
+
+buildinglimit=string,128
+
+maxsimultaneousinbuilding=2
+collectInBuilding=true
+
+sentencekey=gathermagicflower
+labelkey=gathermagicflower
+
+sound=ebwizardry:sparkle
+
+duration=4000

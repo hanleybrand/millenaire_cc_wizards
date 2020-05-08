@@ -30,23 +30,27 @@ pathmaterial=pathgravel
 pathmaterial=pathslabs
 
 //starting buildings=
-centre=inn
+centre=wizardinge
 start=library
 start=guardhouse
 start=cottage1
 start=cottage2
+start=earth_wiz
 start=well
-start=manor
+
 start=tavern
 start=astronomy
 start=waystone
 start=elf_hut
 start=dkoakgrove
+
 start=rusticherb_plains
 
-core=astronomy
-core=astronomy
+
 core=cottage1
 core=cottage2
+
+secondary=manor
+
 
 never=inn

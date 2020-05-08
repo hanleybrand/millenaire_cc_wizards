@@ -1,45 +1,38 @@
 newchat;key:nicevillage,weigth:10
-v1;0;This place isn't so bad, do you think? / This place isn't so bad, do you think?
-v2;60;No, I suppose it will do.  / No, I suppose it will do. 
+v1;0;Sê stede ne ondr¯ædendlic, temian êow âwênan? / This place isn't so bad, do you think?
+v2;60;Nâ, yfel lîefan and man word forberan.  / No, I suppose it will do. 
 
 newchat;key:sun,tag:notraining,weigth:10
-v1;0;At least the sun is out... / At least the sun is out...
-v2;30;Yes, but for how long? / Yes, but for how long?
+v1;0;Friðcandel trandendem¯æst rodor res / At least the sun is out...
+v2;30;Gêse...ðêanatôhwon sêcan? / Yes, but for how long?
 
 newchat;key:broomrace,tag:notraining,weigth:10
-v1;0;It's a beautiful day! 
-v2;30;Fancy a broom race then?
-v1;60;Right, but be warned! I nearly won the last Swedish broom race, but Acorn Evergreen passed me just 15 leagues from Arjeplog!
-v2;90;Interesting. I heard you were too drunk on pumpkin cider to make it out of Kopparberg. 
+v1;0;Twihynde torht gêardagas!/It's a beautiful day! 
+v2;30;Wênan bêga stæf strýnd? / Fancy a broom race then?
+v1;60;Seht, sôðlic wunian geræd! Yfel to won ðone as æftemest Swedish swingell streng, ac Acorn Evergreen beféredest mec rihtlic fiftmenihte leagues settan Arjeplog! / Right, but be warned! I nearly won the last Swedish broom race, but Acorn Evergreen passed me just 15 leagues from Arjeplog!
+v2;90;Feorlic. Yfel heard êow were ðætte drenc lýtesnâ pumpkin æppelwînscîran sêbûtan Kopparberg.  / Interesting. I heard you were too drunk on pumpkin cider to make it out of Kopparberg. 
 
 newchat;key:advice_imperius,v1:child,v2:vtype:auror,weigth:10
-v1;0; I'm afraid of dark wizards hexing me!
-v2;30; Don't be afraid, but instead seek the knowledge you will need to defend yourself.
-v1;60; What about the Imperius curse?
-v2;90; Ah... the Imperius Curse can be fought ... but it takes real strength of character, and not everyone’s got it. 
-v2;120; Better to avoid being hit with it if you can.
+v1;0; Mec fyrht râd wann drýas forscrifon me! / I'm afraid of dark wizards hexing me!
+v2;30; Winnan ne forhtnes, æghwæðer ge þeóstru friclan wægn gearowita êow spellung ðurfonbegyrdan êow../ Don't be afraid, but instead seek the knowledge you will need to defend yourself.
+v1;60; Ac ymbûtan and dôð Bibod wyrgðu?/ What about the Imperius curse?
+v2;90; Ah... Wægn Bibod unbletsung canne cûðe fought... Nâðýlæs man takes unlygen trymð râd stæf, ðe hnot everyone’s got hîe. / Ah... the Imperius Curse can be fought ... but it takes real strength of character, and not everyone’s got it. 
+v2;120; Fæstnianscunian edwist ofscêotan mid ðæge pro ðær and there êow canne. / Better to avoid being hit with it if you can.
 
 newchat;key:creaothceann,v1:adult,v2:adult,weigth:10
-v1;0; Did you hear about Ruthorham?
-v2;30; The Creaothceann match?
-v1;60; Three dead this time.
-v2;90; Idiots!
-v2;120; At least it wasn't twelve, like the poem.
-v1;160; Poem?
+v1;0; Did êow hlystan Ruthorham? / Did you hear about Ruthorham?
+v2;30; sê Creaothceann onlîcian?/ The Creaothceann match?
+v1;60; ðrîe oððringan ðætte dôgor−gerîm. / Three dead this time.
+v2;90; Stunte! / Idiots!
+v2;120;Hûruðinga ðæge pro wasn't twelf, efen wægn lêoð. / At least it wasn't twelve, like the poem.
+v1;160; Lêoð? / Poem?
 
 newchat;key:socks,v1:adult,v2:adult,weigth:10
-v1;0; One can never have enough socks
-v2;30; Well, socks and magic go hand in hand, known fact.
-v1;60; More like hand in foot. 
-v1;90; Another Christmas has come and gone and I didn’t get a single pair.
-v2;120; People insist on giving me books.
-v1;160; Don't we all have enough books?
-v2;190; ... can we ever have enough?
+v1;0; Unwâclic canne nâ ofercuman nôg soccas / One can never have enough socks
+v2;30; Soccas ðêah lybcræft agênbewendan tilig fullan mund, on−cn¯æwe fact. / Well, socks and magic go hand in hand, known fact.
+v1;60;  Forwards angelic folm into fôt. / More like hand in foot. 
+v1;90; Another Ymbren has streccan ðêah gone ðêah−hwæðere yfel didn’t attain hlêg ânstreces belg. / Another Yule has come and gone and I didn’t get a single pair.
+v2;120; Duguð must selenes me bôcgesamnung. / People insist on giving me books.
+v1;160; Eardian and we nâteshwôn holian nôg bôcgesamnung? /  Don't we all have enough books?
+v2;190;... Canne attraction with pron ðe ic folde sellan nðh? / ... Can we ever have enough?
 
-// ‘“Do you know, I still have trouble believing it,” said Madam Rosmerta thoughtfully. “Of all the people to go over to the Dark side, Sirius Black was the last I’d have thought . . .’
-// expecto patronum?  
-
-// Helena, the daughter of Hogwarts founder Rowena Ravenclaw, stole her mother’s diadem and ran off to Albania. Her mother became deathly ill soon after and sent Helena’s estranged fiance, a baron, to find her and bring her back
-// , Sir Cadogan rides into battle with the infamous Wyvern of Wye. He nearly loses the battle — his horse is eaten, his helmet melted, and his wand broken — but he finds a fat gray pony in a nearby field and rides back to what he could only have assumed would be a heroic death. In fact, his splintered wand pierces the tongue of the wyvern and ignites the noxious gasses in its gullet. The wyvern explodes and Sir Cadogan’s reckless bravery is immortalized
-// Sir Cadogan was a Knight of the Round Table and a friend of Merlin, which places him in the 11th century as far as it is possible to deduce
-// Merlin, a Charms specialist sometimes known as “The Prince of Enchanters,” is unquestionably the most famous wizard of all time. e was part of the Court of King Arthur (King Arthur once ruled the land that is now part of England). He believed that wizards should help Muggles and therefore created the Order of Merlin to support laws protecting and benefiting Muggles 

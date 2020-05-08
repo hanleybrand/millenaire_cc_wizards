@@ -1,19 +1,21 @@
 //Item key;item id;item meta;label (indicative only)
 
-//waystone;waystones:waystone;0;Waystone
+waystone;waystones:waystone;0;Waystone
+warpstone;waystones:warpstone;0;Warpstone
 
 full_bottle;minecraft:potion;0;Water Bottle
 swift_potion;minecraft:potion;8194;Swift Potion
 strength_potion;minecraft:potion;8265;Strength Potion
 healing_potion;minecraft:potion;8197;Health Potion I
 blazepowder;minecraft:blaze_powder;0;Blaze Powder
-blazerod;minecraft:blaze_rod;0;Blaze Rod	
+blazerod;minecraft:blaze_rod;0;Blaze Rod
 
 
 // ebwizardry stuff 
 // spell_book;wizardry:spell_book;1;Spell Book // doesn't work, who knows why?
 arcane_workbench;ebwizardry:arcane_workbench;0;Arcane Workbench
 magic_crystal;ebwizardry:magic_crystal;0;Magic Crystal
+crystal_flower;ebwizardry:crystal_flower;0;Crystal Flower
 magic_silk;ebwizardry:magic_silk;0;Magic Silk
 // scroll_of_ice_lance;ebwizardry:scroll;126;Ice Lance
 // wizard gear 
@@ -51,6 +53,7 @@ wizard_boots_healing;ebwizardry:wizard_boots_healing;0;Healer Boots
 wizard_leggings_healing;ebwizardry:wizard_leggings_healing;0;Healer Pants
 magic_wand;ebwizardry:magic_wand;0;Magic Wand
 //wizardy scrolls
+id_scroll;ebwizardry:identification_scroll;0;Scroll of Identification
 scroll_of_agility;ebwizardry:scroll;39;Scroll of Agility
 scroll_of_arc;ebwizardry:scroll;5;Scroll of Arc
 scroll_of_arcane_jammer;ebwizardry:scroll;133;Scroll of Arcane Jammer
@@ -180,6 +183,151 @@ scroll_of_whirlwind;ebwizardry:scroll;35;Scroll of Whirlwind
 scroll_of_wither_skull;ebwizardry:scroll;68;Scroll of Wither Skull
 scroll_of_wither;ebwizardry:scroll;31;Scroll of Wither
 
+/// spell books 
+///// (ebwizardry:spell_book),(\d+)(:?,,Spell\sBook,")(?:[§\dabe]*)([\w']+)(?:\s*)([\w]*)(?:\s*)([\w]*)(?:\n)(?:.*)$
+///// spell_book_\l$4_\l$5_\l$6;$1;$2;Spell Book: $4 $5 $6
+
+spell_book_magic_missile;ebwizardry:spell_book;1;Spell Book: Magic Missile
+spell_book_ignite;ebwizardry:spell_book;2;Spell Book: Ignite
+spell_book_freeze;ebwizardry:spell_book;3;Spell Book: Freeze
+spell_book_snowball;ebwizardry:spell_book;4;Spell Book: Snowball
+spell_book_arc;ebwizardry:spell_book;5;Spell Book: Arc
+spell_book_thunderbolt;ebwizardry:spell_book;6;Spell Book: Thunderbolt
+spell_book_summon_zombie;ebwizardry:spell_book;7;Spell Book: Summon Zombie
+spell_book_snare;ebwizardry:spell_book;8;Spell Book: Snare
+spell_book_dart;ebwizardry:spell_book;9;Spell Book: Dart
+spell_book_light;ebwizardry:spell_book;10;Spell Book: Light
+spell_book_telekinesis;ebwizardry:spell_book;11;Spell Book: Telekinesis
+spell_book_heal;ebwizardry:spell_book;12;Spell Book: Heal
+spell_book_fireball;ebwizardry:spell_book;13;Spell Book: Fireball
+spell_book_flame_ray;ebwizardry:spell_book;14;Spell Book: Flame Ray
+spell_book_firebomb;ebwizardry:spell_book;15;Spell Book: Firebomb
+spell_book_fire_sigil;ebwizardry:spell_book;16;Spell Book: Fire Sigil
+spell_book_firebolt;ebwizardry:spell_book;17;Spell Book: Firebolt
+spell_book_frost_ray;ebwizardry:spell_book;18;Spell Book: Frost Ray
+spell_book_summon_snow_golem;ebwizardry:spell_book;19;Spell Book: Summon Snow Golem
+spell_book_ice_shard;ebwizardry:spell_book;20;Spell Book: Ice Shard
+spell_book_ice_statue;ebwizardry:spell_book;21;Spell Book: Ice Statue
+spell_book_frost_sigil;ebwizardry:spell_book;22;Spell Book: Frost Sigil
+spell_book_lightning_ray;ebwizardry:spell_book;23;Spell Book: Lightning Ray
+spell_book_spark_bomb;ebwizardry:spell_book;24;Spell Book: Spark Bomb
+spell_book_homing_spark;ebwizardry:spell_book;25;Spell Book: Homing Spark
+spell_book_lightning_sigil;ebwizardry:spell_book;26;Spell Book: Lightning Sigil
+spell_book_lightning_arrow;ebwizardry:spell_book;27;Spell Book: Lightning Arrow
+spell_book_life_drain;ebwizardry:spell_book;28;Spell Book: Life Drain
+spell_book_summon_skeleton;ebwizardry:spell_book;29;Spell Book: Summon Skeleton
+spell_book_metamorphosis;ebwizardry:spell_book;30;Spell Book: Metamorphosis
+spell_book_wither;ebwizardry:spell_book;31;Spell Book: Wither
+spell_book_poison;ebwizardry:spell_book;32;Spell Book: Poison
+spell_book_growth_aura;ebwizardry:spell_book;33;Spell Book: Growth Aura
+spell_book_bubble;ebwizardry:spell_book;34;Spell Book: Bubble
+spell_book_whirlwind;ebwizardry:spell_book;35;Spell Book: Whirlwind
+spell_book_poison_bomb;ebwizardry:spell_book;36;Spell Book: Poison Bomb
+spell_book_summon_spirit_wolf;ebwizardry:spell_book;37;Spell Book: Summon Spirit Wolf
+spell_book_blink;ebwizardry:spell_book;38;Spell Book: Blink
+spell_book_agility;ebwizardry:spell_book;39;Spell Book: Agility
+spell_book_conjure_sword;ebwizardry:spell_book;40;Spell Book: Conjure Sword
+spell_book_conjure_pickaxe;ebwizardry:spell_book;41;Spell Book: Conjure Pickaxe
+spell_book_conjure_bow;ebwizardry:spell_book;42;Spell Book: Conjure Bow
+spell_book_force_arrow;ebwizardry:spell_book;43;Spell Book: Force Arrow
+spell_book_shield;ebwizardry:spell_book;44;Spell Book: Shield
+spell_book_replenish_hunger;ebwizardry:spell_book;45;Spell Book: Replenish Hunger
+spell_book_cure_effects;ebwizardry:spell_book;46;Spell Book: Cure Effects
+spell_book_heal_ally;ebwizardry:spell_book;47;Spell Book: Heal Ally
+spell_book_summon_blaze;ebwizardry:spell_book;48;Spell Book: Summon Blaze
+spell_book_ring_of_fire;ebwizardry:spell_book;49;Spell Book: Ring of Fire
+spell_book_detonate;ebwizardry:spell_book;50;Spell Book: Detonate
+spell_book_fire_resistance;ebwizardry:spell_book;51;Spell Book: Fire Resistance
+spell_book_fireskin;ebwizardry:spell_book;52;Spell Book: Fireskin
+spell_book_flaming_axe;ebwizardry:spell_book;53;Spell Book: Flaming Axe
+spell_book_blizzard;ebwizardry:spell_book;54;Spell Book: Blizzard
+spell_book_summon_ice_wraith;ebwizardry:spell_book;55;Spell Book: Summon Ice Wraith
+spell_book_ice_shroud;ebwizardry:spell_book;56;Spell Book: Ice Shroud
+spell_book_ice_charge;ebwizardry:spell_book;57;Spell Book: Ice Charge
+spell_book_frost_axe;ebwizardry:spell_book;58;Spell Book: Frost Axe
+spell_book_invoke_weather;ebwizardry:spell_book;59;Spell Book: Invoke Weather
+spell_book_chain_lightning;ebwizardry:spell_book;60;Spell Book: Chain Lightning
+spell_book_lightning_bolt;ebwizardry:spell_book;61;Spell Book: Lightning Bolt
+spell_book_summon_lightning_wraith;ebwizardry:spell_book;62;Spell Book: Summon Lightning Wraith
+spell_book_static_aura;ebwizardry:spell_book;63;Spell Book: Static Aura
+spell_book_lightning_disk;ebwizardry:spell_book;64;Spell Book: Lightning Disk
+spell_book_mind_control;ebwizardry:spell_book;65;Spell Book: Mind Control
+spell_book_summon_wither_skeleton;ebwizardry:spell_book;66;Spell Book: Summon Wither Skeleton
+spell_book_entrapment;ebwizardry:spell_book;67;Spell Book: Entrapment
+spell_book_wither_skull;ebwizardry:spell_book;68;Spell Book: Wither Skull
+spell_book_darkness_orb;ebwizardry:spell_book;69;Spell Book: Darkness Orb
+spell_book_shadow_ward;ebwizardry:spell_book;70;Spell Book: Shadow Ward
+spell_book_decay;ebwizardry:spell_book;71;Spell Book: Decay
+spell_book_water_breathing;ebwizardry:spell_book;72;Spell Book: Water Breathing
+spell_book_tornado;ebwizardry:spell_book;73;Spell Book: Tornado
+spell_book_glide;ebwizardry:spell_book;74;Spell Book: Glide
+spell_book_summon_spirit_horse;ebwizardry:spell_book;75;Spell Book: Summon Spirit Horse
+spell_book_spider_swarm;ebwizardry:spell_book;76;Spell Book: Spider Swarm
+spell_book_slime;ebwizardry:spell_book;77;Spell Book: Slime
+spell_book_petrify;ebwizardry:spell_book;78;Spell Book: Petrify
+spell_book_invisibility;ebwizardry:spell_book;79;Spell Book: Invisibility
+spell_book_levitation;ebwizardry:spell_book;80;Spell Book: Levitation
+spell_book_force_orb;ebwizardry:spell_book;81;Spell Book: Force Orb
+spell_book_transportation;ebwizardry:spell_book;82;Spell Book: Transportation
+spell_book_spectral_pathway;ebwizardry:spell_book;83;Spell Book: Spectral Pathway
+spell_book_phase_step;ebwizardry:spell_book;84;Spell Book: Phase Step
+spell_book_vanishing_box;ebwizardry:spell_book;85;Spell Book: Vanishing Box
+spell_book_greater_heal;ebwizardry:spell_book;86;Spell Book: Greater Heal
+spell_book_healing_aura;ebwizardry:spell_book;87;Spell Book: Healing Aura
+spell_book_forcefield;ebwizardry:spell_book;88;Spell Book: Forcefield
+spell_book_ironflesh;ebwizardry:spell_book;89;Spell Book: Ironflesh
+spell_book_transience;ebwizardry:spell_book;90;Spell Book: Transience
+spell_book_meteor;ebwizardry:spell_book;91;Spell Book: Meteor
+spell_book_firestorm;ebwizardry:spell_book;92;Spell Book: Firestorm
+spell_book_summon_phoenix;ebwizardry:spell_book;93;Spell Book: Summon Phoenix
+spell_book_ice_age;ebwizardry:spell_book;94;Spell Book: Ice Age
+spell_book_wall_of_frost;ebwizardry:spell_book;95;Spell Book: Wall of Frost
+spell_book_summon_ice_giant;ebwizardry:spell_book;96;Spell Book: Summon Ice Giant
+spell_book_thunderstorm;ebwizardry:spell_book;97;Spell Book: Thunderstorm
+spell_book_lightning_hammer;ebwizardry:spell_book;98;Spell Book: Lightning Hammer
+spell_book_plague_of_darkness;ebwizardry:spell_book;99;Spell Book: Plague of Darkness
+spell_book_summon_skeleton_legion;ebwizardry:spell_book;100;Spell Book: Summon Skeleton Legion
+spell_book_summon_shadow_wraith;ebwizardry:spell_book;101;Spell Book: Summon Shadow Wraith
+spell_book_forest's_curse;ebwizardry:spell_book;102;Spell Book: Forest's Curse
+spell_book_flight;ebwizardry:spell_book;103;Spell Book: Flight
+spell_book_silverfish_swarm;ebwizardry:spell_book;104;Spell Book: Silverfish Swarm
+spell_book_black_hole;ebwizardry:spell_book;105;Spell Book: Black Hole
+spell_book_shockwave;ebwizardry:spell_book;106;Spell Book: Shockwave
+spell_book_summon_iron_golem;ebwizardry:spell_book;107;Spell Book: Summon Iron Golem
+spell_book_arrow_rain;ebwizardry:spell_book;108;Spell Book: Arrow Rain
+spell_book_diamondflesh;ebwizardry:spell_book;109;Spell Book: Diamondflesh
+spell_book_font_of_vitality;ebwizardry:spell_book;110;Spell Book: Font of Vitality
+spell_book_smoke_bomb;ebwizardry:spell_book;111;Spell Book: Smoke Bomb
+spell_book_mind_trick;ebwizardry:spell_book;112;Spell Book: Mind Trick
+spell_book_leap;ebwizardry:spell_book;113;Spell Book: Leap
+spell_book_pocket_furnace;ebwizardry:spell_book;114;Spell Book: Pocket Furnace
+spell_book_intimidate;ebwizardry:spell_book;115;Spell Book: Intimidate
+spell_book_banish;ebwizardry:spell_book;116;Spell Book: Banish
+spell_book_sixth_sense;ebwizardry:spell_book;117;Spell Book: Sixth Sense
+spell_book_darkvision;ebwizardry:spell_book;118;Spell Book: Darkvision
+spell_book_clairvoyance;ebwizardry:spell_book;119;Spell Book: Clairvoyance
+spell_book_pocket_workbench;ebwizardry:spell_book;120;Spell Book: Pocket Workbench
+spell_book_imbue_weapon;ebwizardry:spell_book;121;Spell Book: Imbue Weapon
+spell_book_invigorating_presence;ebwizardry:spell_book;122;Spell Book: Invigorating Presence
+spell_book_oakflesh;ebwizardry:spell_book;123;Spell Book: Oakflesh
+spell_book_greater_fireball;ebwizardry:spell_book;124;Spell Book: Greater Fireball
+spell_book_flaming_weapon;ebwizardry:spell_book;125;Spell Book: Flaming Weapon
+spell_book_ice_lance;ebwizardry:spell_book;126;Spell Book: Ice Lance
+spell_book_freezing_weapon;ebwizardry:spell_book;127;Spell Book: Freezing Weapon
+spell_book_ice_spikes;ebwizardry:spell_book;128;Spell Book: Ice Spikes
+spell_book_lightning_pulse;ebwizardry:spell_book;129;Spell Book: Lightning Pulse
+spell_book_curse_of_soulbinding;ebwizardry:spell_book;130;Spell Book: Curse of Soulbinding
+spell_book_cobwebs;ebwizardry:spell_book;131;Spell Book: Cobwebs
+spell_book_decoy;ebwizardry:spell_book;132;Spell Book: Decoy
+spell_book_arcane_jammer;ebwizardry:spell_book;133;Spell Book: Arcane Jammer
+spell_book_conjure_armor;ebwizardry:spell_book;134;Spell Book: Conjure Armor
+spell_book_group_heal;ebwizardry:spell_book;135;Spell Book: Group Heal
+spell_book_hailstorm;ebwizardry:spell_book;136;Spell Book: Hailstorm
+spell_book_lightning_web;ebwizardry:spell_book;137;Spell Book: Lightning Web
+spell_book_summon_storm_elemental;ebwizardry:spell_book;138;Spell Book: Summon Storm Elemental
+spell_book_earthquake;ebwizardry:spell_book;139;Spell Book: Earthquake
+spell_book_font_of_mana;ebwizardry:spell_book;140;Spell Book: Font of Mana
+
 
 // experimental
-head_hanleybrand;minecraft:skull;SkullOwner=hanleybrand;Head of Hanleybrand
+skull_hanleybrand;minecraft:player_head;0;Head of Hanleybrand

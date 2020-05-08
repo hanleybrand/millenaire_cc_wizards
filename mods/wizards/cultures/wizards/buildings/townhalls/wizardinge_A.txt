@@ -1,0 +1,17 @@
+building.length=29
+building.width=29
+
+initial.startlevel=-9
+initial.nativename=Wiccaðinge
+
+
+initial.tag=leasure
+initial.tag=pathnode
+initial.tag=patrol
+initial.tag=nopaths
+
+initial.shop=inn
+initial.signs=0,1,2,3,5,7,8,6,4,
+
+initial.male=head_auror
+initial.female=shopwitch

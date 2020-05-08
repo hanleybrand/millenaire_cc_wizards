@@ -1,6 +1,8 @@
 //name, selling price, buying price, reserved quantity, target quantity, foreign merchant price, auto-generated, needed equipment(deprecated), minimum reputation,  desc code for the help screen
 // --- //
-waystone,10000,1000,2,1,1500,false,,2048,construction
+waystone,10000,9000,2,1,9000,false,,2048,construction
+warpstone,5000,4000,2,1,4500,false,,2048,construction
+
 blazepowder,500,250,32,16,450,true,,1024,crafting
 blazerod,1000,500,16,8,450,true,,1024,crafting
 magic_crystal,38,28,64,32,32,true,,,crafting
@@ -51,6 +53,7 @@ wizard_leggings_healing,500,250,0,0,,false,,1024,crafting
 arcane_workbench,50,25,16,8,30,true,,1024,crafting
 
 // --- // SCROLLS // --- //
+id_scroll,500,420,8,4,400,false,,1024,crafting
 scroll_of_agility,300,120,8,4,300,false,,1024,weapons
 scroll_of_arc,300,120,8,4,300,false,,1024,weapons
 scroll_of_arcane_jammer,300,120,8,4,300,false,,1024,weapons
@@ -250,26 +253,16 @@ carpet_red,20,18,16,64,16,false,,0,construction
 carpet_yellow,20,18,16,64,16,false,,0,construction
 carpet_blue,20,18,16,64,16,false,,0,construction
 // --- //
-tripes,2*64,2*60,2,8,0,false,0,2*64*64,foreigntrade
-boudin,48,40,2,8,80,false,0,0,foreigntrade
-calva,2*64,2*60,2,5,0,false,0,2*64*64,foreigntrade
-// --- //
-wah,0,2*80,0,0,0,false,,0,foreigntrade
-masa,0,48,0,0,0,false,,0,foreigntrade
+
 chickencurry,0,2*80,0,0,0,false,,0,foreigntrade
 vegcurry,0,40,0,0,0,false,,0,foreigntrade
-udon,0,40,0,0,0,false,,0,foreigntrade
-ikayaki,0,2*80,0,0,0,false,,0,foreigntrade
-cooked_mutton,0,32,0,0,0,false,,0,foreigntrade
-souvlaki,0,2*80,0,0,0,false,,0,foreigntrade
+
 // --- //
 cake,0,64,0,0,128,false,,0,foreigntrade
 cookie,0,4,0,0,8,false,,0,foreigntrade
 rasgulla,0,2*80,0,0,0,false,,0,foreigntrade
 winefancy,0,2*80,0,0,0,false,,0,foreigntrade
 winebasic,0,80,0,0,0,false,,0,foreigntrade
-feta,0,96,0,0,0,false,,0,foreigntrade
-sake,0,2*80,0,0,0,false,0,0,foreigntrade
 cacauhaa,0,2*80,0,0,0,false,0,0,foreigntrade
 // --- //
 normanPickaxe,10*64,9*64,1,1,,,,2*64*64,tools
