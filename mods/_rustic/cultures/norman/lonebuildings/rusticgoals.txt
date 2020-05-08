@@ -1,6 +1,6 @@
 name=Rustic Demo
 icon=chair_acacia
-weight=1
+weight=0
 max=0
 radius=15
 spawnable=true

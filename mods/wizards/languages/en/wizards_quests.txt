@@ -1,6 +1,6 @@
 wizards_undead_0_label=Cull the Undead
 wizards_undead_0_description=Our town is plagued with the undead! Please bring me the remains of three zombies and three skeletons within  and I will reward you for your trouble.
-wizards_undead_0_description_success=Thank you 74629379 and good luck.
+wizards_undead_0_description_success=Thank you $name$ and good luck.
 wizards_undead_0_description_refuse=Then we will have to hope we last the night...
 wizards_undead_0_description_timeup=The village is raided by undead before you can stop them, They won't forget your failure...
 wizards_undead_1_label=Cull the Undead
